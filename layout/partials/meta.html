@@ -41,10 +41,14 @@
   {{ end }}
 {{end}}
 
+{{ $param_description := cond (ne .Params.description nil) .Params.description .Site.Params.description}}
+
 {{ if .Params.description }}
   <meta property="og:description" content="{{ .Params.description }}">
+  <meta property="twitter:description" content="{{ .Params.description }}">
 {{ else }}
-  <meta property="og:description" content="{{ .Site.Params.description }}">
+  <meta property="og:description" content="{{ .Site.Params.summary }}">
+  <meta property="twitter:description" content="{{ .Site.Params.summary }}">
 {{ end }}
 
 <meta property="og:type" content="article">
@@ -56,4 +60,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{ .Permalink }}">
 <meta name="twitter:title" content="{{ .Site.Title }}">
+
+
+<meta property="twitter:card" content="player">
+<meta property="twitter:player:height" content="450">
+<meta property="twitter:player:width" content="435">
+<meta property="twitter:player" content="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F656797185&amp;auto_play=false&amp;show_artwork=true&amp;visual=true&amp;origin=twitter">
+<meta property="twitter:url" content="https://soundcloud.com/javaswag">
 

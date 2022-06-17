@@ -18,6 +18,6 @@ params:
   StaticURL: "https://javaswag.github.io"
   LanguageCode: ru
   yandexS3: "https://storage.yandexcloud.net/javaswag/"
-  telegram: https://t.me/movietalks_podcast
+  telegram: https://t.me/javaswag
 permalinks:
   post: "/:title"
