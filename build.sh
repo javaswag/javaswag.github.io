@@ -1,0 +1,1 @@
+hugo -d public && npm run build

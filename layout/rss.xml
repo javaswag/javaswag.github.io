@@ -1,0 +1,54 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+
+    {{ $xml_data := resources.GetRemote "https://storage.yandexcloud.net/movietalks/?list-type" | transform.Unmarshal }}
+
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    {{ with .Site.LanguageCode }}
+      <language>{{.}}</language>
+    {{end}}
+    {{ if not .Date.IsZero }}
+      <lastBuildDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" now.Unix | safeHTML }}</lastBuildDate>
+    {{ end }}
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+    <itunes:author>Dmitrii V</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="{{ .Site.BaseURL }}/img/logo.png" />
+    <itunes:keywords>movie,review</itunes:keywords>
+    <itunes:subtitle>{{ .Site.Params.Desc }}</itunes:subtitle>
+    <itunes:summary>{{ .Site.Params.Summary }}</itunes:summary>
+     <itunes:category text="Film Reviews"/>
+    <itunes:owner>
+      <itunes:name>Dima, Natalia, Egor, Ivan, Janna, Maria</itunes:name>
+      <itunes:email>volyihin@gmail.com</itunes:email>
+    </itunes:owner>
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    {{ range .Site.RegularPages }}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{ with .Site.Author.email }}
+          <author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>
+        {{end}}
+        <guid>{{ .Permalink }}</guid>
+        <description>{{ .Content | html }}</description>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="{{ .Params.Image }}" />
+        <itunes:subtitle>{{ .Summary | html }}</itunes:subtitle>
+        <itunes:duration>{{ .Params.Duration }}</itunes:duration>
+
+        {{$audio_name := .Params.Audio}}
+
+        {{range $xml_data.Contents}}
+          {{if eq .Key $audio_name}} 
+            <enclosure url="{{$.Site.Params.yandexS3}}{{ .Key }}" type="audio/mpeg" length="{{ .Size }}"/>
+          {{end}}
+        {{end}}
+
+      </item>
+    {{ end }}
+  </channel>
+</rss>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
+        <atom:link href="https://feeds.soundcloud.com/users/soundcloud:users:656797185/sounds.rss" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://feeds.soundcloud.com/users/soundcloud:users:656797185/sounds.rss?before=1280842711" rel="next" type="application/rss+xml"/>
+        <title>javaswag</title>
+        <link>https://t.me/javaswag</link>
+        <pubDate>Tue, 14 Jun 2022 09:07:01 +0000</pubDate>
+        <lastBuildDate>Tue, 14 Jun 2022 09:07:01 +0000</lastBuildDate>
+        <ttl>60</ttl>
+        <language>ru</language>
+        <copyright>All rights reserved</copyright>
+        <webMaster>feeds@soundcloud.com (SoundCloud Feeds)</webMaster>
+        <description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description>
+        <itunes:subtitle>Подкаст о разработке на Java. Все то, о чем вы бо…</itunes:subtitle>
+        <itunes:owner>
+          <itunes:name>javaswag</itunes:name>
+          <itunes:email>feeds@soundcloud.com</itunes:email>
+        </itunes:owner>
+        <itunes:author>javaswag</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-original.jpg"/>
+        <image>
+          <url>https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-original.jpg</url>
+          <title>javaswag</title>
+          <link>https://t.me/javaswag</link>
+        </image>
+        <itunes:category text="Technology"/>
+        <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1280842711</guid>
+      <title>#29 - Армен Нунупаров - PhD, беспилотные автомобили и медитация</title>
+      <pubDate>Fri, 10 Jun 2022 14:26:30 +0000</pubDate>
+      <link>https://soundcloud.com/javaswag/e29</link>
+      <itunes:duration>01:58:08</itunes:duration>
+      <itunes:author>javaswag</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>В 29 выпуске подкаста Javaswag поговорили с Арменом Нунупаровым о нужности PhD, квадрокоптерах, беспилотных авто и медитации 
+
+00:06:18 Писать диссер и работать
+00:13:50 Квадрокоптеры
+00:16:14 Дроны, которые надо паять
+00:22:12 Комплекс самозванца после PhD и overqualified
+00:29:14 Платформа ROS и типы беспилотных автомобилей
+00:34:28 Радары, лидары, персепшн, предикшн?
+00:43:20 Может ли беспилотник передвигаться только с камерой или только с лидаром?
+00:46:35 Какие беспилотники есть сейчас?
+00:47:20 Что внутри беспилотника? Операционная система ROS
+00:57:04 &quot;ну это же как у нас в Кафке&quot; Архитектура PubSub внутри ROS
+01:01:08 Data Distribution Service (DDS) протокол
+01:05:20 Архитектура команды и архитектура ноды 
+01:11:10 C++ и Python и где хранятся данные
+01:15:20 Как выглядит работа беспилотника. Что нужно знать, чтобы перейти в разработку беспилотников
+01:22:10 Медитации и випассана. 10 дневный ретрит молчания
+01:46:10 Что изменилось после 9 дней медитаций
+
+Ссылки от гостя:
+
+Open Source Autopilot - https://px4.io/
+The Robot Operating System (ROS)- https://docs.ros.org/en/foxy/index.html
+Self-Driving Car Engineer - https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013
+DDS (Data Distribution Service) Specification - https://fast-dds.docs.eprosima.com/en/latest/fastdds/library_overview/library_overview.html
+Випассана - https://vipassana-retrit.ru/moscow
+
+Гость - https://t.me/xFirefly
+
+Кип сейф! 🖖</itunes:summary>
+      <itunes:subtitle>В 29 выпуске подкаста Javaswag поговорили с Армен…</itunes:subtitle>
+      <description>В 29 выпуске подкаста Javaswag поговорили с Арменом Нунупаровым о нужности PhD, квадрокоптерах, беспилотных авто и медитации 
+
+00:06:18 Писать диссер и работать
+00:13:50 Квадрокоптеры
+00:16:14 Дроны, которые надо паять
+00:22:12 Комплекс самозванца после PhD и overqualified
+00:29:14 Платформа ROS и типы беспилотных автомобилей
+00:34:28 Радары, лидары, персепшн, предикшн?
+00:43:20 Может ли беспилотник передвигаться только с камерой или только с лидаром?
+00:46:35 Какие беспилотники есть сейчас?
+00:47:20 Что внутри беспилотника? Операционная система ROS
+00:57:04 &quot;ну это же как у нас в Кафке&quot; Архитектура PubSub внутри ROS
+01:01:08 Data Distribution Service (DDS) протокол
+01:05:20 Архитектура команды и архитектура ноды 
+01:11:10 C++ и Python и где хранятся данные
+01:15:20 Как выглядит работа беспилотника. Что нужно знать, чтобы перейти в разработку беспилотников
+01:22:10 Медитации и випассана. 10 дневный ретрит молчания
+01:46:10 Что изменилось после 9 дней медитаций
+
+Ссылки от гостя:
+
+Open Source Autopilot - https://px4.io/
+The Robot Operating System (ROS)- https://docs.ros.org/en/foxy/index.html
+Self-Driving Car Engineer - https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013
+DDS (Data Distribution Service) Specification - https://fast-dds.docs.eprosima.com/en/latest/fastdds/library_overview/library_overview.html
+Випассана - https://vipassana-retrit.ru/moscow
+
+Гость - https://t.me/xFirefly
+
+Кип сейф! 🖖</description>
+      <enclosure type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/1280842711-javaswag-e29.mp3" length="141776895"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-original.jpg"/>
+    </item>
+      </channel>
+    </rss>
