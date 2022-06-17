@@ -1,1 +1,1 @@
-hugo -d public && npm run build
+hugo -d docs && npm run build
