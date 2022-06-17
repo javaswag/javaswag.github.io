@@ -6,8 +6,8 @@
   },
   "scripts": {
     "start": "npm run build -- --watch & hugo server",
-    "build": "postcss $npm_package_config_postcss --output docs/css/app.css static/css/app.css",
-    "lint": "stylelint static/css/*.css"
+    "build": "postcss $npm_package_config_postcss --output docs/css/app.css assets/css/app.css",
+    "lint": "stylelint assets/css/*.css"
   },
   "stylelint": {
     "extends": "stylelint-config-fresh"
