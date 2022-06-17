@@ -10,16 +10,12 @@
     "lint": "stylelint assets/css/*.css"
   },
   "stylelint": {
-    "extends": "stylelint-config-fresh"
+    "extends": "stylelint-config-standard"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
-    "cssnano": "^3.10.0",
-    "postcss-cli": "^4.0.0",
-    "postcss-import": "^10.0.0",
-    "stylelint": "^7.10.1",
-    "stylelint-config-fresh": "^1.0.1",
-    "stylelint-config-standard": "^16.0.0",
-    "stylelint-order": "^0.4.4"
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.11",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.1.0"
   }
 }
