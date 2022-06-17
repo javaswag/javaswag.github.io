@@ -19,5 +19,6 @@ params:
   LanguageCode: ru
   yandexS3: "https://storage.yandexcloud.net/javaswag/"
   telegram: https://t.me/javaswag
+  image: images/logo.png
 permalinks:
   post: "/:title"
