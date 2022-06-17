@@ -1,5 +1,32 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Javaswag</title><link>https://javaswag.github.io/</link><description>Recent content on Javaswag</description><language>ru</language><lastBuildDate>Fri, 17 Jun 2022 13:22:53 +0000</lastBuildDate><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:author>Dmitrii V</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><itunes:keywords>movie,review</itunes:keywords><itunes:subtitle>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</itunes:subtitle><itunes:summary>Подкаст о разработке на Java</itunes:summary><itunes:category text="Film Reviews"/><itunes:owner><itunes:name>Dima, Natalia, Egor, Ivan, Janna, Maria</itunes:name><itunes:email>volyihin@gmail.com</itunes:email></itunes:owner><atom:link href="https://javaswag.github.io/" rel="self" type="application/rss+xml"/><item><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><link>https://javaswag.github.io/episode/0/</link><pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/0/</guid><description>&lt;h2 id="0---евгений-борисов-о-пчеле-beanfactory-айбирнейте-и-спринге">#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге&lt;/h2>
-&lt;p>00-00 Как начал выступать на конференции?
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Javaswag</title><link>https://javaswag.github.io/</link><description>Recent content on Javaswag</description><language>ru</language><lastBuildDate>Fri, 17 Jun 2022 14:05:24 +0000</lastBuildDate><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:author>Dmitrii V</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><itunes:keywords>movie,review</itunes:keywords><itunes:subtitle>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</itunes:subtitle><itunes:summary>Подкаст о разработке на Java</itunes:summary><itunes:category text="Film Reviews"/><itunes:owner><itunes:name>Dima, Natalia, Egor, Ivan, Janna, Maria</itunes:name><itunes:email>volyihin@gmail.com</itunes:email></itunes:owner><atom:link href="https://javaswag.github.io/" rel="self" type="application/rss+xml"/><item><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><link>https://javaswag.github.io/episode/0/</link><pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/0/</guid><description>&lt;h2 id="0---евгений-борисов-о-пчеле-beanfactory-айбирнейте-и-спринге">#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге&lt;/h2>
+&lt;p>00:00 Как начал выступать на конференции?&lt;/p>
+&lt;p>07:25 Что такое айбирнейт?&lt;/p>
+&lt;p>08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?&lt;/p>
+&lt;p>10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?&lt;/p>
+&lt;p>12:50 Кладбище за окном директора&lt;/p>
+&lt;p>14:27 Почему рассказывает про JavaEE израильтянам?&lt;/p>
+&lt;p>15:15 Как отличается аудитория в разных странах?&lt;/p>
+&lt;p>16:58 Как перешел на Спринг?&lt;/p>
+&lt;p>19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива&lt;/p>
+&lt;p>21:55 Почему Спринг остается популярным?&lt;/p>
+&lt;p>24:02 Знакомство с Juergen Hoeller&lt;/p>
+&lt;p>26:00 Железный купол написан на Java&lt;/p>
+&lt;p>27:25 Почему доклада Спринг-Потрошитель такой популярный? 150тысяч просмотров на youtube&lt;/p>
+&lt;p>28:20 Свой youtube-канал или конференция&lt;/p>
+&lt;p>31:07 Сколько времени занимает подготовка одного доклада?&lt;/p>
+&lt;p>33:14 Реквием программиста &lt;a href="https://youtu.be/Qypw6ho5wGQ">https://youtu.be/Qypw6ho5wGQ&lt;/a>&lt;/p>
+&lt;p>34:32 Про работу в NAYA Technologies&lt;/p>
+&lt;p>42:00 IntelliJ IDEA vs Eclipse?&lt;/p>
+&lt;p>44:34 Как учить программированию своих детей?&lt;/p>
+&lt;p>46:40 Как все успевать?&lt;/p>
+&lt;p>46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице&lt;/p>
+&lt;p>50:30 Стоит ли ходить на воркшоп?&lt;/p>
+&lt;p>Телеграм канал &lt;a href="https://t.me/javaswag">https://t.me/javaswag&lt;/a>&lt;/p>
+&lt;p>Чат &lt;a href="https://t.me/javaswag_chat">https://t.me/javaswag_chat&lt;/a>&lt;/p>
+&lt;p>Сайт &lt;a href="https://javaswag.ru">https://javaswag.ru&lt;/a>&lt;/p>
+&lt;p>Подкаст записан на конференции &lt;a href="https://2019.rigadevdays.lv/">https://2019.rigadevdays.lv/&lt;/a>&lt;/p>
+&lt;p>Голос подкаста - &lt;a href="https://t.me/volyx">https://t.me/volyx&lt;/a>&lt;/p>
+&lt;p>Звук подкаста - &lt;a href="https://t.me/pahaus">https://t.me/pahaus&lt;/a>&lt;/p></description><itunes:explicit>no</itunes:explicit><itunes:image href="images/logo.png"/><itunes:subtitle>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге 00:00 Как начал выступать на конференции?
 07:25 Что такое айбирнейт?
 08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?
 10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?
@@ -7,23 +34,4 @@
 14:27 Почему рассказывает про JavaEE израильтянам?
 15:15 Как отличается аудитория в разных странах?
 16:58 Как перешел на Спринг?
-19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива
-21:55 Почему Спринг остается популярным?
-24:02 Знакомство с Juergen Hoeller
-26:00 Железный купол написан на Java
-27:25 Почему доклада Спринг-Потрошитель такой популярный? 150тысяч просмотров на youtube
-28:20 Свой youtube-канал или конференция
-31:07 Сколько времени занимает подготовка одного доклада?
-33:14 Реквием программиста &lt;a href="https://youtu.be/Qypw6ho5wGQ">https://youtu.be/Qypw6ho5wGQ&lt;/a>
-34:32 Про работу в NAYA Technologies
-42:00 IntelliJ IDEA vs Eclipse?
-44:34 Как учить программированию своих детей?
-46:40 Как все успевать?
-46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице
-50:30 Стоит ли ходить на воркшоп?&lt;/p>
-&lt;p>Телеграм канал &lt;a href="https://t.me/javaswag">https://t.me/javaswag&lt;/a>
-Чат &lt;a href="https://t.me/javaswag_chat">https://t.me/javaswag_chat&lt;/a>
-Сайт &lt;a href="https://javaswag.ru">https://javaswag.ru&lt;/a>
-Подкаст записан на конференции &lt;a href="https://2019.rigadevdays.lv/">https://2019.rigadevdays.lv/&lt;/a>&lt;/p>
-&lt;p>Голос подкаста - &lt;a href="https://t.me/volyx">https://t.me/volyx&lt;/a>
-Звук подкаста - &lt;a href="https://t.me/pahaus">https://t.me/pahaus&lt;/a>&lt;/p></description><itunes:explicit>no</itunes:explicit><itunes:image href="images/logo.png"/><itunes:subtitle>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге 00-00 Как начал выступать на конференции? 07:25 Что такое айбирнейт? 08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader? 10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас? 12:50 Кладбище за окном директора 14:27 Почему рассказывает про JavaEE израильтянам? 15:15 Как отличается аудитория в разных странах? 16:58 Как перешел на Спринг? 19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива 21:55 Почему Спринг остается популярным?</itunes:subtitle><itunes:duration/></item></channel></rss>
+19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива</itunes:subtitle><itunes:duration/></item></channel></rss>
