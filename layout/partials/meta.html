@@ -14,25 +14,38 @@
 <meta name="author" content="{{ .Site.Params.Telegram}}">
 <meta name="copyright" content="Copyright (c) Shogo Sensui; Licensed under Creative Commons Attribution-Noncommercial-Share Japan">
 
+
+<!--   <meta property="og:type" content="music.musician">
+  <meta property="og:url" content="https://soundcloud.com/javaswag">
+  <meta property="og:title" content="javaswag">
+  <meta property="og:image" content="https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-t500x500.jpg">
+  <meta property="og:image:width" content="500">
+  <meta property="og:image:height" content="500">
+  <meta property="og:description" content="Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.">
+  <meta property="og:locality" content="Saint-Petersburg">
+  <meta property="og:country-name" content="Russian Federation"> -->
+
+
+{{ if .Params.Image}}
+
+{{ $image_path := .Params.Image}}
+
+{{ $image := resources.Get $image_path }}
+
+{{ with $image }}
+
+  {{warnf " find %v" $image}}  
+  <meta property="og:image" content="{{ .RelPermalink }}">
+  <meta property="og:image:width" content="{{ .Width }}"/>
+  <meta property="og:image:height" content="{{ .Height }}"/>
+{{ end }}
+{{end}}
+
 {{ if .Params.description }}
   <meta property="og:description" content="{{ .Params.description }}">
 {{ else }}
   <meta property="og:description" content="{{ .Site.Params.description }}">
 {{ end }}
-
-<!-- Facebook Meta Tags -->
-<!-- <meta property="og:image" content="{{ .Params.Image }}"> -->
-<meta property="og:image:width" content="600"/>
-<meta property="og:image:height" content="800"/>
-
-{{ $image := .Resources.GetMatch ".Params.Image" }}
-{{ with $image }}
-  <!-- <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"> -->
-  <meta property="og:image:width" content="{{ .Width }}"/>
-  <meta property="og:image:height" content="{ .Height }}"/>
-{{ end }}
-
-
 
 <meta property="og:type" content="article">
 <meta property="og:url" content="{{ .Permalink }}">
