@@ -1,4 +1,37 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Javaswag</title><link>https://javaswag.github.io/</link><description>Recent content on Javaswag</description><language>ru</language><lastBuildDate>Fri, 17 Jun 2022 20:13:49 +0000</lastBuildDate><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:author>Dmitrii V</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><itunes:keywords>movie,review</itunes:keywords><itunes:subtitle>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</itunes:subtitle><itunes:summary>Подкаст о разработке на Java</itunes:summary><itunes:category text="Film Reviews"/><itunes:owner><itunes:name>Dima, Natalia, Egor, Ivan, Janna, Maria</itunes:name><itunes:email>volyihin@gmail.com</itunes:email></itunes:owner><atom:link href="https://javaswag.github.io/" rel="self" type="application/rss+xml"/><item><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><link>https://javaswag.github.io/episode/0/</link><pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/0/</guid><description>&lt;h2 id="0---евгений-борисов-о-пчеле-beanfactory-айбирнейте-и-спринге">#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге&lt;/h2>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Javaswag</title><link>https://javaswag.github.io/</link><description>Recent content on Javaswag</description><language>ru</language><lastBuildDate>Fri, 17 Jun 2022 21:03:12 +0000</lastBuildDate><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:author>Dmitrii V</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><itunes:keywords>movie,review</itunes:keywords><itunes:subtitle>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</itunes:subtitle><itunes:summary>Подкаст о разработке на Java</itunes:summary><itunes:category text="Film Reviews"/><itunes:owner><itunes:name>Dima, Natalia, Egor, Ivan, Janna, Maria</itunes:name><itunes:email>volyihin@gmail.com</itunes:email></itunes:owner><atom:link href="https://javaswag.github.io/" rel="self" type="application/rss+xml"/><item><title>#1 - Олег Докука - Project Reactor, Rsocket, Netify</title><link>https://javaswag.github.io/episode/1/</link><pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/1/</guid><description>&lt;h2 id="1---олег-докука---project-reactor-rsocket-netify">#1 - Олег Докука - Project Reactor, Rsocket, Netify&lt;/h2>
+&lt;p>00:25 Как прошел доклад? Зачем бросаться конфетами на конференции?&lt;/p>
+&lt;p>02:01 Как начал выступать на конференциях?&lt;/p>
+&lt;p>03:50 Сколько конференций посетил в этом году?&lt;/p>
+&lt;p>05:00 Как подать доклад на конференцию?&lt;/p>
+&lt;p>08:00 Про контрибьютинг в projectreactor.io и книгу&lt;/p>
+&lt;p>10:24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.&lt;/p>
+&lt;p>14:30 Когда успеваешь писать код?&lt;/p>
+&lt;p>16:30 Что за стек использовал до реактора и как был CTO стартапа&lt;/p>
+&lt;p>19:58 Проджект реактор, как начался?&lt;/p>
+&lt;p>22:58 Как рассказывал коллегам про реактор?&lt;/p>
+&lt;p>25:48 Как писать код в реактивном стиле? Какую базу данных использовали?&lt;/p>
+&lt;p>30:15 Есть ли для базы реактивный драйвер?&lt;/p>
+&lt;p>38:50 Реактор в лицах. Кто разрабатывает projectreactor?&lt;/p>
+&lt;p>43:00 Как начать контрибьютить в Спринг?&lt;/p>
+&lt;p>45:25 Как начал заниматься RSocket? Почему не удалось попасть на работу в Pivotal&lt;/p>
+&lt;p>48:36 История протокола RSocket и Netflix&lt;/p>
+&lt;p>56:54 Куда пропали евангелисты Grpc? QUIC3 замена Grpc?&lt;/p>
+&lt;p>64:04 Proteus : новый брокер сообщений для RSocket. Что такое sidecar, servicemesh?&lt;/p>
+&lt;p>79:20 Как измерить девелопер адвоката?&lt;/p>
+&lt;p>Телеграм канал t.me/javaswag&lt;/p>
+&lt;p>Чат t.me/javaswag_chat&lt;/p>
+&lt;p>Сайт javaswag.ru&lt;/p>
+&lt;p>Подкаст записан на конференции 2019.rigadevdays.lv/&lt;/p>
+&lt;p>Гость - &lt;a href="https://twitter.com/OlehDokuka">https://twitter.com/OlehDokuka&lt;/a>&lt;/p>
+&lt;p>Голос подкаста - t.me/volyx&lt;/p>
+&lt;p>Звук подкаста - t.me/pahaus&lt;/p></description><itunes:explicit>no</itunes:explicit><itunes:image href="images/logo.png"/><itunes:subtitle>#1 - Олег Докука - Project Reactor, Rsocket, Netify 00:25 Как прошел доклад? Зачем бросаться конфетами на конференции?
+02:01 Как начал выступать на конференциях?
+03:50 Сколько конференций посетил в этом году?
+05:00 Как подать доклад на конференцию?
+08:00 Про контрибьютинг в projectreactor.io и книгу
+10:24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.
+14:30 Когда успеваешь писать код?
+16:30 Что за стек использовал до реактора и как был CTO стартапа</itunes:subtitle><itunes:duration/></item><item><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><link>https://javaswag.github.io/episode/0/</link><pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/0/</guid><description>&lt;h2 id="0---евгений-борисов-о-пчеле-beanfactory-айбирнейте-и-спринге">#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге&lt;/h2>
 &lt;p>00:00 Как начал выступать на конференции?&lt;/p>
 &lt;p>07:25 Что такое айбирнейт?&lt;/p>
 &lt;p>08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?&lt;/p>
