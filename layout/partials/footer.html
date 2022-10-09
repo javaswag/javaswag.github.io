@@ -2,7 +2,7 @@
   <div class="Footer__Item">
     <h2>{{ .Site.Title }}</h2>
     <p>{{ .Site.Params.Desc }}</p>
-    <a href="https://twitter.com/volyx" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @volyx</a>
+    <a href="{{ .Site.Params.twitter }}" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow {{ .Site.Params.twitterName }}</a>
   </div>
   <div class="Footer__Item">
     <h2>Подписка</h2>

@@ -21,5 +21,7 @@ params:
   telegram: https://t.me/javaswag
   image: images/logo.png
   author: Dima V
+  twitter: https://twitter.com/volyx
+  twitterName: @javaswagpodcast
 permalinks:
   post: "/:title"
