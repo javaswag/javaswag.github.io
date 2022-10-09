@@ -20,5 +20,6 @@ params:
   yandexS3: "https://storage.yandexcloud.net/javaswag/"
   telegram: https://t.me/javaswag
   image: images/logo.png
+  author: Dima V
 permalinks:
   post: "/:title"

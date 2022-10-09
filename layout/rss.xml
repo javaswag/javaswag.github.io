@@ -21,7 +21,7 @@
     <itunes:summary>{{ .Site.Params.Summary }}</itunes:summary>
      <itunes:category text="Film Reviews"/>
     <itunes:owner>
-      <itunes:name>Dima, Natalia, Egor, Ivan, Janna, Maria</itunes:name>
+      <itunes:name>{{ .Site.Params.author }}</itunes:name>
       <itunes:email>volyihin@gmail.com</itunes:email>
     </itunes:owner>
     <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
