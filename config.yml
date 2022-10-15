@@ -18,6 +18,7 @@ params:
   StaticURL: "https://javaswag.github.io"
   LanguageCode: ru
   yandexS3: "https://storage.yandexcloud.net/javaswag/"
+  title: javaswag
   telegram: https://t.me/javaswag
   image: images/logo.png
   author: Dima V

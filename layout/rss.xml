@@ -15,13 +15,18 @@
     {{end}}
     <copyright>All rights reserved</copyright>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
-    <itunes:author>Dmitrii V</itunes:author>
+    <itunes:author>{{ .Site.Params.Author}}</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="{{ .Site.BaseURL }}/img/logo.png" />
+     <image>
+        <url>{{ .Site.BaseURL }}/img/logo.png</url>
+        <title>{{ .Site.Params.Title}}</title>
+        <link>{{ .Site.Params.Telegram}}</link>
+      </image>
     <itunes:keywords>movie,review</itunes:keywords>
     <itunes:subtitle>{{ .Site.Params.Desc }}</itunes:subtitle>
     <itunes:summary>{{ .Site.Params.Summary }}</itunes:summary>
-     <itunes:category text="Film Reviews"/>
+    <itunes:category text="Technology"></itunes:category>
     <itunes:owner>
       <itunes:name>{{ .Site.Params.author }}</itunes:name>
       <itunes:email>volyihin@gmail.com</itunes:email>
