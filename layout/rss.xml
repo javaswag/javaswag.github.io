@@ -37,7 +37,7 @@
     <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
     {{ range .Site.RegularPages }}
       <item>
-        <guid>{{ .Permalink }}</guid>
+        <guid isPermaLink="false">{{ .Guid }}</guid>
         <title>{{ .Title }}</title>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         <link>{{ .Permalink }}</link>
@@ -58,7 +58,7 @@
             <enclosure url="{{$.Site.Params.yandexS3}}{{ .Key }}" type="audio/mpeg" length="{{ .Size }}"/>
           {{end}}
         {{end}}
-        <itunes:image href="{{ .Params.Image }}" />
+        <itunes:image href="{{ .Site.BaseURL }}{{ .Params.Image }}" />
       </item>
     {{ end }}
   </channel>
