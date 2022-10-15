@@ -22,6 +22,6 @@ params:
   image: images/logo.png
   author: Dima V
   twitter: https://twitter.com/javaswagpodcast
-  twitterName: "@javaswagpodcast"
+  twitterName: javaswagpodcast
 permalinks:
   post: "/:title"
