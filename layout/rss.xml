@@ -47,7 +47,8 @@
         <description>{{ .Content | html }}</description>
         <itunes:explicit>no</itunes:explicit>
         <itunes:image href="{{ .Params.Image }}" />
-        <itunes:subtitle>{{ .Summary | html }}</itunes:subtitle>
+        <itunes:subtitle>{{ .Content | html }}</itunes:subtitle>
+        <!-- <itunes:subtitle>{{ .Summary | html }}</itunes:subtitle> -->
         <itunes:duration>{{ .Params.Duration }}</itunes:duration>
 
         {{$audio_name := .Params.Audio}}
