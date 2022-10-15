@@ -19,7 +19,7 @@
       <itunes:name>{{ .Site.Params.Author }}</itunes:name>
       <itunes:email>{{ .Site.Params.AuthorEmail }}</itunes:email>
     </itunes:owner>
-    <itunes:author>{{ .Site.Params.Author}}</itunes:author>
+    <itunes:author>{{ .Site.Params.Title}}</itunes:author>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
     
     <itunes:explicit>no</itunes:explicit>
@@ -29,7 +29,7 @@
         <title>{{ .Site.Params.Title}}</title>
         <link>{{ .Site.Params.Telegram}}</link>
       </image>
-    <itunes:keywords>movie,review</itunes:keywords>
+    <itunes:keywords>java,podcast</itunes:keywords>
     
     <itunes:summary>{{ .Site.Params.Summary }}</itunes:summary>
     <itunes:category text="Technology"></itunes:category>
@@ -45,13 +45,12 @@
         {{ with .Site.Author.email }}
           <author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>
         {{end}}
-        <description>{{ .Content | html }}</description>
+        
         <itunes:explicit>no</itunes:explicit>
-        <itunes:image href="{{ .Params.Image }}" />
-        <itunes:subtitle>{{ .Content | html }}</itunes:subtitle>
-        <!-- <itunes:subtitle>{{ .Summary | html }}</itunes:subtitle> -->
+        <itunes:summary>{{ .Content | html }}</itunes:summary>
+        <itunes:subtitle>{{ .Summary | html }}</itunes:subtitle>
 
-
+        <description>{{ .Content | html }}</description>
         {{$audio_name := .Params.Audio}}
 
         {{range $xml_data.Contents}}
@@ -59,7 +58,7 @@
             <enclosure url="{{$.Site.Params.yandexS3}}{{ .Key }}" type="audio/mpeg" length="{{ .Size }}"/>
           {{end}}
         {{end}}
-
+        <itunes:image href="{{ .Params.Image }}" />
       </item>
     {{ end }}
   </channel>
