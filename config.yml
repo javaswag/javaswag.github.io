@@ -22,6 +22,7 @@ params:
   telegram: https://t.me/javaswag
   image: images/logo.png
   author: Dima V
+  authorEmail: volyihin@yandex.ru
   twitter: https://twitter.com/javaswagpodcast
   twitterName: javaswagpodcast
 permalinks:

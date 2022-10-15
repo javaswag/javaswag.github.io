@@ -3,10 +3,8 @@
 
     {{ $xml_data := resources.GetRemote "https://storage.yandexcloud.net/movietalks/?list-type" | transform.Unmarshal }}
 
-    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <title>{{ .Site.Params.Title}}</title>
     <link>{{ .Permalink }}</link>
-
-    <description>{{ .Site.Params.Desc }}</description>
     <pubDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" .Lastmod | safeHTML }}</pubDate>
     <lastBuildDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" now.Unix | safeHTML }}</lastBuildDate>
     <ttl>60</ttl>
@@ -14,6 +12,9 @@
       <language>{{.}}</language>
     {{end}}
     <copyright>All rights reserved</copyright>
+    <webMaster>feeds@soundcloud.com (SoundCloud Feeds)</webMaster>
+    <description>{{ .Site.Params.Desc }}</description>
+   
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
     <itunes:author>{{ .Site.Params.Author}}</itunes:author>
     <itunes:explicit>no</itunes:explicit>
@@ -29,7 +30,7 @@
     <itunes:category text="Technology"></itunes:category>
     <itunes:owner>
       <itunes:name>{{ .Site.Params.author }}</itunes:name>
-      <itunes:email>volyihin@gmail.com</itunes:email>
+      <itunes:email>{{ .Site.Params.authorEmail }}</itunes:email>
     </itunes:owner>
     <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
     {{ range .Site.RegularPages }}
