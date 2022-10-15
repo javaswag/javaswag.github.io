@@ -12,11 +12,16 @@
       <language>{{.}}</language>
     {{end}}
     <copyright>All rights reserved</copyright>
-    <webMaster>feeds@soundcloud.com (SoundCloud Feeds)</webMaster>
+    <webMaster>{{ .Site.Params.AuthorEmail }} ({{ .Site.Title }} Feeds)</webMaster>
     <description>{{ .Site.Params.Desc }}</description>
-   
-    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+    <itunes:subtitle>{{ .Site.Params.Desc }}</itunes:subtitle>
+    <itunes:owner>
+      <itunes:name>{{ .Site.Params.Author }}</itunes:name>
+      <itunes:email>{{ .Site.Params.AuthorEmail }}</itunes:email>
+    </itunes:owner>
     <itunes:author>{{ .Site.Params.Author}}</itunes:author>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+    
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="{{ .Site.BaseURL }}/img/logo.png" />
      <image>
@@ -25,13 +30,10 @@
         <link>{{ .Site.Params.Telegram}}</link>
       </image>
     <itunes:keywords>movie,review</itunes:keywords>
-    <itunes:subtitle>{{ .Site.Params.Desc }}</itunes:subtitle>
+    
     <itunes:summary>{{ .Site.Params.Summary }}</itunes:summary>
     <itunes:category text="Technology"></itunes:category>
-    <itunes:owner>
-      <itunes:name>{{ .Site.Params.author }}</itunes:name>
-      <itunes:email>{{ .Site.Params.authorEmail }}</itunes:email>
-    </itunes:owner>
+ 
     <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
     {{ range .Site.RegularPages }}
       <item>
