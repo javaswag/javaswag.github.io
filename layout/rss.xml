@@ -37,7 +37,7 @@
     <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
     {{ range .Site.RegularPages }}
       <item>
-        <guid isPermaLink="false">{{ .Guid }}</guid>
+        <guid isPermaLink="false">{{ .Params.Guid }}</guid>
         <title>{{ .Title }}</title>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         <link>{{ .Permalink }}</link>
