@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
 
-    {{ $xml_data := resources.GetRemote "https://storage.yandexcloud.net/movietalks/?list-type" | transform.Unmarshal }}
+    {{ $xml_data := resources.GetRemote "https://storage.yandexcloud.net/javaswag/?list-type" | transform.Unmarshal }}
 
     <title>{{ .Site.Params.Title}}</title>
     <link>{{ .Permalink }}</link>
@@ -58,7 +58,7 @@
             <enclosure url="{{$.Site.Params.yandexS3}}{{ .Key }}" type="audio/mpeg" length="{{ .Size }}"/>
           {{end}}
         {{end}}
-        <itunes:image href="{{ .Site.BaseURL }}{{ .Params.Image }}" />
+        <itunes:image href="{{ .Site.BaseURL }}/{{ .Params.Image }}" />
       </item>
     {{ end }}
   </channel>
