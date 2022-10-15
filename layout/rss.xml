@@ -7,13 +7,14 @@
 
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <description>{{ .Site.Params.Desc }}</description>
+    <pubDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" .Lastmod | safeHTML }}</pubDate>
+    <lastBuildDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" now.Unix | safeHTML }}</lastBuildDate>
+    <ttl>60</ttl>
     {{ with .Site.LanguageCode }}
       <language>{{.}}</language>
     {{end}}
-    {{ if not .Date.IsZero }}
-      <lastBuildDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" now.Unix | safeHTML }}</lastBuildDate>
-    {{ end }}
+    <copyright>All rights reserved</copyright>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
     <itunes:author>Dmitrii V</itunes:author>
     <itunes:explicit>no</itunes:explicit>
