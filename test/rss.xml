@@ -1,0 +1,58 @@
+<rss version="2.0">
+<channel>
+<title>Javaswag</title>
+<link>https://javaswag.github.io/</link>
+<description>Recent content on Javaswag</description>
+<language>ru</language>
+<lastBuildDate>Sun, 09 Oct 2022 21:34:29 +0000</lastBuildDate>
+<media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+<itunes:author>Dmitrii V</itunes:author>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href="https://javaswag.github.io/img/logo.png"/>
+<itunes:keywords>movie,review</itunes:keywords>
+<itunes:subtitle>
+Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.
+</itunes:subtitle>
+<itunes:summary>Подкаст о разработке на Java</itunes:summary>
+<itunes:category text="Film Reviews"/>
+<itunes:owner>
+<itunes:name>Dima V</itunes:name>
+<itunes:email>volyihin@gmail.com</itunes:email>
+</itunes:owner>
+<atom:link href="https://javaswag.github.io/" rel="self" type="application/rss+xml"/>
+<item>
+<title>
+#1 - Олег Докука - Project Reactor, Rsocket, Netify
+</title>
+<link>https://javaswag.github.io/episode/1/</link>
+<pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+<guid>https://javaswag.github.io/episode/1/</guid>
+<description>
+<h2 id="1---олег-докука---project-reactor-rsocket-netify">#1 - Олег Докука - Project Reactor, Rsocket, Netify</h2> <p>00:25 Как прошел доклад? Зачем бросаться конфетами на конференции?</p> <p>02:01 Как начал выступать на конференциях?</p> <p>03:50 Сколько конференций посетил в этом году?</p> <p>05:00 Как подать доклад на конференцию?</p> <p>08:00 Про контрибьютинг в projectreactor.io и книгу</p> <p>10:24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.</p> <p>14:30 Когда успеваешь писать код?</p> <p>16:30 Что за стек использовал до реактора и как был CTO стартапа</p> <p>19:58 Проджект реактор, как начался?</p> <p>22:58 Как рассказывал коллегам про реактор?</p> <p>25:48 Как писать код в реактивном стиле? Какую базу данных использовали?</p> <p>30:15 Есть ли для базы реактивный драйвер?</p> <p>38:50 Реактор в лицах. Кто разрабатывает projectreactor?</p> <p>43:00 Как начать контрибьютить в Спринг?</p> <p>45:25 Как начал заниматься RSocket? Почему не удалось попасть на работу в Pivotal</p> <p>48:36 История протокола RSocket и Netflix</p> <p>56:54 Куда пропали евангелисты Grpc? QUIC3 замена Grpc?</p> <p>64:04 Proteus : новый брокер сообщений для RSocket. Что такое sidecar, servicemesh?</p> <p>79:20 Как измерить девелопер адвоката?</p> <p>Телеграм канал t.me/javaswag</p> <p>Чат t.me/javaswag_chat</p> <p>Сайт javaswag.ru</p> <p>Подкаст записан на конференции 2019.rigadevdays.lv/</p> <p>Гость - <a href="https://twitter.com/OlehDokuka">https://twitter.com/OlehDokuka</a></p> <p>Голос подкаста - t.me/volyx</p> <p>Звук подкаста - t.me/pahaus</p>
+</description>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href="images/logo.png"/>
+<itunes:subtitle>
+#1 - Олег Докука - Project Reactor, Rsocket, Netify 00:25 Как прошел доклад? Зачем бросаться конфетами на конференции? 02:01 Как начал выступать на конференциях? 03:50 Сколько конференций посетил в этом году? 05:00 Как подать доклад на конференцию? 08:00 Про контрибьютинг в projectreactor.io и книгу 10:24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада. 14:30 Когда успеваешь писать код? 16:30 Что за стек использовал до реактора и как был CTO стартапа
+</itunes:subtitle>
+<itunes:duration/>
+</item>
+<item>
+<title>
+#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге
+</title>
+<link>https://javaswag.github.io/episode/0/</link>
+<pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+<guid>https://javaswag.github.io/episode/0/</guid>
+<description>
+<h2 id="0---евгений-борисов-о-пчеле-beanfactory-айбирнейте-и-спринге">#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</h2> <p>00:00 Как начал выступать на конференции?</p> <p>07:25 Что такое айбирнейт?</p> <p>08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?</p> <p>10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?</p> <p>12:50 Кладбище за окном директора</p> <p>14:27 Почему рассказывает про JavaEE израильтянам?</p> <p>15:15 Как отличается аудитория в разных странах?</p> <p>16:58 Как перешел на Спринг?</p> <p>19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива</p> <p>21:55 Почему Спринг остается популярным?</p> <p>24:02 Знакомство с Juergen Hoeller</p> <p>26:00 Железный купол написан на Java</p> <p>27:25 Почему доклада Спринг-Потрошитель такой популярный? 150тысяч просмотров на youtube</p> <p>28:20 Свой youtube-канал или конференция</p> <p>31:07 Сколько времени занимает подготовка одного доклада?</p> <p>33:14 Реквием программиста <a href="https://youtu.be/Qypw6ho5wGQ">https://youtu.be/Qypw6ho5wGQ</a></p> <p>34:32 Про работу в NAYA Technologies</p> <p>42:00 IntelliJ IDEA vs Eclipse?</p> <p>44:34 Как учить программированию своих детей?</p> <p>46:40 Как все успевать?</p> <p>46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице</p> <p>50:30 Стоит ли ходить на воркшоп?</p> <p>Телеграм канал <a href="https://t.me/javaswag">https://t.me/javaswag</a></p> <p>Чат <a href="https://t.me/javaswag_chat">https://t.me/javaswag_chat</a></p> <p>Сайт <a href="https://javaswag.ru">https://javaswag.ru</a></p> <p>Подкаст записан на конференции <a href="https://2019.rigadevdays.lv/">https://2019.rigadevdays.lv/</a></p> <p>Голос подкаста - <a href="https://t.me/volyx">https://t.me/volyx</a></p> <p>Звук подкаста - <a href="https://t.me/pahaus">https://t.me/pahaus</a></p>
+</description>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href="images/logo.png"/>
+<itunes:subtitle>
+#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге 00:00 Как начал выступать на конференции? 07:25 Что такое айбирнейт? 08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader? 10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас? 12:50 Кладбище за окном директора 14:27 Почему рассказывает про JavaEE израильтянам? 15:15 Как отличается аудитория в разных странах? 16:58 Как перешел на Спринг? 19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива
+</itunes:subtitle>
+<itunes:duration/>
+</item>
+</channel>
+</rss>

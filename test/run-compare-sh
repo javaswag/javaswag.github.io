@@ -1,0 +1,3 @@
+#! /bin/bash
+
+diff <$(xmllint --c14n sounds-formatted.rss) <$(xmllint --c14n rss-formatted.xml)
