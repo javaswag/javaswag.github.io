@@ -75,7 +75,7 @@ title: "{{ .Title }}"
 date: {{ .Date }}
 people:
   - volyx
-  - evgenii_borisov
+  - {{ .Guest}}
 audio: {{ .Audio}}
 guid: {{ .Guid }}
 image: images/logo.png
@@ -96,6 +96,7 @@ type Episode struct {
 	Title       string
 	Date        string
 	Guid        string
+    Guest       string
     Audio       string
 	Description string
 }
@@ -153,11 +154,13 @@ func main() {
 		if err != nil {
 			fmt.Println("Error while parsing date :", err)
 		}
+        guest, _ := getGuestName(audioList[number].Name)
 		episode := Episode{
 			Number:      number,
 			Title:       item.Title,
 			Date:        t.Format("2006-01-02"),
 			Guid:        item.Guid,
+            Guest:       guest,
             Audio:       audioList[number].Name,   
 			Description: item.Description,
 		}
@@ -221,6 +224,9 @@ func fetchAudioList() []Audio {
     }
     for i := 0; i < len(xmlBucket.Contents); i++ {
         content := xmlBucket.Contents[i]
+        if !strings.Contains(content.Key, "-") {
+            continue
+        }
         parts := strings.Split(content.Key, "-")
         if len(parts) == 0 {
             continue
@@ -235,6 +241,12 @@ func fetchAudioList() []Audio {
 
     sort.Sort(AudioList(audioList))
     return audioList
+}
+
+func getGuestName(audio string) (string, error) {
+    parts := strings.Split(audio, ".")
+    words := strings.Split(parts[0], "-")
+    return fmt.Sprintf("%s-%s", words[len(words) - 2], words[len(words) - 1]), nil
 }
 
 func getNumber(title string) (int, error) {
