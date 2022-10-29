@@ -4,13 +4,38 @@ import (
 	"encoding/xml"
 	"fmt"
 	"io"
+	"io/ioutil"
 	"log"
+	"net/http"
 	"os"
 	"path/filepath"
+	"sort"
+	"strconv"
+	"strings"
 	"text/template"
-    "strings"
-    "strconv"
+	"time"
 )
+
+type ListBucketResult struct {
+	XMLName  xml.Name  `xml:"ListBucketResult"`
+	Name     string    `xml:"Name"`
+	Contents []Content `xml:"Contents"`
+}
+
+type Content struct {
+	XMLName      xml.Name `xml:"Contents"`
+	Key          string   `xml:"Key"`
+	LastModified string   `xml:"LastModified"`
+	ETag         string   `xml:"ETag"`
+	Size         string   `xml:"Size"`
+}
+
+type Audio struct {
+    Number int
+    Name   string
+}
+
+type AudioList []Audio
 
 type Rss struct {
 	XMLName     xml.Name `xml:"rss"`
@@ -51,22 +76,61 @@ date: {{ .Date }}
 people:
   - volyx
   - evgenii_borisov
-audio: 0-javaswag-evgenii-borisov.mp3
+audio: {{ .Audio}}
 guid: {{ .Guid }}
 image: images/logo.png
 description: {{ .Description }}
----`
+---
+
+## {{ .Title }}
+
+{{ .Description }}`
+)
+
+const (
+	dateFormat = "Mon, 02 Jan 2006 15:04:05 -0700"
 )
 
 type Episode struct {
-    Number      int
+	Number      int
 	Title       string
 	Date        string
 	Guid        string
+    Audio       string
 	Description string
 }
 
+type Episodes []Episode
+
+func (d Episodes) Len() int {
+	return len(d)
+}
+
+func (d Episodes) Less(i, j int) bool {
+	return d[i].Number < d[j].Number
+}
+
+func (d Episodes) Swap(i, j int) {
+	d[i], d[j] = d[j], d[i]
+}
+
+func (d AudioList) Len() int {
+    return len(d)
+}
+
+func (d AudioList) Less(i, j int) bool {
+    return d[i].Number < d[j].Number
+}
+
+func (d AudioList) Swap(i, j int) {
+    d[i], d[j] = d[j], d[i]
+}
+
+
 func main() {
+
+    audioList := fetchAudioList()
+
 	sourceFile, err := os.Open("./../layout/soundcloud_rss.xml")
 
 	if err != nil {
@@ -79,53 +143,107 @@ func main() {
 		log.Fatal(err)
 	}
 
+	episodes := []Episode{}
+
 	for i := 0; i < len(rss.Channel.Items); i++ {
 		item := rss.Channel.Items[i]
-        fmt.Println(getNumber(item.Title))
-		fmt.Println(item.Title)
-		fmt.Println(item.Duration)
+		number, _ := getNumber(item.Title)
+		// Tue, 15 Feb 2022 17:18:17 +0000
+		t, err := time.Parse(dateFormat, item.PubDate)
+		if err != nil {
+			fmt.Println("Error while parsing date :", err)
+		}
+		episode := Episode{
+			Number:      number,
+			Title:       item.Title,
+			Date:        t.Format("2006-01-02"),
+			Guid:        item.Guid,
+            Audio:       audioList[number].Name,   
+			Description: item.Description,
+		}
+		episodes = append(episodes, episode)
 	}
+
+	sort.Sort(Episodes(episodes))
 
 	episodeDir := filepath.Dir("./../content/episode/")
-	files := []string{}
-	err = filepath.Walk(episodeDir, func(path string, info os.FileInfo, err error) error {
-		fullpath, err := filepath.Abs(path)
-		files = append(files, fullpath)
-		return nil
-	})
 
-	for _, path := range files {
-		fmt.Println(path)
-	}
+	for i := 0; i < len(episodes) && i < 5; i++ {
+		episode := episodes[i]
 
-	episode := Episode{0, "John", "a regular user", "", ""}
+		files := []string{}
+		err = filepath.Walk(episodeDir, func(path string, info os.FileInfo, err error) error {
+			fullpath, err := filepath.Abs(path)
+			files = append(files, fullpath)
+			return nil
+		})
 
-	ut, err := template.New("episodes").Parse(layoutHeader)
+		ut, err := template.New("episodes").Parse(layoutHeader)
 
-	if err != nil {
-		panic(err)
-	}
+		if err != nil {
+			panic(err)
+		}
 
-    episodePath := filepath.Join(episodeDir, fmt.Sprintf("_%v.txt", episode.Number))
+		episodePath := filepath.Join(episodeDir, fmt.Sprintf("_%v.md", episode.Number))
 
-    os.Remove(episodePath)
+		os.Remove(episodePath)
 
-    file, _ := os.Create(episodePath)
+		file, _ := os.Create(episodePath)
 
-	err = ut.Execute(file, episode)
+		err = ut.Execute(file, episode)
 
-	if err != nil {
-		panic(err)
+		if err != nil {
+			panic(err)
+		}
 	}
 }
 
-func getNumber(title string) (int, error) {
-    // #Number - GuestName - EpisodeName
-    parts := strings.Split(title, "-")
-    numberPart := strings.Trim(parts[0], " ")
-    number, err := strconv.Atoi(numberPart[1:])
+func fetchAudioList() []Audio {
+    resp, err := http.Get("https://storage.yandexcloud.net/javaswag/?list-type")
+
     if err != nil {
-        return 0, err
+        panic(err)
     }
-    return number, nil
+
+    defer resp.Body.Close()
+
+    body, err := ioutil.ReadAll(resp.Body)
+
+    if err != nil {
+        panic(err)
+    }
+
+    audioList := []Audio{}
+
+    xmlBucket := &ListBucketResult{}
+    if err := xml.Unmarshal([]byte(body), &xmlBucket); err != nil {
+        panic(err)
+    }
+    for i := 0; i < len(xmlBucket.Contents); i++ {
+        content := xmlBucket.Contents[i]
+        parts := strings.Split(content.Key, "-")
+        if len(parts) == 0 {
+            continue
+        }
+        audioNumber, _ := strconv.Atoi(parts[0])
+        audio := Audio {
+            Number: audioNumber,
+            Name: content.Key,
+        }
+        audioList = append(audioList, audio)
+    }
+
+    sort.Sort(AudioList(audioList))
+    return audioList
+}
+
+func getNumber(title string) (int, error) {
+	// #Number - GuestName - EpisodeName
+	parts := strings.Split(title, "-")
+	numberPart := strings.Trim(parts[0], " ")
+	number, err := strconv.Atoi(numberPart[1:])
+	if err != nil {
+		return 0, err
+	}
+	return number, nil
 }
