@@ -203,6 +203,8 @@ func main() {
 
 		file, _ := os.Create(episodePath)
 
+		fmt.Println("generate episode", i)
+
 		err = ut.Execute(file, episode)
 
 		if err != nil {
