@@ -15,16 +15,16 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - uses: actions/setup-go@v3
-        with:
-          go-version: '>=1.17.0'
-      - run: go run exporter/main.go
-      
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
+
+      - uses: actions/setup-go@v3
+        with:
+          go-version: '>=1.17.0'
+      - run: go run exporter/main.go
 
       - name: Install npm packages
         run: npm install 
