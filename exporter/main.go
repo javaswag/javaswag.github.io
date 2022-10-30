@@ -136,6 +136,7 @@ func main() {
 	episodeDir := filepath.Join(rootDir, "/content/episode/")
 	audioS3Url := "https://storage.yandexcloud.net/javaswag/?list-type"
 	limit := 5
+	isHugo := false
 
 	fmt.Println("start from", rootDir)
 
@@ -212,21 +213,23 @@ func main() {
 		}
 	}
 
-	cmd := exec.Command("hugo")
-	cmd.Dir = rootDir
-	cmd.Stdout = os.Stdout
-	cmd.Stderr = os.Stderr
-	if err := cmd.Run(); err != nil {
-		panic(err)
-	}
-	stdout, err := cmd.Output()
+	if isHugo {
+		cmd := exec.Command("hugo")
+		cmd.Dir = rootDir
+		cmd.Stdout = os.Stdout
+		cmd.Stderr = os.Stderr
+		if err := cmd.Run(); err != nil {
+			panic(err)
+		}
+		stdout, err := cmd.Output()
 
-	if err != nil {
-		fmt.Println(err.Error())
-		return
-	}
+		if err != nil {
+			fmt.Println(err.Error())
+			return
+		}
 
-	fmt.Print(string(stdout))
+		fmt.Print(string(stdout))
+	}
 }
 
 func fetchAudioList(audioS3Url string) []Audio {
