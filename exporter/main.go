@@ -5,15 +5,17 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
 	"text/template"
 	"time"
+	// "github.com/gomarkdown/markdown"
+	// "github.com/gomarkdown/markdown/html"
 )
 
 type ListBucketResult struct {
@@ -31,8 +33,8 @@ type Content struct {
 }
 
 type Audio struct {
-    Number int
-    Name   string
+	Number int
+	Name   string
 }
 
 type AudioList []Audio
@@ -80,11 +82,10 @@ audio: {{ .Audio}}
 guid: {{ .Guid }}
 image: images/logo.png
 description: {{ .Description }}
+draft: false
 ---
 
-## {{ .Title }}
-
-{{ .Description }}`
+{{ .Content  }}`
 )
 
 const (
@@ -96,9 +97,10 @@ type Episode struct {
 	Title       string
 	Date        string
 	Guid        string
-    Guest       string
-    Audio       string
+	Guest       string
+	Audio       string
 	Description string
+	Content     string
 }
 
 type Episodes []Episode
@@ -116,32 +118,39 @@ func (d Episodes) Swap(i, j int) {
 }
 
 func (d AudioList) Len() int {
-    return len(d)
+	return len(d)
 }
 
 func (d AudioList) Less(i, j int) bool {
-    return d[i].Number < d[j].Number
+	return d[i].Number < d[j].Number
 }
 
 func (d AudioList) Swap(i, j int) {
-    d[i], d[j] = d[j], d[i]
+	d[i], d[j] = d[j], d[i]
 }
-
 
 func main() {
 
-    audioList := fetchAudioList()
+	rootDir, _ := filepath.Abs(filepath.Join("./"))
+	rssFilePath, _ := filepath.Abs(filepath.Join(rootDir, "/layout/soundcloud_rss.xml"))
+	episodeDir := filepath.Join(rootDir, "/content/episode/")
+	audioS3Url := "https://storage.yandexcloud.net/javaswag/?list-type"
+	limit := 5
 
-	sourceFile, err := os.Open("./../layout/soundcloud_rss.xml")
+	fmt.Println("start from", rootDir)
+
+	audioList := fetchAudioList(audioS3Url)
+
+	sourceFile, err := os.Open(rssFilePath)
 
 	if err != nil {
-		fmt.Println(err)
+		panic(err)
 	}
 
 	rss := &Rss{}
 	blob, err := io.ReadAll(sourceFile)
 	if err := xml.Unmarshal([]byte(blob), &rss); err != nil {
-		log.Fatal(err)
+		panic(err)
 	}
 
 	episodes := []Episode{}
@@ -149,29 +158,30 @@ func main() {
 	for i := 0; i < len(rss.Channel.Items); i++ {
 		item := rss.Channel.Items[i]
 		number, _ := getNumber(item.Title)
-		// Tue, 15 Feb 2022 17:18:17 +0000
 		t, err := time.Parse(dateFormat, item.PubDate)
 		if err != nil {
-			fmt.Println("Error while parsing date :", err)
+			panic(err)
 		}
-        guest, _ := getGuestName(audioList[number].Name)
+		guest, _ := getGuestName(audioList[number].Name)
+
+		htmlContent := strings.ReplaceAll(item.Description, "\n", "\n\n")
+
 		episode := Episode{
 			Number:      number,
 			Title:       item.Title,
 			Date:        t.Format("2006-01-02"),
 			Guid:        item.Guid,
-            Guest:       guest,
-            Audio:       audioList[number].Name,   
-			Description: item.Description,
+			Guest:       guest,
+			Audio:       audioList[number].Name,
+			Description: item.Title,
+			Content:     htmlContent,
 		}
 		episodes = append(episodes, episode)
 	}
 
 	sort.Sort(Episodes(episodes))
 
-	episodeDir := filepath.Dir("./../content/episode/")
-
-	for i := 0; i < len(episodes) && i < 5; i++ {
+	for i := 0; i < len(episodes) && i < limit; i++ {
 		episode := episodes[i]
 
 		files := []string{}
@@ -187,7 +197,7 @@ func main() {
 			panic(err)
 		}
 
-		episodePath := filepath.Join(episodeDir, fmt.Sprintf("_%v.md", episode.Number))
+		episodePath := filepath.Join(episodeDir, fmt.Sprintf("%v.md", episode.Number))
 
 		os.Remove(episodePath)
 
@@ -199,54 +209,70 @@ func main() {
 			panic(err)
 		}
 	}
+
+	cmd := exec.Command("hugo")
+	cmd.Dir = rootDir
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+	if err := cmd.Run(); err != nil {
+		panic(err)
+	}
+	stdout, err := cmd.Output()
+
+	if err != nil {
+		fmt.Println(err.Error())
+		return
+	}
+
+	fmt.Print(string(stdout))
 }
 
-func fetchAudioList() []Audio {
-    resp, err := http.Get("https://storage.yandexcloud.net/javaswag/?list-type")
+func fetchAudioList(audioS3Url string) []Audio {
+	resp, err := http.Get(audioS3Url)
 
-    if err != nil {
-        panic(err)
-    }
+	if err != nil {
+		panic(err)
+	}
 
-    defer resp.Body.Close()
+	defer resp.Body.Close()
 
-    body, err := ioutil.ReadAll(resp.Body)
+	body, err := ioutil.ReadAll(resp.Body)
 
-    if err != nil {
-        panic(err)
-    }
+	if err != nil {
+		panic(err)
+	}
 
-    audioList := []Audio{}
+	audioList := []Audio{}
 
-    xmlBucket := &ListBucketResult{}
-    if err := xml.Unmarshal([]byte(body), &xmlBucket); err != nil {
-        panic(err)
-    }
-    for i := 0; i < len(xmlBucket.Contents); i++ {
-        content := xmlBucket.Contents[i]
-        if !strings.Contains(content.Key, "-") {
-            continue
-        }
-        parts := strings.Split(content.Key, "-")
-        if len(parts) == 0 {
-            continue
-        }
-        audioNumber, _ := strconv.Atoi(parts[0])
-        audio := Audio {
-            Number: audioNumber,
-            Name: content.Key,
-        }
-        audioList = append(audioList, audio)
-    }
+	xmlBucket := &ListBucketResult{}
+	if err := xml.Unmarshal([]byte(body), &xmlBucket); err != nil {
+		panic(err)
+	}
+	for i := 0; i < len(xmlBucket.Contents); i++ {
+		content := xmlBucket.Contents[i]
+		if !strings.Contains(content.Key, "-") {
+			continue
+		}
+		parts := strings.Split(content.Key, "-")
+		if len(parts) == 0 {
+			continue
+		}
+		audioNumber, _ := strconv.Atoi(parts[0])
+		audio := Audio{
+			Number: audioNumber,
+			Name:   content.Key,
+		}
+		audioList = append(audioList, audio)
+	}
 
-    sort.Sort(AudioList(audioList))
-    return audioList
+	sort.Sort(AudioList(audioList))
+	return audioList
 }
 
 func getGuestName(audio string) (string, error) {
-    parts := strings.Split(audio, ".")
-    words := strings.Split(parts[0], "-")
-    return fmt.Sprintf("%s-%s", words[len(words) - 2], words[len(words) - 1]), nil
+	parts := strings.Split(audio, ".")
+	words := strings.Split(parts[0], "-")
+	return fmt.Sprintf("%s-%s", words[len(words)-2], words[len(words)-1]), nil
 }
 
 func getNumber(title string) (int, error) {

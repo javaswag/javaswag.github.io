@@ -1,9 +1,12 @@
 volyx:
   url: https://twitter.com/volyx
   image: /img/people/volyx.jpg
-evgenii_borisov:
+evgenii-borisov:
   url: https://twitter.com/jekaborisov
-  image: /img/people/jekaborisov.png
+  image: /img/people/evgenii-borisov.png
 OlehDokuka:
   url: https://twitter.com/OlehDokuka
   image: /img/people/OlehDokuka.jpg
+unknown:
+  url: /
+  image: /img/people/unknown.png  

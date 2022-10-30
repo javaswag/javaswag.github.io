@@ -5,3 +5,4 @@ package-lock.json
 static/.DS_Store
 .hugo_build.lock
 resources/**
+static/img/.DS_Store
