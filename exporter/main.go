@@ -4,7 +4,6 @@ import (
 	"encoding/xml"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"os/exec"
@@ -132,27 +131,18 @@ func (d AudioList) Swap(i, j int) {
 func main() {
 
 	rootDir, _ := filepath.Abs(filepath.Join("./"))
-	rssFilePath, _ := filepath.Abs(filepath.Join(rootDir, "/layout/soundcloud_rss.xml"))
+	// rssFilePath, _ := filepath.Abs(filepath.Join(rootDir, "/layout/soundcloud_rss.xml"))
+	soundcloudRssUrl := "http://feeds.soundcloud.com/users/soundcloud:users:656797185/sounds.rss"
 	episodeDir := filepath.Join(rootDir, "/content/episode/")
 	audioS3Url := "https://storage.yandexcloud.net/javaswag/?list-type"
 	limit := 5
-	isHugo := false
+	_, isHugo := os.LookupEnv("USE_HUGO")
 
-	fmt.Println("start from", rootDir)
+	fmt.Println("start from", rootDir, "hugo", isHugo)
 
 	audioList := fetchAudioList(audioS3Url)
 
-	sourceFile, err := os.Open(rssFilePath)
-
-	if err != nil {
-		panic(err)
-	}
-
-	rss := &Rss{}
-	blob, err := io.ReadAll(sourceFile)
-	if err := xml.Unmarshal([]byte(blob), &rss); err != nil {
-		panic(err)
-	}
+	rss := fetchSoundcloudRss(soundcloudRssUrl)
 
 	episodes := []Episode{}
 
@@ -186,7 +176,7 @@ func main() {
 		episode := episodes[i]
 
 		files := []string{}
-		err = filepath.Walk(episodeDir, func(path string, info os.FileInfo, err error) error {
+		err := filepath.Walk(episodeDir, func(path string, info os.FileInfo, err error) error {
 			fullpath, err := filepath.Abs(path)
 			files = append(files, fullpath)
 			return nil
@@ -232,6 +222,23 @@ func main() {
 	}
 }
 
+func fetchSoundcloudRss(url string) Rss {
+	resp, err := http.Get(url)
+
+	if err != nil {
+		panic(err)
+	}
+
+	defer resp.Body.Close()
+
+	rss := &Rss{}
+	blob, err := io.ReadAll(resp.Body)
+	if err := xml.Unmarshal([]byte(blob), &rss); err != nil {
+		panic(err)
+	}
+	return *rss
+}
+
 func fetchAudioList(audioS3Url string) []Audio {
 	resp, err := http.Get(audioS3Url)
 
@@ -241,7 +248,7 @@ func fetchAudioList(audioS3Url string) []Audio {
 
 	defer resp.Body.Close()
 
-	body, err := ioutil.ReadAll(resp.Body)
+	body, err := io.ReadAll(resp.Body)
 
 	if err != nil {
 		panic(err)
