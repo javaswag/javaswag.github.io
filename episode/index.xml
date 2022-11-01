@@ -11,22 +11,19 @@
 22-39 https://ktor.io/
 23-50 Awesome Kotlin https://kotlin.link/
 24-42 Komodo https://github.com/Heapy/komodo
-Koin https://insert-koin.io/ 27-27 Какую базу данных используешь для пет-проджектов?</description></item><item><title>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</title><link>https://javaswag.github.io/episode/3/</link><pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/3/</guid><description>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
+- Koin https://insert-koin.io/ 27-27 Какую базу данных используешь для пет-проджектов?</description></item><item><title>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</title><link>https://javaswag.github.io/episode/3/</link><pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/3/</guid><description>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
 00-49 Доклад про https://github.com/testcontainers/
 06-17 Разработка игр
 09-30 Язык Haxe
-https://haxe.org/
-https://www.youtube.com/watch?v=XQLNAx9DGmk
-14-18 Apache Groovy
-https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
+- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 14-18 Apache Groovy
+- https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
 22-50 Первый доклад на английском на
 25-10 Zeroturnaround JRebel, XRebel
 30-40 С нуля в облака. Поднять продакшн, пока едет пицца
-https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
+- https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
 36-36 История Testcontainers
-Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
-Стартап
-Архитектура за которую не стыдно EventSourcing, CQRS</description></item><item><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><link>https://javaswag.github.io/episode/2/</link><pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/2/</guid><description>00-25 Как стал девелопер-адвокатом?
+- Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
+- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.</description></item><item><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><link>https://javaswag.github.io/episode/2/</link><pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/2/</guid><description>00-25 Как стал девелопер-адвокатом?
 05-58 Как начал заниматься маркетингом в JRebel?
 10-37 Virtual Java User Group https://virtualjug.com/
 14-05 Конференция vJUG24

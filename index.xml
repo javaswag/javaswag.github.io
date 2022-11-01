@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate><lastBuildDate>Sun, 30 Oct 2022 18:15:19 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>All rights reserved</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</itunes:subtitle><itunes:owner><itunes:name>Dima V</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><itunes:author>javaswag</itunes:author><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>java,podcast</itunes:keywords><itunes:summary>Подкаст о разработке на Java</itunes:summary><itunes:category text="Technology"/><atom:link href="https://javaswag.github.io/" rel="self" type="application/rss+xml"/><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/724565152</guid><title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title><pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate><link>https://javaswag.github.io/episode/4/</link><itunes:duration/><itunes:explicit>no</itunes:explicit><itunes:summary>&lt;p>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate><lastBuildDate>Tue, 01 Nov 2022 20:20:07 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>All rights reserved</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</itunes:subtitle><itunes:owner><itunes:name>Dima V</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><itunes:author>javaswag</itunes:author><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>java,podcast</itunes:keywords><itunes:summary>Подкаст о разработке на Java</itunes:summary><itunes:category text="Technology"/><atom:link href="https://javaswag.github.io/" rel="self" type="application/rss+xml"/><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/724565152</guid><title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title><pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate><link>https://javaswag.github.io/episode/4/</link><itunes:duration/><itunes:explicit>no</itunes:explicit><itunes:summary>&lt;p>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor&lt;/p>
 &lt;p>00-44 Что делает програмный коммитет конференции?&lt;/p>
 &lt;p>01-58 Чем хорош &lt;a href="https://bootique.io/">https://bootique.io/&lt;/a>?&lt;/p>
 &lt;p>06-29 Сервер Undertow, почему?&lt;/p>
@@ -11,31 +11,19 @@
 &lt;p>22-39 &lt;a href="https://ktor.io/">https://ktor.io/&lt;/a>&lt;/p>
 &lt;p>23-50 Awesome Kotlin &lt;a href="https://kotlin.link/">https://kotlin.link/&lt;/a>&lt;/p>
 &lt;p>24-42 Komodo &lt;a href="https://github.com/Heapy/komodo">https://github.com/Heapy/komodo&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>Koin &lt;a href="https://insert-koin.io/">https://insert-koin.io/&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Koin https://insert-koin.io/
+&lt;/code>&lt;/pre>
 &lt;p>27-27 Какую базу данных используешь для пет-проджектов?&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Xodus &lt;a href="https://github.com/JetBrains/xodus">https://github.com/JetBrains/xodus&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Append-Only Log&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Xodus https://github.com/JetBrains/xodus
+- Append-Only Log
+&lt;/code>&lt;/pre>
 &lt;p>28-48 Что пробовал до Xodus?&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>mysql, mariadb, postgresql, oracle&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Xodus в проде&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- mysql, mariadb, postgresql, oracle
+- Xodus в проде
+&lt;/code>&lt;/pre>
 &lt;p>31-03 Странный вопрос про Dell XPS&lt;/p>
-&lt;ul>
-&lt;li>Почему не Mac?&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Почему не Mac?
+&lt;/code>&lt;/pre>
 &lt;p>33-00 Free As a Freedom&lt;/p>
 &lt;p>Гость - &lt;a href="https://twitter.com/HeapyHop">https://twitter.com/HeapyHop&lt;/a>&lt;/p>
 &lt;p>Телеграм канал t.me/javaswag&lt;/p>
@@ -56,7 +44,7 @@
 22-39 https://ktor.io/
 23-50 Awesome Kotlin https://kotlin.link/
 24-42 Komodo https://github.com/Heapy/komodo
-Koin https://insert-koin.io/ 27-27 Какую базу данных используешь для пет-проджектов?</itunes:subtitle><description>&lt;p>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor&lt;/p>
+- Koin https://insert-koin.io/ 27-27 Какую базу данных используешь для пет-проджектов?</itunes:subtitle><description>&lt;p>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor&lt;/p>
 &lt;p>00-44 Что делает програмный коммитет конференции?&lt;/p>
 &lt;p>01-58 Чем хорош &lt;a href="https://bootique.io/">https://bootique.io/&lt;/a>?&lt;/p>
 &lt;p>06-29 Сервер Undertow, почему?&lt;/p>
@@ -69,31 +57,19 @@ Koin https://insert-koin.io/ 27-27 Какую базу данных исполь
 &lt;p>22-39 &lt;a href="https://ktor.io/">https://ktor.io/&lt;/a>&lt;/p>
 &lt;p>23-50 Awesome Kotlin &lt;a href="https://kotlin.link/">https://kotlin.link/&lt;/a>&lt;/p>
 &lt;p>24-42 Komodo &lt;a href="https://github.com/Heapy/komodo">https://github.com/Heapy/komodo&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>Koin &lt;a href="https://insert-koin.io/">https://insert-koin.io/&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Koin https://insert-koin.io/
+&lt;/code>&lt;/pre>
 &lt;p>27-27 Какую базу данных используешь для пет-проджектов?&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Xodus &lt;a href="https://github.com/JetBrains/xodus">https://github.com/JetBrains/xodus&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Append-Only Log&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Xodus https://github.com/JetBrains/xodus
+- Append-Only Log
+&lt;/code>&lt;/pre>
 &lt;p>28-48 Что пробовал до Xodus?&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>mysql, mariadb, postgresql, oracle&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Xodus в проде&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- mysql, mariadb, postgresql, oracle
+- Xodus в проде
+&lt;/code>&lt;/pre>
 &lt;p>31-03 Странный вопрос про Dell XPS&lt;/p>
-&lt;ul>
-&lt;li>Почему не Mac?&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Почему не Mac?
+&lt;/code>&lt;/pre>
 &lt;p>33-00 Free As a Freedom&lt;/p>
 &lt;p>Гость - &lt;a href="https://twitter.com/HeapyHop">https://twitter.com/HeapyHop&lt;/a>&lt;/p>
 &lt;p>Телеграм канал t.me/javaswag&lt;/p>
@@ -105,85 +81,44 @@ Koin https://insert-koin.io/ 27-27 Какую базу данных исполь
 &lt;p>00-49 Доклад про &lt;a href="https://github.com/testcontainers/">https://github.com/testcontainers/&lt;/a>&lt;/p>
 &lt;p>06-17 Разработка игр&lt;/p>
 &lt;p>09-30 Язык Haxe&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://haxe.org/">https://haxe.org/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://www.youtube.com/watch?v=XQLNAx9DGmk">https://www.youtube.com/watch?v=XQLNAx9DGmk&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- https://haxe.org/
+- https://www.youtube.com/watch?v=XQLNAx9DGmk
+&lt;/code>&lt;/pre>
 &lt;p>14-18 Apache Groovy&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=Ujuz-D-ekXE">https://www.youtube.com/watch?v=Ujuz-D-ekXE&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- https://www.youtube.com/watch?v=Ujuz-D-ekXE
+&lt;/code>&lt;/pre>
 &lt;p>16-30 Groovy макрометоды &lt;a href="https://github.com/bsideup/MacroGroovy">https://github.com/bsideup/MacroGroovy&lt;/a>&lt;/p>
 &lt;p>22-50 Первый доклад на английском на&lt;/p>
 &lt;p>25-10 Zeroturnaround JRebel, XRebel&lt;/p>
 &lt;p>30-40 С нуля в облака. Поднять продакшн, пока едет пицца&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=9lpDjZUGhKA">https://www.youtube.com/watch?v=9lpDjZUGhKA&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- https://www.youtube.com/watch?v=9lpDjZUGhKA
+&lt;/code>&lt;/pre>
 &lt;p>33-25 Берлин, Zalando&lt;/p>
 &lt;p>36-36 История Testcontainers&lt;/p>
-&lt;ul>
-&lt;li>Перевести сервис на SpringBoot за час&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Перевести сервис на SpringBoot за час
+&lt;/code>&lt;/pre>
 &lt;p>40-30 Vivy &lt;a href="https://www.vivy.com/">https://www.vivy.com/&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Стартап&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Архитектура за которую не стыдно EventSourcing, CQRS&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Выиграть тендер у IBM&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Liiklus - &lt;a href="https://github.com/bsideup/liiklus">https://github.com/bsideup/liiklus&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>50 микросервисов&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Стартап
+- Архитектура за которую не стыдно EventSourcing, CQRS
+- Выиграть тендер у IBM
+- Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :)
+- Liiklus - https://github.com/bsideup/liiklus
+- Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar
+- 50 микросервисов
+&lt;/code>&lt;/pre>
 &lt;p>58-40 Спринг&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Офисы Pivotal&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Staff Software Engineer - Reactor &amp;amp; Reactive Spring&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260">https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Почему выбрали реактивный подход в Vivy&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Ownership &amp;amp; trust&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Конференция s1p &lt;a href="https://springoneplatform.io/">https://springoneplatform.io/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Java agent to detect blocking calls from non-blocking threads &lt;a href="https://github.com/reactor/BlockHound">https://github.com/reactor/BlockHound&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Доклад от Blizzard &lt;a href="https://www.youtube.com/watch?v=xCu73WVg8Ps">https://www.youtube.com/watch?v=xCu73WVg8Ps&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Офисы Pivotal
+- Staff Software Engineer - Reactor &amp;amp; Reactive Spring
+- https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260
+- Почему выбрали реактивный подход в Vivy
+- Ownership &amp;amp; trust
+- Конференция s1p https://springoneplatform.io/
+- Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound
+- Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps
+&lt;/code>&lt;/pre>
 &lt;p>67-10 Jabel - unlock Javac 12+ syntax when targeting Java 8&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/bsideup/jabel">https://github.com/bsideup/jabel&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- https://github.com/bsideup/jabel
+&lt;/code>&lt;/pre>
 &lt;p>70-45 Подкаст Two Devs One Ops &lt;a href="https://www.2d1o.ru/">https://www.2d1o.ru/&lt;/a>&lt;/p>
 &lt;p>72-10 Никнейм bsideup&lt;/p>
 &lt;p>74-00 Дреды, конфликты в университете&lt;/p>
@@ -197,100 +132,56 @@ Koin https://insert-koin.io/ 27-27 Какую базу данных исполь
 00-49 Доклад про https://github.com/testcontainers/
 06-17 Разработка игр
 09-30 Язык Haxe
-https://haxe.org/
-https://www.youtube.com/watch?v=XQLNAx9DGmk
-14-18 Apache Groovy
-https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
+- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 14-18 Apache Groovy
+- https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
 22-50 Первый доклад на английском на
 25-10 Zeroturnaround JRebel, XRebel
 30-40 С нуля в облака. Поднять продакшн, пока едет пицца
-https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
+- https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
 36-36 История Testcontainers
-Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
-Стартап
-Архитектура за которую не стыдно EventSourcing, CQRS</itunes:subtitle><description>&lt;p>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor&lt;/p>
+- Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
+- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.</itunes:subtitle><description>&lt;p>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor&lt;/p>
 &lt;p>00-49 Доклад про &lt;a href="https://github.com/testcontainers/">https://github.com/testcontainers/&lt;/a>&lt;/p>
 &lt;p>06-17 Разработка игр&lt;/p>
 &lt;p>09-30 Язык Haxe&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://haxe.org/">https://haxe.org/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://www.youtube.com/watch?v=XQLNAx9DGmk">https://www.youtube.com/watch?v=XQLNAx9DGmk&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- https://haxe.org/
+- https://www.youtube.com/watch?v=XQLNAx9DGmk
+&lt;/code>&lt;/pre>
 &lt;p>14-18 Apache Groovy&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=Ujuz-D-ekXE">https://www.youtube.com/watch?v=Ujuz-D-ekXE&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- https://www.youtube.com/watch?v=Ujuz-D-ekXE
+&lt;/code>&lt;/pre>
 &lt;p>16-30 Groovy макрометоды &lt;a href="https://github.com/bsideup/MacroGroovy">https://github.com/bsideup/MacroGroovy&lt;/a>&lt;/p>
 &lt;p>22-50 Первый доклад на английском на&lt;/p>
 &lt;p>25-10 Zeroturnaround JRebel, XRebel&lt;/p>
 &lt;p>30-40 С нуля в облака. Поднять продакшн, пока едет пицца&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=9lpDjZUGhKA">https://www.youtube.com/watch?v=9lpDjZUGhKA&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- https://www.youtube.com/watch?v=9lpDjZUGhKA
+&lt;/code>&lt;/pre>
 &lt;p>33-25 Берлин, Zalando&lt;/p>
 &lt;p>36-36 История Testcontainers&lt;/p>
-&lt;ul>
-&lt;li>Перевести сервис на SpringBoot за час&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Перевести сервис на SpringBoot за час
+&lt;/code>&lt;/pre>
 &lt;p>40-30 Vivy &lt;a href="https://www.vivy.com/">https://www.vivy.com/&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Стартап&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Архитектура за которую не стыдно EventSourcing, CQRS&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Выиграть тендер у IBM&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Liiklus - &lt;a href="https://github.com/bsideup/liiklus">https://github.com/bsideup/liiklus&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>50 микросервисов&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Стартап
+- Архитектура за которую не стыдно EventSourcing, CQRS
+- Выиграть тендер у IBM
+- Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :)
+- Liiklus - https://github.com/bsideup/liiklus
+- Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar
+- 50 микросервисов
+&lt;/code>&lt;/pre>
 &lt;p>58-40 Спринг&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Офисы Pivotal&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Staff Software Engineer - Reactor &amp;amp; Reactive Spring&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260">https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Почему выбрали реактивный подход в Vivy&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Ownership &amp;amp; trust&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Конференция s1p &lt;a href="https://springoneplatform.io/">https://springoneplatform.io/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Java agent to detect blocking calls from non-blocking threads &lt;a href="https://github.com/reactor/BlockHound">https://github.com/reactor/BlockHound&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Доклад от Blizzard &lt;a href="https://www.youtube.com/watch?v=xCu73WVg8Ps">https://www.youtube.com/watch?v=xCu73WVg8Ps&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- Офисы Pivotal
+- Staff Software Engineer - Reactor &amp;amp; Reactive Spring
+- https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260
+- Почему выбрали реактивный подход в Vivy
+- Ownership &amp;amp; trust
+- Конференция s1p https://springoneplatform.io/
+- Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound
+- Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps
+&lt;/code>&lt;/pre>
 &lt;p>67-10 Jabel - unlock Javac 12+ syntax when targeting Java 8&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/bsideup/jabel">https://github.com/bsideup/jabel&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;pre>&lt;code>- https://github.com/bsideup/jabel
+&lt;/code>&lt;/pre>
 &lt;p>70-45 Подкаст Two Devs One Ops &lt;a href="https://www.2d1o.ru/">https://www.2d1o.ru/&lt;/a>&lt;/p>
 &lt;p>72-10 Никнейм bsideup&lt;/p>
 &lt;p>74-00 Дреды, конфликты в университете&lt;/p>
