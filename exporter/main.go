@@ -13,8 +13,7 @@ import (
 	"strings"
 	"text/template"
 	"time"
-	// "github.com/gomarkdown/markdown"
-	// "github.com/gomarkdown/markdown/html"
+	"github.com/sergi/go-diff/diffmatchpatch"
 )
 
 type ListBucketResult struct {
@@ -130,13 +129,23 @@ func (d AudioList) Swap(i, j int) {
 
 func main() {
 
-	rootDir, _ := filepath.Abs(filepath.Join("./"))
-	// rssFilePath, _ := filepath.Abs(filepath.Join(rootDir, "/layout/soundcloud_rss.xml"))
+	rootDir, _ := filepath.Abs(filepath.Join("./../"))
+
 	soundcloudRssUrl := "http://feeds.soundcloud.com/users/soundcloud:users:656797185/sounds.rss"
 	episodeDir := filepath.Join(rootDir, "/content/episode/")
 	audioS3Url := "https://storage.yandexcloud.net/javaswag/?list-type"
-	limit := 5
+
 	_, isHugo := os.LookupEnv("USE_HUGO")
+	_, isDiff := os.LookupEnv("USE_DIFF")
+
+	limitVar, isLimit := os.LookupEnv("LIMIT")
+	var limit = 5
+	if isLimit {
+		limitInt, errParse := strconv.Atoi(limitVar)
+		if errParse == nil {
+			limit = limitInt
+		}
+	}
 
 	fmt.Println("start from", rootDir, "hugo", isHugo)
 
@@ -192,7 +201,10 @@ func main() {
 
 		os.Remove(episodePath)
 
-		file, _ := os.Create(episodePath)
+		file, errCreate := os.Create(episodePath)
+		if errCreate != nil {
+			panic(errCreate)
+		}
 
 		fmt.Println("generate episode", i)
 
@@ -204,21 +216,41 @@ func main() {
 	}
 
 	if isHugo {
-		cmd := exec.Command("hugo")
-		cmd.Dir = rootDir
-		cmd.Stdout = os.Stdout
-		cmd.Stderr = os.Stderr
-		if err := cmd.Run(); err != nil {
+		stdout, err := exec.Command("hugo").Output(); if err != nil {
+			fmt.Println(err.Error())
 			panic(err)
 		}
-		stdout, err := cmd.Output()
+		fmt.Print(string(stdout))
+		time.Sleep(1 * time.Second)
+	}
+	if isDiff {
+
+		resp, err := http.Get(soundcloudRssUrl)
 
 		if err != nil {
-			fmt.Println(err.Error())
-			return
+			panic(err)
 		}
 
-		fmt.Print(string(stdout))
+		defer resp.Body.Close()
+		data, err := io.ReadAll(resp.Body)
+		if err != nil {
+			panic(err)
+		}
+
+		indexFile, err := os.Open(filepath.Join(rootDir, "docs/index.xml"))
+		inputData, err := io.ReadAll(indexFile)
+		if err != nil {
+			panic(err)
+		}
+
+		dmp := diffmatchpatch.New()
+
+		diffs := dmp.DiffMain(string(data), string(inputData), false)
+		diffPath := filepath.Join(rootDir, "docs/change.diff")
+		os.Remove(diffPath)
+		diffFile, _ := os.Create(diffPath)
+
+		io.WriteString(diffFile, dmp.DiffPrettyText(diffs))
 	}
 }
 
