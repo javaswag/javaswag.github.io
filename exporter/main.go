@@ -13,7 +13,6 @@ import (
 	"strings"
 	"text/template"
 	"time"
-	"github.com/sergi/go-diff/diffmatchpatch"
 )
 
 type ListBucketResult struct {
@@ -136,16 +135,6 @@ func main() {
 	audioS3Url := "https://storage.yandexcloud.net/javaswag/?list-type"
 
 	_, isHugo := os.LookupEnv("USE_HUGO")
-	_, isDiff := os.LookupEnv("USE_DIFF")
-
-	limitVar, isLimit := os.LookupEnv("LIMIT")
-	var limit = 5
-	if isLimit {
-		limitInt, errParse := strconv.Atoi(limitVar)
-		if errParse == nil {
-			limit = limitInt
-		}
-	}
 
 	fmt.Println("start from", rootDir, "hugo", isHugo)
 
@@ -181,7 +170,7 @@ func main() {
 
 	sort.Sort(Episodes(episodes))
 
-	for i := 0; i < len(episodes) && i < limit; i++ {
+	for i := 0; i < len(episodes); i++ {
 		episode := episodes[i]
 
 		files := []string{}
@@ -222,35 +211,6 @@ func main() {
 		}
 		fmt.Print(string(stdout))
 		time.Sleep(1 * time.Second)
-	}
-	if isDiff {
-
-		resp, err := http.Get(soundcloudRssUrl)
-
-		if err != nil {
-			panic(err)
-		}
-
-		defer resp.Body.Close()
-		data, err := io.ReadAll(resp.Body)
-		if err != nil {
-			panic(err)
-		}
-
-		indexFile, err := os.Open(filepath.Join(rootDir, "docs/index.xml"))
-		inputData, err := io.ReadAll(indexFile)
-		if err != nil {
-			panic(err)
-		}
-
-		dmp := diffmatchpatch.New()
-
-		diffs := dmp.DiffMain(string(data), string(inputData), false)
-		diffPath := filepath.Join(rootDir, "docs/change.diff")
-		os.Remove(diffPath)
-		diffFile, _ := os.Create(diffPath)
-
-		io.WriteString(diffFile, dmp.DiffPrettyText(diffs))
 	}
 }
 
