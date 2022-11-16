@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Wed, 26 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#35 - Алексей Рагозин - золотой век распределенных кэшей и профилировщики</title><link>https://javaswag.github.io/episode/35/</link><pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/35/</guid><description>В 35 выпуске подкаста Javaswag поговорили с Алексеем Рагозиным о распределенных кэшах, сборке мусора и профилировании приложений
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Fri, 11 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#36 - Владимир Иванов - мобильная архитектура, развитие в архитектора/стафф инженера</title><link>https://javaswag.github.io/episode/36/</link><pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/36/</guid><description>В 36 выпуске подкаста Javaswag поговорили с Владимиром Ивановым об архитектуре мобильных приложений и развитии в архитектора/стафф инженера
+00:01:44 О себе
+00:03:24 Мобильная разработка - прошлое
+00:10:02 Приложение можно сделать вдвоем
+00:14:52 Архитектура MVP/MVVM/ReactNative
+00:23:58 Flutter и прототипы
+00:29:48 Миф о тормозах
+00:38:20 Гибридные приложения
+00:43:34 Боль бэкенда
+00:54:32 Мобильная разработка - настоящее
+01:04:20 Переход в Engineering Manager
+01:11:58 Manager vs Engineering Manager
+01:21:30 Практика письменных принятия решений
+01:25:40 Личный бренд и что дальше</description></item><item><title>#35 - Алексей Рагозин - золотой век распределенных кэшей и профилировщики</title><link>https://javaswag.github.io/episode/35/</link><pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate><guid>https://javaswag.github.io/episode/35/</guid><description>В 35 выпуске подкаста Javaswag поговорили с Алексеем Рагозиным о распределенных кэшах, сборке мусора и профилировании приложений
 00:01:59 О себе
 00:07:16 Сборщики мусора
 00:13:25 Куда делись распределенные кэши?
