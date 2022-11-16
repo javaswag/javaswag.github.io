@@ -143,6 +143,8 @@ func main() {
 
 	audioList := fetchAudioList(audioS3Url)
 
+	os.Mkdir(filepath.Join(rootDir, "/docs"), 0750)
+
 	rss := fetchSoundcloudRss(filepath.Join(rootDir, "/docs", "soundcloud.xml"), soundcloudRssUrl)
 
 	episodes := []Episode{}
