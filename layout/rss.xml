@@ -48,9 +48,9 @@
         
         <itunes:explicit>no</itunes:explicit>
         <itunes:summary>{{ .Content }}</itunes:summary> <!-- {{ .Content | html }} -->
-        <itunes:subtitle>{{ .Summary }}</itunes:subtitle> <!-- {{ .Summary | html }} --> 
+        <itunes:subtitle>{{ .Summary | plainify }}</itunes:subtitle> <!-- {{ .Summary | html }} --> 
 
-        <description>{{ .Content | html }}</description>
+        <description>{{ .Content | plainify}}</description> <!-- {{ .Content | html }} -->
         {{$audio_name := .Params.Audio}}
 
         {{range $xml_data.Contents}}

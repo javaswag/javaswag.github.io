@@ -128,7 +128,7 @@ func (d AudioList) Swap(i, j int) {
 
 func main() {
 
-	rootDir, _ := filepath.Abs(filepath.Join("./../"))
+	rootDir, _ := filepath.Abs(filepath.Join("./"))
 
 	soundcloudRssUrl := "http://feeds.soundcloud.com/users/soundcloud:users:656797185/sounds.rss"
 	episodeDir := filepath.Join(rootDir, "/content/episode/")
@@ -140,7 +140,7 @@ func main() {
 
 	audioList := fetchAudioList(audioS3Url)
 
-	rss := fetchSoundcloudRss(soundcloudRssUrl)
+	rss := fetchSoundcloudRss(filepath.Join(rootDir, "docs", "soundcloud.xml"), soundcloudRssUrl)
 
 	episodes := []Episode{}
 
@@ -150,6 +150,9 @@ func main() {
 		t, err := time.Parse(dateFormat, item.PubDate)
 		if err != nil {
 			panic(err)
+		}
+		if len(audioList) <= number {
+			panic(fmt.Sprintf("could not find audio for index %d", number))
 		}
 		guest, _ := getGuestName(audioList[number].Name)
 
@@ -214,7 +217,7 @@ func main() {
 	}
 }
 
-func fetchSoundcloudRss(url string) Rss {
+func fetchSoundcloudRss(savePath string, url string) Rss {
 	resp, err := http.Get(url)
 
 	if err != nil {
@@ -223,8 +226,24 @@ func fetchSoundcloudRss(url string) Rss {
 
 	defer resp.Body.Close()
 
+	os.Remove(savePath)
+
+	saveFile, err := os.Create(savePath)
+
+	if err != nil {
+		panic(err)
+	}
+	defer saveFile.Close()
+
 	rss := &Rss{}
 	blob, err := io.ReadAll(resp.Body)
+
+	_, err = saveFile.Write(blob)
+
+	if err != nil {
+		panic(err)
+	}
+
 	if err := xml.Unmarshal([]byte(blob), &rss); err != nil {
 		panic(err)
 	}
@@ -274,6 +293,7 @@ func fetchAudioList(audioS3Url string) []Audio {
 }
 
 func getGuestName(audio string) (string, error) {
+	fmt.Println("audio", audio)
 	parts := strings.Split(audio, ".")
 	words := strings.Split(parts[0], "-")
 	return fmt.Sprintf("%s-%s", words[len(words)-2], words[len(words)-1]), nil

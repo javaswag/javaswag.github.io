@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-go@v3
         with:
           go-version: '>=1.17.0'
-      - run: cd exporter && go install && go run main.go
+      - run: go run exporter/main.go
 
       - name: Install npm packages
         run: npm install 
