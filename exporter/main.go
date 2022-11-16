@@ -128,7 +128,7 @@ func (d AudioList) Swap(i, j int) {
 
 func main() {
 
-	rootDir, _ := filepath.Abs(filepath.Join("./"))
+	rootDir, _ := filepath.Abs(filepath.Join("."))
 
 	soundcloudRssUrl := "http://feeds.soundcloud.com/users/soundcloud:users:656797185/sounds.rss"
 	episodeDir := filepath.Join(rootDir, "/content/episode/")
