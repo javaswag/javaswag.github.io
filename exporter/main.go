@@ -128,7 +128,10 @@ func (d AudioList) Swap(i, j int) {
 
 func main() {
 
-	rootDir, _ := filepath.Abs(filepath.Join("."))
+	rootDir, err := os.Getwd()
+	if err != nil {
+		panic(err)
+	}
 
 	soundcloudRssUrl := "http://feeds.soundcloud.com/users/soundcloud:users:656797185/sounds.rss"
 	episodeDir := filepath.Join(rootDir, "/content/episode/")
@@ -140,7 +143,7 @@ func main() {
 
 	audioList := fetchAudioList(audioS3Url)
 
-	rss := fetchSoundcloudRss(filepath.Join(rootDir, "docs", "soundcloud.xml"), soundcloudRssUrl)
+	rss := fetchSoundcloudRss(filepath.Join(rootDir, "/docs", "soundcloud.xml"), soundcloudRssUrl)
 
 	episodes := []Episode{}
 
