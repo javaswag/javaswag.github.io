@@ -42,22 +42,14 @@
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         <link>{{ .Permalink }}</link>
         <itunes:duration>{{ .Params.Duration }}</itunes:duration>
-        {{ with .Site.Author.email }}
-          <author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>
-        {{end}}
+        <itunes:author>{{ .Params.ItunesAuthor }}</itunes:author>
         
         <itunes:explicit>no</itunes:explicit>
-        <itunes:summary>{{ .Content }}</itunes:summary> <!-- {{ .Content | html }} -->
-        <itunes:subtitle>{{ .Summary | plainify }}</itunes:subtitle> <!-- {{ .Summary | html }} --> 
-
+        <itunes:summary>{{ .Content | plainify}}</itunes:summary> <!-- {{ .Content | html }} -->
+        {{$subtitle := .Content | plainify}}<itunes:subtitle>{{ substr $subtitle 0 50}}...</itunes:subtitle> <!-- {{ .Summary | html }} --> 
         <description>{{ .Content | plainify}}</description> <!-- {{ .Content | html }} -->
-        {{$audio_name := .Params.Audio}}
-
-        {{range $xml_data.Contents}}
-          {{if eq .Key $audio_name}} 
-            <enclosure url="{{$.Site.Params.yandexS3}}{{ .Key }}" type="audio/mpeg" length="{{ .Size }}"/>
-          {{end}}
-        {{end}}
+        {{$audio_name := .Params.Audio}}{{range $xml_data.Contents}}{{if eq .Key $audio_name}} 
+            <enclosure url="{{$.Site.Params.yandexS3}}{{ .Key }}" type="audio/mpeg" length="{{ .Size }}"/>{{end}}{{end}}
         <itunes:image href="{{ .Site.BaseURL }}/{{ .Params.Image }}" />
       </item>
     {{ end }}
