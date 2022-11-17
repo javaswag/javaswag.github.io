@@ -32,6 +32,7 @@ type Content struct {
 type Audio struct {
 	Number int
 	Name   string
+	Size   string
 }
 
 type AudioList []Audio
@@ -70,15 +71,18 @@ type Item struct {
 const (
 	layoutHeader = `---
 layout: episode
+number: {{ .Number }}
 title: "{{ .Title }}"
 date: {{ .Date }}
 people:
   - volyx
   - {{ .Guest}}
 audio: {{ .Audio}}
+size: {{ .Size }}
 guid: {{ .Guid }}
 image: images/logo.png
 description: {{ .Description }}
+duration: {{ .Duration }}
 draft: false
 ---
 
@@ -96,7 +100,9 @@ type Episode struct {
 	Guid        string
 	Guest       string
 	Audio       string
+	Size        string
 	Description string
+	Duration    string
 	Content     string
 }
 
@@ -151,26 +157,39 @@ func main() {
 
 	for i := 0; i < len(rss.Channel.Items); i++ {
 		item := rss.Channel.Items[i]
-		number, _ := getNumber(item.Title)
-		t, err := time.Parse(dateFormat, item.PubDate)
+		number, err := getNumber(item.Title)
+		if err != nil {
+			panic(err)
+		}
+		var t time.Time
+		t, err = time.Parse(dateFormat, item.PubDate)
 		if err != nil {
 			panic(err)
 		}
 		if len(audioList) <= number {
 			panic(fmt.Sprintf("could not find audio for index %d", number))
 		}
-		guest, _ := getGuestName(audioList[number].Name)
-
+		var guest string
+		guest, err = getGuestName(audioList[number].Name)
+		if err != nil {
+			panic(err)
+		}
 		htmlContent := strings.ReplaceAll(item.Description, "\n", "\n\n")
+
+		if audioList[number].Number != number {
+			panic("numers do not match")
+		}
 
 		episode := Episode{
 			Number:      number,
 			Title:       item.Title,
-			Date:        t.Format("2006-01-02"),
+			Date:        t.Format("2006-01-02 15:04:05"),
 			Guid:        item.Guid,
 			Guest:       guest,
 			Audio:       audioList[number].Name,
+			Size:        audioList[number].Size,
 			Description: item.Title,
+			Duration:    item.Duration,
 			Content:     htmlContent,
 		}
 		episodes = append(episodes, episode)
@@ -213,7 +232,8 @@ func main() {
 	}
 
 	if isHugo {
-		stdout, err := exec.Command("hugo").Output(); if err != nil {
+		stdout, err := exec.Command("hugo").Output()
+		if err != nil {
 			fmt.Println(err.Error())
 			panic(err)
 		}
@@ -289,11 +309,13 @@ func fetchAudioList(audioS3Url string) []Audio {
 		audio := Audio{
 			Number: audioNumber,
 			Name:   content.Key,
+			Size:   content.Size,
 		}
 		audioList = append(audioList, audio)
 	}
 
 	sort.Sort(AudioList(audioList))
+
 	return audioList
 }
 

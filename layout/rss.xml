@@ -1,57 +1,42 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/">
-  <channel>
-
-    {{ $xml_data := resources.GetRemote "https://storage.yandexcloud.net/javaswag/?list-type" | transform.Unmarshal }}
-
-    <title>{{ .Site.Params.Title}}</title>
-    <link>{{ .Permalink }}</link>
-    <pubDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" .Lastmod | safeHTML }}</pubDate>
-    <lastBuildDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" now.Unix | safeHTML }}</lastBuildDate>
-    <ttl>60</ttl>
-    {{ with .Site.LanguageCode }}
-      <language>{{.}}</language>
-    {{end}}
-    <copyright>All rights reserved</copyright>
-    <webMaster>{{ .Site.Params.AuthorEmail }} ({{ .Site.Title }} Feeds)</webMaster>
-    <description>{{ .Site.Params.Desc }}</description>
-    <itunes:subtitle>{{ .Site.Params.Desc }}</itunes:subtitle>
-    <itunes:owner>
-      <itunes:name>{{ .Site.Params.Author }}</itunes:name>
-      <itunes:email>{{ .Site.Params.AuthorEmail }}</itunes:email>
-    </itunes:owner>
-    <itunes:author>{{ .Site.Params.Title}}</itunes:author>
-    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
-    
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="{{ .Site.BaseURL }}/img/logo.png" />
-     <image>
-        <url>{{ .Site.BaseURL }}/img/logo.png</url>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
         <title>{{ .Site.Params.Title}}</title>
-        <link>{{ .Site.Params.Telegram}}</link>
-      </image>
-    <itunes:keywords>java,podcast</itunes:keywords>
-    
-    <itunes:summary>{{ .Site.Params.Summary }}</itunes:summary>
-    <itunes:category text="Technology"></itunes:category>
- 
-    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
-    {{ range .Site.RegularPages }}
-      <item>
-        <guid isPermaLink="false">{{ .Params.Guid }}</guid>
-        <title>{{ .Title }}</title>
-        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         <link>{{ .Permalink }}</link>
-        <itunes:duration>{{ .Params.Duration }}</itunes:duration>
-        <itunes:author>{{ .Params.ItunesAuthor }}</itunes:author>
-        
+        <pubDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" .Lastmod | safeHTML }}</pubDate>
+        <lastBuildDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" now.Unix | safeHTML }}</lastBuildDate>
+        <ttl>60</ttl>{{ with .Site.LanguageCode }}
+        <language>{{.}}</language>{{end}}
+        <copyright>All rights reserved</copyright>
+        <webMaster>{{ .Site.Params.AuthorEmail }} ({{ .Site.Title }} Feeds)</webMaster>
+        <description>{{ .Site.Params.Desc }}</description>
+        <itunes:subtitle>{{ .Site.Params.Desc }}</itunes:subtitle>
+        <itunes:owner>
+          <itunes:name>{{ .Site.Params.ItunesName }}</itunes:name>
+          <itunes:email>{{ .Site.Params.AuthorEmail }}</itunes:email>
+        </itunes:owner>
+        <itunes:author>{{ .Site.Params.Title}}</itunes:author><!-- <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category> -->
         <itunes:explicit>no</itunes:explicit>
-        <itunes:summary>{{ .Content | plainify}}</itunes:summary> <!-- {{ .Content | html }} -->
-        {{$subtitle := .Content | plainify}}<itunes:subtitle>{{ substr $subtitle 0 50}}...</itunes:subtitle> <!-- {{ .Summary | html }} --> 
-        <description>{{ .Content | plainify}}</description> <!-- {{ .Content | html }} -->
-        {{$audio_name := .Params.Audio}}{{range $xml_data.Contents}}{{if eq .Key $audio_name}} 
-            <enclosure url="{{$.Site.Params.yandexS3}}{{ .Key }}" type="audio/mpeg" length="{{ .Size }}"/>{{end}}{{end}}
-        <itunes:image href="{{ .Site.BaseURL }}/{{ .Params.Image }}" />
-      </item>
-    {{ end }}
-  </channel>
+        <itunes:image href="{{ .Site.BaseURL }}/img/logo.png" />
+         <image>
+            <url>{{ .Site.BaseURL }}/img/logo.png</url>
+            <title>{{ .Site.Params.Title}}</title>
+            <link>{{ .Site.Params.Telegram}}</link>
+          </image>
+        <itunes:category text="Technology"></itunes:category>{{ range .Site.RegularPages }}
+          <item>
+      <guid isPermaLink="false">{{ .Params.Guid }}</guid>
+      <title>{{ .Title }}</title>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <link>{{ .Permalink }}</link>
+      <itunes:duration>{{ .Params.Duration }}</itunes:duration>
+      <itunes:author>{{ .Site.Params.ItunesAuthor }}</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>{{ .Content | plainify}}</itunes:summary> <!-- {{ .Content | html }} -->
+      {{$subtitle := .Content | plainify}}<itunes:subtitle>{{ substr $subtitle 0 50}}...</itunes:subtitle> <!-- {{ .Summary | html }} --> 
+      <description>{{ .Content | plainify}}</description> <!-- {{ .Content | html }} -->
+      <enclosure url="{{$.Site.Params.yandexS3}}{{ .Params.Audio }}" type="audio/mpeg" length="{{ .Params.Size }}"/>
+      <itunes:image href="{{ .Site.BaseURL }}/{{ .Params.Image }}" />
+    </item>
+        {{ end }}
+      </channel>
 </rss>
