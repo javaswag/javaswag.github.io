@@ -188,7 +188,7 @@ func main() {
 			Guest:       guest,
 			Audio:       audioList[number].Name,
 			Size:        audioList[number].Size,
-			Description: item.Title,
+			Description: strings.Split(htmlContent, "\n")[0],
 			Duration:    item.Duration,
 			Content:     htmlContent,
 		}
