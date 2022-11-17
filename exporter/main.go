@@ -320,7 +320,6 @@ func fetchAudioList(audioS3Url string) []Audio {
 }
 
 func getGuestName(audio string) (string, error) {
-	fmt.Println("audio", audio)
 	parts := strings.Split(audio, ".")
 	words := strings.Split(parts[0], "-")
 	return fmt.Sprintf("%s-%s", words[len(words)-2], words[len(words)-1]), nil
