@@ -6,11 +6,11 @@
         [0m<title>javaswag</title>[31m
         [0m<link>https://[31mt.me/[0mjavaswag[32m.github.io/[0m</link>[31m
         [0m<pubDate>[31mSat[0m[32mFri[0m, [31m05[0m[32m11[0m Nov 2022 1[31m1:1[0m3:[31m3[0m[32m05:1[0m3 +0000</pubDate>[31m
-        [0m<lastBuildDate>Sat, [31m05[0m[32m19[0m Nov 2022 1[31m1[0m[32m2[0m:[31m13[0m[32m24[0m:[31m33[0m[32m01[0m +0000</lastBuildDate>[31m
+        [0m<lastBuildDate>Sat, [31m05[0m[32m19[0m Nov 2022 1[31m1[0m[32m2[0m:[31m1[0m3[32m6[0m:[31m33[0m[32m44[0m +0000</lastBuildDate>[31m
         [0m<ttl>60</ttl>[31m
         [0m<language>ru</language>[31m
         [0m<copyright>All rights reserved</copyright>[31m
-        [0m<webMaster>[31mfeeds@s[0m[32mv[0mo[31mu[0m[32mlyihin@ya[0mnd[31mclo[0m[32mex.r[0mu[31md.com[0m ([31mSoundCloud[0m[32mJavaswag[0m Feeds)</webMaster>[31m
+        [0m<webMaster>[31mfeeds@s[0m[32mv[0mo[31mundc[0ml[31mou[0m[32myihin@yan[0md[32mex[0m.[31mcom[0m[32mru[0m ([31mSoundCloud[0m[32mJavaswag[0m Feeds)</webMaster>[31m
         [0m<description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description>[31m
         [0m<itunes:subtitle>Подкаст о разработке на Java. Все то, о чем вы бо[31m…[0m[32mялись спросить в кулуарах.[0m</itunes:subtitle>[31m
         [0m<itunes:owner>[31m
@@ -19,9 +19,9 @@
         [0m</itunes:owner>[31m
         [0m<itunes:author>javaswag</itunes:author>[31m
         [0m<itunes:explicit>no</itunes:explicit>[31m
-        [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0mg[31m-[0m[32m/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
+        [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-[0m[32mwag.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0mg[31m-[0m[32m/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
         [0m<image>[31m
-          [0m<url>https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0mg[31m-[0m[32m/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg</url>[31m
+          [0m<url>https://[31mi1.sndcdn.com/[0m[32mj[0mava[32mswag.gi[0mt[31mars-[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0mg[31m-[0m[32m/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg</url>[31m
           [0m<title>javaswag</title>[31m
           [0m<link>https://t.me/javaswag</link>[31m
         [0m</image>[31m
@@ -30,13 +30,13 @@
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1376966872</guid>[31m
       [0m<title>#36 - Владимир Иванов - мобильная архитектура, развитие в архитектора/стафф инженера</title>[31m
       [0m<pubDate>Fri, 11 Nov 2022 13:05:13 +0000</pubDate>[31m
-      [0m<link>https:/[31m/soundcloud.com[0m/javaswag[32m.github.io[0m/e[32mpisode/[0m36[32m/[0m</link>[31m
+      [0m<link>https://[31msoundcloud.com/[0mjavaswag[32m.github.io[0m/e[32mpisode/[0m36[32m/[0m</link>[31m
       [0m<itunes:duration>01:34:26</itunes:duration>[31m
       [0m<itunes:author>javaswag</itunes:author>[31m
       [0m<itunes:explicit>no</itunes:explicit>[31m
-      [0m<itunes:summary>В 36 выпуске подкаста Javaswag поговорили с Владимиром Ивановым об архитектуре мобильных приложений и развитии в архитектора/стафф инженера[31m
-[0m
-00:01:44 О себе[31m     [0m
+      [0m<itunes:summary>В 36 выпуске подкаста Javaswag поговорили с Владимиром Ивановым об архитектуре мобильных приложений и развитии в архитектора/стафф инженера
+[31m
+[0m00:01:44 О себе[31m     [0m
 00:03:24 Мобильная разработка - прошлое[31m     [0m
 00:10:02 Приложение можно сделать вдвоем[31m     [0m
 00:14:52 Архитектура MVP/MVVM/ReactNative[31m     [0m
@@ -54,11 +54,11 @@
 
 [0mСсылки от гостя[31m
 [0m
-Блог https://vvsevolodovich.dev
-[31m
-[0mТелеграм - https://t.me/architectureweekly[31m
+Блог https://vvsevolodovich.dev[31m
 [0m
-Youtube https://www.youtube.com/channel/UCj63tJ08IWZDwzfbC-2z-aQ/featured[31m
+Телеграм - https://t.me/architectureweekly
+[31m
+[0mYoutube https://www.youtube.com/channel/UCj63tJ08IWZDwzfbC-2z-aQ/featured[31m
 [0m
 Continuous Learning: How to Keep Up with Progress https://www.youtube.com/watch?v=EdAxn5q-Hoo
 Профессия: Solution Architect https://www.youtube.com/watch?v=aRBSmzcAVfE
@@ -93,9 +93,9 @@ Continuous Learning: How to Keep Up with Progress https://www.youtube.com/watch?
 [31m
 [0mТелеграм - https://t.me/architectureweekly[31m
 [0m
-Youtube https://www.youtube.com/channel/UCj63tJ08IWZDwzfbC-2z-aQ/featured[31m
-[0m
-Continuous Learning: How to Keep Up with Progress https://www.youtube.com/watch?v=EdAxn5q-Hoo
+Youtube https://www.youtube.com/channel/UCj63tJ08IWZDwzfbC-2z-aQ/featured
+[31m
+[0mContinuous Learning: How to Keep Up with Progress https://www.youtube.com/watch?v=EdAxn5q-Hoo
 Профессия: Solution Architect https://www.youtube.com/watch?v=aRBSmzcAVfE
 Жизнь без подключения: от хаоса к консенсусу https://www.youtube.com/watch?v=mlkpf-TP9wQ
 Что мобильным разработчикам в IT-индустрии неведомо https://www.youtube.com/watch?v=fXz2YQZyG3o
@@ -103,7 +103,7 @@ Continuous Learning: How to Keep Up with Progress https://www.youtube.com/watch?
 [0mГость - https://twitter.com/vvsevolodovich
 [31m
 [0mКип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/redirect.mp3/fe[0m[32mg[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m3[31m7[0m6[31m966872[0m-javaswag-[31me36[0m[32mvladimir-ivanov[0m.mp3" [32mtype="audio/mpeg" [0mlength="113333205"/>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/redirect.mp3/fe[0m[32mg[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m3[31m7696[0m6[31m872[0m-javaswag-[31me36[0m[32mvladimir-ivanov[0m.mp3" [32mtype="audio/mpeg" [0mlength="113333205"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[32mswag.gi[0mt[31mars-[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1368587629</guid>[31m
@@ -113,7 +113,37 @@ Continuous Learning: How to Keep Up with Progress https://www.youtube.com/watch?
       [0m<itunes:duration>01:50:04</itunes:duration>[31m
       [0m<itunes:author>javaswag</itunes:author>[31m
       [0m<itunes:explicit>no</itunes:explicit>[31m
-      [0m<itunes:summary>В 35 выпуске подкаста Javaswag поговорили с Алексеем Рагозиным о распределенных кэшах, сборке мусора и профилировании приложений
+      [0m<itunes:summary>В 35 выпуске подкаста Javaswag поговорили с Алексеем Рагозиным о распределенных кэшах, сборке мусора и профилировании приложений[31m
+[0m
+00:01:59 О себе
+00:07:16 Сборщики мусора
+00:13:25 Куда делись распределенные кэши?
+00:20:14 Отказоустойчивость
+00:23:14 Что с Oracle Coherence, Hazelcast, GridGain
+00:27:44 Индустрия ушла в ивент стриминг
+00:30:25 Ретроспектива сборщиков мусора в Джаве
+00:42:13 Тюнинг сборщика мусора
+00:53:15 Джава и контейнеры
+01:01:06 Профилировщики
+01:28:16 Сейфпонты и сисколы
+01:32:36 Работы джава консультантом
+01:38:43 Будущее профайлеров[31m
+[0m
+Ссылки от гостя
+[31m
+[0mБлог - https://blog.ragozin.info/[31m [0m
+Эвенты - https://aragozin.timepad.ru/[31m [0m
+Профайлер - https://github.com/aragozin/jvm-tools
+Cборка мусора в Java без пауз - https://www.youtube.com/watch?v=n89CZS0u6dY
+Мастер-класс по Java Mission Control - https://www.youtube.com/watch?v=wm2JNlaJJ5k
+Java и Linux — особенности эксплуатации - https://www.youtube.com/watch?v=HVVsjyVxcJ8
+Мастер-класс: Новые и старые возможности Java Flight Recorder в OpenJDK 11 - https://www.youtube.com/watch?v=skNOBoazKPI
+[31m
+[0mГость - https://blog.ragozin.info/
+[31m
+[0mКип сейф! 🖖</itunes:summary>[31m
+      [0m<itunes:subtitle>В 35 выпуске подкаста Javaswag поговорили с Алекс[31m…[0m[32mе...[0m</itunes:subtitle>[31m
+      [0m<description>В 35 выпуске подкаста Javaswag поговорили с Алексеем Рагозиным о распределенных кэшах, сборке мусора и профилировании приложений
 [31m
 [0m00:01:59 О себе
 00:07:16 Сборщики мусора
@@ -141,39 +171,9 @@ Java и Linux — особенности эксплуатации - https://www.
 [31m
 [0mГость - https://blog.ragozin.info/
 [31m
-[0mКип сейф! 🖖</itunes:summary>[31m
-      [0m<itunes:subtitle>В 35 выпуске подкаста Javaswag поговорили с Алекс[31m…[0m[32mе...[0m</itunes:subtitle>[31m
-      [0m<description>В 35 выпуске подкаста Javaswag поговорили с Алексеем Рагозиным о распределенных кэшах, сборке мусора и профилировании приложений[31m
-[0m
-00:01:59 О себе
-00:07:16 Сборщики мусора
-00:13:25 Куда делись распределенные кэши?
-00:20:14 Отказоустойчивость
-00:23:14 Что с Oracle Coherence, Hazelcast, GridGain
-00:27:44 Индустрия ушла в ивент стриминг
-00:30:25 Ретроспектива сборщиков мусора в Джаве
-00:42:13 Тюнинг сборщика мусора
-00:53:15 Джава и контейнеры
-01:01:06 Профилировщики
-01:28:16 Сейфпонты и сисколы
-01:32:36 Работы джава консультантом
-01:38:43 Будущее профайлеров[31m
-[0m
-Ссылки от гостя
-[31m
-[0mБлог - https://blog.ragozin.info/[31m [0m
-Эвенты - https://aragozin.timepad.ru/[31m [0m
-Профайлер - https://github.com/aragozin/jvm-tools
-Cборка мусора в Java без пауз - https://www.youtube.com/watch?v=n89CZS0u6dY
-Мастер-класс по Java Mission Control - https://www.youtube.com/watch?v=wm2JNlaJJ5k
-Java и Linux — особенности эксплуатации - https://www.youtube.com/watch?v=HVVsjyVxcJ8
-Мастер-класс: Новые и старые возможности Java Flight Recorder в OpenJDK 11 - https://www.youtube.com/watch?v=skNOBoazKPI[31m
-[0m
-Гость - https://blog.ragozin.info/
-[31m
 [0mКип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medirect.mp3/fe[0m[32mag[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m3[31m68[0m5[31m87629[0m-javaswag-[32mal[0me[31m35[0m[32mxei-ragozin[0m.mp3" [32mtype="audio/mpeg" [0mlength="132087033"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-[0m[32mwag.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medirect.mp3/fe[0m[32mag[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m3[31m68[0m5[31m87629[0m-javaswag-[32malex[0me[31m35[0m[32mi-ragozin[0m.mp3" [32mtype="audio/mpeg" [0mlength="132087033"/>[31m
+      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwa[0mg[31m-ori[0m[32m.[0mgi[31mn[0m[32mthub.io/im[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1359200659</guid>[31m
       [0m<title>#34 - Андрей Сундуков - из PHP в Java, чистый код и собеседования</title>[31m
@@ -182,9 +182,34 @@ Java и Linux — особенности эксплуатации - https://www.
       [0m<itunes:duration>01:34:26</itunes:duration>[31m
       [0m<itunes:author>javaswag</itunes:author>[31m
       [0m<itunes:explicit>no</itunes:explicit>[31m
-      [0m<itunes:summary>В 34 выпуске подкаста Javaswag поговорили с Андреем Сундуковым о переходе c PHP на Java, чистом коде и о собеседованиях
+      [0m<itunes:summary>В 34 выпуске подкаста Javaswag поговорили с Андреем Сундуковым о переходе c PHP на Java, чистом коде и о собеседованиях[31m
+[0m
+00:00:09 Инженер дата-центра
+00:02:54 Из PHP в Java[31m	 [0m
+00:08:16 Что хорошего в Java с точки зрения PHP[31m	 [0m
+00:11:58 PHP же тоже можно писать читаемый код[31m 	 [0m
+00:17:15 Зачем писать чистый код[31m	 [0m
+00:33:39 Clean Code 2.0[31m	 [0m
+00:42:04 Простая 300 строчная функция против чистого кода[31m	 [0m
+00:49:03 Договорились писать &[32mamp;ld[0mquo[31mt[0m;чистый код&[32mamp;rd[0mquo[31mt[0m;, что дальше?[31m	 [0m
+00:58:28 Спринг мотивируют писать чистый код[31m	 [0m
+01:04:13 Собеседования, курс From Junior to Middle https://education.dhabits.ru/
+01:07:48 Что должно быть в резюме[31m	 [0m
+01:18:29 Что спрашивают Сеньоров?[31m	 [0m
+01:27:04 Систем дизайн интервью[31m	 [0m
+01:32:38 Канал https://t.me/developers_mind[31m
+[0m
+Ссылки от гостя
 [31m
-[0m00:00:09 Инженер дата-центра
+[0mРазбор резюме на позицию Java Dev https://www.youtube.com/watch?v=nDRXq21B4PI[31m 
+[0m
+Гость - https://t.me/Hcd5opza9bdcjid26fg[31m
+[0m
+Кип сейф! 🖖</itunes:summary>[31m
+      [0m<itunes:subtitle>В 34 выпуске подкаста Javaswag поговорили с Андре[31m…[0m[32mе...[0m</itunes:subtitle>[31m
+      [0m<description>В 34 выпуске подкаста Javaswag поговорили с Андреем Сундуковым о переходе c PHP на Java, чистом коде и о собеседованиях[31m
+[0m
+00:00:09 Инженер дата-центра
 00:02:54 Из PHP в Java[31m	 [0m
 00:08:16 Что хорошего в Java с точки зрения PHP[31m	 [0m
 00:11:58 PHP же тоже можно писать читаемый код[31m 	 [0m
@@ -205,34 +230,9 @@ Java и Linux — особенности эксплуатации - https://www.
 [0m
 Гость - https://t.me/Hcd5opza9bdcjid26fg
 [31m
-[0mКип сейф! 🖖</itunes:summary>[31m
-      [0m<itunes:subtitle>В 34 выпуске подкаста Javaswag поговорили с Андре[31m…[0m[32mе...[0m</itunes:subtitle>[31m
-      [0m<description>В 34 выпуске подкаста Javaswag поговорили с Андреем Сундуковым о переходе c PHP на Java, чистом коде и о собеседованиях
-[31m
-[0m00:00:09 Инженер дата-центра
-00:02:54 Из PHP в Java[31m	 [0m
-00:08:16 Что хорошего в Java с точки зрения PHP[31m	 [0m
-00:11:58 PHP же тоже можно писать читаемый код[31m 	 [0m
-00:17:15 Зачем писать чистый код[31m	 [0m
-00:33:39 Clean Code 2.0[31m	 [0m
-00:42:04 Простая 300 строчная функция против чистого кода[31m	 [0m
-00:49:03 Договорились писать &[32mamp;ld[0mquo[31mt[0m;чистый код&[32mamp;rd[0mquo[31mt[0m;, что дальше?[31m	 [0m
-00:58:28 Спринг мотивируют писать чистый код[31m	 [0m
-01:04:13 Собеседования, курс From Junior to Middle https://education.dhabits.ru/
-01:07:48 Что должно быть в резюме[31m	 [0m
-01:18:29 Что спрашивают Сеньоров?[31m	 [0m
-01:27:04 Систем дизайн интервью[31m	 [0m
-01:32:38 Канал https://t.me/developers_mind[31m
-[0m
-Ссылки от гостя
-[31m
-[0mРазбор резюме на позицию Java Dev https://www.youtube.com/watch?v=nDRXq21B4PI[31m 
-[0m
-Гость - https://t.me/Hcd5opza9bdcjid26fg
-[31m
 [0mКип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[32mag[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m3[31m59200659[0m[32m4[0m-javaswag-[32mandr[0me[31m34[0m[32my-sundukov-loud[0m.mp3" [32mtype="audio/mpeg" [0mlength="113333728"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-[0m[32mwag.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m3[31m59200659[0m[32m4[0m-javaswag-[32mandr[0me[31m34[0m[32my-sundukov-loud[0m.mp3" [32mtype="audio/mpeg" [0mlength="113333728"/>[31m
+      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwa[0mg[31m-ori[0m[32m.[0mgi[31mn[0m[32mthub.io/im[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1336978246</guid>[31m
       [0m<title>#33 - Алексей Генус - архитектура нео-банка и время</title>[31m
@@ -338,8 +338,8 @@ Bloomberg рассказывает о 2016-м https://data.bloomberglp.com/profe
 [0mГость - https://www.linkedin.com/in/alexey-g-12a92333/
 [31m
 [0mКип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[32mag[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m33[31m6978246[0m-javaswag-[32malex[0me[31m33[0m[32my-genus[0m.mp3[32m" type="audio/mpeg[0m" length="163383294"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQenmJZyBXHdE1r3-4rqAqg-or[0m[32mub.[0mi[31mg[0m[32mo/[0mi[31mn[0m[32mm[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
+      [0m<enclosure[31m type="audio/mpeg"[0m url="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[32mag[0me[31mdirect.mp3/feeds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m33[31m6978246[0m-javaswag-[32mal[0me[31m33[0m[32mxey-genus[0m.mp3" [32mtype="audio/mpeg" [0mlength="163383294"/>[31m
+      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-[0m[32mwag.git[0mh[31mQenmJZyBXHdE1r3-4rqAqg-[0m[32mub.i[0mo[31mrig[0m[32m/[0mi[31mn[0m[32mm[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1332425005</guid>[31m
       [0m<title>#32 - Александр Ланцов - алготрейдинг, кванты и почему Java</title>[31m
@@ -367,11 +367,11 @@ Bloomberg рассказывает о 2016-м https://data.bloomberglp.com/profe
 01:12:09 Пригодилось ли финансовое образование
 01:14:54 Финансовые модели[31m	 [0m
 01:24:29 Логгинг в трейдинге[31m	 [0m
-01:25:31 Планы на будущее. ГраалВМ или Джава 18[31m
-[0m
-Ссылки от гостя:
+01:25:31 Планы на будущее. ГраалВМ или Джава 18
 [31m
-[0mТрейдинг и инвестиции с Александром Ланцовым - https://youtu.be/MU4OcFI3vok
+[0mСсылки от гостя:[31m
+[0m
+Трейдинг и инвестиции с Александром Ланцовым - https://youtu.be/MU4OcFI3vok
 How to design Low Latency Microservices - https://www.youtube.com/watch?v=R828U7xUggk
 Микросервисы, отвечающие за несколько микросекунд — друзья и враги https://www.youtube.com/watch?v=QV-ue1YMdds
 Aeron Cookbook [31m [0mhttps://aeroncookbook.com/[31m
@@ -380,9 +380,9 @@ Aeron Cookbook [31m [0mhttps://aeroncookbook.com/[31m
 Физики и лирики в финансах https://www.youtube.com/watch?v=Hfvi17EZkvY[31m
 [0m
 В зеркале супермоделей. Рассказы о моделях в финансовой экономике.
-https://naukabooks.ru/knigi/katalog/v-zerkale-supermodeley-rasskazy-o-modelyakh-v-finansovoy-ekonomike-v-2-kn/
-[31m
-[0mПроизводные Нуля: Дневник Структуратора
+https://naukabooks.ru/knigi/katalog/v-zerkale-supermodeley-rasskazy-o-modelyakh-v-finansovoy-ekonomike-v-2-kn/[31m
+[0m
+Производные Нуля: Дневник Структуратора
 https://www.livelib.ru/book/1000655346-proizvodnye-nulya-dnevnik-strukturatora-vlad-goryachev
 [31m
 [0mГость - https://www.linkedin.com/in/alantsov/
@@ -418,19 +418,19 @@ How to design Low Latency Microservices - https://www.youtube.com/watch?v=R828U7
 Aeron Cookbook [31m [0mhttps://aeroncookbook.com/[31m
 [0m
 Центр математических финансов https://vk.com/cmf_russia
-Физики и лирики в финансах https://www.youtube.com/watch?v=Hfvi17EZkvY
-[31m
-[0mВ зеркале супермоделей. Рассказы о моделях в финансовой экономике.
-https://naukabooks.ru/knigi/katalog/v-zerkale-supermodeley-rasskazy-o-modelyakh-v-finansovoy-ekonomike-v-2-kn/[31m
+Физики и лирики в финансах https://www.youtube.com/watch?v=Hfvi17EZkvY[31m
 [0m
-Производные Нуля: Дневник Структуратора
+В зеркале супермоделей. Рассказы о моделях в финансовой экономике.
+https://naukabooks.ru/knigi/katalog/v-zerkale-supermodeley-rasskazy-o-modelyakh-v-finansovoy-ekonomike-v-2-kn/
+[31m
+[0mПроизводные Нуля: Дневник Структуратора
 https://www.livelib.ru/book/1000655346-proizvodnye-nulya-dnevnik-strukturatora-vlad-goryachev
 [31m
-[0mГость - https://www.linkedin.com/in/alantsov/[31m
-[0m
-Кип сейф! 🖖</description>[31m
+[0mГость - https://www.linkedin.com/in/alantsov/
+[31m
+[0mКип сейф! 🖖</description>[31m
       [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medirect.mp3/fe[0m[32mag[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom/str[0m[32mn[0me[31mam[0m[32mt[0m/[31m1332425005-[0mjavaswag[32m/32[0m-[32mal[0me[32mxander-lancov-[0m3[31m2[0m.mp3" [32mtype="audio/mpeg" [0mlength="110708421"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
+      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-[0m[32mwag.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1317247360</guid>[31m
       [0m<title>#31 - Антон Батяев - многоликий финтех, MBA и переход в продукт оунера</title>[31m
@@ -454,11 +454,11 @@ https://www.livelib.ru/book/1000655346-proizvodnye-nulya-dnevnik-strukturatora-v
 01:09:33 Технический/Бизнес бэкграунд продукт оунера
 01:20:29 Бест практисы финтеха: CI/CD/QA
 01:27:12 Onboarding
-01:31:09 Архитектура CQRS
-[31m 
-[0mСсылки от гостя:[31m
-[0m
-Сайт: batiaev.com/[31m
+01:31:09 Архитектура CQRS[31m
+ [0m
+Ссылки от гостя:
+[31m
+[0mСайт: batiaev.com/[31m
 [0m
 Финансовая математика для финтеха - https://www.youtube.com/playlist?list=PLwjJEuRWaJcIetm_s-qvqIy2_6l3YF7Qa
 Современный валютный рынок - https://habr.com/ru/company/dbtc/blog/467415/
@@ -473,9 +473,9 @@ Event streaming Revolut Way - https://medium.com/revolut/event-streaming-the-rev
 [31m
 [0mКип сейф! 🖖</itunes:summary>[31m
       [0m<itunes:subtitle>В 31 выпуске подкаста Javaswag поговорили с Антон[31m…[0m[32mо...[0m</itunes:subtitle>[31m
-      [0m<description>В 31 выпуске подкаста Javaswag поговорили с Антоном Батяевым о финтехе, MBA и переходе в продукт оунера
-[31m
-[0m00:01:42 В чем специфика Финтеха? Что отличает от других проектов?
+      [0m<description>В 31 выпуске подкаста Javaswag поговорили с Антоном Батяевым о финтехе, MBA и переходе в продукт оунера[31m
+[0m
+00:01:42 В чем специфика Финтеха? Что отличает от других проектов?
 00:05:15 Финансовая математика на Java
 00:08:17 Терминология в финтехе - деривативы, фьючерсы, опционы, свопы, риск менеджмент
 00:20:46 Типовая архитектура финтех проекта
@@ -490,11 +490,11 @@ Event streaming Revolut Way - https://medium.com/revolut/event-streaming-the-rev
 01:27:12 Onboarding
 01:31:09 Архитектура CQRS
 [31m 
-[0mСсылки от гостя:[31m
-[0m
-Сайт: batiaev.com/
+[0mСсылки от гостя:
 [31m
-[0mФинансовая математика для финтеха - https://www.youtube.com/playlist?list=PLwjJEuRWaJcIetm_s-qvqIy2_6l3YF7Qa
+[0mСайт: batiaev.com/[31m
+[0m
+Финансовая математика для финтеха - https://www.youtube.com/playlist?list=PLwjJEuRWaJcIetm_s-qvqIy2_6l3YF7Qa
 Современный валютный рынок - https://habr.com/ru/company/dbtc/blog/467415/
 Матчинг ордеров на Java - https://github.com/fintecy/exchange-core
 Маркет дата коннекторы - https://github.com/fintecy/connectors
@@ -503,10 +503,10 @@ CQRS и Event Sourcing от Мартина Томпсона - https://www.youtub
 Event streaming Revolut Way - https://medium.com/revolut/event-streaming-the-revolut-way-9d928005ddf7
 Вакансии https://jobs.lever.co/revolut/530d3bfd-bdca-4390-8f8a-bc88ddc1eb51
 [31m
-[0mГость - https://github.com/batiaev[31m
-[0m
-Кип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medirect.mp3/fe[0m[32mag[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom/str[0m[32mn[0me[31mam[0m[32mt[0m/[31m1317247360-[0mjavaswag[32m/31-anton[0m-[32mbatya[0me[31m31[0m[32mv[0m.mp3" [32mtype="audio/mpeg" [0mlength="123736209"/>[31m
+[0mГость - https://github.com/batiaev
+[31m
+[0mКип сейф! 🖖</description>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medirect.mp3/fe[0m[32mag[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom/str[0m[32mn[0me[31mam[0m[32mt[0m/[31m1317247360-[0mjavaswag[32m/31[0m-[32manton-batya[0me[31m31[0m[32mv[0m.mp3" [32mtype="audio/mpeg" [0mlength="123736209"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1294248001</guid>[31m
@@ -579,11 +579,11 @@ Event streaming Revolut Way - https://medium.com/revolut/event-streaming-the-rev
 01:43:05 Модель платформы, хранение в бинарном виде в одной колонке, самописные индексы, курсоры
 01:48:28 Курсоры для уменьшения количества памяти
 01:51:09 Спринга нет. Модульность платформы
-01:55:55 Анализ хипдампов. SQL в MAT
-[31m
-[0mСсылки от гостя:[31m
+01:55:55 Анализ хипдампов. SQL в MAT[31m
 [0m
-Сайт: https://toparvion.pro/
+Ссылки от гостя:
+[31m
+[0mСайт: https://toparvion.pro/
 [31m
 [0mДоклад &[32mamp;ld[0mquo[31mt[0m;Инъекция тестовых поведений: как выйти сухим из воды&[32mamp;rd[0mquo[31mt[0m;: https://www.youtube.com/watch?v=2LFKpaZDW20
 Доклад &[32mamp;ld[0mquo[31mt[0m;Spring Boot «fat» JAR: Тонкие части толстого артефакта&[32mamp;rd[0mquo[31mt[0m;: https://www.youtube.com/watch?v=UIHItqpA5as
@@ -653,11 +653,11 @@ DDS (Data Distribution Service) Specification - https://fast-dds.docs.eprosima.c
 01:11:10 C++ и Python и где хранятся данные
 01:15:20 Как выглядит работа беспилотника. Что нужно знать, чтобы перейти в разработку беспилотников
 01:22:10 Медитации и випассана. 10 дневный ретрит молчания
-01:46:10 Что изменилось после 9 дней медитаций[31m
-[0m
-Ссылки от гостя:
+01:46:10 Что изменилось после 9 дней медитаций
 [31m
-[0mOpen Source Autopilot - https://px4.io/
+[0mСсылки от гостя:[31m
+[0m
+Open Source Autopilot - https://px4.io/
 The Robot Operating System (ROS)- https://docs.ros.org/en/foxy/index.html
 Self-Driving Car Engineer - https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013
 DDS (Data Distribution Service) Specification - https://fast-dds.docs.eprosima.com/en/latest/fastdds/library_overview/library_overview.html
@@ -666,7 +666,7 @@ DDS (Data Distribution Service) Specification - https://fast-dds.docs.eprosima.c
 [0mГость - https://t.me/xFirefly
 [31m
 [0mКип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m2[31m80842711[0m[32m9[0m-javaswag-[32marm[0me[31m29[0m[32mn-nanuparov[0m.mp3" [32mtype="audio/mpeg" [0mlength="141776895"/>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medirect.mp3/fe[0m[32mag[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m2[31m80842711[0m[32m9[0m-javaswag-[32marm[0me[31m29[0m[32mn-nanuparov[0m.mp3" [32mtype="audio/mpeg" [0mlength="141776895"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwa[0mg[31m-ori[0m[32m.[0mgi[31mn[0m[32mthub.io/im[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1277422162</guid>[31m
@@ -713,15 +713,15 @@ PR - https://github.com/apache/avro/pull/1584
 Криу - https://criu.org/Main_Page
 one-nio - https://github.com/odnoklassniki/one-nio
 https://antiwarcommittee.info/
-их декларация https://ruskd.com/
-[31m
-[0mГость - https://github.com/izemlyanskiy
+их декларация https://ruskd.com/[31m
+[0m
+Гость - https://github.com/izemlyanskiy
 [31m
 [0mКип сейф! 🖖</itunes:summary>[31m
       [0m<itunes:subtitle>В 28 выпуске подкаста Javaswag поговорили с Ивано[31m…[0m[32mм...[0m</itunes:subtitle>[31m
-      [0m<description>В 28 выпуске подкаста Javaswag поговорили с Иваном Землянским о библиотеке Aeron, сериализации и важности DevOps.[31m
-[0m
-00:01:56 О себе
+      [0m<description>В 28 выпуске подкаста Javaswag поговорили с Иваном Землянским о библиотеке Aeron, сериализации и важности DevOps.
+[31m
+[0m00:01:56 О себе
 00:13:56 Типовая платформа для котировок
 00:17:56 Пропускная способность и арбитраж котировок
 00:20:33 Жив ли CQRS
@@ -735,11 +735,11 @@ https://antiwarcommittee.info/
 01:25:55 Перфоманс в Докере - как не надо делать
 01:29:55 Уход в Кубернетис и RTB
 01:40:00 Apache Avro, Apache Kafka, маркетинг Гугла
-01:50:30 Конференции Hydra, JPoint[31m
-[0m
-Ссылки от гостя:
+01:50:30 Конференции Hydra, JPoint
 [31m
-[0mCтатья Тодда про Информатику - https://www.informatica.com/downloads/1568_high_perf_messaging_wp/Topics-in-High-Performance-Messaging.htm
+[0mСсылки от гостя:[31m
+[0m
+Cтатья Тодда про Информатику - https://www.informatica.com/downloads/1568_high_perf_messaging_wp/Topics-in-High-Performance-Messaging.htm
 Youtube Continious Delivery Dave - https://m.youtube.com/c/ContinuousDelivery
 Тот самый патч в Avro.[31m [0m
 Задача https://issues.apache.org/jira/browse/AVRO-3408
@@ -761,13 +761,13 @@ https://antiwarcommittee.info/
 [0mГость - https://github.com/izemlyanskiy
 [31m
 [0mКип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/r[0m[32mg[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m2[31m77422162[0m[32m8[0m-javaswag-[32mivan-z[0me[31m28[0m[32mmplyanskii[0m.mp3" [32mtype="audio/mpeg" [0mlength="153134935"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwa[0mg[31m-ori[0m[32m.[0mgi[31mn[0m[32mthub.io/im[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/redir[0m[32mg[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m2[31m77422162[0m[32m8[0m-javaswag-[32mivan-z[0me[31m28[0m[32mmplyanskii[0m.mp3" [32mtype="audio/mpeg" [0mlength="153134935"/>[31m
+      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwag.[0mg[31m-[0m[32mithub.i[0mo[31mr[0m[32m/[0mi[32mma[0mg[31mina[0m[32mes/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1273027729</guid>[31m
       [0m<title>#27 - Алексей Овсянников - Котлин, Мультиплатформа и TelegramBotAPI</title>[31m
       [0m<pubDate>Mon, 23 May 2022 12:25:27 +0000</pubDate>[31m
-      [0m<link>https://[31msoundcloud.com/[0mjavaswag[32m.github.io[0m/e[32mpisode/[0m27[32m/[0m</link>[31m
+      [0m<link>https:/[31m/soundcloud.com[0m/javaswag[32m.github.io[0m/e[32mpisode/[0m27[32m/[0m</link>[31m
       [0m<itunes:duration>01:11:42</itunes:duration>[31m
       [0m<itunes:author>javaswag</itunes:author>[31m
       [0m<itunes:explicit>no</itunes:explicit>[31m
@@ -786,11 +786,11 @@ https://antiwarcommittee.info/
 00:54:10 Котлин и совместимость
 00:56:50 Что за Compose такой?
 01:01:00 &[32mamp;ld[0mquo[31mt[0m;Почти все мы делаем на Котлине&[32mamp;rd[0mquo[31mt[0m;
-01:09:10 Будущее мультиплатформы
-[31m
-[0mhttps://github.com/InsanusMokrassar/TelegramBotAPI - tgbotapi[31m
+01:09:10 Будущее мультиплатформы[31m
 [0m
-https://github.com/InsanusMokrassar/KotlinMultiplatformProjectTemplate - шаблон мультиплатформенного приложения[31m
+https://github.com/InsanusMokrassar/TelegramBotAPI - tgbotapi
+[31m
+[0mhttps://github.com/InsanusMokrassar/KotlinMultiplatformProjectTemplate - шаблон мультиплатформенного приложения[31m
 [0m
 https://github.com/korlibs/klock - Работа со временем (есть еще https://github.com/Kotlin/kotlinx-datetime , но он был сыроват, когда я его щупал)
 https://github.com/Kotlin/kotlinx.coroutines - корутины (асинхронность)
@@ -834,7 +834,7 @@ https://github.com/JetBrains/compose-jb - тот самый compose jb
 [0mГость - https://github.com/InsanusMokrassar
 [31m
 [0mКип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/redir[0m[32mg[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m12730[0m27[31m729[0m-javaswag-[32mal[0me[31m27[0m[32mxei-ovsyannikov[0m.mp3" [32mtype="audio/mpeg" [0mlength="688[31m4[0m[32m39[0m1[31m220[0m[32m31[0m"/>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[32mo[0mra[31mc.com/r[0m[32mg[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m27[31m3027729[0m-javaswag-[32mal[0me[31m27[0m[32mxei-ovsyannikov[0m.mp3" [32mtype="audio/mpeg" [0mlength="688[31m4[0m[32m39[0m1[31m220[0m[32m31[0m"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[32mswag.gi[0mt[31mars-[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1251780658</guid>[31m
@@ -844,7 +844,33 @@ https://github.com/JetBrains/compose-jb - тот самый compose jb
       [0m<itunes:duration>01:11:21</itunes:duration>[31m
       [0m<itunes:author>javaswag</itunes:author>[31m
       [0m<itunes:explicit>no</itunes:explicit>[31m
-      [0m<itunes:summary>В 26 выпуске подкаста Javaswag поговорили с Максимом Бартковым о библиотеке Bucket4j, евангелизме опенсорса и книге Spring REST[31m
+      [0m<itunes:summary>В 26 выпуске подкаста Javaswag поговорили с Максимом Бартковым о библиотеке Bucket4j, евангелизме опенсорса и книге Spring REST
+[31m
+[0m00:01:35 Bucket4j - зачем нужен рейтлимитинг?
+00:05:56 Виды алгоритмов рейтлимитинга
+00:10:17 Конфигурации и перфоманс, распределенная конфигурация
+00:23:14 Что выбрать Bucket4j, Guava RateLimiter, resilience4j
+00:26:18 Путь в евангелисты
+00:37:22 Разница между девелопер адвокатом и евангелистом. Как померить евангелиста?
+00:43:25 Как написать книгу о Спринге? Что самое сложное?
+00:53:25 Рабочие проекты, проект по выявлению онкологии, хакатон
+01:06:30 Идеальное будущее Bucket4j
+[31m
+[0mBucket4j — https://bucket4j.com/[31m
+[0m
+https://github.com/vladimir-bukhtoyarov/bucket4j
+[31m
+[0mResilience4j - https://resilience4j.readme.io/[31m
+[0m
+Книга Spring REST - https://link.springer.com/book/10.1007/978-1-4842-7477-4#about
+[31m
+[0mhttps://www.onecell.ai[31m
+[0m
+Гость - https://twitter.com/MaximBartkov
+[31m
+[0mКип сейф! 🖖</itunes:summary>[31m
+      [0m<itunes:subtitle>В 26 выпуске подкаста Javaswag поговорили с Макси[31m…[0m[32mм...[0m</itunes:subtitle>[31m
+      [0m<description>В 26 выпуске подкаста Javaswag поговорили с Максимом Бартковым о библиотеке Bucket4j, евангелизме опенсорса и книге Spring REST[31m
 [0m
 00:01:35 Bucket4j - зачем нужен рейтлимитинг?
 00:05:56 Виды алгоритмов рейтлимитинга
@@ -866,36 +892,10 @@ https://github.com/vladimir-bukhtoyarov/bucket4j
 [31m
 [0mhttps://www.onecell.ai[31m
 [0m
-Гость - https://twitter.com/MaximBartkov[31m
-[0m
-Кип сейф! 🖖</itunes:summary>[31m
-      [0m<itunes:subtitle>В 26 выпуске подкаста Javaswag поговорили с Макси[31m…[0m[32mм...[0m</itunes:subtitle>[31m
-      [0m<description>В 26 выпуске подкаста Javaswag поговорили с Максимом Бартковым о библиотеке Bucket4j, евангелизме опенсорса и книге Spring REST[31m
-[0m
-00:01:35 Bucket4j - зачем нужен рейтлимитинг?
-00:05:56 Виды алгоритмов рейтлимитинга
-00:10:17 Конфигурации и перфоманс, распределенная конфигурация
-00:23:14 Что выбрать Bucket4j, Guava RateLimiter, resilience4j
-00:26:18 Путь в евангелисты
-00:37:22 Разница между девелопер адвокатом и евангелистом. Как померить евангелиста?
-00:43:25 Как написать книгу о Спринге? Что самое сложное?
-00:53:25 Рабочие проекты, проект по выявлению онкологии, хакатон
-01:06:30 Идеальное будущее Bucket4j
+Гость - https://twitter.com/MaximBartkov
 [31m
-[0mBucket4j — https://bucket4j.com/[31m
-[0m
-https://github.com/vladimir-bukhtoyarov/bucket4j[31m
-[0m
-Resilience4j - https://resilience4j.readme.io/
-[31m
-[0mКнига Spring REST - https://link.springer.com/book/10.1007/978-1-4842-7477-4#about
-[31m
-[0mhttps://www.onecell.ai[31m
-[0m
-Гость - https://twitter.com/MaximBartkov[31m
-[0m
-Кип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/redirect.mp3/fe[0m[32mg[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m2[31m51780[0m6[31m58[0m-javaswag-[31me26[0m[32mmaxim-bartkov[0m.mp3[32m" type="audio/mpeg[0m" length="6849[31m7239[0m[32m5151[0m"/>[31m
+[0mКип сейф! 🖖</description>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/redirect.mp3/fe[0m[32mg[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m2[31m51780[0m6[31m58[0m-javaswag-[31me26[0m[32mmaxim-bartkov[0m.mp3" [32mtype="audio/mpeg" [0mlength="6849[31m7239[0m[32m5151[0m"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1216382491</guid>[31m
@@ -923,15 +923,15 @@ Resilience4j - https://resilience4j.readme.io/
 01:14:00 Как успевали за скоростью релизов Джавы после 9 версии?
 01:21:55 Что было когда Excelsior JET закрылся
 01:25:55 NDA в Huawei. Когда будет апдейт?
-01:27:50 Больше 20 лет проекту. Что было сделано правильно, а что можно было сделать иначе?
-[31m
-[0mКронос — http://kronos.ru/
-История Excelsior JET - https://www.excelsior.ru/history
-Ершов — https://ru.wikipedia.org/wiki/%D0%95%D1%80%D1%88%D0%BE%D0%B2,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87[31m
+01:27:50 Больше 20 лет проекту. Что было сделано правильно, а что можно было сделать иначе?[31m
 [0m
-Общий предок Java и Оберон. Этот язык не Meta, а Mesa — https://en.wikipedia.org/wiki/Mesa_(programming_language) а также его наследник Cedar
+Кронос — http://kronos.ru/
+История Excelsior JET - https://www.excelsior.ru/history
+Ершов — https://ru.wikipedia.org/wiki/%D0%95%D1%80%D1%88%D0%BE%D0%B2,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87
 [31m
-[0mГость - https://twitter.com/pjBooms
+[0mОбщий предок Java и Оберон. Этот язык не Meta, а Mesa — https://en.wikipedia.org/wiki/Mesa_(programming_language) а также его наследник Cedar[31m
+[0m
+Гость - https://twitter.com/pjBooms
 [31m
 [0mКип сейф! 🖖</itunes:summary>[31m
       [0m<itunes:subtitle>В 25 выпуске подкаста Javaswag поговорили с Никит[31m…[0m[32mо...[0m</itunes:subtitle>[31m
@@ -953,9 +953,9 @@ Resilience4j - https://resilience4j.readme.io/
 01:14:00 Как успевали за скоростью релизов Джавы после 9 версии?
 01:21:55 Что было когда Excelsior JET закрылся
 01:25:55 NDA в Huawei. Когда будет апдейт?
-01:27:50 Больше 20 лет проекту. Что было сделано правильно, а что можно было сделать иначе?
-[31m
-[0mКронос — http://kronos.ru/
+01:27:50 Больше 20 лет проекту. Что было сделано правильно, а что можно было сделать иначе?[31m
+[0m
+Кронос — http://kronos.ru/
 История Excelsior JET - https://www.excelsior.ru/history
 Ершов — https://ru.wikipedia.org/wiki/%D0%95%D1%80%D1%88%D0%BE%D0%B2,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87
 [31m
@@ -964,11 +964,11 @@ Resilience4j - https://resilience4j.readme.io/
 [0mГость - https://twitter.com/pjBooms
 [31m
 [0mКип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m2[31m16382491[0m[32m5[0m-javaswag-[31me25[0m[32mnikita-lipskii[0m.mp3" [32mtype="audio/mpeg" [0mlength="9553[31m71[0m[32m5[0m0[31m9[0m[32m20[0m"/>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m2[31m16382491[0m[32m5[0m-javaswag-[31me25[0m[32mnikita-lipskii[0m.mp3" [32mtype="audio/mpeg" [0mlength="9553[31m71[0m[32m502[0m0[31m9[0m"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-[0m[32mwag.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1167267532</guid>[31m
-      [0m<title>#24 - Иван Углянский - преподавание, разработка JVM [31m [0mи JUGNsk</title>[31m
+      [0m<title>#24 - Иван Углянский - преподавание, разработка JVM[31m [0m и JUGNsk</title>[31m
       [0m<pubDate>Tue, 30 Nov 2021 06:49:08 +0000</pubDate>[31m
       [0m<link>https://[31msoundcloud.com/[0mjavaswag[32m.github.io[0m/e[32mpisode/[0m24[32m/[0m</link>[31m
       [0m<itunes:duration>01:36:34</itunes:duration>[31m
@@ -999,15 +999,15 @@ Resilience4j - https://resilience4j.readme.io/
 [0mКак сделать встроенный в JVM профайлер, который не боится AOT компиляции
 [31m - [0mhttps://youtu.be/iw4O7G2eyHg[31m
 
-[0m[32m [0mХодячие объекты мертвецы, или GC всегда прав - https://www.youtube.com/watch?v=XtijbFcQxyw[31m
-[0m
-Project: Leyden - https://mail.openjdk.java.net/pipermail/discuss/2020-April/005429.html
+[0m[32m [0mХодячие объекты мертвецы, или GC всегда прав - https://www.youtube.com/watch?v=XtijbFcQxyw
+[31m
+[0mProject: Leyden - https://mail.openjdk.java.net/pipermail/discuss/2020-April/005429.html
 [31m
 [0mMixin[31m
 [0m
-Гость - https://twitter.com/dbg_nsk
-[31m
-[0mКип сейф! 🖖</itunes:summary>[31m
+Гость - https://twitter.com/dbg_nsk[31m
+[0m
+Кип сейф! 🖖</itunes:summary>[31m
       [0m<itunes:subtitle>В 24 выпуске подкаста Javaswag поговорили с Ивано[31m…[0m[32mм...[0m</itunes:subtitle>[31m
       [0m<description>В 24 выпуске подкаста Javaswag поговорили с Иваном Углянским о преподавании, разработке JVM и о JUGNsk[31m
 [0m
@@ -1034,15 +1034,15 @@ Project: Leyden - https://mail.openjdk.java.net/pipermail/discuss/2020-April/005
 [0mКак сделать встроенный в JVM профайлер, который не боится AOT компиляции
 [31m - [0mhttps://youtu.be/iw4O7G2eyHg[31m
 
-[0m[32m [0mХодячие объекты мертвецы, или GC всегда прав - https://www.youtube.com/watch?v=XtijbFcQxyw[31m
-[0m
-Project: Leyden - https://mail.openjdk.java.net/pipermail/discuss/2020-April/005429.html
+[0m[32m [0mХодячие объекты мертвецы, или GC всегда прав - https://www.youtube.com/watch?v=XtijbFcQxyw
+[31m
+[0mProject: Leyden - https://mail.openjdk.java.net/pipermail/discuss/2020-April/005429.html
 [31m
 [0mMixin[31m
 [0m
-Гость - https://twitter.com/dbg_nsk
-[31m
-[0mКип сейф! 🖖</description>[31m
+Гость - https://twitter.com/dbg_nsk[31m
+[0m
+Кип сейф! 🖖</description>[31m
       [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1167[0m2[31m67532[0m[32m4[0m-javaswag-[31me24[0m[32mivan-uglyanskii[0m.mp3" [32mtype="audio/mpeg" [0mlength="9270[32m2[0m5[31m0[0m1[31m7[0m[32m1[0m"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-[0m[32mwag.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
@@ -1068,14 +1068,14 @@ Project: Leyden - https://mail.openjdk.java.net/pipermail/discuss/2020-April/005
 [31m
 [0mCouchbase[31m [0m
 [31m- [0mhttps://docs.couchbase.com/couchbase-lite/current/android/landing-replications.html
-[31m- [0mhttps://blog.couchbase.com/data-synchronization-offline-first-apps-couchbase/
-[31m
-[0mPosgres Partitioning
+[31m- [0mhttps://blog.couchbase.com/data-synchronization-offline-first-apps-couchbase/[31m
+[0m
+Posgres Partitioning
 [31m-  [0mhttps://www.postgresql.org/docs/current/ddl-partitioning.html[31m
 
-[0m[32m [0mFaang Interview - https://t.me/FaangInterview
-[31m
-[0mГость - https://www.linkedin.com/in/sergei-golitsyn/
+[0m[32m [0mFaang Interview - https://t.me/FaangInterview[31m
+[0m
+Гость - https://www.linkedin.com/in/sergei-golitsyn/
 [31m
 [0mhttps://habr.com/en/users/deft31/[31m  [0m
 https://medium.com/@deft1991[31m [0m
@@ -1098,21 +1098,21 @@ https://www.facebook.com/profile.php?id=100005421847157
 [31m
 [0mCouchbase[31m [0m
 [31m- [0mhttps://docs.couchbase.com/couchbase-lite/current/android/landing-replications.html
-[31m- [0mhttps://blog.couchbase.com/data-synchronization-offline-first-apps-couchbase/
-[31m
-[0mPosgres Partitioning
+[31m- [0mhttps://blog.couchbase.com/data-synchronization-offline-first-apps-couchbase/[31m
+[0m
+Posgres Partitioning
 [31m-  [0mhttps://www.postgresql.org/docs/current/ddl-partitioning.html[31m
 
 [0m[32m [0mFaang Interview - https://t.me/FaangInterview[31m
 [0m
-Гость - https://www.linkedin.com/in/sergei-golitsyn/
-[31m
-[0mhttps://habr.com/en/users/deft31/[31m  [0m
+Гость - https://www.linkedin.com/in/sergei-golitsyn/[31m
+[0m
+https://habr.com/en/users/deft31/[31m  [0m
 https://medium.com/@deft1991[31m [0m
-https://www.facebook.com/profile.php?id=100005421847157
-[31m
-[0mКип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/redi[0mr[31mect.mp3/fe[0m[32mag[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m114[0m[32m2[0m3[31m436066[0m-javaswag-[32ms[0me[31m23[0m[32mrgei-golicin[0m.mp3" [32mtype="audio/mpeg" [0mlength="8876[31m9[0m[32m7[0m0[31m96[0m[32m07[0m"/>[31m
+https://www.facebook.com/profile.php?id=100005421847157[31m
+[0m
+Кип сейф! 🖖</description>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medirect.mp3/fe[0m[32mag[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m114[0m[32m2[0m3[31m436066[0m-javaswag-[32ms[0me[31m23[0m[32mrgei-golicin[0m.mp3" [32mtype="audio/mpeg" [0mlength="8876[31m9[0m[32m7[0m0[31m96[0m[32m07[0m"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwa[0mg[31m-ori[0m[32m.[0mgi[31mn[0m[32mthub.io/im[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1076614906</guid>[31m
@@ -1138,11 +1138,11 @@ https://www.facebook.com/profile.php?id=100005421847157
 1:18:05 Будущее IMDG
 1:22:30 Революционный Apache Calcite и команда Querify Labs www.querifylabs.com/
 [31m
-[0mApache Calcite - calcite.incubator.apache.org/[31m
-[0m
-Гость - twitter.com/devozerov
+[0mApache Calcite - calcite.incubator.apache.org/
 [31m
-[0mКип сейф! 🖖</itunes:summary>[31m
+[0mГость - twitter.com/devozerov[31m
+[0m
+Кип сейф! 🖖</itunes:summary>[31m
       [0m<itunes:subtitle>В 22 выпуске подкаста Javaswag поговорили с Влади[31m…[0m[32mм...[0m</itunes:subtitle>[31m
       [0m<description>В 22 выпуске подкаста Javaswag поговорили с Владимиром Озеровым об архитектуре Ignite, Hazelcast и фреймворкe для построения SQL движков - Apache Calcite[31m
 [0m
@@ -1160,13 +1160,13 @@ https://www.facebook.com/profile.php?id=100005421847157
 1:18:05 Будущее IMDG
 1:22:30 Революционный Apache Calcite и команда Querify Labs www.querifylabs.com/
 [31m
-[0mApache Calcite - calcite.incubator.apache.org/
-[31m
-[0mГость - twitter.com/devozerov[31m
+[0mApache Calcite - calcite.incubator.apache.org/[31m
 [0m
-Кип сейф! 🖖</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.p[0m[32mt[0mo[31mdt[0mra[31mc.com/r[0m[32mg[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1076614906[0m[32m22[0m-javaswag-[32mvladimir-oz[0me[31m22[0m[32mrov[0m.mp3" [32mtype="audio/mpeg" [0mlength="820[31m809[0m[32m77[0m1[31m3[0m[32m52[0m"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQenmJZyBXHdE1r3-4rqAqg-or[0m[32mub.[0mi[31mg[0m[32mo/[0mi[31mn[0m[32mm[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
+Гость - twitter.com/devozerov
+[31m
+[0mКип сейф! 🖖</description>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1076614906[0m[32m22[0m-javaswag-[32mvladimir-oz[0me[31m22[0m[32mrov[0m.mp3" [32mtype="audio/mpeg" [0mlength="820[31m809[0m[32m77[0m1[31m3[0m[32m52[0m"/>[31m
+      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-[0m[32mwag.git[0mh[31mQenmJZyBXHdE1r3-4rqAqg-[0m[32mub.i[0mo[31mrig[0m[32m/[0mi[31mn[0m[32mm[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1056384004</guid>[31m
       [0m<title>#21 - Фёдор Коротков - CI в облаках, микросервисы на Котлине и магия Cirrus CI</title>[31m
@@ -1277,7 +1277,7 @@ https://orange-opensource.github.io/casskop/
 https://orange-opensource.github.io/casskop/
 [31m- [0mстатья на хабре про саги https://habr.com/ru/company/oleg-bunin/blog/418235/
 [31m- [0mполезная ссылка на эту тему - https://speakerdeck.com/caitiem20/distributed-sagas-a-protocol-for-coordinating-microservices</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/r[0m[32mg[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m10466587[0m[32m2[0m0[31m6[0m-javaswag-[31me20[0m[32mdmitrii-konstantinov[0m.mp3" [32mtype="audio/mpeg" [0mlength="10070[32m308[0m5[31m174[0m"/>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/r[0m[32mg[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m1[0m[32m2[0m0[31m46658706[0m-javaswag-[31me20[0m[32mdmitrii-konstantinov[0m.mp3" [32mtype="audio/mpeg" [0mlength="10070[32m308[0m5[31m174[0m"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwa[0mg[31m-ori[0m[32m.[0mgi[31mn[0m[32mthub.io/im[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/1032700729</guid>[31m
@@ -1372,11 +1372,11 @@ https://orange-opensource.github.io/casskop/
 01:41:20 JakartaEE. 31 марта виртуальный стрим - https://jakartaone.org/ru/2021/russian/
 01:46:39 Конференции в тачке
 01:55:23 Путешествие на Северный полюс на ледоколе
-02:03:07 Мультиязычность[31m
-[0m
-Нано Подкаст - https://soundcloud.com/dmitry-aleksandrov-nano
+02:03:07 Мультиязычность
 [31m
-[0mГость - https://twitter.com/bercut2000</itunes:summary>[31m
+[0mНано Подкаст - https://soundcloud.com/dmitry-aleksandrov-nano[31m
+[0m
+Гость - https://twitter.com/bercut2000</itunes:summary>[31m
       [0m<itunes:subtitle>В 18 выпуске подкаста Javaswag поговорили с Митей[31m…[0m[32m ...[0m</itunes:subtitle>[31m
       [0m<description>В 18 выпуске подкаста Javaswag поговорили с Митей Александровым о работе архитектора, о проекте Helidon, JakartaEE и конференции в тачке[31m
 [0m
@@ -1428,9 +1428,9 @@ https://orange-opensource.github.io/casskop/
 [31m
 [0mГость - https://twitter.com/_rkudryashov</itunes:summary>[31m
       [0m<itunes:subtitle>В 17 выпуске подкаста Javaswag поговорили с Роман[31m…[0m[32mо...[0m</itunes:subtitle>[31m
-      [0m<description>В 17 выпуске подкаста Javaswag поговорили с Романом Кудряшовым о Graphql, Котлине, сравнении Спринга и Микронаута и преимуществах Rust[31m
-[0m
-00:01:23 О себе
+      [0m<description>В 17 выпуске подкаста Javaswag поговорили с Романом Кудряшовым о Graphql, Котлине, сравнении Спринга и Микронаута и преимуществах Rust
+[31m
+[0m00:01:23 О себе
 00:07:12 Порог входа Rust
 00:13:15 Cmake (*для библиотеки надо только чтобы cmake был в path, остальное будет сделано автоматически)
 00:19:28 Преимущества GraphQL
@@ -1441,16 +1441,16 @@ https://orange-opensource.github.io/casskop/
 00:48:21 Делпой в кубер и девопсеры
 00:56:57 Spring, Quarkus, Micronaut, Ktor
 01:00:56 Котлин
-01:13:46 Graphql на Rust[31m
-[0m
-Гость - https://twitter.com/_rkudryashov</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[32mo[0mra[31mc.com/r[0m[32mg[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m97668[0m1[31m858[0m[32m7[0m-javaswag[31m-17[0m-roman-kudryashov[31m-gra[0m[32m.m[0mp[31mhql-s[0m[32m3" ty[0mp[31mring-vs-micron[0m[32me="[0mau[31mt-[0m[32md[0mi[31m-budushchee-rust.[0m[32mo/[0mmp[31m3[0m[32meg[0m" length="7675[31m3[0m1[32m09[0m8[31m7[0m"/>[31m
+01:13:46 Graphql на Rust
+[31m
+[0mГость - https://twitter.com/_rkudryashov</description>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[32mag[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m97668[0m1[31m858[0m[32m7[0m-javaswag[31m-17[0m-roman-kudryashov[31m-gra[0m[32m.m[0mp[31mhql-s[0m[32m3" ty[0mp[31mring-vs-micron[0m[32me="[0mau[31mt-[0m[32md[0mi[31m-budushchee-rust.[0m[32mo/[0mmp[31m3[0m[32meg[0m" length="7675[31m3[0m1[32m09[0m8[31m7[0m"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[32mswag.gi[0mt[31mars-[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/946805950</guid>[31m
       [0m<title>#16 - Андрей Мизуров - GameDev на Java, протоколы Stomp, RSocket и чем хорош Netty</title>[31m
       [0m<pubDate>Tue, 15 Dec 2020 11:28:08 +0000</pubDate>[31m
-      [0m<link>https://[31msoundcloud.com/[0mjavaswag[31m/16-andrey-m[0m[32m.g[0mi[31mz[0m[32mth[0mu[31mr[0m[32mb.i[0mo[31mv-gamed[0m[32m/[0me[31mv-na-java-[0mp[31mrokoly-[0m[32mi[0ms[31mt[0mo[31mmp-rsocket-i-chem-khorosh-n[0m[32md[0me[31mtty[0m[32m/16/[0m</link>[31m
+      [0m<link>https://[31msoundcloud.com/[0mjavaswag[31m/16-andrey-m[0m[32m.g[0mi[31mz[0m[32mth[0mu[31mr[0m[32mb.i[0mo[31mv-gamed[0m[32m/[0me[31mv-na-java-[0mp[31mrokoly-stomp-r[0m[32mi[0mso[31mck[0m[32md[0me[31mt-i-chem-khorosh-netty[0m[32m/16/[0m</link>[31m
       [0m<itunes:duration>01:29:44</itunes:duration>[31m
       [0m<itunes:author>javaswag</itunes:author>[31m
       [0m<itunes:explicit>no</itunes:explicit>[31m
@@ -1514,12 +1514,12 @@ https://orange-opensource.github.io/casskop/
 
 [0mГость - github.com/amizurov</description>[31m
       [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m94[0m[32m1[0m6[31m805950[0m-javaswag-[31m16-[0mandrey-mizurov[31m-ga[0m[32m.[0mm[31medev-na-java-[0mp[31mrokol[0m[32m3" t[0my[31m-stom[0mp[31m-rsock[0me[31mt-[0m[32m="aud[0mi[31m-chem-kh[0mo[31mrosh-netty.[0m[32m/[0mmp[31m3[0m[32meg[0m" length="8614[32m30[0m5[31m148[0m[32m9[0m"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[32mswag.gi[0mt[31mars-[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
+      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/923693194</guid>[31m
-      [0m<title>#15 -[31m [0m Дмитрий Думанский - Запуск стартапа на Kickstarter, Netty и No-Database подход</title>[31m
+      [0m<title>#15 - [31m [0mДмитрий Думанский - Запуск стартапа на Kickstarter, Netty и No-Database подход</title>[31m
       [0m<pubDate>Mon, 09 Nov 2020 14:11:22 +0000</pubDate>[31m
-      [0m<link>https:/[31m/soundcloud.com[0m/javaswag[31m/15-dm[0m[32m.g[0mit[31mriy-d[0m[32mh[0mu[31mmansk[0m[32mb.[0mi[31my-k[0m[32mo/ep[0mi[31mck[0ms[31mtarter-netty-n[0mo[31m-[0md[31matabas[0me[31m-podkhod[0m[32m/15/[0m</link>[31m
+      [0m<link>https://[31msoundcloud.com/[0mjavaswag[31m/15-dm[0m[32m.g[0mit[31mriy-d[0m[32mh[0mu[31mmansk[0m[32mb.[0mi[31my-k[0m[32mo/ep[0mi[31mck[0ms[31mtarter-netty-n[0mo[31m-[0md[31matabas[0me[31m-podkhod[0m[32m/15/[0m</link>[31m
       [0m<itunes:duration>02:06:19</itunes:duration>[31m
       [0m<itunes:author>javaswag</itunes:author>[31m
       [0m<itunes:explicit>no</itunes:explicit>[31m
@@ -1580,7 +1580,7 @@ https://orange-opensource.github.io/casskop/
 02:02:06 Что законтрибьютить в Netty
 [31m
 [0mГость - twitter.com/DOOM369</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/redi[0mr[31mect.mp3/fe[0m[32mag[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m923693[0m1[31m94[0m[32m5[0m-javaswag-[31m15-[0mdmitri[31my[0m[32mi[0m-dumanski[31my-k[0mi[31mckstarter-net[0m[32m.mp3" [0mty[31m-no-d[0m[32mpe="[0ma[31mtabase-po[0m[32mu[0md[31mkh[0m[32mi[0mo[31md.[0m[32m/[0mmp[31m3[0m[32meg[0m" length="12126[32m291[0m5[31m004[0m"/>[31m
+      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medirect.mp3/fe[0m[32mag[0me[31mds[0m.[31msou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m923693[0m1[31m94[0m[32m5[0m-javaswag[31m-15[0m-dmitri[31my[0m[32mi[0m-dumanski[31my-k[0mi[31mcks[0m[32m.mp3" [0mt[31marter-n[0m[32myp[0me[31mtty-no-dat[0m[32m="[0ma[31mbase-po[0m[32mu[0md[31mkh[0m[32mi[0mo[31md.[0m[32m/[0mmp[31m3[0m[32meg[0m" length="12126[32m291[0m5[31m004[0m"/>[31m
       [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-[0m[32mwag.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/910291708</guid>[31m
@@ -1647,8 +1647,8 @@ https://orange-opensource.github.io/casskop/
 Телеграм канал подкаста t.me/javaswag
 [31m
 [0mЧат t.me/javaswag_chat</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m9[0m1[31m0291708[0m[32m4[0m-javaswag[31m-14[0m-sergey-[31mts[0m[32mc[0melovalnikov[31m-jugekb-[0m[32m.m[0mp[31mereezd-v-avs[0m[32m3" [0mt[31mrali[0my[32mpe="a[0mu[31m-[0m[32md[0mi[31m-serce[0m[32mo/[0mm[32mp[0me[31m.mp3[0m[32mg[0m" length="761[31m12[0m0[32m95[0m3[31m8[0m[32m1[0m"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
+      [0m<enclosure[31m type="audio/mpeg"[0m url="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m9[0m1[31m0291708[0m[32m4[0m-javaswag-[31m14-[0msergey-[31mts[0m[32mc[0melovalnikov[31m-jugekb-[0m[32m.m[0mp[31mereezd-v-avs[0m[32m3" [0mt[31mrali[0my[32mpe="a[0mu[31m-[0m[32md[0mi[31m-serceme.[0m[32mo/[0mmp[31m3[0m[32meg[0m" length="761[31m12[0m0[32m95[0m3[31m8[0m[32m1[0m"/>[31m
+      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-[0m[32mwag.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
     [0m</item><item>[31m
       [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/888395179</guid>[31m
       [0m<title>#13 - Сергей Цыпанов - Производительные строки и Хибернейтный Спринг</title>[31m
@@ -1657,9 +1657,9 @@ https://orange-opensource.github.io/casskop/
       [0m<itunes:duration>01:30:53</itunes:duration>[31m
       [0m<itunes:author>javaswag</itunes:author>[31m
       [0m<itunes:explicit>no</itunes:explicit>[31m
-      [0m<itunes:summary>В 13 выпуске подкаста Javaswag поговорили с Сергеем[31m [0m Цыпановым о производительности строк, Спринге и Хибернейте.
-[31m
-[0m00:01:17[31m	[0m[32m [0mО себе
+      [0m<itunes:summary>В 13 выпуске подкаста Javaswag поговорили с Сергеем [31m [0mЦыпановым о производительности строк, Спринге и Хибернейте.[31m
+[0m
+00:01:17[31m	[0m[32m [0mО себе
 00:02:35[31m	[0m[32m [0mКак начал заниматься производительностью?[31m	 [0m
 00:06:59[31m	[0m[32m [0mЧто делать когда приходят люди и говорят &[32mamp;ld[0mquo[31mt[0m;у нас проблема&[32mamp;rd[0mquo[31mt[0m;?
 00:09:05[31m	[0m[32m [0mНужен ли выделенный перфоманс инженер?[31m	 [0m
@@ -2029,22 +2029,22 @@ https://orange-opensource.github.io/casskop/
 [0m
 Голос подкаста - t.me/volyx</description>[31m
       [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/r[0m[32mg[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom/str[0m[32mn[0me[31mam[0m[32mt[0m/[31m836777332-[0mjavaswag[31m-[0m[32m/[0m9-[31me[0m[32mja[0mv[32maswa[0mg[32m-zh[0me[31mniy[0m[32mka[0m-kozlov-[31mden-rozhdeniya-[0mjava-[31mi-novy[0m[32mr[0me[31m-fichi-j[0m[32mle[0ma[31mva-12-14[0m[32mse[0m.mp3" [32mtype="audio/mpeg" [0mlength="11165[31m8[0m6[31m30[0m[32m124[0m"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
-    [0m</item><item>[31m
-      [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/826975594</guid>[31m
-      [0m<title>#8 - Евгений Козлов - почему не C#, var - зло или нет, новые фичи Java 9-11</title>[31m
-      [0m<pubDate>Tue, 26 May 2020 10:32:12 +0000</pubDate>[31m
-      [0m<link>https://[31msoundcloud.com/[0mjavaswag[31m/8-ev[0m[32m.[0mg[31men[0mi[31my-kozlov-poc[0m[32mt[0mh[31mem[0mu[31m-n[0m[32mb.io/[0me[31m-c-var-zlo-[0m[32mp[0mi[31mli-net-n[0m[32ms[0mo[31mvy[0m[32md[0me[31m-fichi-java-9-12[0m[32m/8/[0m</link>[31m
-      [0m<itunes:duration>01:48:44</itunes:duration>[31m
-      [0m<itunes:author>javaswag</itunes:author>[31m
-      [0m<itunes:explicit>no</itunes:explicit>[31m
-      [0m<itunes:summary>В 8 выпуске подкаста Javaswag поговорили с Евгением Козловым о фичах, которые появились начиная с Java 9 по 11 версию.[31m
-[0m
+      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwa[0mg[31m-ori[0m[32m.[0mgi[31mnal.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/826975594</guid>
+      <title>#8 - Евгений Козлов - почему не C#, var - зло или нет, новые фичи Java 9-11</title>
+      <pubDate>Tue, 26 May 2020 10:32:12 +0000</pubDate>
+      <link>https://soundcloud.com/javaswag/8-evgeniy-kozlov-pochemu-ne-c-var-zlo-ili-net-novye-fichi-java-9-12</link>
+      <itunes:duration>01:48:44</itunes:duration>
+      <itunes:author>javaswag</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>В 8 выпуске подкаста Javaswag поговорили с Евгением Козловым о фичах, которые появились начиная с Java 9 по 11 версию.
+
 00-00 Приветствие
 02-50 О себе
 04-20 Чем хорош/плох C#?
 13-00 Про функциональщину, иммутабельность и взаимодействие с коллегами
-16-36 Диагноз &[32mamp;ld[0mquo[31mt[0m;Стримоз&[32mamp;rd[0mquo[31mt[0m; - когда используешь стримы везде
+16-36 Диагноз &quot;Стримоз&quot; - когда используешь стримы везде
 17-40 Что такое JEP ?
 25-00 Модульность в Java 9
 40-26 Переходим на новую версию Джавы со старым класспасом
@@ -2054,63 +2054,63 @@ https://orange-opensource.github.io/casskop/
 87-30 Новый полугодовой релизный цикл
 91-10 Java 10. Когда использовать var? Когда ставить тип, а когда использовать var? var! var!
 106-08 Java 11. var в лямбдах
-[31m
 
-[0mГость - twitter.com/ZhekaKozlov[31m
-[0m
+
+Гость - twitter.com/ZhekaKozlov
+
 Сайт minijug.ru/
 Телеграм канал Жени - t.me/miniJUG
-[31m
-[0mТелеграм канал подкаста t.me/javaswag
-[31m
-[0mЧат t.me/javaswag_chat[31m
-[0m
-Сайт javaswag.ru
-[31m
-[0mГолос подкаста - t.me/volyx</itunes:summary>[31m
-      [0m<itunes:subtitle>В 8 выпуске подкаста Javaswag поговорили с Евгени[31m…[0m[32mе...[0m</itunes:subtitle>[31m
-      [0m<description>В 8 выпуске подкаста Javaswag поговорили с Евгением Козловым о фичах, которые появились начиная с Java 9 по 11 версию.
-[31m
-[0m00-00 Приветствие
-02-50 О себе
-04-20 Чем хорош/плох C#?
-13-00 Про функциональщину, иммутабельность и взаимодействие с коллегами
-16-36 Диагноз &[32mamp;ld[0mquo[31mt[0m;Стримоз&[32mamp;rd[0mquo[31mt[0m; - когда используешь стримы везде
-17-40 Что такое JEP ?
-25-00 Модульность в Java 9
-40-26 Переходим на новую версию Джавы со старым класспасом
-46-30 Изменения в Джаве 9 помимо модулей
-63-29 Несинтаксические изменения в 9
-77-58 JShell
-87-30 Новый полугодовой релизный цикл
-91-10 Java 10. Когда использовать var? Когда ставить тип, а когда использовать var? var! var!
-106-08 Java 11. var в лямбдах
-[31m
 
-[0mГость - twitter.com/ZhekaKozlov[31m
-[0m
-Сайт minijug.ru/
-Телеграм канал Жени - t.me/miniJUG
-[31m
-[0mТелеграм канал подкаста t.me/javaswag[31m
-[0m
+Телеграм канал подкаста t.me/javaswag
+
 Чат t.me/javaswag_chat
-[31m
-[0mСайт javaswag.ru[31m
-[0m
-Голос подкаста - t.me/volyx</description>[31m
-      [0m<enclosure[31m type="audio/mpeg"[0m url="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/8[31m26975594[0m-javaswag-[31m8-evg[0m[32mzh[0me[31mniy[0m[32mka[0m-kozlov[31m-poche[0m[32m.[0mm[31mu-ne-c-var-zlo-ili-ne[0m[32mp3" [0mt[31m-nov[0my[32mp[0me[31m-fichi-j[0m[32m="[0ma[31mva-9-12.[0m[32mudio/[0mmp[31m3[0m[32meg[0m" length="10438[31m48[0m[32m23[0m8[31m7[0m[32m0[0m"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
-    [0m</item><item>[31m
-      [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/787048462</guid>[31m
-      [0m<title>#7 - Роман Левентов - Apache Druid, ChronicleMap, Koloboke</title>[31m
-      [0m<pubDate>Wed, 01 Apr 2020 13:07:22 +0000</pubDate>[31m
-      [0m<link>https:/[31m/soundcloud.com[0m/javaswag[31m/7-roman-leven[0m[32m.gi[0mt[31mov-apac[0mh[31me-dr[0mu[32mb.[0mi[31md-chr[0mo[31mnicl[0m[32m/[0me[31mma[0mp[31m-kolob[0m[32mis[0mo[31mk[0m[32md[0me[32m/7/[0m</link>[31m
-      [0m<itunes:duration>02:02:20</itunes:duration>[31m
-      [0m<itunes:author>javaswag</itunes:author>[31m
-      [0m<itunes:explicit>no</itunes:explicit>[31m
-      [0m<itunes:summary>В 7 выпуске подкаста Javaswag поговорили с Романом Левентов об Apache Druid, ChronicleMap и библиотеке Романа Колобок.[31m
-[0m
+
+Сайт javaswag.ru
+
+Голос подкаста - t.me/volyx</itunes:summary>
+      <itunes:subtitle>В 8 выпуске подкаста Javaswag поговорили с Евгени…</itunes:subtitle>
+      <description>В 8 выпуске подкаста Javaswag поговорили с Евгением Козловым о фичах, которые появились начиная с Java 9 по 11 версию.
+
+00-00 Приветствие
+02-50 О себе
+04-20 Чем хорош/плох C#?
+13-00 Про функциональщину, иммутабельность и взаимодействие с коллегами
+16-36 Диагноз &quot;Стримоз&quot; - когда используешь стримы везде
+17-40 Что такое JEP ?
+25-00 Модульность в Java 9
+40-26 Переходим на новую версию Джавы со старым класспасом
+46-30 Изменения в Джаве 9 помимо модулей
+63-29 Несинтаксические изменения в 9
+77-58 JShell
+87-30 Новый полугодовой релизный цикл
+91-10 Java 10. Когда использовать var? Когда ставить тип, а когда использовать var? var! var!
+106-08 Java 11. var в лямбдах
+
+
+Гость - twitter.com/ZhekaKozlov
+
+Сайт minijug.ru/
+Телеграм канал Жени - t.me/miniJUG
+
+Телеграм канал подкаста t.me/javaswag
+
+Чат t.me/javaswag_chat
+
+Сайт javaswag.ru
+
+Голос подкаста - t.me/volyx</description>
+      <enclosure type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/826975594-javaswag-8-evgeniy-kozlov-pochemu-ne-c-var-zlo-ili-net-novye-fichi-java-9-12.mp3" length="104384887"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/787048462</guid>
+      <title>#7 - Роман Левентов - Apache Druid, ChronicleMap, Koloboke</title>
+      <pubDate>Wed, 01 Apr 2020 13:07:22 +0000</pubDate>
+      <link>https://soundcloud.com/javaswag/7-roman-leventov-apache-druid-chroniclemap-koloboke</link>
+      <itunes:duration>02:02:20</itunes:duration>
+      <itunes:author>javaswag</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>В 7 выпуске подкаста Javaswag поговорили с Романом Левентов об Apache Druid, ChronicleMap и библиотеке Романа Колобок.
+
 00-00 Приветствие
 01-00 Что такое Apache Druid
 21-00 База данных на Java
@@ -2127,21 +2127,21 @@ https://orange-opensource.github.io/casskop/
 92-15 Engineering Ideas https://engineeringideas.substack.com/
 96-48 Code Review Checklist: Java Concurrency https://github.com/code-review-checklists/java-concurrency
 112-28 Удаленная работа, климатические изменения
-[31m
-[0mГость - twitter.com/leventov/[31m
-[0m
+
+Гость - twitter.com/leventov/
+
 Телеграм канал t.me/javaswag
-[31m
-[0mЧат t.me/javaswag_chat[31m
-[0m
+
+Чат t.me/javaswag_chat
+
 Сайт javaswag.ru
-[31m
-[0mГолос подкаста - t.me/volyx[31m
-[0m
-Продакшн подкаста - t.me/pahaus</itunes:summary>[31m
-      [0m<itunes:subtitle>В 7 выпуске подкаста Javaswag поговорили с Романо[31m…[0m[32mм...[0m</itunes:subtitle>[31m
-      [0m<description>В 7 выпуске подкаста Javaswag поговорили с Романом Левентов об Apache Druid, ChronicleMap и библиотеке Романа Колобок.[31m
-[0m
+
+Голос подкаста - t.me/volyx
+
+Продакшн подкаста - t.me/pahaus</itunes:summary>
+      <itunes:subtitle>В 7 выпуске подкаста Javaswag поговорили с Романо…</itunes:subtitle>
+      <description>В 7 выпуске подкаста Javaswag поговорили с Романом Левентов об Apache Druid, ChronicleMap и библиотеке Романа Колобок.
+
 00-00 Приветствие
 01-00 Что такое Apache Druid
 21-00 База данных на Java
@@ -2158,30 +2158,30 @@ https://orange-opensource.github.io/casskop/
 92-15 Engineering Ideas https://engineeringideas.substack.com/
 96-48 Code Review Checklist: Java Concurrency https://github.com/code-review-checklists/java-concurrency
 112-28 Удаленная работа, климатические изменения
-[31m
-[0mГость - twitter.com/leventov/[31m
-[0m
+
+Гость - twitter.com/leventov/
+
 Телеграм канал t.me/javaswag
-[31m
-[0mЧат t.me/javaswag_chat[31m
-[0m
+
+Чат t.me/javaswag_chat
+
 Сайт javaswag.ru
-[31m
-[0mГолос подкаста - t.me/volyx[31m
-[0m
-Продакшн подкаста - t.me/pahaus</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/r[0m[32mg[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/7[31m87048462[0m-javaswag-[31m7-[0mroman-leventov[31m-a[0m[32m.mp3" ty[0mp[32me="[0ma[31mche-[0m[32mu[0md[31mru[0mi[31md-chr[0mo[31mnicle[0m[32m/[0mm[31ma[0mp[31m-kolobok[0me[31m.mp3[0m[32mg[0m" length="1[31m1[0m[32m5[0m7[32m0[0m4[31m4[0m[32m8[0m1[31m09[0m6"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[31mt[0m[32msw[0ma[31mrs-[0m[32mg.git[0mh[31mQenmJZyBXHdE1r3-4rqAqg-or[0m[32mub.[0mi[31mg[0m[32mo/[0mi[31mn[0m[32mm[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
-    [0m</item><item>[31m
-      [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/759848851</guid>[31m
-      [0m<title>#6 - Игорь Сорока - Переезд в Финляндию, работа консультантом, софт скиллы</title>[31m
-      [0m<pubDate>Fri, 14 Feb 2020 14:49:30 +0000</pubDate>[31m
-      [0m<link>https://[31msoundcloud.com/[0mjavaswag[31m/6-i[0m[32m.[0mg[31mor-soroka-f[0mi[31mnland-cons[0m[32mth[0mu[31mlt[0m[32mb.[0mi[31mng-s[0mo[31mftsk[0m[32m/ep[0mi[31mll[0ms[32mode/6/[0m</link>[31m
-      [0m<itunes:duration>01:18:11</itunes:duration>[31m
-      [0m<itunes:author>javaswag</itunes:author>[31m
-      [0m<itunes:explicit>no</itunes:explicit>[31m
-      [0m<itunes:summary>В 6 выпуске подкаста Javaswag поговорили с Игорем Сорокой о переезде в Финляндию, о изучении разных языков программирования, о работе консультантом и о важности софт скиллов.[31m
-[0m
+
+Голос подкаста - t.me/volyx
+
+Продакшн подкаста - t.me/pahaus</description>
+      <enclosure type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/787048462-javaswag-7-roman-leventov-apache-druid-chroniclemap-koloboke.mp3" length="117441096"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/759848851</guid>
+      <title>#6 - Игорь Сорока - Переезд в Финляндию, работа консультантом, софт скиллы</title>
+      <pubDate>Fri, 14 Feb 2020 14:49:30 +0000</pubDate>
+      <link>https://soundcloud.com/javaswag/6-igor-soroka-finland-consulting-softskills</link>
+      <itunes:duration>01:18:11</itunes:duration>
+      <itunes:author>javaswag</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>В 6 выпуске подкаста Javaswag поговорили с Игорем Сорокой о переезде в Финляндию, о изучении разных языков программирования, о работе консультантом и о важности софт скиллов.
+
 00-00 Приветствие
 00-57 Из инженера-механика в программисты
 01-30 Как решил заняться программированием?
@@ -2208,49 +2208,49 @@ https://orange-opensource.github.io/casskop/
 42-02 У каждого клиента свой стек. Gatling, Scala. Архитектор решил, что Gatling идеальный тул и его все послушали
 45-42 Прокачка консультантских софт скиллов. Что такое софт скиллы?
 50-07 Можно проверить софт-скилы по резюме?
-53-27 Зачем вести блог? Блог Игоря - https://medium.com/@igorsoroka/ Важность английского языка.[31m [0m
+53-27 Зачем вести блог? Блог Игоря - https://medium.com/@igorsoroka/ Важность английского языка. 
 62-02 Были ли проблемы с английским языком при переезде?
 63-40 Новая работа. Angular, Typescript, Kotlin, Java, AWS.
 66-00 Идем к микросервисам. Все написано просто, без Спринга. Amazon RDS, Postgres
 67-15 На Джаве все новое писать не хочется поэтому переходим на Котлин. С Котлином легче?
 69-50 Подкастинг
 72-30 GeekExport
-[31m
-[0mСсылки от Игоря[31m
-[0m
-Первые опыт с облаками: https://www.heroku.com/[31m 
-[0m
-Где учился программировать: https://javarush.ru[31m
-[0m
-Vaadin - UI framework для джавистов : https://vaadin.com/learn/tutorials/v14[31m 
-[0m
-Книги:
-[31m - [0mhttps://www.amazon.com/dp/0596155409/ref=cm_sw_r_tw_dp_U_x_HCfoEbC1K6V04[31m [0m
-[31m - [0mhttps://www.reinventingorganizations.com/[31m 
-[0m
-Подкасты:[31m [0m
-[31m - [0mhttps://willbedone.ru/podcast/
-[31m - [0mhttps://softskills.audio/[31m
-[0m
-Про жизнь разработчика в Финляндии:
-[31m- [0mhttps://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii [31m
 
-[0mОставить заявку на бесплатное ревью резюме: https://geekexport.com/cv-review[31m 
-[0m
-Гость - https://t.me/olegsoroka[31m 
-[0m
-Телеграм канал https://t.me/javaswag[31m  
- [0m
-Чат https://t.me/javaswag_chat[31m 
-[0m
-Сайт https://javaswag.ru[31m 
-[0m
-Голос подкаста - https://t.me/volyx[31m 
-[0m
-Продакшн подкаста - https://t.me/pahaus</itunes:summary>[31m
-      [0m<itunes:subtitle>В 6 выпуске подкаста Javaswag поговорили с Игорем[31m…[0m[32m ...[0m</itunes:subtitle>[31m
-      [0m<description>В 6 выпуске подкаста Javaswag поговорили с Игорем Сорокой о переезде в Финляндию, о изучении разных языков программирования, о работе консультантом и о важности софт скиллов.[31m
-[0m
+Ссылки от Игоря
+
+Первые опыт с облаками: https://www.heroku.com/ 
+
+Где учился программировать: https://javarush.ru
+
+Vaadin - UI framework для джавистов : https://vaadin.com/learn/tutorials/v14 
+
+Книги:
+ - https://www.amazon.com/dp/0596155409/ref=cm_sw_r_tw_dp_U_x_HCfoEbC1K6V04 
+ - https://www.reinventingorganizations.com/ 
+
+Подкасты: 
+ - https://willbedone.ru/podcast/
+ - https://softskills.audio/
+
+Про жизнь разработчика в Финляндии:
+- https://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii 
+
+Оставить заявку на бесплатное ревью резюме: https://geekexport.com/cv-review 
+
+Гость - https://t.me/olegsoroka 
+
+Телеграм канал https://t.me/javaswag  
+ 
+Чат https://t.me/javaswag_chat 
+
+Сайт https://javaswag.ru 
+
+Голос подкаста - https://t.me/volyx 
+
+Продакшн подкаста - https://t.me/pahaus</itunes:summary>
+      <itunes:subtitle>В 6 выпуске подкаста Javaswag поговорили с Игорем…</itunes:subtitle>
+      <description>В 6 выпуске подкаста Javaswag поговорили с Игорем Сорокой о переезде в Финляндию, о изучении разных языков программирования, о работе консультантом и о важности софт скиллов.
+
 00-00 Приветствие
 00-57 Из инженера-механика в программисты
 01-30 Как решил заняться программированием?
@@ -2277,63 +2277,63 @@ Vaadin - UI framework для джавистов : https://vaadin.com/learn/tutor
 42-02 У каждого клиента свой стек. Gatling, Scala. Архитектор решил, что Gatling идеальный тул и его все послушали
 45-42 Прокачка консультантских софт скиллов. Что такое софт скиллы?
 50-07 Можно проверить софт-скилы по резюме?
-53-27 Зачем вести блог? Блог Игоря - https://medium.com/@igorsoroka/ Важность английского языка.[31m [0m
+53-27 Зачем вести блог? Блог Игоря - https://medium.com/@igorsoroka/ Важность английского языка. 
 62-02 Были ли проблемы с английским языком при переезде?
 63-40 Новая работа. Angular, Typescript, Kotlin, Java, AWS.
 66-00 Идем к микросервисам. Все написано просто, без Спринга. Amazon RDS, Postgres
 67-15 На Джаве все новое писать не хочется поэтому переходим на Котлин. С Котлином легче?
 69-50 Подкастинг
 72-30 GeekExport
-[31m
-[0mСсылки от Игоря[31m
-[0m
-Первые опыт с облаками: https://www.heroku.com/[31m 
-[0m
-Где учился программировать: https://javarush.ru[31m
-[0m
-Vaadin - UI framework для джавистов : https://vaadin.com/learn/tutorials/v14[31m 
-[0m
+
+Ссылки от Игоря
+
+Первые опыт с облаками: https://www.heroku.com/ 
+
+Где учился программировать: https://javarush.ru
+
+Vaadin - UI framework для джавистов : https://vaadin.com/learn/tutorials/v14 
+
 Книги:
-[31m - [0mhttps://www.amazon.com/dp/0596155409/ref=cm_sw_r_tw_dp_U_x_HCfoEbC1K6V04[31m [0m
-[31m - [0mhttps://www.reinventingorganizations.com/[31m 
-[0m
-Подкасты:[31m [0m
-[31m - [0mhttps://willbedone.ru/podcast/
-[31m - [0mhttps://softskills.audio/[31m
-[0m
+ - https://www.amazon.com/dp/0596155409/ref=cm_sw_r_tw_dp_U_x_HCfoEbC1K6V04 
+ - https://www.reinventingorganizations.com/ 
+
+Подкасты: 
+ - https://willbedone.ru/podcast/
+ - https://softskills.audio/
+
 Про жизнь разработчика в Финляндии:
-[31m- [0mhttps://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii [31m
+- https://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii 
 
-[0mОставить заявку на бесплатное ревью резюме: https://geekexport.com/cv-review[31m 
-[0m
-Гость - https://t.me/olegsoroka[31m 
-[0m
-Телеграм канал https://t.me/javaswag[31m  
- [0m
-Чат https://t.me/javaswag_chat[31m 
-[0m
-Сайт https://javaswag.ru[31m 
-[0m
-Голос подкаста - https://t.me/volyx[31m 
-[0m
-Продакшн подкаста - https://t.me/pahaus</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31md[0m[32ms[0mt[31ms.p[0mo[31mdt[0mra[31mc.com/r[0m[32mg[0me[31mdirect[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m759848851[0m[32m6[0m-javaswag-[31m6-[0migor-soroka[31m-finl[0m[32m.mp3" type="[0ma[31mnd-cons[0mu[31mlt[0m[32md[0mi[31mng-s[0mo[31mftskills.[0m[32m/[0mmp[31m3[0m[32meg[0m" length="7506[31m797[0m6[32m305[0m"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[32mswag.gi[0mt[31mars-[0mh[31mQen[0m[32mub.io/i[0mm[31mJZyBXHdE1r3-4rqAq[0m[32ma[0mg[31m-[0m[32mes/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/>[31m
-    [0m</item><item>[31m
-      [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/751838761</guid>[31m
-      [0m<title>#5 - Олег Чирухин - Habr, JUG, Sber</title>[31m
-      [0m<pubDate>Fri, 31 Jan 2020 13:28:04 +0000</pubDate>[31m
-      [0m<link>https:/[31m/soundcloud.com[0m/javaswag[31m/5-ole[0m[32m.[0mg[31m-ch[0mi[31mruk[0m[32mt[0mh[31min-habr-j[0mu[31mg-s[0mb[32m.io/[0me[31mr[0m[32mpisode/5/[0m</link>[31m
-      [0m<itunes:duration>01:58:29</itunes:duration>[31m
-      [0m<itunes:author>javaswag</itunes:author>[31m
-      [0m<itunes:explicit>no</itunes:explicit>[31m
-      [0m<itunes:summary>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.
-[31m
-[0m00-00 Приветствие
+Оставить заявку на бесплатное ревью резюме: https://geekexport.com/cv-review 
+
+Гость - https://t.me/olegsoroka 
+
+Телеграм канал https://t.me/javaswag  
+ 
+Чат https://t.me/javaswag_chat 
+
+Сайт https://javaswag.ru 
+
+Голос подкаста - https://t.me/volyx 
+
+Продакшн подкаста - https://t.me/pahaus</description>
+      <enclosure type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/759848851-javaswag-6-igor-soroka-finland-consulting-softskills.mp3" length="75067976"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/751838761</guid>
+      <title>#5 - Олег Чирухин - Habr, JUG, Sber</title>
+      <pubDate>Fri, 31 Jan 2020 13:28:04 +0000</pubDate>
+      <link>https://soundcloud.com/javaswag/5-oleg-chirukhin-habr-jug-sber</link>
+      <itunes:duration>01:58:29</itunes:duration>
+      <itunes:author>javaswag</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.
+
+00-00 Приветствие
 00-56 5-ый в рейтинге Хабра, как так получилось?
 02-30 2,5 часа на редактирование текста статьи
-05-45 &[32mamp;ld[0mquo[31mt[0m;После двух часов редактирования статьи остались только картинки&[32mamp;rd[0mquo[31mt[0m;
-06-50 &[32mamp;ld[0mquo[31mt[0m;У меня есть вся мощь кампании JUG.RU&[32mamp;rd[0mquo[31mt[0m;
+05-45 &quot;После двух часов редактирования статьи остались только картинки&quot;
+06-50 &quot;У меня есть вся мощь кампании JUG.RU&quot;
 08-15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.
 11-00 Почему пишешь на Хабр то своего имени?
 12-05 Архитектор в Сбербанке
@@ -2344,67 +2344,67 @@ Vaadin - UI framework для джавистов : https://vaadin.com/learn/tutor
 27-57 PHP - бдсм искусство
 30-30 GameDev это сложно. По своей инициативе спал на кухне с палаткой. Истории из Uncharted
 36-30 Россия - страна победивших казуальных игр
-37-30 Посты с DTF. Книги: &[32mamp;ld[0mquo[31mt[0m;The Art of Game Design: A Book of Lenses&[32mamp;rd[0mquo[31mt[0m;, &[32mamp;ld[0mquo[31mt[0m;Кровь, пот и пиксели. Обратная сторона индустрии&[32mamp;rd[0mquo[31mt[0m;
+37-30 Посты с DTF. Книги: &quot;The Art of Game Design: A Book of Lenses&quot;, &quot;Кровь, пот и пиксели. Обратная сторона индустрии&quot;
 43-00 Почему на конференциях мало докладов о GameDev?
 46-00 История про гейм-девелопера, который сидел на шее у своей девушки
 48-35 Выступление на JBreak 2017
 54-00 Переход JUG.RU. Паттерны написания статьи.
 63-00 Джава-дайджест
 67-07 Джош Лонг - машина для производства подкастов. Три состояни Джоша: спит, готовит доклад, кодит.
-70-00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto https://www.eclipse.org/ditto/index.html[31m [0m
-77-03 Аудиозапись &[32mamp;ld[0mquo[31mt[0m;Почему я перестал читать новости&[32mamp;rd[0mquo[31mt[0m;. &[32mamp;ld[0mquo[31mt[0m;Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил&[32mamp;rd[0mquo[31mt[0m;
+70-00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto https://www.eclipse.org/ditto/index.html 
+77-03 Аудиозапись &quot;Почему я перестал читать новости&quot;. &quot;Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил&quot;
 Какой важный скилл для тебя?
 78-30 Как писать о технологиях, которые не нравятся?
-81-35 &[32mamp;ld[0mquo[31mt[0m;Сегодня у Олега в дайджесте, а завтра у джуна в продакшене&[32mamp;rd[0mquo[31mt[0m;
-83-40 &[32mamp;ld[0mquo[31mt[0m;Читать все новости подряд глупо, превращать их в дайджесты глупо&[32mamp;rd[0mquo[31mt[0m;. Пропал джава-дайджест. Новый формат джава-дайджеста.
+81-35 &quot;Сегодня у Олега в дайджесте, а завтра у джуна в продакшене&quot;
+83-40 &quot;Читать все новости подряд глупо, превращать их в дайджесты глупо&quot;. Пропал джава-дайджест. Новый формат джава-дайджеста.
 87-03 Любимый джава-стек: спринг-бут, sqlite. “Чем меньше всяких церемоний, чем меньше хибернейта над хибернейтом, тем лучше. Начиная с какого-то количества хибернейтов друг на друга накрученных проект уже обречен. Просто вы еще об этом не знаете.”
 89-05 Куда пропали встречи JUG в Санкт-Петербурге?
-91-20 Что изменилось у тебя в работе с 2017 года? &[32mamp;ld[0mquo[31mt[0m;У меня номер на майке -23, сейчас нас человек 75&[32mamp;rd[0mquo[31mt[0m;
+91-20 Что изменилось у тебя в работе с 2017 года? &quot;У меня номер на майке -23, сейчас нас человек 75&quot;
 94-10 20 докладов на конференции много или мало?
-97-00 Подкасты, Ютьюб. Подкаст Витая пара http://tpair.org/.[31m [0m
-Разбор Полетов - что с ним? Новый подкаст - https://bitcask.live[31m [0m
-&[32mamp;ld[0mquo[31mt[0m;Люди приходят в подкаст и начинают расползаться мыслью по древу.&[32mamp;rd[0mquo[31mt[0m;
+97-00 Подкасты, Ютьюб. Подкаст Витая пара http://tpair.org/. 
+Разбор Полетов - что с ним? Новый подкаст - https://bitcask.live 
+&quot;Люди приходят в подкаст и начинают расползаться мыслью по древу.&quot;
 107-00 Youtube-видео. Подкатываем к тёлкам яйца вместе с Unity 3D
-Человек ведро и энергетики https://youtu.be/8BBZnmOf0cI?t=467[31m [0m
-Человек ведро Начало https://youtu.be/8BBZnmOf0cI?t=1263[31m [0m
-Мотивация для Юнити разработчика https://youtu.be/8BBZnmOf0cI?t=2149[31m [0m
-Человек ведро https://youtu.be/8BBZnmOf0cI?t=3799[31m [0m
-Человек ведро на танцует https://youtu.be/8BBZnmOf0cI?t=3911[31m [0m
-Человек ведро играет в игру https://youtu.be/8BBZnmOf0cI?t=4327[31m [0m
-Человек-ведро покупает вино https://youtu.be/8BBZnmOf0cI?t=2787[31m [0m
+Человек ведро и энергетики https://youtu.be/8BBZnmOf0cI?t=467 
+Человек ведро Начало https://youtu.be/8BBZnmOf0cI?t=1263 
+Мотивация для Юнити разработчика https://youtu.be/8BBZnmOf0cI?t=2149 
+Человек ведро https://youtu.be/8BBZnmOf0cI?t=3799 
+Человек ведро на танцует https://youtu.be/8BBZnmOf0cI?t=3911 
+Человек ведро играет в игру https://youtu.be/8BBZnmOf0cI?t=4327 
+Человек-ведро покупает вино https://youtu.be/8BBZnmOf0cI?t=2787 
 141-35 Ютуб стримы по 4 часа. Жизнь стримера. Ачивка на Твиче Like clockwork за ежедневный стриминг в течение месяца. Стриминг - это работа.
-[31m
 
-[0mYoutube канал Олега - https://youtube.com/javawatch[31m [0m
-Telegram канал - https://t.me/javawatch[31m 
 
-[0m
-Доклады Олега[31m
-[0m
-https://www.youtube.com/watch?v=TJUiTA-BluI[31m [0m JBreak 2017 - Олег Чирухин — Девопс: теперь Java не тормозит
-https://www.youtube.com/watch?v=hnadkXBIC1k [31m [0mJPoint 2018 - Олег Чирухин — Graal, Value Types, Loom и прочие ништяки 17 сент. 2018 г.
-https://www.youtube.com/watch?v=lH4H0LEAo9g [31m [0mОлег Чирухин — GraalVM Всемогущий[31m
+Youtube канал Олега - https://youtube.com/javawatch 
+Telegram канал - https://t.me/javawatch 
 
-[0m
-Гость - https://twitter.com/olegchir[31m 
-[0m
-Телеграм канал https://t.me/javaswag[31m  
- [0m
-Чат https://t.me/javaswag_chat[31m 
-[0m
-Сайт https://javaswag.ru[31m 
-[0m
-Голос подкаста - https://t.me/volyx[31m 
-[0m
-Продакшн подкаста - https://t.me/pahaus</itunes:summary>[31m
-      [0m<itunes:subtitle>В пятом выпуске подкаста Javaswag поговорили с Ол[31m…[0m[32mе...[0m</itunes:subtitle>[31m
-      [0m<description>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.
-[31m
-[0m00-00 Приветствие
+
+Доклады Олега
+
+https://www.youtube.com/watch?v=TJUiTA-BluI  JBreak 2017 - Олег Чирухин — Девопс: теперь Java не тормозит
+https://www.youtube.com/watch?v=hnadkXBIC1k  JPoint 2018 - Олег Чирухин — Graal, Value Types, Loom и прочие ништяки 17 сент. 2018 г.
+https://www.youtube.com/watch?v=lH4H0LEAo9g  Олег Чирухин — GraalVM Всемогущий
+
+
+Гость - https://twitter.com/olegchir 
+
+Телеграм канал https://t.me/javaswag  
+ 
+Чат https://t.me/javaswag_chat 
+
+Сайт https://javaswag.ru 
+
+Голос подкаста - https://t.me/volyx 
+
+Продакшн подкаста - https://t.me/pahaus</itunes:summary>
+      <itunes:subtitle>В пятом выпуске подкаста Javaswag поговорили с Ол…</itunes:subtitle>
+      <description>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.
+
+00-00 Приветствие
 00-56 5-ый в рейтинге Хабра, как так получилось?
 02-30 2,5 часа на редактирование текста статьи
-05-45 &[32mamp;ld[0mquo[31mt[0m;После двух часов редактирования статьи остались только картинки&[32mamp;rd[0mquo[31mt[0m;
-06-50 &[32mamp;ld[0mquo[31mt[0m;У меня есть вся мощь кампании JUG.RU&[32mamp;rd[0mquo[31mt[0m;
+05-45 &quot;После двух часов редактирования статьи остались только картинки&quot;
+06-50 &quot;У меня есть вся мощь кампании JUG.RU&quot;
 08-15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.
 11-00 Почему пишешь на Хабр то своего имени?
 12-05 Архитектор в Сбербанке
@@ -2415,71 +2415,71 @@ https://www.youtube.com/watch?v=lH4H0LEAo9g [31m [0mОлег Чирухин �
 27-57 PHP - бдсм искусство
 30-30 GameDev это сложно. По своей инициативе спал на кухне с палаткой. Истории из Uncharted
 36-30 Россия - страна победивших казуальных игр
-37-30 Посты с DTF. Книги: &[32mamp;ld[0mquo[31mt[0m;The Art of Game Design: A Book of Lenses&[32mamp;rd[0mquo[31mt[0m;, &[32mamp;ld[0mquo[31mt[0m;Кровь, пот и пиксели. Обратная сторона индустрии&[32mamp;rd[0mquo[31mt[0m;
+37-30 Посты с DTF. Книги: &quot;The Art of Game Design: A Book of Lenses&quot;, &quot;Кровь, пот и пиксели. Обратная сторона индустрии&quot;
 43-00 Почему на конференциях мало докладов о GameDev?
 46-00 История про гейм-девелопера, который сидел на шее у своей девушки
 48-35 Выступление на JBreak 2017
 54-00 Переход JUG.RU. Паттерны написания статьи.
 63-00 Джава-дайджест
 67-07 Джош Лонг - машина для производства подкастов. Три состояни Джоша: спит, готовит доклад, кодит.
-70-00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto https://www.eclipse.org/ditto/index.html[31m [0m
-77-03 Аудиозапись &[32mamp;ld[0mquo[31mt[0m;Почему я перестал читать новости&[32mamp;rd[0mquo[31mt[0m;. &[32mamp;ld[0mquo[31mt[0m;Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил&[32mamp;rd[0mquo[31mt[0m;
+70-00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto https://www.eclipse.org/ditto/index.html 
+77-03 Аудиозапись &quot;Почему я перестал читать новости&quot;. &quot;Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил&quot;
 Какой важный скилл для тебя?
 78-30 Как писать о технологиях, которые не нравятся?
-81-35 &[32mamp;ld[0mquo[31mt[0m;Сегодня у Олега в дайджесте, а завтра у джуна в продакшене&[32mamp;rd[0mquo[31mt[0m;
-83-40 &[32mamp;ld[0mquo[31mt[0m;Читать все новости подряд глупо, превращать их в дайджесты глупо&[32mamp;rd[0mquo[31mt[0m;. Пропал джава-дайджест. Новый формат джава-дайджеста.
+81-35 &quot;Сегодня у Олега в дайджесте, а завтра у джуна в продакшене&quot;
+83-40 &quot;Читать все новости подряд глупо, превращать их в дайджесты глупо&quot;. Пропал джава-дайджест. Новый формат джава-дайджеста.
 87-03 Любимый джава-стек: спринг-бут, sqlite. “Чем меньше всяких церемоний, чем меньше хибернейта над хибернейтом, тем лучше. Начиная с какого-то количества хибернейтов друг на друга накрученных проект уже обречен. Просто вы еще об этом не знаете.”
 89-05 Куда пропали встречи JUG в Санкт-Петербурге?
-91-20 Что изменилось у тебя в работе с 2017 года? &[32mamp;ld[0mquo[31mt[0m;У меня номер на майке -23, сейчас нас человек 75&[32mamp;rd[0mquo[31mt[0m;
+91-20 Что изменилось у тебя в работе с 2017 года? &quot;У меня номер на майке -23, сейчас нас человек 75&quot;
 94-10 20 докладов на конференции много или мало?
-97-00 Подкасты, Ютьюб. Подкаст Витая пара http://tpair.org/.[31m [0m
-Разбор Полетов - что с ним? Новый подкаст - https://bitcask.live[31m [0m
-&[32mamp;ld[0mquo[31mt[0m;Люди приходят в подкаст и начинают расползаться мыслью по древу.&[32mamp;rd[0mquo[31mt[0m;
+97-00 Подкасты, Ютьюб. Подкаст Витая пара http://tpair.org/. 
+Разбор Полетов - что с ним? Новый подкаст - https://bitcask.live 
+&quot;Люди приходят в подкаст и начинают расползаться мыслью по древу.&quot;
 107-00 Youtube-видео. Подкатываем к тёлкам яйца вместе с Unity 3D
-Человек ведро и энергетики https://youtu.be/8BBZnmOf0cI?t=467[31m [0m
-Человек ведро Начало https://youtu.be/8BBZnmOf0cI?t=1263[31m [0m
-Мотивация для Юнити разработчика https://youtu.be/8BBZnmOf0cI?t=2149[31m [0m
-Человек ведро https://youtu.be/8BBZnmOf0cI?t=3799[31m [0m
-Человек ведро на танцует https://youtu.be/8BBZnmOf0cI?t=3911[31m [0m
-Человек ведро играет в игру https://youtu.be/8BBZnmOf0cI?t=4327[31m [0m
-Человек-ведро покупает вино https://youtu.be/8BBZnmOf0cI?t=2787[31m [0m
+Человек ведро и энергетики https://youtu.be/8BBZnmOf0cI?t=467 
+Человек ведро Начало https://youtu.be/8BBZnmOf0cI?t=1263 
+Мотивация для Юнити разработчика https://youtu.be/8BBZnmOf0cI?t=2149 
+Человек ведро https://youtu.be/8BBZnmOf0cI?t=3799 
+Человек ведро на танцует https://youtu.be/8BBZnmOf0cI?t=3911 
+Человек ведро играет в игру https://youtu.be/8BBZnmOf0cI?t=4327 
+Человек-ведро покупает вино https://youtu.be/8BBZnmOf0cI?t=2787 
 141-35 Ютуб стримы по 4 часа. Жизнь стримера. Ачивка на Твиче Like clockwork за ежедневный стриминг в течение месяца. Стриминг - это работа.
-[31m
 
-[0mYoutube канал Олега - https://youtube.com/javawatch[31m [0m
-Telegram канал - https://t.me/javawatch[31m 
 
-[0m
-Доклады Олега[31m
-[0m
-https://www.youtube.com/watch?v=TJUiTA-BluI[31m [0m JBreak 2017 - Олег Чирухин — Девопс: теперь Java не тормозит
-https://www.youtube.com/watch?v=hnadkXBIC1k[31m [0m JPoint 2018 - Олег Чирухин — Graal, Value Types, Loom и прочие ништяки 17 сент. 2018 г.
-https://www.youtube.com/watch?v=lH4H0LEAo9g [31m [0mОлег Чирухин — GraalVM Всемогущий[31m
+Youtube канал Олега - https://youtube.com/javawatch 
+Telegram канал - https://t.me/javawatch 
 
-[0m
-Гость - https://twitter.com/olegchir[31m 
-[0m
-Телеграм канал https://t.me/javaswag[31m  
- [0m
-Чат https://t.me/javaswag_chat[31m 
-[0m
-Сайт https://javaswag.ru[31m 
-[0m
-Голос подкаста - https://t.me/volyx[31m 
-[0m
-Продакшн подкаста - https://t.me/pahaus</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.p[0m[32mt[0mo[31mdt[0mra[31mc.com/redir[0m[32mg[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom[0m[32mnet[0m/[32mjava[0ms[31mtre[0m[32mw[0ma[31mm[0m[32mg[0m/[31m7[0m5[31m1838761[0m-javaswag-[31m5-[0moleg-chiru[31mk[0mhin[31m-habr-jug-sber[0m.mp3" [32mtype="audio/mpeg" [0mlength="11374[31m717[0m[32m550[0m2"/>[31m
-      [0m<itunes:image href="https://[31mi1.sndcdn.com/[0m[32mj[0mava[32mswag.gi[0mt[31mars-[0mh[31mQenmJZyBXHdE1r3-4rqAqg-or[0m[32mub.[0mi[31mg[0m[32mo/[0mi[31mn[0m[32mm[0ma[32mges/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/>[31m
-    [0m</item><item>[31m
-      [0m<guid isPermaLink="false">tag:soundcloud,2010:tracks/724565152</guid>[31m
-      [0m<title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title>[31m
-      [0m<pubDate>Thu, 12 Dec 2019 17:56:39 +0000</pubDate>[31m
-      [0m<link>https:/[31m/soundcloud.com[0m/javaswag[31m/4-ruslan-ibra[0m[32m.[0mgi[31mmov-[0m[32mthu[0mb[31moot[0m[32m.[0mi[31mque-k[0mo[31mtl[0m[32m/ep[0mi[31mn[0m[32msode/4/[0m</link>[31m
-      [0m<itunes:duration>00:34:11</itunes:duration>[31m
-      [0m<itunes:author>javaswag</itunes:author>[31m
-      [0m<itunes:explicit>no</itunes:explicit>[31m
-      [0m<itunes:summary>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor[31m
-[0m
+
+Доклады Олега
+
+https://www.youtube.com/watch?v=TJUiTA-BluI  JBreak 2017 - Олег Чирухин — Девопс: теперь Java не тормозит
+https://www.youtube.com/watch?v=hnadkXBIC1k  JPoint 2018 - Олег Чирухин — Graal, Value Types, Loom и прочие ништяки 17 сент. 2018 г.
+https://www.youtube.com/watch?v=lH4H0LEAo9g  Олег Чирухин — GraalVM Всемогущий
+
+
+Гость - https://twitter.com/olegchir 
+
+Телеграм канал https://t.me/javaswag  
+ 
+Чат https://t.me/javaswag_chat 
+
+Сайт https://javaswag.ru 
+
+Голос подкаста - https://t.me/volyx 
+
+Продакшн подкаста - https://t.me/pahaus</description>
+      <enclosure type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/751838761-javaswag-5-oleg-chirukhin-habr-jug-sber.mp3" length="113747172"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/724565152</guid>
+      <title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title>
+      <pubDate>Thu, 12 Dec 2019 17:56:39 +0000</pubDate>
+      <link>https://soundcloud.com/javaswag/4-ruslan-ibragimov-bootique-kotlin</link>
+      <itunes:duration>00:34:11</itunes:duration>
+      <itunes:author>javaswag</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
+
 00-44 Что делает програмный коммитет конференции?
 01-58 Чем хорош https://bootique.io/?
 06-29 Сервер Undertow, почему?
@@ -2492,36 +2492,36 @@ https://www.youtube.com/watch?v=lH4H0LEAo9g [31m [0mОлег Чирухин �
 22-39 https://ktor.io/
 23-50 Awesome Kotlin https://kotlin.link/
 24-42 Komodo https://github.com/Heapy/komodo
-[31m	[0m- Koin https://insert-koin.io/[31m
-[0m[32m [0m27-27 Какую базу данных используешь для пет-проджектов?[31m [0m
-[31m	[0m- Xodus https://github.com/JetBrains/xodus[31m
-	[0m[32m [0m- Append-Only Log[31m
-[0m[32m [0m28-48 Что пробовал до Xodus?
-[31m	[0m- mysql, mariadb, postgresql, oracle[31m
-	[0m[32m [0m- Xodus в проде[31m
-[0m[32m [0m31-03 Странный вопрос про Dell XPS
-[31m	[0m- Почему не Mac?[31m
-[0m[32m [0m33-00 Free As a Freedom[31m 
+	- Koin https://insert-koin.io/
+27-27 Какую базу данных используешь для пет-проджектов? 
+	- Xodus https://github.com/JetBrains/xodus
+	- Append-Only Log
+28-48 Что пробовал до Xodus?
+	- mysql, mariadb, postgresql, oracle
+	- Xodus в проде
+31-03 Странный вопрос про Dell XPS
+	- Почему не Mac?
+33-00 Free As a Freedom 
 
-[0m
-Гость - https://twitter.com/HeapyHop[31m
-[0m
+
+Гость - https://twitter.com/HeapyHop
+
 Телеграм канал t.me/javaswag
-[31m
-[0mЧат t.me/javaswag_chat[31m
-[0m
+
+Чат t.me/javaswag_chat
+
 Сайт javaswag.ru
-[31m
-[0mПодкаст записан на конференции https://jfuture.dev/[31m
-[0m
+
+Подкаст записан на конференции https://jfuture.dev/
+
 Голос подкаста - t.me/volyx
-[31m
-[0mПродакшн подкаста - t.me/pahaus</itunes:summary>[31m
-      [0m<itunes:subtitle>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
-[31m
-[0m[32m0[0m0[31m…[0m[32m-...[0m</itunes:subtitle>[31m
-      [0m<description>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor[31m
-[0m
+
+Продакшн подкаста - t.me/pahaus</itunes:summary>
+      <itunes:subtitle>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
+
+0…</itunes:subtitle>
+      <description>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
+
 00-44 Что делает програмный коммитет конференции?
 01-58 Чем хорош https://bootique.io/?
 06-29 Сервер Undertow, почему?
@@ -2534,32 +2534,32 @@ https://www.youtube.com/watch?v=lH4H0LEAo9g [31m [0mОлег Чирухин �
 22-39 https://ktor.io/
 23-50 Awesome Kotlin https://kotlin.link/
 24-42 Komodo https://github.com/Heapy/komodo
-[31m	[0m- Koin https://insert-koin.io/[31m
-[0m[32m [0m27-27 Какую базу данных используешь для пет-проджектов?[31m [0m
-[31m	[0m- Xodus https://github.com/JetBrains/xodus[31m
-	[0m[32m [0m- Append-Only Log[31m
-[0m[32m [0m28-48 Что пробовал до Xodus?
-[31m	[0m- mysql, mariadb, postgresql, oracle[31m
-	[0m[32m [0m- Xodus в проде[31m
-[0m[32m [0m31-03 Странный вопрос про Dell XPS
-[31m	[0m- Почему не Mac?[31m
-[0m[32m [0m33-00 Free As a Freedom[31m 
+	- Koin https://insert-koin.io/
+27-27 Какую базу данных используешь для пет-проджектов? 
+	- Xodus https://github.com/JetBrains/xodus
+	- Append-Only Log
+28-48 Что пробовал до Xodus?
+	- mysql, mariadb, postgresql, oracle
+	- Xodus в проде
+31-03 Странный вопрос про Dell XPS
+	- Почему не Mac?
+33-00 Free As a Freedom 
 
-[0m
-Гость - https://twitter.com/HeapyHop[31m
-[0m
+
+Гость - https://twitter.com/HeapyHop
+
 Телеграм канал t.me/javaswag
-[31m
-[0mЧат t.me/javaswag_chat
-[31m
-[0mСайт javaswag.ru[31m
-[0m
-Подкаст записан на конференции https://jfuture.dev/[31m
-[0m
+
+Чат t.me/javaswag_chat
+
+Сайт javaswag.ru
+
+Подкаст записан на конференции https://jfuture.dev/
+
 Голос подкаста - t.me/volyx
-[31m
-[0mПродакшн подкаста - t.me/pahaus</description>[31m
-      [0m<enclosure [31mtype="audio/mpeg" [0murl="https://[31mdt[0ms[31m.pod[0mt[31mrac.c[0mo[31mm/[0mr[31medir[0m[32mag[0me[31mct[0m.[31mmp3/feeds.sou[0m[32mya[0mnd[32mex[0mcloud.[31mcom/stream/724565152-javaswag-4-ruslan-ibragimov-bootique-kotlin.mp3" length="32825677"/>
+
+Продакшн подкаста - t.me/pahaus</description>
+      <enclosure type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/724565152-javaswag-4-ruslan-ibragimov-bootique-kotlin.mp3" length="32825677"/>
       <itunes:image href="https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-original.jpg"/>
     </item><item>
       <guid isPermaLink="false">tag:soundcloud,2010:tracks/702438730</guid>
@@ -2567,7 +2567,7 @@ https://www.youtube.com/watch?v=lH4H0LEAo9g [31m [0mОлег Чирухин �
       <pubDate>Mon, 04 Nov 2019 16:56:25 +0000</pubDate>
       <link>https://soundcloud.com/javaswag/3-sergey-egorov-pivotal-testcontainers-reactor</link>
       <itunes:duration>01:16:48</itunes:duration>
-      [0m[32mnet/javaswag/4-javaswag-ruslan-ibragimov.mp3" type="audio/mpeg" length="32823170"/><itunes:image href="https://javaswag.github.io/images/logo.png"/></item><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/702438730</guid><title>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</title><pubDate>Mon, 04 Nov 2019 16:56:25 +0000</pubDate><link>https://javaswag.github.io/episode/3/</link><itunes:duration>01:16:48</itunes:duration>[0m<itunes:author>javaswag</itunes:author>[31m
+      <itunes:author>javaswag</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <itunes:summary>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
 
@@ -2682,53 +2682,7 @@ https://www.youtube.com/watch?v=lH4H0LEAo9g [31m [0mОлег Чирухин �
       <guid isPermaLink="false">tag:soundcloud,2010:tracks/688411723</guid>
       <title>#2 - Олег Шелаев - из разработчика в DevRel!</title>
       <pubDate>Mon, 21 Oct 2019 18:22:01 +0000</pubDate>
-      <link>https://soundcloud.com/javaswag/2-oleg-shelaev-iz-razrabotchika-v-[0m[32m<itunes:explicit>no</itunes:explicit><itunes:summary>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
-00-49 Доклад про https://github.com/testcontainers/
-06-17 Разработка игр
-09-30 Язык Haxe
-- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 14-18 Apache Groovy
-- https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
-22-50 Первый доклад на английском на
-25-10 Zeroturnaround JRebel, XRebel
-30-40 С нуля в облака. Поднять продакшн, пока едет пицца
-- https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
-36-36 История Testcontainers
-- Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
-- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.com/bsideup/liiklus - Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar - 50 микросервисов 58-40 Спринг
-- Офисы Pivotal - Staff Software Engineer - Reactor &amp;amp; Reactive Spring - https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260 - Почему выбрали реактивный подход в Vivy - Ownership &amp;amp; trust - Конференция s1p https://springoneplatform.io/ - Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound - Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps 67-10 Jabel - unlock Javac 12+ syntax when targeting Java 8
-- https://github.com/bsideup/jabel 70-45 Подкаст Two Devs One Ops https://www.2d1o.ru/
-72-10 Никнейм bsideup
-74-00 Дреды, конфликты в университете
-Гость - twitter.com/bsideup
-Телеграм канал t.me/javaswag
-Чат t.me/javaswag_chat
-Сайт javaswag.ru
-Подкаст записан на конференции https://jokerconf.com/
-Голос подкаста - t.me/volyx
-Продакшн подкаста - t.me/pahaus</itunes:summary><itunes:subtitle>#3 - Сергей Егоров - Pivotal, Testcontainers, Reac...</itunes:subtitle><description>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
-00-49 Доклад про https://github.com/testcontainers/
-06-17 Разработка игр
-09-30 Язык Haxe
-- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 14-18 Apache Groovy
-- https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
-22-50 Первый доклад на английском на
-25-10 Zeroturnaround JRebel, XRebel
-30-40 С нуля в облака. Поднять продакшн, пока едет пицца
-- https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
-36-36 История Testcontainers
-- Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
-- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.com/bsideup/liiklus - Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar - 50 микросервисов 58-40 Спринг
-- Офисы Pivotal - Staff Software Engineer - Reactor &amp;amp; Reactive Spring - https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260 - Почему выбрали реактивный подход в Vivy - Ownership &amp;amp; trust - Конференция s1p https://springoneplatform.io/ - Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound - Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps 67-10 Jabel - unlock Javac 12+ syntax when targeting Java 8
-- https://github.com/bsideup/jabel 70-45 Подкаст Two Devs One Ops https://www.2d1o.ru/
-72-10 Никнейм bsideup
-74-00 Дреды, конфликты в университете
-Гость - twitter.com/bsideup
-Телеграм канал t.me/javaswag
-Чат t.me/javaswag_chat
-Сайт javaswag.ru
-Подкаст записан на конференции https://jokerconf.com/
-Голос подкаста - t.me/volyx
-Продакшн подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/3-javaswag-sergei-egorov.mp3" type="audio/mpeg" length="73728000"/><itunes:image href="https://javaswag.github.io/images/logo.png"/></item><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/688411723</guid><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><pubDate>Mon, 21 Oct 2019 18:22:01 +0000</pubDate><link>https://javaswag.github.io/episo[0mde[31mvrel</link>
+      <link>https://soundcloud.com/javaswag/2-oleg-shelaev-iz-razrabotchika-v-devrel</link>
       <itunes:duration>00:29:18</itunes:duration>
       <itunes:author>javaswag</itunes:author>
       <itunes:explicit>no</itunes:explicit>
@@ -2940,7 +2894,400 @@ To be continued
       <itunes:image href="https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-original.jpg"/>
     </item>
       </channel>
-    [0m[32m/2/</link><itunes:duration>00:29:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>00-25 Как стал девелопер-адвокатом?
+    [0m[32mthub.io/images/logo.png"/></item><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/826975594</guid><title>#8 - Евгений Козлов - почему не C#, var - зло или нет, новые фичи Java 9-11</title><pubDate>Tue, 26 May 2020 10:32:12 +0000</pubDate><link>https://javaswag.github.io/episode/8/</link><itunes:duration>01:48:44</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 8 выпуске подкаста Javaswag поговорили с Евгением Козловым о фичах, которые появились начиная с Java 9 по 11 версию.
+00-00 Приветствие
+02-50 О себе
+04-20 Чем хорош/плох C#?
+13-00 Про функциональщину, иммутабельность и взаимодействие с коллегами
+16-36 Диагноз &amp;ldquo;Стримоз&amp;rdquo; - когда используешь стримы везде
+17-40 Что такое JEP ?
+25-00 Модульность в Java 9
+40-26 Переходим на новую версию Джавы со старым класспасом
+46-30 Изменения в Джаве 9 помимо модулей
+63-29 Несинтаксические изменения в 9
+77-58 JShell
+87-30 Новый полугодовой релизный цикл
+91-10 Java 10. Когда использовать var? Когда ставить тип, а когда использовать var? var! var!
+106-08 Java 11. var в лямбдах
+Гость - twitter.com/ZhekaKozlov
+Сайт minijug.ru/
+Телеграм канал Жени - t.me/miniJUG
+Телеграм канал подкаста t.me/javaswag
+Чат t.me/javaswag_chat
+Сайт javaswag.ru
+Голос подкаста - t.me/volyx</itunes:summary><itunes:subtitle>В 8 выпуске подкаста Javaswag поговорили с Евгение...</itunes:subtitle><description>В 8 выпуске подкаста Javaswag поговорили с Евгением Козловым о фичах, которые появились начиная с Java 9 по 11 версию.
+00-00 Приветствие
+02-50 О себе
+04-20 Чем хорош/плох C#?
+13-00 Про функциональщину, иммутабельность и взаимодействие с коллегами
+16-36 Диагноз &amp;ldquo;Стримоз&amp;rdquo; - когда используешь стримы везде
+17-40 Что такое JEP ?
+25-00 Модульность в Java 9
+40-26 Переходим на новую версию Джавы со старым класспасом
+46-30 Изменения в Джаве 9 помимо модулей
+63-29 Несинтаксические изменения в 9
+77-58 JShell
+87-30 Новый полугодовой релизный цикл
+91-10 Java 10. Когда использовать var? Когда ставить тип, а когда использовать var? var! var!
+106-08 Java 11. var в лямбдах
+Гость - twitter.com/ZhekaKozlov
+Сайт minijug.ru/
+Телеграм канал Жени - t.me/miniJUG
+Телеграм канал подкаста t.me/javaswag
+Чат t.me/javaswag_chat
+Сайт javaswag.ru
+Голос подкаста - t.me/volyx</description><enclosure url="https://storage.yandexcloud.net/javaswag/8-javaswag-zheka-kozlov.mp3" type="audio/mpeg" length="104382380"/><itunes:image href="https://javaswag.github.io/images/logo.png"/></item><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/787048462</guid><title>#7 - Роман Левентов - Apache Druid, ChronicleMap, Koloboke</title><pubDate>Wed, 01 Apr 2020 13:07:22 +0000</pubDate><link>https://javaswag.github.io/episode/7/</link><itunes:duration>02:02:20</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 7 выпуске подкаста Javaswag поговорили с Романом Левентов об Apache Druid, ChronicleMap и библиотеке Романа Колобок.
+00-00 Приветствие
+01-00 Что такое Apache Druid
+21-00 База данных на Java
+30-30 Опенсорс в Метамаркетс, внешние контрибьютеры
+35-39 Будущее колоночных баз
+37-15 OpenHFT
+43-29 Trove vs HashMap
+46-01 Как Koloboke генерирует Хешмапы?
+48-57 ChronicleMap, чем отличается ChronicleMap от ConcurrentHashMap?
+56-01 Трейдофы хештаблиц
+68-53 Дрифт врмени в ScheduledThreadPoolExecutor
+78-10 Библиотека примитивов Koloboke
+85-06 Консалтинг
+92-15 Engineering Ideas https://engineeringideas.substack.com/
+96-48 Code Review Checklist: Java Concurrency https://github.com/code-review-checklists/java-concurrency
+112-28 Удаленная работа, климатические изменения
+Гость - twitter.com/leventov/
+Телеграм канал t.me/javaswag
+Чат t.me/javaswag_chat
+Сайт javaswag.ru
+Голос подкаста - t.me/volyx
+Продакшн подкаста - t.me/pahaus</itunes:summary><itunes:subtitle>В 7 выпуске подкаста Javaswag поговорили с Романом...</itunes:subtitle><description>В 7 выпуске подкаста Javaswag поговорили с Романом Левентов об Apache Druid, ChronicleMap и библиотеке Романа Колобок.
+00-00 Приветствие
+01-00 Что такое Apache Druid
+21-00 База данных на Java
+30-30 Опенсорс в Метамаркетс, внешние контрибьютеры
+35-39 Будущее колоночных баз
+37-15 OpenHFT
+43-29 Trove vs HashMap
+46-01 Как Koloboke генерирует Хешмапы?
+48-57 ChronicleMap, чем отличается ChronicleMap от ConcurrentHashMap?
+56-01 Трейдофы хештаблиц
+68-53 Дрифт врмени в ScheduledThreadPoolExecutor
+78-10 Библиотека примитивов Koloboke
+85-06 Консалтинг
+92-15 Engineering Ideas https://engineeringideas.substack.com/
+96-48 Code Review Checklist: Java Concurrency https://github.com/code-review-checklists/java-concurrency
+112-28 Удаленная работа, климатические изменения
+Гость - twitter.com/leventov/
+Телеграм канал t.me/javaswag
+Чат t.me/javaswag_chat
+Сайт javaswag.ru
+Голос подкаста - t.me/volyx
+Продакшн подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/7-javaswag-roman-leventov.mp3" type="audio/mpeg" length="15704816"/><itunes:image href="https://javaswag.github.io/images/logo.png"/></item><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/759848851</guid><title>#6 - Игорь Сорока - Переезд в Финляндию, работа консультантом, софт скиллы</title><pubDate>Fri, 14 Feb 2020 14:49:30 +0000</pubDate><link>https://javaswag.github.io/episode/6/</link><itunes:duration>01:18:11</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 6 выпуске подкаста Javaswag поговорили с Игорем Сорокой о переезде в Финляндию, о изучении разных языков программирования, о работе консультантом и о важности софт скиллов.
+00-00 Приветствие
+00-57 Из инженера-механика в программисты
+01-30 Как решил заняться программированием?
+02-30 Набор курсов в магистратуре
+05-11 Групповой проект. JavaFX не новый для Java UI фреймворк, деплой в Heroku, VueJS
+08-18 Я приходил к другу, который знал финский, и он переводил в Гугл транслейте
+08-48 JavaRush - советую всем, кто очень поздно пришел в программирование, много основ.
+09-38 Финский Java курc, JavaRush
+10-58 Сколько понадобилось времени для того чтобы писать приложение на Джаве? Первый фриланс
+13-10 Поиск работы после магистратуры. Ошибка - искать работу по своей специальности и по программированию.
+15-00 Стартап. Адройд-приложение - слуховой аппарат в телефоне.
+15-36 40 отказов по резюме. Что спасало - это большая мотивация найти работу
+17-19 Резюме, в котором было все!
+18-00 Синдром самозванца и записная книжка с вопросами по Core Java
+20-26 Первый оффер. Очень много работы и подготовки.
+22-24 Нужны ли Soft Skills для Junior?
+23-11 Стэк - монолит, OSGI, Vaadin, Jenkins, embeded. Работает ли OSGI? Вечерний девопс.
+29-30 Финский график работы
+31-15 Fullstack разработчик умеет все? 30% Java, остальное Fullstack
+35-04 Amazon Associate Developer нужен ли?
+37-50 Консалтинг
+40-10 Как внедрить AWS?
+41-15 Чем приглянулся Typescript?
+42-02 У каждого клиента свой стек. Gatling, Scala. Архитектор решил, что Gatling идеальный тул и его все послушали
+45-42 Прокачка консультантских софт скиллов. Что такое софт скиллы?
+50-07 Можно проверить софт-скилы по резюме?
+53-27 Зачем вести блог? Блог Игоря - https://medium.com/@igorsoroka/ Важность английского языка.
+62-02 Были ли проблемы с английским языком при переезде?
+63-40 Новая работа. Angular, Typescript, Kotlin, Java, AWS.
+66-00 Идем к микросервисам. Все написано просто, без Спринга. Amazon RDS, Postgres
+67-15 На Джаве все новое писать не хочется поэтому переходим на Котлин. С Котлином легче?
+69-50 Подкастинг
+72-30 GeekExport
+Ссылки от Игоря
+Первые опыт с облаками: https://www.heroku.com/
+Где учился программировать: https://javarush.ru
+Vaadin - UI framework для джавистов : https://vaadin.com/learn/tutorials/v14
+Книги:
+https://www.amazon.com/dp/0596155409/ref=cm_sw_r_tw_dp_U_x_HCfoEbC1K6V04
+https://www.reinventingorganizations.com/
+Подкасты:
+https://willbedone.ru/podcast/
+https://softskills.audio/
+Про жизнь разработчика в Финляндии:
+https://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii Оставить заявку на бесплатное ревью резюме: https://geekexport.com/cv-review
+Гость - https://t.me/olegsoroka
+Телеграм канал https://t.me/javaswag
+Чат https://t.me/javaswag_chat
+Сайт https://javaswag.ru
+Голос подкаста - https://t.me/volyx
+Продакшн подкаста - https://t.me/pahaus</itunes:summary><itunes:subtitle>В 6 выпуске подкаста Javaswag поговорили с Игорем ...</itunes:subtitle><description>В 6 выпуске подкаста Javaswag поговорили с Игорем Сорокой о переезде в Финляндию, о изучении разных языков программирования, о работе консультантом и о важности софт скиллов.
+00-00 Приветствие
+00-57 Из инженера-механика в программисты
+01-30 Как решил заняться программированием?
+02-30 Набор курсов в магистратуре
+05-11 Групповой проект. JavaFX не новый для Java UI фреймворк, деплой в Heroku, VueJS
+08-18 Я приходил к другу, который знал финский, и он переводил в Гугл транслейте
+08-48 JavaRush - советую всем, кто очень поздно пришел в программирование, много основ.
+09-38 Финский Java курc, JavaRush
+10-58 Сколько понадобилось времени для того чтобы писать приложение на Джаве? Первый фриланс
+13-10 Поиск работы после магистратуры. Ошибка - искать работу по своей специальности и по программированию.
+15-00 Стартап. Адройд-приложение - слуховой аппарат в телефоне.
+15-36 40 отказов по резюме. Что спасало - это большая мотивация найти работу
+17-19 Резюме, в котором было все!
+18-00 Синдром самозванца и записная книжка с вопросами по Core Java
+20-26 Первый оффер. Очень много работы и подготовки.
+22-24 Нужны ли Soft Skills для Junior?
+23-11 Стэк - монолит, OSGI, Vaadin, Jenkins, embeded. Работает ли OSGI? Вечерний девопс.
+29-30 Финский график работы
+31-15 Fullstack разработчик умеет все? 30% Java, остальное Fullstack
+35-04 Amazon Associate Developer нужен ли?
+37-50 Консалтинг
+40-10 Как внедрить AWS?
+41-15 Чем приглянулся Typescript?
+42-02 У каждого клиента свой стек. Gatling, Scala. Архитектор решил, что Gatling идеальный тул и его все послушали
+45-42 Прокачка консультантских софт скиллов. Что такое софт скиллы?
+50-07 Можно проверить софт-скилы по резюме?
+53-27 Зачем вести блог? Блог Игоря - https://medium.com/@igorsoroka/ Важность английского языка.
+62-02 Были ли проблемы с английским языком при переезде?
+63-40 Новая работа. Angular, Typescript, Kotlin, Java, AWS.
+66-00 Идем к микросервисам. Все написано просто, без Спринга. Amazon RDS, Postgres
+67-15 На Джаве все новое писать не хочется поэтому переходим на Котлин. С Котлином легче?
+69-50 Подкастинг
+72-30 GeekExport
+Ссылки от Игоря
+Первые опыт с облаками: https://www.heroku.com/
+Где учился программировать: https://javarush.ru
+Vaadin - UI framework для джавистов : https://vaadin.com/learn/tutorials/v14
+Книги:
+https://www.amazon.com/dp/0596155409/ref=cm_sw_r_tw_dp_U_x_HCfoEbC1K6V04
+https://www.reinventingorganizations.com/
+Подкасты:
+https://willbedone.ru/podcast/
+https://softskills.audio/
+Про жизнь разработчика в Финляндии:
+https://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii Оставить заявку на бесплатное ревью резюме: https://geekexport.com/cv-review
+Гость - https://t.me/olegsoroka
+Телеграм канал https://t.me/javaswag
+Чат https://t.me/javaswag_chat
+Сайт https://javaswag.ru
+Голос подкаста - https://t.me/volyx
+Продакшн подкаста - https://t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/6-javaswag-igor-soroka.mp3" type="audio/mpeg" length="75066305"/><itunes:image href="https://javaswag.github.io/images/logo.png"/></item><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/751838761</guid><title>#5 - Олег Чирухин - Habr, JUG, Sber</title><pubDate>Fri, 31 Jan 2020 13:28:04 +0000</pubDate><link>https://javaswag.github.io/episode/5/</link><itunes:duration>01:58:29</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.
+00-00 Приветствие
+00-56 5-ый в рейтинге Хабра, как так получилось?
+02-30 2,5 часа на редактирование текста статьи
+05-45 &amp;ldquo;После двух часов редактирования статьи остались только картинки&amp;rdquo;
+06-50 &amp;ldquo;У меня есть вся мощь кампании JUG.RU&amp;rdquo;
+08-15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.
+11-00 Почему пишешь на Хабр то своего имени?
+12-05 Архитектор в Сбербанке
+15-40 Что делает в течении дня архитектор?
+17-20 Стэк Сбера на 2016 год - GridGain
+20-15 Что такое ин мемори датагрид?
+22-10 Госуслуги, PHP
+27-57 PHP - бдсм искусство
+30-30 GameDev это сложно. По своей инициативе спал на кухне с палаткой. Истории из Uncharted
+36-30 Россия - страна победивших казуальных игр
+37-30 Посты с DTF. Книги: &amp;ldquo;The Art of Game Design: A Book of Lenses&amp;rdquo;, &amp;ldquo;Кровь, пот и пиксели. Обратная сторона индустрии&amp;rdquo;
+43-00 Почему на конференциях мало докладов о GameDev?
+46-00 История про гейм-девелопера, который сидел на шее у своей девушки
+48-35 Выступление на JBreak 2017
+54-00 Переход JUG.RU. Паттерны написания статьи.
+63-00 Джава-дайджест
+67-07 Джош Лонг - машина для производства подкастов. Три состояни Джоша: спит, готовит доклад, кодит.
+70-00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto https://www.eclipse.org/ditto/index.html
+77-03 Аудиозапись &amp;ldquo;Почему я перестал читать новости&amp;rdquo;. &amp;ldquo;Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил&amp;rdquo;
+Какой важный скилл для тебя?
+78-30 Как писать о технологиях, которые не нравятся?
+81-35 &amp;ldquo;Сегодня у Олега в дайджесте, а завтра у джуна в продакшене&amp;rdquo;
+83-40 &amp;ldquo;Читать все новости подряд глупо, превращать их в дайджесты глупо&amp;rdquo;. Пропал джава-дайджест. Новый формат джава-дайджеста.
+87-03 Любимый джава-стек: спринг-бут, sqlite. “Чем меньше всяких церемоний, чем меньше хибернейта над хибернейтом, тем лучше. Начиная с какого-то количества хибернейтов друг на друга накрученных проект уже обречен. Просто вы еще об этом не знаете.”
+89-05 Куда пропали встречи JUG в Санкт-Петербурге?
+91-20 Что изменилось у тебя в работе с 2017 года? &amp;ldquo;У меня номер на майке -23, сейчас нас человек 75&amp;rdquo;
+94-10 20 докладов на конференции много или мало?
+97-00 Подкасты, Ютьюб. Подкаст Витая пара http://tpair.org/.
+Разбор Полетов - что с ним? Новый подкаст - https://bitcask.live
+&amp;ldquo;Люди приходят в подкаст и начинают расползаться мыслью по древу.&amp;rdquo;
+107-00 Youtube-видео. Подкатываем к тёлкам яйца вместе с Unity 3D
+Человек ведро и энергетики https://youtu.be/8BBZnmOf0cI?t=467
+Человек ведро Начало https://youtu.be/8BBZnmOf0cI?t=1263
+Мотивация для Юнити разработчика https://youtu.be/8BBZnmOf0cI?t=2149
+Человек ведро https://youtu.be/8BBZnmOf0cI?t=3799
+Человек ведро на танцует https://youtu.be/8BBZnmOf0cI?t=3911
+Человек ведро играет в игру https://youtu.be/8BBZnmOf0cI?t=4327
+Человек-ведро покупает вино https://youtu.be/8BBZnmOf0cI?t=2787
+141-35 Ютуб стримы по 4 часа. Жизнь стримера. Ачивка на Твиче Like clockwork за ежедневный стриминг в течение месяца. Стриминг - это работа.
+Youtube канал Олега - https://youtube.com/javawatch
+Telegram канал - https://t.me/javawatch
+Доклады Олега
+https://www.youtube.com/watch?v=TJUiTA-BluI JBreak 2017 - Олег Чирухин — Девопс: теперь Java не тормозит
+https://www.youtube.com/watch?v=hnadkXBIC1k JPoint 2018 - Олег Чирухин — Graal, Value Types, Loom и прочие ништяки 17 сент. 2018 г.
+https://www.youtube.com/watch?v=lH4H0LEAo9g Олег Чирухин — GraalVM Всемогущий
+Гость - https://twitter.com/olegchir
+Телеграм канал https://t.me/javaswag
+Чат https://t.me/javaswag_chat
+Сайт https://javaswag.ru
+Голос подкаста - https://t.me/volyx
+Продакшн подкаста - https://t.me/pahaus</itunes:summary><itunes:subtitle>В пятом выпуске подкаста Javaswag поговорили с Оле...</itunes:subtitle><description>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.
+00-00 Приветствие
+00-56 5-ый в рейтинге Хабра, как так получилось?
+02-30 2,5 часа на редактирование текста статьи
+05-45 &amp;ldquo;После двух часов редактирования статьи остались только картинки&amp;rdquo;
+06-50 &amp;ldquo;У меня есть вся мощь кампании JUG.RU&amp;rdquo;
+08-15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.
+11-00 Почему пишешь на Хабр то своего имени?
+12-05 Архитектор в Сбербанке
+15-40 Что делает в течении дня архитектор?
+17-20 Стэк Сбера на 2016 год - GridGain
+20-15 Что такое ин мемори датагрид?
+22-10 Госуслуги, PHP
+27-57 PHP - бдсм искусство
+30-30 GameDev это сложно. По своей инициативе спал на кухне с палаткой. Истории из Uncharted
+36-30 Россия - страна победивших казуальных игр
+37-30 Посты с DTF. Книги: &amp;ldquo;The Art of Game Design: A Book of Lenses&amp;rdquo;, &amp;ldquo;Кровь, пот и пиксели. Обратная сторона индустрии&amp;rdquo;
+43-00 Почему на конференциях мало докладов о GameDev?
+46-00 История про гейм-девелопера, который сидел на шее у своей девушки
+48-35 Выступление на JBreak 2017
+54-00 Переход JUG.RU. Паттерны написания статьи.
+63-00 Джава-дайджест
+67-07 Джош Лонг - машина для производства подкастов. Три состояни Джоша: спит, готовит доклад, кодит.
+70-00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto https://www.eclipse.org/ditto/index.html
+77-03 Аудиозапись &amp;ldquo;Почему я перестал читать новости&amp;rdquo;. &amp;ldquo;Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил&amp;rdquo;
+Какой важный скилл для тебя?
+78-30 Как писать о технологиях, которые не нравятся?
+81-35 &amp;ldquo;Сегодня у Олега в дайджесте, а завтра у джуна в продакшене&amp;rdquo;
+83-40 &amp;ldquo;Читать все новости подряд глупо, превращать их в дайджесты глупо&amp;rdquo;. Пропал джава-дайджест. Новый формат джава-дайджеста.
+87-03 Любимый джава-стек: спринг-бут, sqlite. “Чем меньше всяких церемоний, чем меньше хибернейта над хибернейтом, тем лучше. Начиная с какого-то количества хибернейтов друг на друга накрученных проект уже обречен. Просто вы еще об этом не знаете.”
+89-05 Куда пропали встречи JUG в Санкт-Петербурге?
+91-20 Что изменилось у тебя в работе с 2017 года? &amp;ldquo;У меня номер на майке -23, сейчас нас человек 75&amp;rdquo;
+94-10 20 докладов на конференции много или мало?
+97-00 Подкасты, Ютьюб. Подкаст Витая пара http://tpair.org/.
+Разбор Полетов - что с ним? Новый подкаст - https://bitcask.live
+&amp;ldquo;Люди приходят в подкаст и начинают расползаться мыслью по древу.&amp;rdquo;
+107-00 Youtube-видео. Подкатываем к тёлкам яйца вместе с Unity 3D
+Человек ведро и энергетики https://youtu.be/8BBZnmOf0cI?t=467
+Человек ведро Начало https://youtu.be/8BBZnmOf0cI?t=1263
+Мотивация для Юнити разработчика https://youtu.be/8BBZnmOf0cI?t=2149
+Человек ведро https://youtu.be/8BBZnmOf0cI?t=3799
+Человек ведро на танцует https://youtu.be/8BBZnmOf0cI?t=3911
+Человек ведро играет в игру https://youtu.be/8BBZnmOf0cI?t=4327
+Человек-ведро покупает вино https://youtu.be/8BBZnmOf0cI?t=2787
+141-35 Ютуб стримы по 4 часа. Жизнь стримера. Ачивка на Твиче Like clockwork за ежедневный стриминг в течение месяца. Стриминг - это работа.
+Youtube канал Олега - https://youtube.com/javawatch
+Telegram канал - https://t.me/javawatch
+Доклады Олега
+https://www.youtube.com/watch?v=TJUiTA-BluI JBreak 2017 - Олег Чирухин — Девопс: теперь Java не тормозит
+https://www.youtube.com/watch?v=hnadkXBIC1k JPoint 2018 - Олег Чирухин — Graal, Value Types, Loom и прочие ништяки 17 сент. 2018 г.
+https://www.youtube.com/watch?v=lH4H0LEAo9g Олег Чирухин — GraalVM Всемогущий
+Гость - https://twitter.com/olegchir
+Телеграм канал https://t.me/javaswag
+Чат https://t.me/javaswag_chat
+Сайт https://javaswag.ru
+Голос подкаста - https://t.me/volyx
+Продакшн подкаста - https://t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/5-javaswag-oleg-chiruhin.mp3" type="audio/mpeg" length="113745502"/><itunes:image href="https://javaswag.github.io/images/logo.png"/></item><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/724565152</guid><title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title><pubDate>Thu, 12 Dec 2019 17:56:39 +0000</pubDate><link>https://javaswag.github.io/episode/4/</link><itunes:duration>00:34:11</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
+00-44 Что делает програмный коммитет конференции?
+01-58 Чем хорош https://bootique.io/?
+06-29 Сервер Undertow, почему?
+09-09 Undertow 3 и netty
+11-24 Kotlin
+14-41 Любимые фичи в Kotlin
+16-26 Kotlin User Group - https://bkug.by/ Kotlin Beta в продакшене !!!
+17-52 Kotlin на фронтенд митапе
+19-20 Кто такой Fullstack разработчик?
+22-39 https://ktor.io/
+23-50 Awesome Kotlin https://kotlin.link/
+24-42 Komodo https://github.com/Heapy/komodo
+- Koin https://insert-koin.io/ 27-27 Какую базу данных используешь для пет-проджектов?
+- Xodus https://github.com/JetBrains/xodus - Append-Only Log 28-48 Что пробовал до Xodus?
+- mysql, mariadb, postgresql, oracle - Xodus в проде 31-03 Странный вопрос про Dell XPS
+- Почему не Mac? 33-00 Free As a Freedom
+Гость - https://twitter.com/HeapyHop
+Телеграм канал t.me/javaswag
+Чат t.me/javaswag_chat
+Сайт javaswag.ru
+Подкаст записан на конференции https://jfuture.dev/
+Голос подкаста - t.me/volyx
+Продакшн подкаста - t.me/pahaus</itunes:summary><itunes:subtitle>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
+00-...</itunes:subtitle><description>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
+00-44 Что делает програмный коммитет конференции?
+01-58 Чем хорош https://bootique.io/?
+06-29 Сервер Undertow, почему?
+09-09 Undertow 3 и netty
+11-24 Kotlin
+14-41 Любимые фичи в Kotlin
+16-26 Kotlin User Group - https://bkug.by/ Kotlin Beta в продакшене !!!
+17-52 Kotlin на фронтенд митапе
+19-20 Кто такой Fullstack разработчик?
+22-39 https://ktor.io/
+23-50 Awesome Kotlin https://kotlin.link/
+24-42 Komodo https://github.com/Heapy/komodo
+- Koin https://insert-koin.io/ 27-27 Какую базу данных используешь для пет-проджектов?
+- Xodus https://github.com/JetBrains/xodus - Append-Only Log 28-48 Что пробовал до Xodus?
+- mysql, mariadb, postgresql, oracle - Xodus в проде 31-03 Странный вопрос про Dell XPS
+- Почему не Mac? 33-00 Free As a Freedom
+Гость - https://twitter.com/HeapyHop
+Телеграм канал t.me/javaswag
+Чат t.me/javaswag_chat
+Сайт javaswag.ru
+Подкаст записан на конференции https://jfuture.dev/
+Голос подкаста - t.me/volyx
+Продакшн подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/4-javaswag-ruslan-ibragimov.mp3" type="audio/mpeg" length="32823170"/><itunes:image href="https://javaswag.github.io/images/logo.png"/></item><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/702438730</guid><title>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</title><pubDate>Mon, 04 Nov 2019 16:56:25 +0000</pubDate><link>https://javaswag.github.io/episode/3/</link><itunes:duration>01:16:48</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
+00-49 Доклад про https://github.com/testcontainers/
+06-17 Разработка игр
+09-30 Язык Haxe
+- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 14-18 Apache Groovy
+- https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
+22-50 Первый доклад на английском на
+25-10 Zeroturnaround JRebel, XRebel
+30-40 С нуля в облака. Поднять продакшн, пока едет пицца
+- https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
+36-36 История Testcontainers
+- Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
+- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.com/bsideup/liiklus - Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar - 50 микросервисов 58-40 Спринг
+- Офисы Pivotal - Staff Software Engineer - Reactor &amp;amp; Reactive Spring - https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260 - Почему выбрали реактивный подход в Vivy - Ownership &amp;amp; trust - Конференция s1p https://springoneplatform.io/ - Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound - Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps 67-10 Jabel - unlock Javac 12+ syntax when targeting Java 8
+- https://github.com/bsideup/jabel 70-45 Подкаст Two Devs One Ops https://www.2d1o.ru/
+72-10 Никнейм bsideup
+74-00 Дреды, конфликты в университете
+Гость - twitter.com/bsideup
+Телеграм канал t.me/javaswag
+Чат t.me/javaswag_chat
+Сайт javaswag.ru
+Подкаст записан на конференции https://jokerconf.com/
+Голос подкаста - t.me/volyx
+Продакшн подкаста - t.me/pahaus</itunes:summary><itunes:subtitle>#3 - Сергей Егоров - Pivotal, Testcontainers, Reac...</itunes:subtitle><description>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
+00-49 Доклад про https://github.com/testcontainers/
+06-17 Разработка игр
+09-30 Язык Haxe
+- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 14-18 Apache Groovy
+- https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
+22-50 Первый доклад на английском на
+25-10 Zeroturnaround JRebel, XRebel
+30-40 С нуля в облака. Поднять продакшн, пока едет пицца
+- https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
+36-36 История Testcontainers
+- Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
+- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.com/bsideup/liiklus - Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar - 50 микросервисов 58-40 Спринг
+- Офисы Pivotal - Staff Software Engineer - Reactor &amp;amp; Reactive Spring - https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260 - Почему выбрали реактивный подход в Vivy - Ownership &amp;amp; trust - Конференция s1p https://springoneplatform.io/ - Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound - Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps 67-10 Jabel - unlock Javac 12+ syntax when targeting Java 8
+- https://github.com/bsideup/jabel 70-45 Подкаст Two Devs One Ops https://www.2d1o.ru/
+72-10 Никнейм bsideup
+74-00 Дреды, конфликты в университете
+Гость - twitter.com/bsideup
+Телеграм канал t.me/javaswag
+Чат t.me/javaswag_chat
+Сайт javaswag.ru
+Подкаст записан на конференции https://jokerconf.com/
+Голос подкаста - t.me/volyx
+Продакшн подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/3-javaswag-sergei-egorov.mp3" type="audio/mpeg" length="73728000"/><itunes:image href="https://javaswag.github.io/images/logo.png"/></item><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/688411723</guid><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><pubDate>Mon, 21 Oct 2019 18:22:01 +0000</pubDate><link>https://javaswag.github.io/episode/2/</link><itunes:duration>00:29:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>00-25 Как стал девелопер-адвокатом?
 05-58 Как начал заниматься маркетингом в JRebel?
 10-37 Virtual Java User Group https://virtualjug.com/
 14-05 Конференция vJUG24
