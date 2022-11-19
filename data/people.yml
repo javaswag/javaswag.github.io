@@ -25,6 +25,18 @@ anton-batyaev:
 lancov-3:
   url: https://www.linkedin.com/in/alantsov/
   image: /img/people/lancov-3.jpg
+plizga-5:
+  url: https://twitter.com/toparvion
+  image: /img/people/plizga-5.jpg 
+armen-nanuparov:
+  url: https://t.me/xFirefly
+  image: /img/people/unknown.png
+ivan-zemplyanskii:
+  url: https://github.com/izemlyanskiy
+  image: /img/people/ivan-zemplyanskii.jpg
+alexei-ovsyannikov:
+  url: https://github.com/InsanusMokrassar
+  image: /img/people/alexei-ovsyannikov.png
 unknown:
   url: /
   image: /img/people/unknown.png
