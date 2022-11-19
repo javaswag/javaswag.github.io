@@ -37,6 +37,24 @@ ivan-zemplyanskii:
 alexei-ovsyannikov:
   url: https://github.com/InsanusMokrassar
   image: /img/people/alexei-ovsyannikov.png
+nikita-lipskii:
+  url: https://twitter.com/pjBooms
+  image: /img/people/nikita-lipskii.jpg
+ivan-uglyanskii:
+  url: https://twitter.com/dbg_nsk
+  image: /img/people/ivan-uglyanskii.jpg
+sergei-golicin:
+  url: https://www.facebook.com/photo/?fbid=1146617908862260
+  image: /img/people/sergei-golicin.jpg
+vladimir-ozerov:
+  url: https://twitter.com/devozerov
+  image: /img/people/vladimir-ozerov.jpg
+fedor-korotkov:
+  url: https://twitter.com/fedor
+  image: /img/people/fedor-korotkov.jpg
+dmitrii-konstantinov:
+  url: https://twitter.com/java_dnk
+  image: /img/people/dmitrii-konstantinov.jpg
 unknown:
   url: /
   image: /img/people/unknown.png
