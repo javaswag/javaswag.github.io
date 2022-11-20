@@ -55,6 +55,18 @@ fedor-korotkov:
 dmitrii-konstantinov:
   url: https://twitter.com/java_dnk
   image: /img/people/dmitrii-konstantinov.jpg
+andrey-rebrov:
+  url: https://twitter.com/andrebrov
+  image: /img/people/andrey-rebrov.jpg
+mitya-alexandrov:
+  url: https://twitter.com/bercut2000
+  image: /img/people/mitya-alexandrov.jpg
+roman-kudryashov:
+  url: https://twitter.com/_rkudryashov
+  image: /img/people/roman-kudryashov.jpg
+andrey-mizurov:
+  url: https://github.com/amizurov
+  image: /img/people/andrey-mizurov.jpg
 unknown:
   url: /
   image: /img/people/unknown.png
