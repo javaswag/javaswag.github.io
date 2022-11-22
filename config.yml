@@ -17,6 +17,7 @@ params:
   summary: Подкаст о разработке на Java
   StaticURL: "https://javaswag.github.io"
   LanguageCode: ru
+  Keywords: technology,java,jvm
   yandexS3: "https://storage.yandexcloud.net/javaswag/"
   title: javaswag
   telegram: https://t.me/javaswag
