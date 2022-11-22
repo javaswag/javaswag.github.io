@@ -85,6 +85,27 @@ anton-kuranda:
 tagir-valeev:
   url: https://twitter.com/tagir_valeev
   image: /img/people/tagir_valeev.jpg
+java-release:
+  url: https://twitter.com/ZhekaKozlov
+  image: /img/people/java-release.jpg
+zheka-kozlov:
+  url: https://twitter.com/ZhekaKozlov
+  image: /img/people/java-release.jpg
+roman-leventov:
+  url: https://twitter.com/leventov/
+  image: /img/people/roman-leventov.jpg
+igor-soroka:
+  url: https://t.me/geekexport
+  image: /img/people/igor-soroka.jpg
+oleg-chiruhin:
+  url: https://twitter.com/olegchir
+  image: /img/people/oleg-chiruhin.jpg
+ruslan-ibragimov:
+  url: https://twitter.com/HeapyHop
+  image: /img/people/ruslan-ibragimov.jpg
+sergei-egorov:
+  url: https://twitter.com/bsideup
+  image: /img/people/sergei-egorov.jpg
 unknown:
   url: /
   image: /img/people/unknown.png
