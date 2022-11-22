@@ -67,6 +67,24 @@ roman-kudryashov:
 andrey-mizurov:
   url: https://github.com/amizurov
   image: /img/people/andrey-mizurov.jpg
+dmitrii-dumanskii:
+  url: https://twitter.com/DOOM369
+  image: /img/people/dmitrii-dumanskii.jpg
+sergey-celovalnikov:
+  url: https://twitter.com/SerCeMan
+  image: /img/people/sergey-celovalnikov.jpg
+sergey-tsypanov:
+  url: https://habr.com/en/users/tsypanov/
+  image: /img/people/unknown.png
+alex-zinoviev:
+  url: https://twitter.com/zaleslaw
+  image: /img/people/alex-zinoviev.jpg
+anton-kuranda:
+  url: https://habr.com/en/users/akuranda/
+  image: /img/people/anton-kuranda.jpg
+tagir-valeev:
+  url: https://twitter.com/tagir_valeev
+  image: /img/people/tagir_valeev.jpg
 unknown:
   url: /
   image: /img/people/unknown.png
