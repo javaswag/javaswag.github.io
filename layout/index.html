@@ -10,7 +10,7 @@
 
         {{ $paginator := .Paginate .Site.RegularPages }} 
         <ul class="EpisodeList">
-          {{ range $paginator.Pages }}
+          {{ range where $paginator.Pages "Draft" false}} 
             <li class="Episode">
               <div class="Episode__Date">{{ .Date.Format "2006.01.02" }}</div>
               <h2 class="Episode__Title">
