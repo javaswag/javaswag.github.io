@@ -177,7 +177,7 @@ func main() {
 		htmlContent := strings.ReplaceAll(item.Description, "\n", "\n\n")
 
 		if audioList[number].Number != number {
-			panic("numers do not match")
+			panic(fmt.Sprintf("numers do not match for %d", number))
 		}
 
 		episode := Episode{
