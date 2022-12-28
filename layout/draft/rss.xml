@@ -21,12 +21,12 @@
         <itunes:keywords>{{ .Site.Params.Keywords }}</itunes:keywords>
         <itunes:category text="Technology"></itunes:category>{{ range .Site.RegularPages }}
         <itunes:owner>
-          <itunes:name>{{ .Site.Params.ItunesName }}</itunes:name>
+          <itunes:name>{{ .Site.Params.ItunesName }} Drafts</itunes:name>
           <itunes:email>{{ .Site.Params.AuthorEmail }}</itunes:email>
         </itunes:owner>
           <item>
       <guid isPermaLink="false">{{ .Params.Guid }}</guid>
-      <title>{{ .Title }}</title>
+      <title>{{ .Title }} Drafts</title>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <link>{{ .Permalink }}</link>
       <itunes:duration>{{ .Params.Duration }}</itunes:duration>
