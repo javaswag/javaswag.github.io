@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
+        <title>{{ .Site.Params.Title}} Drafts</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" .Lastmod | safeHTML }}</pubDate>
+        <lastBuildDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" now.Unix | safeHTML }}</lastBuildDate>
+        <ttl>60</ttl>{{ with .Site.LanguageCode }}
+        <language>{{.}}</language>{{end}}
+        <copyright>Javaswag and authors</copyright>
+        <webMaster>{{ .Site.Params.AuthorEmail }} ({{ .Site.Title }} Feeds)</webMaster>
+        <description>{{ .Site.Params.Desc }}</description>
+        <itunes:subtitle>{{ strings.FirstUpper .Site.Params.Title }}</itunes:subtitle>
+        <itunes:author>{{ .Site.Params.Title}}</itunes:author><!-- <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category> -->
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="{{ .Site.BaseURL }}/img/logo.png" />
+         <image>
+            <url>{{ .Site.BaseURL }}/img/logo.png</url>
+            <title>{{ .Site.Params.Title}}</title>
+            <link>{{ .Site.Params.Telegram}}</link>
+          </image>
+        <itunes:keywords>{{ .Site.Params.Keywords }}</itunes:keywords>
+        <itunes:category text="Technology"></itunes:category>{{ range .Site.RegularPages }}
+        <itunes:owner>
+          <itunes:name>{{ .Site.Params.ItunesName }}</itunes:name>
+          <itunes:email>{{ .Site.Params.AuthorEmail }}</itunes:email>
+        </itunes:owner>
+          <item>
+      <guid isPermaLink="false">{{ .Params.Guid }}</guid>
+      <title>{{ .Title }}</title>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <link>{{ .Permalink }}</link>
+      <itunes:duration>{{ .Params.Duration }}</itunes:duration>
+      <itunes:author>{{ .Site.Params.ItunesAuthor }}</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>{{ .Content | plainify}}</itunes:summary> <!-- {{ .Content | html }} -->
+      {{$subtitle := .Content | plainify}}<itunes:subtitle>{{ substr $subtitle 0 50}}...</itunes:subtitle> <!-- {{ .Summary | html }} --> 
+      <description>{{ .Content | plainify}}</description> <!-- {{ .Content | html }} -->
+      <enclosure url="{{$.Site.Params.yandexS3}}{{ .Params.Audio }}" type="audio/mpeg" length="{{ .Params.Size }}"/>
+      <itunes:image href="{{ .Site.BaseURL }}/{{ .Params.Image }}" />
+      <author>{{ .Site.Params.ItunesAuthor }}</author>
+      <itunes:keywords>{{ .Site.Params.Keywords }}</itunes:keywords>
+    </item>
+        {{ end }}
+      </channel>
+</rss>
