@@ -22,6 +22,7 @@ params:
   title: javaswag
   telegram: https://t.me/javaswag
   image: images/logo.png
+  imageDraft: images/logo-draft.png
   author: Dima V
   itunesAuthor: javaswag
   itunesName: javaswag
