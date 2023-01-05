@@ -14,7 +14,7 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:image href="{{ .Site.BaseURL }}/img/logo-draft.png" />
          <image>
-            <url>{{ .Site.BaseURL }}/img/logo-draft.png</url>
+            <url>{{ .Site.BaseURL }}{{.Site.Params.ImageDraft }}</url>
             <title>{{ .Site.Params.Title}}</title>
             <link>{{ .Site.Params.Telegram}}</link>
           </image>
@@ -36,7 +36,7 @@
       {{$subtitle := .Content | plainify}}<itunes:subtitle>{{ substr $subtitle 0 50}}...</itunes:subtitle> <!-- {{ .Summary | html }} --> 
       <description>{{ .Content | plainify}}</description> <!-- {{ .Content | html }} -->
       <enclosure url="{{$.Site.Params.yandexS3}}{{ .Params.Audio }}" type="audio/mpeg" length="{{ .Params.Size }}"/>
-      <itunes:image href="{{ .Site.BaseURL }}/{{ .Params.ImageDraft }}" />
+      <itunes:image href="{{ .Site.BaseURL }}/{{ $.Site.Params.ImageDraft }}" />
       <author>{{ .Site.Params.ItunesAuthor }}</author>
       <itunes:keywords>{{ .Site.Params.Keywords }}</itunes:keywords>
     </item>
