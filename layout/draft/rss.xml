@@ -12,9 +12,9 @@
         <itunes:subtitle>{{ strings.FirstUpper .Site.Params.Title }}</itunes:subtitle>
         <itunes:author>{{ .Site.Params.Title}}</itunes:author><!-- <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category> -->
         <itunes:explicit>no</itunes:explicit>
-        <itunes:image href="{{ .Site.BaseURL }}/img/logo.png" />
+        <itunes:image href="{{ .Site.BaseURL }}/img/logo-draft.png" />
          <image>
-            <url>{{ .Site.BaseURL }}/img/logo.png</url>
+            <url>{{ .Site.BaseURL }}/img/logo-draft.png</url>
             <title>{{ .Site.Params.Title}}</title>
             <link>{{ .Site.Params.Telegram}}</link>
           </image>
