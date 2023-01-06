@@ -343,42 +343,42 @@ JEP 325: Switch Expressions (Preview) https://openjdk.java.net/jeps/325
 02-30 Набор курсов в магистратуре
 05-11 Групповой проект. JavaFX не новый для Java UI фреймворк, деплой в Heroku, VueJS
 08-18 Я приходил к другу, который знал финский, и он переводил в Гугл транслейте</description></item><item><title>#5 - Олег Чирухин - Habr, JUG, Sber</title><link>https://javaswag.github.io/episode/5/</link><pubDate>Fri, 31 Jan 2020 13:28:04 +0000</pubDate><guid>https://javaswag.github.io/episode/5/</guid><description>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.
-00-00 Приветствие
-00-56 5-ый в рейтинге Хабра, как так получилось?
-02-30 2,5 часа на редактирование текста статьи
-05-45 &amp;ldquo;После двух часов редактирования статьи остались только картинки&amp;rdquo;
-06-50 &amp;ldquo;У меня есть вся мощь кампании JUG.RU&amp;rdquo;
-08-15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.</description></item><item><title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title><link>https://javaswag.github.io/episode/4/</link><pubDate>Thu, 12 Dec 2019 17:56:39 +0000</pubDate><guid>https://javaswag.github.io/episode/4/</guid><description>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
-00-44 Что делает програмный коммитет конференции?
-01-58 Чем хорош https://bootique.io/?
-06-29 Сервер Undertow, почему?
-09-09 Undertow 3 и netty
-11-24 Kotlin
-14-41 Любимые фичи в Kotlin
-16-26 Kotlin User Group - https://bkug.by/ Kotlin Beta в продакшене !!!
-17-52 Kotlin на фронтенд митапе
-19-20 Кто такой Fullstack разработчик?
-22-39 https://ktor.io/
-23-50 Awesome Kotlin https://kotlin.link/
-24-42 Komodo https://github.com/Heapy/komodo
-- Koin https://insert-koin.io/ 27-27 Какую базу данных используешь для пет-проджектов?</description></item><item><title>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</title><link>https://javaswag.github.io/episode/3/</link><pubDate>Mon, 04 Nov 2019 16:56:25 +0000</pubDate><guid>https://javaswag.github.io/episode/3/</guid><description>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
-00-49 Доклад про https://github.com/testcontainers/
-06-17 Разработка игр
-09-30 Язык Haxe
-- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 14-18 Apache Groovy
-- https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
-22-50 Первый доклад на английском на
-25-10 Zeroturnaround JRebel, XRebel
-30-40 С нуля в облака. Поднять продакшн, пока едет пицца
-- https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
-36-36 История Testcontainers
-- Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
-- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.</description></item><item><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><link>https://javaswag.github.io/episode/2/</link><pubDate>Mon, 21 Oct 2019 18:22:01 +0000</pubDate><guid>https://javaswag.github.io/episode/2/</guid><description>00-25 Как стал девелопер-адвокатом?
-05-58 Как начал заниматься маркетингом в JRebel?
-10-37 Virtual Java User Group https://virtualjug.com/
-14-05 Конференция vJUG24
-19-40 Что такое GraalVM ?
-23-45 Как прошел HolyJS ?
+00:00:00 Приветствие
+00:00:56 5-ый в рейтинге Хабра, как так получилось?
+00:02:30 2,5 часа на редактирование текста статьи
+00:05:45 &amp;ldquo;После двух часов редактирования статьи остались только картинки&amp;rdquo;
+00:06:50 &amp;ldquo;У меня есть вся мощь кампании JUG.RU&amp;rdquo;
+00:08:15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.</description></item><item><title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title><link>https://javaswag.github.io/episode/4/</link><pubDate>Thu, 12 Dec 2019 17:56:39 +0000</pubDate><guid>https://javaswag.github.io/episode/4/</guid><description>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
+00:00:44 Что делает програмный коммитет конференции?
+00:01:58 Чем хорош https://bootique.io/?
+00:06:29 Сервер Undertow, почему?
+00:09:09 Undertow 3 и netty
+00:11:24 Kotlin
+00:14:41 Любимые фичи в Kotlin
+00:16:26 Kotlin User Group - https://bkug.by/ Kotlin Beta в продакшене !!!
+00:17:52 Kotlin на фронтенд митапе
+00:19:20 Кто такой Fullstack разработчик?
+00:22:39 https://ktor.io/
+00:23:50 Awesome Kotlin https://kotlin.link/
+00:24:42 Komodo https://github.com/Heapy/komodo
+- Koin https://insert-koin.io/ 00:27:27 Какую базу данных используешь для пет-проджектов?</description></item><item><title>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</title><link>https://javaswag.github.io/episode/3/</link><pubDate>Mon, 04 Nov 2019 16:56:25 +0000</pubDate><guid>https://javaswag.github.io/episode/3/</guid><description>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
+00:00:49 Доклад про https://github.com/testcontainers/
+00:06:17 Разработка игр
+00:09:30 Язык Haxe
+- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 00:14:18 Apache Groovy
+- https://www.youtube.com/watch?v=Ujuz-D-ekXE 00:16:30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
+00:22:50 Первый доклад на английском на
+00:25:10 Zeroturnaround JRebel, XRebel
+00:30:40 С нуля в облака. Поднять продакшн, пока едет пицца
+- https://www.youtube.com/watch?v=9lpDjZUGhKA 00:33:25 Берлин, Zalando
+00:36:36 История Testcontainers
+- Перевести сервис на SpringBoot за час 00:40:30 Vivy https://www.vivy.com/
+- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.</description></item><item><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><link>https://javaswag.github.io/episode/2/</link><pubDate>Mon, 21 Oct 2019 18:22:01 +0000</pubDate><guid>https://javaswag.github.io/episode/2/</guid><description>00:00:25 Как стал девелопер-адвокатом?
+00:05:58 Как начал заниматься маркетингом в JRebel?
+00:10:37 Virtual Java User Group https://virtualjug.com/
+00:14:05 Конференция vJUG24
+00:19:40 Что такое GraalVM ?
+00:23:45 Как прошел HolyJS ?
 To be continued
 Телеграм канал t.me/javaswag
 Чат t.me/javaswag_chat
@@ -386,20 +386,20 @@ To be continued
 Подкаст записан на конференции 2019.rigadevdays.lv/
 Голос подкаста - t.me/volyx
 Продакшн подкаста - t.me/pahaus</description></item><item><title>#1 - Олег Докука - Project Reactor, Rsocket, Netify</title><link>https://javaswag.github.io/episode/1/</link><pubDate>Thu, 25 Jul 2019 13:43:15 +0000</pubDate><guid>https://javaswag.github.io/episode/1/</guid><description>#1 - Олег Докука - Project Reactor, Rsocket, Netify
-00-25 Как прошел доклад? Зачем бросаться конфетами на конференции?
-02-01 Как начал выступать на конференциях?
-03-50 Сколько конференций посетил в этом году?
-05-00 Как подать доклад на конференцию?
-08-00 Про контрибьютинг в projectreactor.io и книгу
-10-24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.
-14-30 Когда успеваешь писать код?
-16-30 Что за стек использовал до реактора и как был CTO стартапа</description></item><item><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><link>https://javaswag.github.io/episode/0/</link><pubDate>Tue, 25 Jun 2019 20:22:41 +0000</pubDate><guid>https://javaswag.github.io/episode/0/</guid><description>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге
-00-00 Как начал выступать на конференции?
-07:25 Что такое айбирнейт?
-08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?
-10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?
-12:50 Кладбище за окном директора
-14:27 Почему рассказывает про JavaEE израильтянам?
-15:15 Как отличается аудитория в разных странах?
-16:58 Как перешел на Спринг?
-19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива</description></item></channel></rss>
+00:00:25 Как прошел доклад? Зачем бросаться конфетами на конференции?
+00:02:01 Как начал выступать на конференциях?
+00:03:50 Сколько конференций посетил в этом году?
+00:05:00 Как подать доклад на конференцию?
+00:08:00 Про контрибьютинг в projectreactor.io и книгу
+00:10:24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.
+00:14:30 Когда успеваешь писать код?
+00:16:30 Что за стек использовал до реактора и как был CTO стартапа</description></item><item><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><link>https://javaswag.github.io/episode/0/</link><pubDate>Tue, 25 Jun 2019 20:22:41 +0000</pubDate><guid>https://javaswag.github.io/episode/0/</guid><description>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге
+00:00:00 Как начал выступать на конференции?
+00:07:25 Что такое айбирнейт?
+00:08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?
+00:10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?
+00:12:50 Кладбище за окном директора
+00:14:27 Почему рассказывает про JavaEE израильтянам?
+00:15:15 Как отличается аудитория в разных странах?
+00:16:58 Как перешел на Спринг?
+00:19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива</description></item></channel></rss>

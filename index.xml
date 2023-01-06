@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Wed, 28 Dec 2022 15:11:07 +0000</pubDate><lastBuildDate>Fri, 06 Jan 2023 21:23:36 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">41-javaswag-gregorii-koshelev</guid><title>#41 - Григорий Кошелев - устройство Кафки, телеметрия и распределенные трассировки</title><pubDate>Wed, 28 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/41/</link><itunes:duration>01:46:50</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 41 выпуске подкаста Javaswag поговорили с Григорием Кошелевым об устройстве Кафки, телеметрии и распределенные трассировках
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Wed, 28 Dec 2022 15:11:07 +0000</pubDate><lastBuildDate>Fri, 06 Jan 2023 22:53:43 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">41-javaswag-gregorii-koshelev</guid><title>#41 - Григорий Кошелев - устройство Кафки, телеметрия и распределенные трассировки</title><pubDate>Wed, 28 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/41/</link><itunes:duration>01:46:50</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 41 выпуске подкаста Javaswag поговорили с Григорием Кошелевым об устройстве Кафки, телеметрии и распределенные трассировках
 00:03:40 Что было до Кафки? Какие альтернативы?
 00:09:16 Реплицировать WAL сложно?
 00:12:22 Внутренности Кафки, там Джава?
@@ -1761,42 +1761,42 @@ https://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii О
 Сайт https://javaswag.ru
 Голос подкаста - https://t.me/volyx
 Продакшн подкаста - https://t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/6-javaswag-igor-soroka.mp3" type="audio/mpeg" length="75066305"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/751838761</guid><title>#5 - Олег Чирухин - Habr, JUG, Sber</title><pubDate>Fri, 31 Jan 2020 13:28:04 +0000</pubDate><link>https://javaswag.github.io/episode/5/</link><itunes:duration>01:58:29</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.
-00-00 Приветствие
-00-56 5-ый в рейтинге Хабра, как так получилось?
-02-30 2,5 часа на редактирование текста статьи
-05-45 &amp;ldquo;После двух часов редактирования статьи остались только картинки&amp;rdquo;
-06-50 &amp;ldquo;У меня есть вся мощь кампании JUG.RU&amp;rdquo;
-08-15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.
-11-00 Почему пишешь на Хабр то своего имени?
-12-05 Архитектор в Сбербанке
-15-40 Что делает в течении дня архитектор?
-17-20 Стэк Сбера на 2016 год - GridGain
-20-15 Что такое ин мемори датагрид?
-22-10 Госуслуги, PHP
-27-57 PHP - бдсм искусство
-30-30 GameDev это сложно. По своей инициативе спал на кухне с палаткой. Истории из Uncharted
-36-30 Россия - страна победивших казуальных игр
-37-30 Посты с DTF. Книги: &amp;ldquo;The Art of Game Design: A Book of Lenses&amp;rdquo;, &amp;ldquo;Кровь, пот и пиксели. Обратная сторона индустрии&amp;rdquo;
-43-00 Почему на конференциях мало докладов о GameDev?
-46-00 История про гейм-девелопера, который сидел на шее у своей девушки
-48-35 Выступление на JBreak 2017
-54-00 Переход JUG.RU. Паттерны написания статьи.
-63-00 Джава-дайджест
-67-07 Джош Лонг - машина для производства подкастов. Три состояни Джоша: спит, готовит доклад, кодит.
-70-00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto https://www.eclipse.org/ditto/index.html
-77-03 Аудиозапись &amp;ldquo;Почему я перестал читать новости&amp;rdquo;. &amp;ldquo;Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил&amp;rdquo;
+00:00:00 Приветствие
+00:00:56 5-ый в рейтинге Хабра, как так получилось?
+00:02:30 2,5 часа на редактирование текста статьи
+00:05:45 &amp;ldquo;После двух часов редактирования статьи остались только картинки&amp;rdquo;
+00:06:50 &amp;ldquo;У меня есть вся мощь кампании JUG.RU&amp;rdquo;
+00:08:15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.
+00:11:00 Почему пишешь на Хабр то своего имени?
+00:12:05 Архитектор в Сбербанке
+00:15:40 Что делает в течении дня архитектор?
+00:17:20 Стэк Сбера на 2016 год - GridGain
+00:20:15 Что такое ин мемори датагрид?
+00:22:10 Госуслуги, PHP
+00:27:57 PHP - бдсм искусство
+00:30:30 GameDev это сложно. По своей инициативе спал на кухне с палаткой. Истории из Uncharted
+00:36:30 Россия - страна победивших казуальных игр
+00:37:30 Посты с DTF. Книги: &amp;ldquo;The Art of Game Design: A Book of Lenses&amp;rdquo;, &amp;ldquo;Кровь, пот и пиксели. Обратная сторона индустрии&amp;rdquo;
+00:43:00 Почему на конференциях мало докладов о GameDev?
+00:46:00 История про гейм-девелопера, который сидел на шее у своей девушки
+00:48:35 Выступление на JBreak 2017
+00:54:00 Переход JUG.RU. Паттерны написания статьи.
+00:63:00 Джава-дайджест
+00:67:07 Джош Лонг - машина для производства подкастов. Три состояни Джоша: спит, готовит доклад, кодит.
+00:70:00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto https://www.eclipse.org/ditto/index.html
+00:77:03 Аудиозапись &amp;ldquo;Почему я перестал читать новости&amp;rdquo;. &amp;ldquo;Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил&amp;rdquo;
 Какой важный скилл для тебя?
-78-30 Как писать о технологиях, которые не нравятся?
-81-35 &amp;ldquo;Сегодня у Олега в дайджесте, а завтра у джуна в продакшене&amp;rdquo;
-83-40 &amp;ldquo;Читать все новости подряд глупо, превращать их в дайджесты глупо&amp;rdquo;. Пропал джава-дайджест. Новый формат джава-дайджеста.
-87-03 Любимый джава-стек: спринг-бут, sqlite. “Чем меньше всяких церемоний, чем меньше хибернейта над хибернейтом, тем лучше. Начиная с какого-то количества хибернейтов друг на друга накрученных проект уже обречен. Просто вы еще об этом не знаете.”
-89-05 Куда пропали встречи JUG в Санкт-Петербурге?
-91-20 Что изменилось у тебя в работе с 2017 года? &amp;ldquo;У меня номер на майке -23, сейчас нас человек 75&amp;rdquo;
-94-10 20 докладов на конференции много или мало?
-97-00 Подкасты, Ютьюб. Подкаст Витая пара http://tpair.org/.
+00:78:30 Как писать о технологиях, которые не нравятся?
+00:81:35 &amp;ldquo;Сегодня у Олега в дайджесте, а завтра у джуна в продакшене&amp;rdquo;
+00:83:40 &amp;ldquo;Читать все новости подряд глупо, превращать их в дайджесты глупо&amp;rdquo;. Пропал джава-дайджест. Новый формат джава-дайджеста.
+00:87:03 Любимый джава-стек: спринг-бут, sqlite. “Чем меньше всяких церемоний, чем меньше хибернейта над хибернейтом, тем лучше. Начиная с какого-то количества хибернейтов друг на друга накрученных проект уже обречен. Просто вы еще об этом не знаете.:
+00:89:05 Куда пропали встречи JUG в Санкт-Петербурге?
+00:91:20 Что изменилось у тебя в работе с 2017 года? &amp;ldquo;У меня номер на майке -23, сейчас нас человек 75&amp;rdquo;
+00:94:10 20 докладов на конференции много или мало?
+00:97:00 Подкасты, Ютьюб. Подкаст Витая пара http://tpair.org/.
 Разбор Полетов - что с ним? Новый подкаст - https://bitcask.live
 &amp;ldquo;Люди приходят в подкаст и начинают расползаться мыслью по древу.&amp;rdquo;
-107-00 Youtube-видео. Подкатываем к тёлкам яйца вместе с Unity 3D
+00:107:00 Youtube-видео. Подкатываем к тёлкам яйца вместе с Unity 3D
 Человек ведро и энергетики https://youtu.be/8BBZnmOf0cI?t=467
 Человек ведро Начало https://youtu.be/8BBZnmOf0cI?t=1263
 Мотивация для Юнити разработчика https://youtu.be/8BBZnmOf0cI?t=2149
@@ -1804,7 +1804,7 @@ https://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii О
 Человек ведро на танцует https://youtu.be/8BBZnmOf0cI?t=3911
 Человек ведро играет в игру https://youtu.be/8BBZnmOf0cI?t=4327
 Человек-ведро покупает вино https://youtu.be/8BBZnmOf0cI?t=2787
-141-35 Ютуб стримы по 4 часа. Жизнь стримера. Ачивка на Твиче Like clockwork за ежедневный стриминг в течение месяца. Стриминг - это работа.
+00:141:35 Ютуб стримы по 4 часа. Жизнь стримера. Ачивка на Твиче Like clockwork за ежедневный стриминг в течение месяца. Стриминг - это работа.
 Youtube канал Олега - https://youtube.com/javawatch
 Telegram канал - https://t.me/javawatch
 Доклады Олега
@@ -1814,45 +1814,44 @@ https://www.youtube.com/watch?v=lH4H0LEAo9g Олег Чирухин — GraalVM 
 Гость - https://twitter.com/olegchir
 Телеграм канал https://t.me/javaswag
 Чат https://t.me/javaswag_chat
-Сайт https://javaswag.ru
 Голос подкаста - https://t.me/volyx
 Продакшн подкаста - https://t.me/pahaus</itunes:summary><itunes:subtitle>В пятом выпуске подкаста Javaswag поговорили с Оле...</itunes:subtitle><description>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.
-00-00 Приветствие
-00-56 5-ый в рейтинге Хабра, как так получилось?
-02-30 2,5 часа на редактирование текста статьи
-05-45 &amp;ldquo;После двух часов редактирования статьи остались только картинки&amp;rdquo;
-06-50 &amp;ldquo;У меня есть вся мощь кампании JUG.RU&amp;rdquo;
-08-15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.
-11-00 Почему пишешь на Хабр то своего имени?
-12-05 Архитектор в Сбербанке
-15-40 Что делает в течении дня архитектор?
-17-20 Стэк Сбера на 2016 год - GridGain
-20-15 Что такое ин мемори датагрид?
-22-10 Госуслуги, PHP
-27-57 PHP - бдсм искусство
-30-30 GameDev это сложно. По своей инициативе спал на кухне с палаткой. Истории из Uncharted
-36-30 Россия - страна победивших казуальных игр
-37-30 Посты с DTF. Книги: &amp;ldquo;The Art of Game Design: A Book of Lenses&amp;rdquo;, &amp;ldquo;Кровь, пот и пиксели. Обратная сторона индустрии&amp;rdquo;
-43-00 Почему на конференциях мало докладов о GameDev?
-46-00 История про гейм-девелопера, который сидел на шее у своей девушки
-48-35 Выступление на JBreak 2017
-54-00 Переход JUG.RU. Паттерны написания статьи.
-63-00 Джава-дайджест
-67-07 Джош Лонг - машина для производства подкастов. Три состояни Джоша: спит, готовит доклад, кодит.
-70-00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto https://www.eclipse.org/ditto/index.html
-77-03 Аудиозапись &amp;ldquo;Почему я перестал читать новости&amp;rdquo;. &amp;ldquo;Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил&amp;rdquo;
+00:00:00 Приветствие
+00:00:56 5-ый в рейтинге Хабра, как так получилось?
+00:02:30 2,5 часа на редактирование текста статьи
+00:05:45 &amp;ldquo;После двух часов редактирования статьи остались только картинки&amp;rdquo;
+00:06:50 &amp;ldquo;У меня есть вся мощь кампании JUG.RU&amp;rdquo;
+00:08:15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.
+00:11:00 Почему пишешь на Хабр то своего имени?
+00:12:05 Архитектор в Сбербанке
+00:15:40 Что делает в течении дня архитектор?
+00:17:20 Стэк Сбера на 2016 год - GridGain
+00:20:15 Что такое ин мемори датагрид?
+00:22:10 Госуслуги, PHP
+00:27:57 PHP - бдсм искусство
+00:30:30 GameDev это сложно. По своей инициативе спал на кухне с палаткой. Истории из Uncharted
+00:36:30 Россия - страна победивших казуальных игр
+00:37:30 Посты с DTF. Книги: &amp;ldquo;The Art of Game Design: A Book of Lenses&amp;rdquo;, &amp;ldquo;Кровь, пот и пиксели. Обратная сторона индустрии&amp;rdquo;
+00:43:00 Почему на конференциях мало докладов о GameDev?
+00:46:00 История про гейм-девелопера, который сидел на шее у своей девушки
+00:48:35 Выступление на JBreak 2017
+00:54:00 Переход JUG.RU. Паттерны написания статьи.
+00:63:00 Джава-дайджест
+00:67:07 Джош Лонг - машина для производства подкастов. Три состояни Джоша: спит, готовит доклад, кодит.
+00:70:00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto https://www.eclipse.org/ditto/index.html
+00:77:03 Аудиозапись &amp;ldquo;Почему я перестал читать новости&amp;rdquo;. &amp;ldquo;Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил&amp;rdquo;
 Какой важный скилл для тебя?
-78-30 Как писать о технологиях, которые не нравятся?
-81-35 &amp;ldquo;Сегодня у Олега в дайджесте, а завтра у джуна в продакшене&amp;rdquo;
-83-40 &amp;ldquo;Читать все новости подряд глупо, превращать их в дайджесты глупо&amp;rdquo;. Пропал джава-дайджест. Новый формат джава-дайджеста.
-87-03 Любимый джава-стек: спринг-бут, sqlite. “Чем меньше всяких церемоний, чем меньше хибернейта над хибернейтом, тем лучше. Начиная с какого-то количества хибернейтов друг на друга накрученных проект уже обречен. Просто вы еще об этом не знаете.”
-89-05 Куда пропали встречи JUG в Санкт-Петербурге?
-91-20 Что изменилось у тебя в работе с 2017 года? &amp;ldquo;У меня номер на майке -23, сейчас нас человек 75&amp;rdquo;
-94-10 20 докладов на конференции много или мало?
-97-00 Подкасты, Ютьюб. Подкаст Витая пара http://tpair.org/.
+00:78:30 Как писать о технологиях, которые не нравятся?
+00:81:35 &amp;ldquo;Сегодня у Олега в дайджесте, а завтра у джуна в продакшене&amp;rdquo;
+00:83:40 &amp;ldquo;Читать все новости подряд глупо, превращать их в дайджесты глупо&amp;rdquo;. Пропал джава-дайджест. Новый формат джава-дайджеста.
+00:87:03 Любимый джава-стек: спринг-бут, sqlite. “Чем меньше всяких церемоний, чем меньше хибернейта над хибернейтом, тем лучше. Начиная с какого-то количества хибернейтов друг на друга накрученных проект уже обречен. Просто вы еще об этом не знаете.:
+00:89:05 Куда пропали встречи JUG в Санкт-Петербурге?
+00:91:20 Что изменилось у тебя в работе с 2017 года? &amp;ldquo;У меня номер на майке -23, сейчас нас человек 75&amp;rdquo;
+00:94:10 20 докладов на конференции много или мало?
+00:97:00 Подкасты, Ютьюб. Подкаст Витая пара http://tpair.org/.
 Разбор Полетов - что с ним? Новый подкаст - https://bitcask.live
 &amp;ldquo;Люди приходят в подкаст и начинают расползаться мыслью по древу.&amp;rdquo;
-107-00 Youtube-видео. Подкатываем к тёлкам яйца вместе с Unity 3D
+00:107:00 Youtube-видео. Подкатываем к тёлкам яйца вместе с Unity 3D
 Человек ведро и энергетики https://youtu.be/8BBZnmOf0cI?t=467
 Человек ведро Начало https://youtu.be/8BBZnmOf0cI?t=1263
 Мотивация для Юнити разработчика https://youtu.be/8BBZnmOf0cI?t=2149
@@ -1860,7 +1859,7 @@ https://www.youtube.com/watch?v=lH4H0LEAo9g Олег Чирухин — GraalVM 
 Человек ведро на танцует https://youtu.be/8BBZnmOf0cI?t=3911
 Человек ведро играет в игру https://youtu.be/8BBZnmOf0cI?t=4327
 Человек-ведро покупает вино https://youtu.be/8BBZnmOf0cI?t=2787
-141-35 Ютуб стримы по 4 часа. Жизнь стримера. Ачивка на Твиче Like clockwork за ежедневный стриминг в течение месяца. Стриминг - это работа.
+00:141:35 Ютуб стримы по 4 часа. Жизнь стримера. Ачивка на Твиче Like clockwork за ежедневный стриминг в течение месяца. Стриминг - это работа.
 Youtube канал Олега - https://youtube.com/javawatch
 Telegram канал - https://t.me/javawatch
 Доклады Олега
@@ -1870,120 +1869,115 @@ https://www.youtube.com/watch?v=lH4H0LEAo9g Олег Чирухин — GraalVM 
 Гость - https://twitter.com/olegchir
 Телеграм канал https://t.me/javaswag
 Чат https://t.me/javaswag_chat
-Сайт https://javaswag.ru
 Голос подкаста - https://t.me/volyx
 Продакшн подкаста - https://t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/5-javaswag-oleg-chiruhin.mp3" type="audio/mpeg" length="113745502"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/724565152</guid><title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title><pubDate>Thu, 12 Dec 2019 17:56:39 +0000</pubDate><link>https://javaswag.github.io/episode/4/</link><itunes:duration>00:34:11</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
-00-44 Что делает програмный коммитет конференции?
-01-58 Чем хорош https://bootique.io/?
-06-29 Сервер Undertow, почему?
-09-09 Undertow 3 и netty
-11-24 Kotlin
-14-41 Любимые фичи в Kotlin
-16-26 Kotlin User Group - https://bkug.by/ Kotlin Beta в продакшене !!!
-17-52 Kotlin на фронтенд митапе
-19-20 Кто такой Fullstack разработчик?
-22-39 https://ktor.io/
-23-50 Awesome Kotlin https://kotlin.link/
-24-42 Komodo https://github.com/Heapy/komodo
-- Koin https://insert-koin.io/ 27-27 Какую базу данных используешь для пет-проджектов?
-- Xodus https://github.com/JetBrains/xodus - Append-Only Log 28-48 Что пробовал до Xodus?
-- mysql, mariadb, postgresql, oracle - Xodus в проде 31-03 Странный вопрос про Dell XPS
-- Почему не Mac? 33-00 Free As a Freedom
+00:00:44 Что делает програмный коммитет конференции?
+00:01:58 Чем хорош https://bootique.io/?
+00:06:29 Сервер Undertow, почему?
+00:09:09 Undertow 3 и netty
+00:11:24 Kotlin
+00:14:41 Любимые фичи в Kotlin
+00:16:26 Kotlin User Group - https://bkug.by/ Kotlin Beta в продакшене !!!
+00:17:52 Kotlin на фронтенд митапе
+00:19:20 Кто такой Fullstack разработчик?
+00:22:39 https://ktor.io/
+00:23:50 Awesome Kotlin https://kotlin.link/
+00:24:42 Komodo https://github.com/Heapy/komodo
+- Koin https://insert-koin.io/ 00:27:27 Какую базу данных используешь для пет-проджектов?
+- Xodus https://github.com/JetBrains/xodus - Append-Only Log 00:28:48 Что пробовал до Xodus?
+- mysql, mariadb, postgresql, oracle - Xodus в проде 00:31:03 Странный вопрос про Dell XPS
+- Почему не Mac? 00:33:00 Free As a Freedom
 Гость - https://twitter.com/HeapyHop
 Телеграм канал t.me/javaswag
 Чат t.me/javaswag_chat
-Сайт javaswag.ru
 Подкаст записан на конференции https://jfuture.dev/
-Голос подкаста - t.me/volyx
+Голос подкаста - t.me/volyx:
 Продакшн подкаста - t.me/pahaus</itunes:summary><itunes:subtitle>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
-00-...</itunes:subtitle><description>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
-00-44 Что делает програмный коммитет конференции?
-01-58 Чем хорош https://bootique.io/?
-06-29 Сервер Undertow, почему?
-09-09 Undertow 3 и netty
-11-24 Kotlin
-14-41 Любимые фичи в Kotlin
-16-26 Kotlin User Group - https://bkug.by/ Kotlin Beta в продакшене !!!
-17-52 Kotlin на фронтенд митапе
-19-20 Кто такой Fullstack разработчик?
-22-39 https://ktor.io/
-23-50 Awesome Kotlin https://kotlin.link/
-24-42 Komodo https://github.com/Heapy/komodo
-- Koin https://insert-koin.io/ 27-27 Какую базу данных используешь для пет-проджектов?
-- Xodus https://github.com/JetBrains/xodus - Append-Only Log 28-48 Что пробовал до Xodus?
-- mysql, mariadb, postgresql, oracle - Xodus в проде 31-03 Странный вопрос про Dell XPS
-- Почему не Mac? 33-00 Free As a Freedom
+00:...</itunes:subtitle><description>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
+00:00:44 Что делает програмный коммитет конференции?
+00:01:58 Чем хорош https://bootique.io/?
+00:06:29 Сервер Undertow, почему?
+00:09:09 Undertow 3 и netty
+00:11:24 Kotlin
+00:14:41 Любимые фичи в Kotlin
+00:16:26 Kotlin User Group - https://bkug.by/ Kotlin Beta в продакшене !!!
+00:17:52 Kotlin на фронтенд митапе
+00:19:20 Кто такой Fullstack разработчик?
+00:22:39 https://ktor.io/
+00:23:50 Awesome Kotlin https://kotlin.link/
+00:24:42 Komodo https://github.com/Heapy/komodo
+- Koin https://insert-koin.io/ 00:27:27 Какую базу данных используешь для пет-проджектов?
+- Xodus https://github.com/JetBrains/xodus - Append-Only Log 00:28:48 Что пробовал до Xodus?
+- mysql, mariadb, postgresql, oracle - Xodus в проде 00:31:03 Странный вопрос про Dell XPS
+- Почему не Mac? 00:33:00 Free As a Freedom
 Гость - https://twitter.com/HeapyHop
 Телеграм канал t.me/javaswag
 Чат t.me/javaswag_chat
-Сайт javaswag.ru
 Подкаст записан на конференции https://jfuture.dev/
-Голос подкаста - t.me/volyx
+Голос подкаста - t.me/volyx:
 Продакшн подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/4-javaswag-ruslan-ibragimov.mp3" type="audio/mpeg" length="32823170"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/702438730</guid><title>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</title><pubDate>Mon, 04 Nov 2019 16:56:25 +0000</pubDate><link>https://javaswag.github.io/episode/3/</link><itunes:duration>01:16:48</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
-00-49 Доклад про https://github.com/testcontainers/
-06-17 Разработка игр
-09-30 Язык Haxe
-- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 14-18 Apache Groovy
-- https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
-22-50 Первый доклад на английском на
-25-10 Zeroturnaround JRebel, XRebel
-30-40 С нуля в облака. Поднять продакшн, пока едет пицца
-- https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
-36-36 История Testcontainers
-- Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
-- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.com/bsideup/liiklus - Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar - 50 микросервисов 58-40 Спринг
-- Офисы Pivotal - Staff Software Engineer - Reactor &amp;amp; Reactive Spring - https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260 - Почему выбрали реактивный подход в Vivy - Ownership &amp;amp; trust - Конференция s1p https://springoneplatform.io/ - Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound - Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps 67-10 Jabel - unlock Javac 12+ syntax when targeting Java 8
-- https://github.com/bsideup/jabel 70-45 Подкаст Two Devs One Ops https://www.2d1o.ru/
-72-10 Никнейм bsideup
-74-00 Дреды, конфликты в университете
+00:00:49 Доклад про https://github.com/testcontainers/
+00:06:17 Разработка игр
+00:09:30 Язык Haxe
+- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 00:14:18 Apache Groovy
+- https://www.youtube.com/watch?v=Ujuz-D-ekXE 00:16:30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
+00:22:50 Первый доклад на английском на
+00:25:10 Zeroturnaround JRebel, XRebel
+00:30:40 С нуля в облака. Поднять продакшн, пока едет пицца
+- https://www.youtube.com/watch?v=9lpDjZUGhKA 00:33:25 Берлин, Zalando
+00:36:36 История Testcontainers
+- Перевести сервис на SpringBoot за час 00:40:30 Vivy https://www.vivy.com/
+- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.com/bsideup/liiklus - Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar - 50 микросервисов 00:58:40 Спринг
+- Офисы Pivotal - Staff Software Engineer - Reactor &amp;amp; Reactive Spring - https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260 - Почему выбрали реактивный подход в Vivy - Ownership &amp;amp; trust - Конференция s1p https://springoneplatform.io/ - Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound - Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps 00:67:10 Jabel - unlock Javac 12+ syntax when targeting Java 8
+- https://github.com/bsideup/jabel 00:70:45 Подкаст Two Devs One Ops https://www.2d1o.ru/
+00:72:10 Никнейм bsideup
+00:74:00 Дреды, конфликты в университете
 Гость - twitter.com/bsideup
 Телеграм канал t.me/javaswag
 Чат t.me/javaswag_chat
-Сайт javaswag.ru
 Подкаст записан на конференции https://jokerconf.com/
 Голос подкаста - t.me/volyx
 Продакшн подкаста - t.me/pahaus</itunes:summary><itunes:subtitle>#3 - Сергей Егоров - Pivotal, Testcontainers, Reac...</itunes:subtitle><description>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
-00-49 Доклад про https://github.com/testcontainers/
-06-17 Разработка игр
-09-30 Язык Haxe
-- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 14-18 Apache Groovy
-- https://www.youtube.com/watch?v=Ujuz-D-ekXE 16-30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
-22-50 Первый доклад на английском на
-25-10 Zeroturnaround JRebel, XRebel
-30-40 С нуля в облака. Поднять продакшн, пока едет пицца
-- https://www.youtube.com/watch?v=9lpDjZUGhKA 33-25 Берлин, Zalando
-36-36 История Testcontainers
-- Перевести сервис на SpringBoot за час 40-30 Vivy https://www.vivy.com/
-- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.com/bsideup/liiklus - Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar - 50 микросервисов 58-40 Спринг
-- Офисы Pivotal - Staff Software Engineer - Reactor &amp;amp; Reactive Spring - https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260 - Почему выбрали реактивный подход в Vivy - Ownership &amp;amp; trust - Конференция s1p https://springoneplatform.io/ - Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound - Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps 67-10 Jabel - unlock Javac 12+ syntax when targeting Java 8
-- https://github.com/bsideup/jabel 70-45 Подкаст Two Devs One Ops https://www.2d1o.ru/
-72-10 Никнейм bsideup
-74-00 Дреды, конфликты в университете
+00:00:49 Доклад про https://github.com/testcontainers/
+00:06:17 Разработка игр
+00:09:30 Язык Haxe
+- https://haxe.org/ - https://www.youtube.com/watch?v=XQLNAx9DGmk 00:14:18 Apache Groovy
+- https://www.youtube.com/watch?v=Ujuz-D-ekXE 00:16:30 Groovy макрометоды https://github.com/bsideup/MacroGroovy
+00:22:50 Первый доклад на английском на
+00:25:10 Zeroturnaround JRebel, XRebel
+00:30:40 С нуля в облака. Поднять продакшн, пока едет пицца
+- https://www.youtube.com/watch?v=9lpDjZUGhKA 00:33:25 Берлин, Zalando
+00:36:36 История Testcontainers
+- Перевести сервис на SpringBoot за час 00:40:30 Vivy https://www.vivy.com/
+- Стартап - Архитектура за которую не стыдно EventSourcing, CQRS - Выиграть тендер у IBM - Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :) - Liiklus - https://github.com/bsideup/liiklus - Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar - 50 микросервисов 00:58:40 Спринг
+- Офисы Pivotal - Staff Software Engineer - Reactor &amp;amp; Reactive Spring - https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260 - Почему выбрали реактивный подход в Vivy - Ownership &amp;amp; trust - Конференция s1p https://springoneplatform.io/ - Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound - Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps 00:67:10 Jabel - unlock Javac 12+ syntax when targeting Java 8
+- https://github.com/bsideup/jabel 00:70:45 Подкаст Two Devs One Ops https://www.2d1o.ru/
+00:72:10 Никнейм bsideup
+00:74:00 Дреды, конфликты в университете
 Гость - twitter.com/bsideup
 Телеграм канал t.me/javaswag
 Чат t.me/javaswag_chat
-Сайт javaswag.ru
 Подкаст записан на конференции https://jokerconf.com/
 Голос подкаста - t.me/volyx
-Продакшн подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/3-javaswag-sergei-egorov.mp3" type="audio/mpeg" length="73728000"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/688411723</guid><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><pubDate>Mon, 21 Oct 2019 18:22:01 +0000</pubDate><link>https://javaswag.github.io/episode/2/</link><itunes:duration>00:29:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>00-25 Как стал девелопер-адвокатом?
-05-58 Как начал заниматься маркетингом в JRebel?
-10-37 Virtual Java User Group https://virtualjug.com/
-14-05 Конференция vJUG24
-19-40 Что такое GraalVM ?
-23-45 Как прошел HolyJS ?
+Продакшн подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/3-javaswag-sergei-egorov.mp3" type="audio/mpeg" length="73728000"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/688411723</guid><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><pubDate>Mon, 21 Oct 2019 18:22:01 +0000</pubDate><link>https://javaswag.github.io/episode/2/</link><itunes:duration>00:29:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>00:00:25 Как стал девелопер-адвокатом?
+00:05:58 Как начал заниматься маркетингом в JRebel?
+00:10:37 Virtual Java User Group https://virtualjug.com/
+00:14:05 Конференция vJUG24
+00:19:40 Что такое GraalVM ?
+00:23:45 Как прошел HolyJS ?
 To be continued
 Телеграм канал t.me/javaswag
 Чат t.me/javaswag_chat
 Сайт javaswag.ru
 Подкаст записан на конференции 2019.rigadevdays.lv/
 Голос подкаста - t.me/volyx
-Продакшн подкаста - t.me/pahaus</itunes:summary><itunes:subtitle>00-25 Как стал девелопер-адвокатом?
-05-58 Как нача...</itunes:subtitle><description>00-25 Как стал девелопер-адвокатом?
-05-58 Как начал заниматься маркетингом в JRebel?
-10-37 Virtual Java User Group https://virtualjug.com/
-14-05 Конференция vJUG24
-19-40 Что такое GraalVM ?
-23-45 Как прошел HolyJS ?
+Продакшн подкаста - t.me/pahaus</itunes:summary><itunes:subtitle>00:00:25 Как стал девелопер-адвокатом?
+00:05:58 Ка...</itunes:subtitle><description>00:00:25 Как стал девелопер-адвокатом?
+00:05:58 Как начал заниматься маркетингом в JRebel?
+00:10:37 Virtual Java User Group https://virtualjug.com/
+00:14:05 Конференция vJUG24
+00:19:40 Что такое GraalVM ?
+00:23:45 Как прошел HolyJS ?
 To be continued
 Телеграм канал t.me/javaswag
 Чат t.me/javaswag_chat
@@ -1991,106 +1985,106 @@ To be continued
 Подкаст записан на конференции 2019.rigadevdays.lv/
 Голос подкаста - t.me/volyx
 Продакшн подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/2-javaswag-oleg-shelaev.mp3" type="audio/mpeg" length="28125309"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/655299722</guid><title>#1 - Олег Докука - Project Reactor, Rsocket, Netify</title><pubDate>Thu, 25 Jul 2019 13:43:15 +0000</pubDate><link>https://javaswag.github.io/episode/1/</link><itunes:duration>01:24:07</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>#1 - Олег Докука - Project Reactor, Rsocket, Netify
-00-25 Как прошел доклад? Зачем бросаться конфетами на конференции?
-02-01 Как начал выступать на конференциях?
-03-50 Сколько конференций посетил в этом году?
-05-00 Как подать доклад на конференцию?
-08-00 Про контрибьютинг в projectreactor.io и книгу
-10-24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.
-14-30 Когда успеваешь писать код?
-16-30 Что за стек использовал до реактора и как был CTO стартапа
-19-58 Проджект реактор, как начался?
-22-58 Как рассказывал коллегам про реактор?
-25-48 Как писать код в реактивном стиле? Какую базу данных использовали?
-30-15 Есть ли для базы реактивный драйвер?
-38-50 Реактор в лицах. Кто разрабатывает projectreactor?
-43-00 Как начать контрибьютить в Спринг?
-45-25 Как начал заниматься RSocket? Почему не удалось попасть на работу в Pivotal
-48-36 История протокола RSocket и Netflix
-56-54 Куда пропали евангелисты Grpc? QUIC3 замена Grpc?
-64-04 Proteus - новый брокер сообщений для RSocket. Что такое sidecar, servicemesh?
-79-20 Как измерить девелопер адвоката?
+00:00:25 Как прошел доклад? Зачем бросаться конфетами на конференции?
+00:02:01 Как начал выступать на конференциях?
+00:03:50 Сколько конференций посетил в этом году?
+00:05:00 Как подать доклад на конференцию?
+00:08:00 Про контрибьютинг в projectreactor.io и книгу
+00:10:24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.
+00:14:30 Когда успеваешь писать код?
+00:16:30 Что за стек использовал до реактора и как был CTO стартапа
+00:19:58 Проджект реактор, как начался?
+00:22:58 Как рассказывал коллегам про реактор?
+00:25:48 Как писать код в реактивном стиле? Какую базу данных использовали?
+00:30:15 Есть ли для базы реактивный драйвер?
+00:38:50 Реактор в лицах. Кто разрабатывает projectreactor?
+00:43:00 Как начать контрибьютить в Спринг?
+00:45:25 Как начал заниматься RSocket? Почему не удалось попасть на работу в Pivotal
+00:48:36 История протокола RSocket и Netflix
+00:56:54 Куда пропали евангелисты Grpc? QUIC3 замена Grpc?
+00:64:04 Proteus - новый брокер сообщений для RSocket. Что такое sidecar, servicemesh?
+00:79:20 Как измерить девелопер адвоката?
 Телеграм канал t.me/javaswag
 Чат t.me/javaswag_chat
 Сайт javaswag.ru
 Подкаст записан на конференции 2019.rigadevdays.lv/
 Голос подкаста - t.me/volyx
 Звук подкаста - t.me/pahaus</itunes:summary><itunes:subtitle>#1 - Олег Докука - Project Reactor, Rsocket, Netif...</itunes:subtitle><description>#1 - Олег Докука - Project Reactor, Rsocket, Netify
-00-25 Как прошел доклад? Зачем бросаться конфетами на конференции?
-02-01 Как начал выступать на конференциях?
-03-50 Сколько конференций посетил в этом году?
-05-00 Как подать доклад на конференцию?
-08-00 Про контрибьютинг в projectreactor.io и книгу
-10-24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.
-14-30 Когда успеваешь писать код?
-16-30 Что за стек использовал до реактора и как был CTO стартапа
-19-58 Проджект реактор, как начался?
-22-58 Как рассказывал коллегам про реактор?
-25-48 Как писать код в реактивном стиле? Какую базу данных использовали?
-30-15 Есть ли для базы реактивный драйвер?
-38-50 Реактор в лицах. Кто разрабатывает projectreactor?
-43-00 Как начать контрибьютить в Спринг?
-45-25 Как начал заниматься RSocket? Почему не удалось попасть на работу в Pivotal
-48-36 История протокола RSocket и Netflix
-56-54 Куда пропали евангелисты Grpc? QUIC3 замена Grpc?
-64-04 Proteus - новый брокер сообщений для RSocket. Что такое sidecar, servicemesh?
-79-20 Как измерить девелопер адвоката?
+00:00:25 Как прошел доклад? Зачем бросаться конфетами на конференции?
+00:02:01 Как начал выступать на конференциях?
+00:03:50 Сколько конференций посетил в этом году?
+00:05:00 Как подать доклад на конференцию?
+00:08:00 Про контрибьютинг в projectreactor.io и книгу
+00:10:24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.
+00:14:30 Когда успеваешь писать код?
+00:16:30 Что за стек использовал до реактора и как был CTO стартапа
+00:19:58 Проджект реактор, как начался?
+00:22:58 Как рассказывал коллегам про реактор?
+00:25:48 Как писать код в реактивном стиле? Какую базу данных использовали?
+00:30:15 Есть ли для базы реактивный драйвер?
+00:38:50 Реактор в лицах. Кто разрабатывает projectreactor?
+00:43:00 Как начать контрибьютить в Спринг?
+00:45:25 Как начал заниматься RSocket? Почему не удалось попасть на работу в Pivotal
+00:48:36 История протокола RSocket и Netflix
+00:56:54 Куда пропали евангелисты Grpc? QUIC3 замена Grpc?
+00:64:04 Proteus - новый брокер сообщений для RSocket. Что такое sidecar, servicemesh?
+00:79:20 Как измерить девелопер адвоката?
 Телеграм канал t.me/javaswag
 Чат t.me/javaswag_chat
 Сайт javaswag.ru
 Подкаст записан на конференции 2019.rigadevdays.lv/
 Голос подкаста - t.me/volyx
 Звук подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/1-javaswag-oleg-dokuka.mp3" type="audio/mpeg" length="201693492"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/642018345</guid><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><pubDate>Tue, 25 Jun 2019 20:22:41 +0000</pubDate><link>https://javaswag.github.io/episode/0/</link><itunes:duration>00:53:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге
-00-00 Как начал выступать на конференции?
-07:25 Что такое айбирнейт?
-08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?
-10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?
-12:50 Кладбище за окном директора
-14:27 Почему рассказывает про JavaEE израильтянам?
-15:15 Как отличается аудитория в разных странах?
-16:58 Как перешел на Спринг?
-19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива
-21:55 Почему Спринг остается популярным?
-24:02 Знакомство с Juergen Hoeller
-26:00 Железный купол написан на Java
-27:25 Почему доклада Спринг-Потрошитель такой популярный? 150тысяч просмотров на youtube
-28:20 Свой youtube-канал или конференция
-31:07 Сколько времени занимает подготовка одного доклада?
-33:14 Реквием программиста https://youtu.be/Qypw6ho5wGQ
-34:32 Про работу в NAYA Technologies
-42:00 IntelliJ IDEA vs Eclipse?
-44:34 Как учить программированию своих детей?
-46:40 Как все успевать?
-46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице
-50:30 Стоит ли ходить на воркшоп?
+00:00:00 Как начал выступать на конференции?
+00:07:25 Что такое айбирнейт?
+00:08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?
+00:10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?
+00:12:50 Кладбище за окном директора
+00:14:27 Почему рассказывает про JavaEE израильтянам?
+00:15:15 Как отличается аудитория в разных странах?
+00:16:58 Как перешел на Спринг?
+00:19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива
+00:21:55 Почему Спринг остается популярным?
+00:24:02 Знакомство с Juergen Hoeller
+00:26:00 Железный купол написан на Java
+00:27:25 Почему доклада Спринг-Потрошитель такой популярный? 150тысяч просмотров на youtube
+00:28:20 Свой youtube-канал или конференция
+00:31:07 Сколько времени занимает подготовка одного доклада?
+00:33:14 Реквием программиста https://youtu.be/Qypw6ho5wGQ
+00:34:32 Про работу в NAYA Technologies
+00:42:00 IntelliJ IDEA vs Eclipse?
+00:44:34 Как учить программированию своих детей?
+00:46:40 Как все успевать?
+00:46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице
+00:50:30 Стоит ли ходить на воркшоп?
 Телеграм канал https://t.me/javaswag
 Чат https://t.me/javaswag_chat
 Сайт https://javaswag.ru
 Подкаст записан на конференции https://2019.rigadevdays.lv/
 Голос подкаста - https://t.me/volyx
 Звук подкаста - https://t.me/pahaus</itunes:summary><itunes:subtitle>Евгений Борисов о пчелах на слайдах, айбирнейте и ...</itunes:subtitle><description>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге
-00-00 Как начал выступать на конференции?
-07:25 Что такое айбирнейт?
-08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?
-10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?
-12:50 Кладбище за окном директора
-14:27 Почему рассказывает про JavaEE израильтянам?
-15:15 Как отличается аудитория в разных странах?
-16:58 Как перешел на Спринг?
-19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива
-21:55 Почему Спринг остается популярным?
-24:02 Знакомство с Juergen Hoeller
-26:00 Железный купол написан на Java
-27:25 Почему доклада Спринг-Потрошитель такой популярный? 150тысяч просмотров на youtube
-28:20 Свой youtube-канал или конференция
-31:07 Сколько времени занимает подготовка одного доклада?
-33:14 Реквием программиста https://youtu.be/Qypw6ho5wGQ
-34:32 Про работу в NAYA Technologies
-42:00 IntelliJ IDEA vs Eclipse?
-44:34 Как учить программированию своих детей?
-46:40 Как все успевать?
-46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице
-50:30 Стоит ли ходить на воркшоп?
+00:00:00 Как начал выступать на конференции?
+00:07:25 Что такое айбирнейт?
+00:08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?
+00:10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?
+00:12:50 Кладбище за окном директора
+00:14:27 Почему рассказывает про JavaEE израильтянам?
+00:15:15 Как отличается аудитория в разных странах?
+00:16:58 Как перешел на Спринг?
+00:19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива
+00:21:55 Почему Спринг остается популярным?
+00:24:02 Знакомство с Juergen Hoeller
+00:26:00 Железный купол написан на Java
+00:27:25 Почему доклада Спринг-Потрошитель такой популярный? 150тысяч просмотров на youtube
+00:28:20 Свой youtube-канал или конференция
+00:31:07 Сколько времени занимает подготовка одного доклада?
+00:33:14 Реквием программиста https://youtu.be/Qypw6ho5wGQ
+00:34:32 Про работу в NAYA Technologies
+00:42:00 IntelliJ IDEA vs Eclipse?
+00:44:34 Как учить программированию своих детей?
+00:46:40 Как все успевать?
+00:46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице
+00:50:30 Стоит ли ходить на воркшоп?
 Телеграм канал https://t.me/javaswag
 Чат https://t.me/javaswag_chat
 Сайт https://javaswag.ru
