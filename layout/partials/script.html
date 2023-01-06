@@ -35,7 +35,7 @@
 		var minutes = 0;
 		var seconds = 0;
 		var replace = "-----"
-		var m = text.match(/(\d{2})\:(\d{2})\:(\d{2})/); // 00:00:00
+		var m = text.match(/(\d{1,2})\:(\d{2})\:(\d{2})/); // 00:00:00 or 0:00:00
 		if (m) {
 			hours = parseInt(m[1]);
 			minutes = parseInt(m[2]);
@@ -43,14 +43,14 @@
 			replace = m[1] + ":" + m[2] + ":" + m[3];
 			addLink(p, replace, getTimecode(hours, minutes, seconds))
 		} else {
-			var m = text.match(/(\d{2,3})\-(\d{2})/); // 00-00
+			var m = text.match(/(\d{2,3})\-(\d{2})/); // 00-00 or 000-00
 			if (m) {
 				minutes = parseInt(m[1]);
 				seconds = parseInt(m[2]);
 				replace = m[1] + "-" + m[2];
 				addLink(p, replace, getTimecode(hours, minutes, seconds))
 			}
-			var m = text.match(/(\d{2,3})\:(\d{2})/); // 00:00
+			var m = text.match(/(\d{2,3})\:(\d{2})/); // 00:00 or 000:00
 			if (m) {
 				minutes = parseInt(m[1]);
 				seconds = parseInt(m[2]);
