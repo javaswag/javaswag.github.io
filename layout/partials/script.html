@@ -1,2 +1,38 @@
 <!-- <script defer src="//platform.twitter.com/widgets.js"></script> -->
 <!-- <script defer src="//platform.instagram.com/en_US/embeds.js"></script> -->
+
+<script>
+
+	var audioEls = document.getElementsByTagName('audio');
+	if (audioEls.length === 1 ){
+		 var audioEl = audioEls[0];
+	}
+
+	function gotoTime(time) {
+		if (audioEl) {
+			audioEl.currentTime = time;
+			audioEl.play();
+		}
+	}
+	
+	posts = document.getElementsByTagName('p')
+	for (let i = 0; i < posts.length; i++) {
+		p = posts[i]
+		var text = p.innerHTML;
+		var m = text.match(/(\d{2})\:(\d{2})\:(\d{2})/); // 00:00:00
+		if (m) {
+			hours = m[1];
+			minutes = m[2];
+			seconds = m[3];
+			time = parseInt(m[1]) * 3600 + parseInt(m[2]) * 60 + parseInt(m[3]);
+			console.log(hours, minutes, seconds)
+			var replace = m[1] + ":" + m[2] + ":" + m[3];
+			if (text.includes(replace) ) {
+				var link = "<a onclick=\"gotoTime("+ time + ");\"\>" + replace + "</a>";
+				newText = text.replace(replace, link);
+				console.log(newText)
+			}
+			p.innerHTML = newText;
+		}
+	}
+</script>
