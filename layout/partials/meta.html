@@ -23,17 +23,6 @@
 <meta name="copyright" content="Copyright (c) Shogo Sensui; Licensed under Creative Commons Attribution-Noncommercial-Share Japan">
 
 
-<!--   <meta property="og:type" content="music.musician">
-  <meta property="og:url" content="https://soundcloud.com/javaswag">
-  <meta property="og:title" content="javaswag">
-  <meta property="og:image" content="https://i1.sndcdn.com/avatars-hQenmJZyBXHdE1r3-4rqAqg-t500x500.jpg">
-  <meta property="og:image:width" content="500">
-  <meta property="og:image:height" content="500">
-  <meta property="og:description" content="Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.">
-  <meta property="og:locality" content="Saint-Petersburg">
-  <meta property="og:country-name" content="Russian Federation"> -->
-
-
 {{ if .Params.Image}}
 
   {{ $image := resources.Get .Params.Image }}
@@ -77,15 +66,10 @@
 <meta property="og:title" content="{{ .Title }}">
 
 <!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
+<meta name=twitter:site content="@javaswagpodcast">
 <meta property="twitter:url" content="{{ .Permalink }}">
 <meta name="twitter:title" content="{{ .Title }}">
-
-
-<meta property="twitter:card" content="player">
-<meta property="twitter:player:height" content="450">
-<meta property="twitter:player:width" content="435">
-<meta property="twitter:player" content="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F656797185&amp;auto_play=false&amp;show_artwork=true&amp;visual=true&amp;origin=twitter">
-<meta property="twitter:url" content="https://soundcloud.com/javaswag">
+<meta name=twitter:description content>
 
 
