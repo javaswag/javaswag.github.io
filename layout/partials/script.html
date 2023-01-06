@@ -13,6 +13,19 @@
 			audioEl.play();
 		}
 	}
+
+	function addLink(p, replace, time) {
+		var text = p.innerHTML;
+		if (text.includes(replace) ) {
+			var link = "<a onclick=\"gotoTime("+ time + ");\"\>" + replace + "</a>";
+			newText = text.replace(replace, link);
+			p.innerHTML = newText;
+		}
+	}
+
+	function getTimecode(hours, minutes, seconds) {
+		return hours * 3600 + minutes * 60 + seconds;
+	}
 	
 	posts = document.getElementsByTagName('p')
 	for (let i = 0; i < posts.length; i++) {
@@ -21,7 +34,6 @@
 		var hours = 0;
 		var minutes = 0;
 		var seconds = 0;
-		var found = false;
 		var replace = "-----"
 		var m = text.match(/(\d{2})\:(\d{2})\:(\d{2})/); // 00:00:00
 		if (m) {
@@ -29,29 +41,22 @@
 			minutes = parseInt(m[2]);
 			seconds = parseInt(m[3]);
 			replace = m[1] + ":" + m[2] + ":" + m[3];
-			found = true;
-		}
-		var m = text.match(/(\d{2,3})\-(\d{2})/); // 00-00
-		if (m) {
-			minutes = parseInt(m[1]);
-			seconds = parseInt(m[2]);
-			replace = m[1] + "-" + m[2];
-			found = true;
-		}
-		var m = text.match(/(\d{2,3})\:(\d{2})/); // 00:00
-		if (m) {
-			minutes = parseInt(m[1]);
-			seconds = parseInt(m[2]);
-			replace = m[1] + ":" + m[2];
-			found = true;
-		}
-		time = hours * 3600 + minutes * 60 + seconds;
-		if (found) {
-			if (text.includes(replace) ) {
-				var link = "<a onclick=\"gotoTime("+ time + ");\"\>" + replace + "</a>";
-				newText = text.replace(replace, link);
+			addLink(p, replace, getTimecode(hours, minutes, seconds))
+		} else {
+			var m = text.match(/(\d{2,3})\-(\d{2})/); // 00-00
+			if (m) {
+				minutes = parseInt(m[1]);
+				seconds = parseInt(m[2]);
+				replace = m[1] + "-" + m[2];
+				addLink(p, replace, getTimecode(hours, minutes, seconds))
 			}
-			p.innerHTML = newText;
+			var m = text.match(/(\d{2,3})\:(\d{2})/); // 00:00
+			if (m) {
+				minutes = parseInt(m[1]);
+				seconds = parseInt(m[2]);
+				replace = m[1] + ":" + m[2];
+				addLink(p, replace, getTimecode(hours, minutes, seconds))
+			}
 		}
 	}
 </script>
