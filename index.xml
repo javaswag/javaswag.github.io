@@ -1,4 +1,56 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Wed, 28 Dec 2022 15:11:07 +0000</pubDate><lastBuildDate>Thu, 05 Jan 2023 20:43:57 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1405241773</guid><title>#40 - Никита Прокопов - разочарование в Java, простота Clojure и опенсорс проекты</title><pubDate>Fri, 23 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/40/</link><itunes:duration>01:36:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 40 выпуске подкаста Javaswag поговорили с Никитой Прокоповым о разочаровании в Java, простоте Clojure и опенсорс проектах
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Wed, 28 Dec 2022 15:11:07 +0000</pubDate><lastBuildDate>Fri, 06 Jan 2023 14:55:29 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">41-javaswag-gregorii-koshelev</guid><title>#41 - Григорий Кошелев - устройство Кафки, телеметрия и распределенные трассировки</title><pubDate>Wed, 28 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/41/</link><itunes:duration>01:46:50</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 41 выпуске подкаста Javaswag поговорили с Григорием Кошелевым об устройтве Кафки, телеметрии и распределенные трассировках
+00:03:40 Что было до Кафки? Какие альтернативы?
+00:09:16 Реплицировать WAL сложно?
+00:12:22 Внутренности Кафки, там Джава?
+00:14:26 Брокер, кластер, продюсер, консьюмер
+00:22:24 Exactly Once, At least Once Delivery
+00:28:08 Хранение Commit Offset
+00:33:36 Производительность
+00:40:34 Zookeeper
+00:51:26 Неправильный ключ партиционирования
+00:56:46 Apache Pulsar
+01:06:12 Кейсы точно не для Кафки
+01:12:02 Облачная кафка
+01:19:08 Телеметрия
+01:22:48 Почему не нужно писать в Эластик напрямую?
+01:31:12 Распределенные трассировки, спаны
+01:38:12 Как писать на работе опен-сорс
+01:41:00 Личный бренд
+Гость - https://t.me/chnl_GregoryKoshelev
+Ссылки:
+Когда всё пошло по Кафке https://youtu.be/A_yUaPARv8U
+Vostok Hercules: 3 года доставляем телеметрию — полёт нормальный https://www.youtube.com/watch?v=qg3yRmV-fHs
+Kafka: от теории к практике - https://www.youtube.com/watch?v=ghKnX5fuW5s
+Как готовить Кафку, чтобы не пригорало https://www.youtube.com/watch?v=M3HTM81P-Sg
+А вы Кафку пробовали? https://www.youtube.com/watch?v=do182INdB2k
+Остальные доклады Григория https://www.youtube.com/results?search_query=+Григорий+Кошелев
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 41 выпуске подкаста Javaswag поговорили с Григор...</itunes:subtitle><description>В 41 выпуске подкаста Javaswag поговорили с Григорием Кошелевым об устройтве Кафки, телеметрии и распределенные трассировках
+00:03:40 Что было до Кафки? Какие альтернативы?
+00:09:16 Реплицировать WAL сложно?
+00:12:22 Внутренности Кафки, там Джава?
+00:14:26 Брокер, кластер, продюсер, консьюмер
+00:22:24 Exactly Once, At least Once Delivery
+00:28:08 Хранение Commit Offset
+00:33:36 Производительность
+00:40:34 Zookeeper
+00:51:26 Неправильный ключ партиционирования
+00:56:46 Apache Pulsar
+01:06:12 Кейсы точно не для Кафки
+01:12:02 Облачная кафка
+01:19:08 Телеметрия
+01:22:48 Почему не нужно писать в Эластик напрямую?
+01:31:12 Распределенные трассировки, спаны
+01:38:12 Как писать на работе опен-сорс
+01:41:00 Личный бренд
+Гость - https://t.me/chnl_GregoryKoshelev
+Ссылки:
+Когда всё пошло по Кафке https://youtu.be/A_yUaPARv8U
+Vostok Hercules: 3 года доставляем телеметрию — полёт нормальный https://www.youtube.com/watch?v=qg3yRmV-fHs
+Kafka: от теории к практике - https://www.youtube.com/watch?v=ghKnX5fuW5s
+Как готовить Кафку, чтобы не пригорало https://www.youtube.com/watch?v=M3HTM81P-Sg
+А вы Кафку пробовали? https://www.youtube.com/watch?v=do182INdB2k
+Остальные доклады Григория https://www.youtube.com/results?search_query=+Григорий+Кошелев
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/41-gregorii-koshelev.mp3" type="audio/mpeg" length="128213536"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1405241773</guid><title>#40 - Никита Прокопов - разочарование в Java, простота Clojure и опенсорс проекты</title><pubDate>Fri, 23 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/40/</link><itunes:duration>01:36:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 40 выпуске подкаста Javaswag поговорили с Никитой Прокоповым о разочаровании в Java, простоте Clojure и опенсорс проектах
 00:01:20 О себе, Java, Erlang, Ocaml, Clojure
 00:05:52 Что хорошего в Java
 00:08:24 Dependency Injection &amp;amp; Spring
