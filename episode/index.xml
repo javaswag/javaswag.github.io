@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Wed, 18 Jan 2023 15:11:07 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#43 - Иван Пономарев - аналог Хибернейту Celesta, преподавании Джавы и Кафке Стримах</title><link>https://javaswag.github.io/episode/43/</link><pubDate>Wed, 18 Jan 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/43/</guid><description>В 43 выпуске подкаста Javaswag поговорили с Иваном Пономаревым об аналоге Хибернейта Celesta, преподавании Джавы и Кафке Стримах
-Гость - https://twitter.com/inponomarev
-Ссылки:
-Блог - https://inponomarev.ru/
-Кип сейф! 🖖</description></item><item><title>#42 - Марк Стручков - курс на Яндекс Практикуме, собеседования и библиотека Кваркус</title><link>https://javaswag.github.io/episode/42/</link><pubDate>Thu, 29 Dec 2022 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/42/</guid><description>В 42 выпуске подкаста Javaswag поговорили с Марком Стручковым о курсах на Яндекс Практикуме, собеседованиях и библиотеке Кваркусе
+01:01:42 О себе, ERP системы и Java
+01:07:22 Библиотека Celesta - это Hibernate или Liquebase?
+01:16:32 Миграции
+01:24:14 Кафка стримы
+01:36:12 Кафка Стримы vs Кафка Таблицы
+01:40:18 Преподавание в МФТИ, курс по Джаве
+01:45:26 Как учить Джаве студентов
+01:52:58 Нужно ли учить Спринг на курсе по Джаве?
+02:00:18 Как устроен процесс сдачи лаб</description></item><item><title>#42 - Марк Стручков - курс на Яндекс Практикуме, собеседования и библиотека Кваркус</title><link>https://javaswag.github.io/episode/42/</link><pubDate>Thu, 29 Dec 2022 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/42/</guid><description>В 42 выпуске подкаста Javaswag поговорили с Марком Стручковым о курсах на Яндекс Практикуме, собеседованиях и библиотеке Кваркусе
 00:00:44 О себе
 00:03:10 Почему Java
 00:05:28 Стажировка в Тинькофф
