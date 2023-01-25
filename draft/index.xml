@@ -1,20 +1,20 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Wed, 25 Jan 2023 23:06:47 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">43-javaswag-ivan-ponomarev.mp3</guid><title>#43 - Иван Пономарев - аналог Хибернейту Celesta, преподавании Джавы и Кафке Стримах Drafts</title><pubDate>Wed, 18 Jan 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/43/</link><itunes:duration>01:48:32</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 43 выпуске подкаста Javaswag поговорили с Иваном Пономаревым об аналоге Хибернейта Celesta, преподавании Джавы и Кафке Стримах
-01:01:42 О себе, ERP системы и Java
-01:07:22 Библиотека Celesta - это Hibernate или Liquebase?
-01:16:32 Миграции
-01:24:14 Кафка стримы
-01:36:12 Кафка Стримы vs Кафка Таблицы
-01:40:18 Преподавание в МФТИ, курс по Джаве
-01:45:26 Как учить Джаве студентов
-01:52:58 Нужно ли учить Спринг на курсе по Джаве?
-02:00:18 Как устроен процесс сдачи лаб
-02:06:22 Lightweight Java Visualizer
-02:14:50 Как делать презинтации в Asciidoc, CI/CD для слайдов
-02:22:24 Kotlin
-02:29:44 Кто такой стаф-разработчик. DSL в Synthesized
-02:34:50 Конфы, Heisenbug, Hydra
-02:42:56 Unpopular Opinion
-02:44:10 Будущие планы
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Wed, 25 Jan 2023 23:09:13 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">43-javaswag-ivan-ponomarev.mp3</guid><title>#43 - Иван Пономарев - аналог Хибернейту Celesta, преподавании Джавы и Кафке Стримах Drafts</title><pubDate>Wed, 18 Jan 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/43/</link><itunes:duration>01:48:32</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 43 выпуске подкаста Javaswag поговорили с Иваном Пономаревым об аналоге Хибернейта Celesta, преподавании Джавы и Кафке Стримах
+00:01:42 О себе, ERP системы и Java
+00:07:22 Библиотека Celesta - это Hibernate или Liquebase?
+00:16:32 Миграции
+00:24:14 Кафка стримы
+00:36:12 Кафка Стримы vs Кафка Таблицы
+00:40:18 Преподавание в МФТИ, курс по Джаве
+00:45:26 Как учить Джаве студентов
+00:52:58 Нужно ли учить Спринг на курсе по Джаве?
+01:00:18 Как устроен процесс сдачи лаб
+01:06:22 Lightweight Java Visualizer
+01:14:50 Как делать презинтации в Asciidoc, CI/CD для слайдов
+01:22:24 Kotlin
+01:29:44 Кто такой стаф-разработчик. DSL в Synthesized
+01:34:50 Конфы, Heisenbug, Hydra
+01:42:56 Unpopular Opinion
+01:44:10 Будущие планы
 Гость - https://twitter.com/inponomarev
 Ссылки:
 Блог - https://inponomarev.ru/
@@ -22,22 +22,22 @@ Celesta - https://courseorchestra.github.io/celesta/en/index.html
 Lightweight Java Visualizer - https://github.com/atp-mipt/ljv
 Доклады https://www.youtube.com/@inponomarev
 Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 43 выпуске подкаста Javaswag поговорили с Иваном...</itunes:subtitle><description>В 43 выпуске подкаста Javaswag поговорили с Иваном Пономаревым об аналоге Хибернейта Celesta, преподавании Джавы и Кафке Стримах
-01:01:42 О себе, ERP системы и Java
-01:07:22 Библиотека Celesta - это Hibernate или Liquebase?
-01:16:32 Миграции
-01:24:14 Кафка стримы
-01:36:12 Кафка Стримы vs Кафка Таблицы
-01:40:18 Преподавание в МФТИ, курс по Джаве
-01:45:26 Как учить Джаве студентов
-01:52:58 Нужно ли учить Спринг на курсе по Джаве?
-02:00:18 Как устроен процесс сдачи лаб
-02:06:22 Lightweight Java Visualizer
-02:14:50 Как делать презинтации в Asciidoc, CI/CD для слайдов
-02:22:24 Kotlin
-02:29:44 Кто такой стаф-разработчик. DSL в Synthesized
-02:34:50 Конфы, Heisenbug, Hydra
-02:42:56 Unpopular Opinion
-02:44:10 Будущие планы
+00:01:42 О себе, ERP системы и Java
+00:07:22 Библиотека Celesta - это Hibernate или Liquebase?
+00:16:32 Миграции
+00:24:14 Кафка стримы
+00:36:12 Кафка Стримы vs Кафка Таблицы
+00:40:18 Преподавание в МФТИ, курс по Джаве
+00:45:26 Как учить Джаве студентов
+00:52:58 Нужно ли учить Спринг на курсе по Джаве?
+01:00:18 Как устроен процесс сдачи лаб
+01:06:22 Lightweight Java Visualizer
+01:14:50 Как делать презинтации в Asciidoc, CI/CD для слайдов
+01:22:24 Kotlin
+01:29:44 Кто такой стаф-разработчик. DSL в Synthesized
+01:34:50 Конфы, Heisenbug, Hydra
+01:42:56 Unpopular Opinion
+01:44:10 Будущие планы
 Гость - https://twitter.com/inponomarev
 Ссылки:
 Блог - https://inponomarev.ru/
