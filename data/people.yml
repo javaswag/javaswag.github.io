@@ -121,6 +121,12 @@ pavel-safronov:
 gregorii-koshelev:
   url: https://t.me/chnl_GregoryKoshelev
   image: /img/people/gregorii-koshelev.jpg
+mark-struchkov:
+  url: https://t.me/dev_java_blog
+  image: /img/people/mark-struchkov.jpg 
+ivan-ponomarev:
+  url: https://twitter.com/inponomarev
+  image: /img/people/ivan-ponomarev.jpg  
 unknown:
   url: /
   image: /img/people/unknown.png
