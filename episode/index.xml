@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Wed, 18 Jan 2023 15:11:07 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#43 - Иван Пономарев - аналог Хибернейту Celesta, преподавании Джавы и Кафке Стримах</title><link>https://javaswag.github.io/episode/43/</link><pubDate>Wed, 18 Jan 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/43/</guid><description>В 43 выпуске подкаста Javaswag поговорили с Иваном Пономаревым об аналоге Хибернейта Celesta, преподавании Джавы и Кафке Стримах
 00:01:42 О себе, ERP системы и Java
-00:07:22 Библиотека Celesta - это Hibernate или Liquebase?
+00:07:22 Библиотека Celesta - это Hibernate или Liquibase?
 00:16:32 Миграции
 00:24:14 Кафка стримы
 00:36:12 Кафка Стримы vs Кафка Таблицы
