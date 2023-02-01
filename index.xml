@@ -1,4 +1,50 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Wed, 18 Jan 2023 15:11:07 +0000</pubDate><lastBuildDate>Tue, 31 Jan 2023 16:47:38 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">42-javaswag-mark-struchkov</guid><title>#42 - Марк Стручков - курс на Яндекс Практикуме, собеседования и библиотека Кваркус</title><pubDate>Thu, 29 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/42/</link><itunes:duration>01:43:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 42 выпуске подкаста Javaswag поговорили с Марком Стручковым о курсах на Яндекс Практикуме, собеседованиях и библиотеке Кваркусе
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Wed, 18 Jan 2023 15:11:07 +0000</pubDate><lastBuildDate>Wed, 01 Feb 2023 16:54:48 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">43-javaswag-ivan-ponomarev-1.mp3</guid><title>#43 - Иван Пономарев - аналог Хибернейту Celesta, преподавании Джавы и Кафке Стримах</title><pubDate>Wed, 18 Jan 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/43/</link><itunes:duration>01:48:32</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 43 выпуске подкаста Javaswag поговорили с Иваном Пономаревым об аналоге Хибернейта Celesta, преподавании Джавы и Кафке Стримах
+00:01:42 О себе, ERP системы и Java
+00:07:22 Библиотека Celesta - это Hibernate или Liquibase?
+00:16:32 Миграции
+00:24:14 Кафка стримы
+00:36:12 Кафка Стримы vs Кафка Таблицы
+00:40:18 Преподавание в МФТИ, курс по Джаве
+00:45:26 Как учить Джаве студентов
+00:52:58 Нужно ли учить Спринг на курсе по Джаве?
+01:00:18 Как устроен процесс сдачи лаб
+01:06:22 Lightweight Java Visualizer
+01:14:50 Как делать презентации в Asciidoc, CI/CD для слайдов
+01:22:24 Kotlin
+01:29:44 Кто такой стаф-разработчик. DSL в Synthesized
+01:34:50 Конфы, Heisenbug, Hydra
+01:42:56 Unpopular Opinion
+01:44:10 Будущие планы
+Гость - https://twitter.com/inponomarev
+Ссылки:
+Блог - https://inponomarev.ru/
+Celesta - https://courseorchestra.github.io/celesta/en/index.html
+Lightweight Java Visualizer - https://github.com/atp-mipt/ljv
+Доклады https://www.youtube.com/@inponomarev
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 43 выпуске подкаста Javaswag поговорили с Иваном...</itunes:subtitle><description>В 43 выпуске подкаста Javaswag поговорили с Иваном Пономаревым об аналоге Хибернейта Celesta, преподавании Джавы и Кафке Стримах
+00:01:42 О себе, ERP системы и Java
+00:07:22 Библиотека Celesta - это Hibernate или Liquibase?
+00:16:32 Миграции
+00:24:14 Кафка стримы
+00:36:12 Кафка Стримы vs Кафка Таблицы
+00:40:18 Преподавание в МФТИ, курс по Джаве
+00:45:26 Как учить Джаве студентов
+00:52:58 Нужно ли учить Спринг на курсе по Джаве?
+01:00:18 Как устроен процесс сдачи лаб
+01:06:22 Lightweight Java Visualizer
+01:14:50 Как делать презентации в Asciidoc, CI/CD для слайдов
+01:22:24 Kotlin
+01:29:44 Кто такой стаф-разработчик. DSL в Synthesized
+01:34:50 Конфы, Heisenbug, Hydra
+01:42:56 Unpopular Opinion
+01:44:10 Будущие планы
+Гость - https://twitter.com/inponomarev
+Ссылки:
+Блог - https://inponomarev.ru/
+Celesta - https://courseorchestra.github.io/celesta/en/index.html
+Lightweight Java Visualizer - https://github.com/atp-mipt/ljv
+Доклады https://www.youtube.com/@inponomarev
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/43-javaswag-ivan-ponomarev-1.mp3" type="audio/mpeg" length="130236736"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">42-javaswag-mark-struchkov</guid><title>#42 - Марк Стручков - курс на Яндекс Практикуме, собеседования и библиотека Кваркус</title><pubDate>Thu, 29 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/42/</link><itunes:duration>01:43:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 42 выпуске подкаста Javaswag поговорили с Марком Стручковым о курсах на Яндекс Практикуме, собеседованиях и библиотеке Кваркусе
 00:00:44 О себе
 00:03:10 Почему Java
 00:05:28 Стажировка в Тинькофф
