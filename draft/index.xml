@@ -1,4 +1,50 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Wed, 01 Feb 2023 17:20:02 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">43-javaswag-ivan-ponomarev-1.mp3</guid><title>#43 - Иван Пономарев - аналог Хибернейту Celesta, преподавание Джавы и Кафка Стримы Drafts</title><pubDate>Wed, 18 Jan 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/43/</link><itunes:duration>01:48:32</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 43 выпуске подкаста Javaswag поговорили с Иваном Пономаревым об аналоге Хибернейта Celesta, преподавании Джавы и Кафке Стримах
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sat, 25 Feb 2023 23:24:21 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">44-javaswag-alexei-nesterov.mp3</guid><title>#44 - Алексей Нестеров - работа в Pivotal, разработка Спринга и переход с Джавы в Голэнг Drafts</title><pubDate>Fri, 17 Feb 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/44/</link><itunes:duration>01:34:23</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 44 выпуске подкаста Javaswag поговорили с Алексеем Нестеровым о работе в Pivotal, разработке Спринга и переходе на Golang
+00:02:30 О себе
+00:04:36 Переход в Pivotal Labs, апологет Agile, TDD, Lean разработки
+00:12:58 Парное программирование
+00:20:10 Как начал пилить Spring Framework
+00:27:12 Лучшая команда Спринга
+00:32:22 Что нравится и бесит в Спринге
+00:35:58 Пишем на аннотациях а не на Джаве
+00:46:40 Полумикросервисный подход
+00:50:06 Нативная компиляция
+00:53:32 Будущее
+00:55:50 Почему Го
+01:00:56 На Джаве же можно тоже писать простой код
+01:05:14 Почему писать код удобней
+01:09:18 Бинарник в Го или нативная компиляция в Джава
+01:12:30 Гонка веб-серверов
+01:18:20 Почему в Голэнге один нормальный сборщик мусора
+01:20:54 if err != nil
+01:24:54 Скучная архитектура
+01:26:09 Что бесит в Го
+01:29:38 Unpopular Opinion
+Гость - https://twitter.com/alek_sys
+Ссылки:
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 44 выпуске подкаста Javaswag поговорили с Алексе...</itunes:subtitle><description>В 44 выпуске подкаста Javaswag поговорили с Алексеем Нестеровым о работе в Pivotal, разработке Спринга и переходе на Golang
+00:02:30 О себе
+00:04:36 Переход в Pivotal Labs, апологет Agile, TDD, Lean разработки
+00:12:58 Парное программирование
+00:20:10 Как начал пилить Spring Framework
+00:27:12 Лучшая команда Спринга
+00:32:22 Что нравится и бесит в Спринге
+00:35:58 Пишем на аннотациях а не на Джаве
+00:46:40 Полумикросервисный подход
+00:50:06 Нативная компиляция
+00:53:32 Будущее
+00:55:50 Почему Го
+01:00:56 На Джаве же можно тоже писать простой код
+01:05:14 Почему писать код удобней
+01:09:18 Бинарник в Го или нативная компиляция в Джава
+01:12:30 Гонка веб-серверов
+01:18:20 Почему в Голэнге один нормальный сборщик мусора
+01:20:54 if err != nil
+01:24:54 Скучная архитектура
+01:26:09 Что бесит в Го
+01:29:38 Unpopular Opinion
+Гость - https://twitter.com/alek_sys
+Ссылки:
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/44-javaswag-alexei-nesterov.mp3" type="audio/mpeg" length="113272096"/><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">43-javaswag-ivan-ponomarev-1.mp3</guid><title>#43 - Иван Пономарев - аналог Хибернейту Celesta, преподавание Джавы и Кафка Стримы Drafts</title><pubDate>Wed, 18 Jan 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/43/</link><itunes:duration>01:48:32</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 43 выпуске подкаста Javaswag поговорили с Иваном Пономаревым об аналоге Хибернейта Celesta, преподавании Джавы и Кафке Стримах
 00:01:42 О себе, ERP системы и Java
 00:07:22 Библиотека Celesta - это Hibernate или Liquibase?
 00:16:32 Миграции
