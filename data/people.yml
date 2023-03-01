@@ -126,7 +126,10 @@ mark-struchkov:
   image: /img/people/mark-struchkov.jpg 
 ivan-ponomarev:
   url: https://twitter.com/inponomarev
-  image: /img/people/ivan-ponomarev.jpg  
+  image: /img/people/ivan-ponomarev.jpg
+alek_sys:
+  url: https://twitter.com/alek_sys
+  image: /img/people/alek_sys.png
 unknown:
   url: /
   image: /img/people/unknown.png
