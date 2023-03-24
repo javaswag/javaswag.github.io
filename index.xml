@@ -1,4 +1,46 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Wed, 08 Mar 2023 15:11:07 +0000</pubDate><lastBuildDate>Sun, 12 Mar 2023 20:41:06 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">44-javaswag-alexei-nesterov.mp3</guid><title>#44 - Алексей Нестеров - работа в Pivotal, разработка Спринга и переход с Джавы в Голэнг</title><pubDate>Fri, 17 Feb 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/44/</link><itunes:duration>01:34:23</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 44 выпуске подкаста Javaswag поговорили с Алексеем Нестеровым о работе в Pivotal, разработке Спринга и переходе на Golang
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Wed, 08 Mar 2023 15:11:07 +0000</pubDate><lastBuildDate>Fri, 24 Mar 2023 10:53:49 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">45-javaswag-oleg-nenashev.mp3</guid><title>#45 - Олег Ненашев - история Jenkins, Continuous Delivery Foundation и Jenkins X</title><pubDate>Wed, 08 Mar 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/45/</link><itunes:duration>01:45:57</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 45 выпуске подкаста Javaswag поговорили с Олегом Ненашевым об истории Jenkins, Continuous Delivery Foundation и Jenkins X
+01:01:34 О себе
+01:06:40 История и идея Дженкинса
+01:13:36 Облачка и солнышки
+01:16:48 Чем Дженкинс уникален
+01:18:56 Jenkins как CI
+01:23:14 Пайплайны
+01:33:08 Как тестировать пайплайны
+01:40:54 Кулстори о применениях Дженкинса
+01:45:42 Конкуренты
+01:52:02 Уязвимости
+02:03:56 Переход на Java 11/17
+02:12:10 Cloudbees
+02:19:18 Continuous Delivery Foundation
+02:26:32 Jenkins X
+02:31:42 JenkinsFileRunner
+02:33:36 Что можно улучшить в архитектуре Дженкинса
+02:38:10 Unpopular Opinion
+02:43:36 Как контрибьютить в Дженкинс
+Гость - https://twitter.com/oleg_nenashev
+Ссылки:
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 45 выпуске подкаста Javaswag поговорили с Олегом...</itunes:subtitle><description>В 45 выпуске подкаста Javaswag поговорили с Олегом Ненашевым об истории Jenkins, Continuous Delivery Foundation и Jenkins X
+01:01:34 О себе
+01:06:40 История и идея Дженкинса
+01:13:36 Облачка и солнышки
+01:16:48 Чем Дженкинс уникален
+01:18:56 Jenkins как CI
+01:23:14 Пайплайны
+01:33:08 Как тестировать пайплайны
+01:40:54 Кулстори о применениях Дженкинса
+01:45:42 Конкуренты
+01:52:02 Уязвимости
+02:03:56 Переход на Java 11/17
+02:12:10 Cloudbees
+02:19:18 Continuous Delivery Foundation
+02:26:32 Jenkins X
+02:31:42 JenkinsFileRunner
+02:33:36 Что можно улучшить в архитектуре Дженкинса
+02:38:10 Unpopular Opinion
+02:43:36 Как контрибьютить в Дженкинс
+Гость - https://twitter.com/oleg_nenashev
+Ссылки:
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/45-javaswag-oleg-nenashev.mp3" type="audio/mpeg" length="127145056"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">44-javaswag-alexei-nesterov.mp3</guid><title>#44 - Алексей Нестеров - работа в Pivotal, разработка Спринга и переход с Джавы в Голэнг</title><pubDate>Fri, 17 Feb 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/44/</link><itunes:duration>01:34:23</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 44 выпуске подкаста Javaswag поговорили с Алексеем Нестеровым о работе в Pivotal, разработке Спринга и переходе на Golang
 00:02:30 О себе
 00:04:36 Переход в Pivotal Labs, апологет Agile, TDD, Lean разработки
 00:12:58 Парное программирование
