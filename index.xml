@@ -1,4 +1,48 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sun, 26 Mar 2023 15:11:07 +0000</pubDate><lastBuildDate>Sun, 26 Mar 2023 15:28:08 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">45-javaswag-oleg-nenashev.mp3</guid><title>#45 - Олег Ненашев - история Jenkins и приключения проекта в мире Java</title><pubDate>Wed, 08 Mar 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/45/</link><itunes:duration>01:45:57</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 45 выпуске подкаста Javaswag поговорили с Олегом Ненашевым об истории Jenkins, Continuous Delivery Foundation и Jenkins X
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sun, 26 Mar 2023 15:11:07 +0000</pubDate><lastBuildDate>Wed, 05 Apr 2023 13:57:49 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">46-javaswag-fedor-yaremenko.mp3</guid><title>#46 - Федор Ярёменко - генерация кода из ТЗ с Kotlin DSL и Jetbrains MPS, медленный старт Спринг Бута</title><pubDate>Sun, 26 Mar 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/46/</link><itunes:duration>01:21:50</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 46 выпуске подкаста Javaswag поговорили с Федором Ярёменко о Kotlin DSL, Jetbrains MPS и Спринг Буте
+00:01:42 О себе
+00:02:52 Что такое DSL
+00:07:12 DSL vs Domain Driven Design
+00:08:48 Где может быть полезен DSL
+00:14:28 DSL vs генерация кода
+00:19:36 Kotlin DSL
+00:22:16 Системные аналитики и Jetbrains MPS
+00:27:06 Автогенерация ТЗ
+00:29:56 Kotlin DSL vs Builder Pattern
+00:35:22 Вербозность
+00:37:56 Compile time DSL
+00:39:00 DSL как АПИ к библиотеке
+00:47:20 Что делать если не хватает DSL
+00:58:07 Onboarding новых разработчиков
+01:02:32 DSL vs Client library
+01:05:16 Минусы DSL
+01:07:30 Spring Boot и долгий старт
+01:16:40 Unpopular Opinion
+Гость - https://www.linkedin.com/in/fedor-yaremenko
+Ссылки:
+Статьи: https://hackernoon.com/u/yaf Разработка DSL в Kotlin - https://www.youtube.com/watch?v=8Js9WtiN2kg
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 46 выпуске подкаста Javaswag поговорили с Федоро...</itunes:subtitle><description>В 46 выпуске подкаста Javaswag поговорили с Федором Ярёменко о Kotlin DSL, Jetbrains MPS и Спринг Буте
+00:01:42 О себе
+00:02:52 Что такое DSL
+00:07:12 DSL vs Domain Driven Design
+00:08:48 Где может быть полезен DSL
+00:14:28 DSL vs генерация кода
+00:19:36 Kotlin DSL
+00:22:16 Системные аналитики и Jetbrains MPS
+00:27:06 Автогенерация ТЗ
+00:29:56 Kotlin DSL vs Builder Pattern
+00:35:22 Вербозность
+00:37:56 Compile time DSL
+00:39:00 DSL как АПИ к библиотеке
+00:47:20 Что делать если не хватает DSL
+00:58:07 Onboarding новых разработчиков
+01:02:32 DSL vs Client library
+01:05:16 Минусы DSL
+01:07:30 Spring Boot и долгий старт
+01:16:40 Unpopular Opinion
+Гость - https://www.linkedin.com/in/fedor-yaremenko
+Ссылки:
+Статьи: https://hackernoon.com/u/yaf Разработка DSL в Kotlin - https://www.youtube.com/watch?v=8Js9WtiN2kg
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/46-javaswag-fedor-yaremenko.mp3" type="audio/mpeg" length="98205376"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">45-javaswag-oleg-nenashev.mp3</guid><title>#45 - Олег Ненашев - история Jenkins и приключения проекта в мире Java</title><pubDate>Wed, 08 Mar 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/45/</link><itunes:duration>01:45:57</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 45 выпуске подкаста Javaswag поговорили с Олегом Ненашевым об истории Jenkins, Continuous Delivery Foundation и Jenkins X
 00:01:34 О себе
 00:06:40 История и идея Дженкинса
 00:13:36 Облачка и солнышки
