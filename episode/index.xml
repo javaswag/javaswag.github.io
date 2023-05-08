@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Sat, 08 Apr 2023 15:11:07 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#47 - Саша Пахомов - слепая печать</title><link>https://javaswag.github.io/episode/47/</link><pubDate>Sat, 08 Apr 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/47/</guid><description>В 47 выпуске подкаста Javaswag поговорили с Сашей Пахомовым
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Sat, 08 Apr 2023 15:11:07 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#47 - Саша Пахомов - прагматичные практики, АПИ клиенты и софтскиллы</title><link>https://javaswag.github.io/episode/47/</link><pubDate>Sat, 08 Apr 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/47/</guid><description>В 47 выпуске подкаста Javaswag поговорили с Сашей Пахомовым о прагматичных практиках, АПИ клиентах и важности софтскиллах
 00:01:15 О себе
 00:04:27 Зачем нужна слепая печать если есть Intellij IDEA
 00:18:16 vim
@@ -7,8 +7,7 @@
 00:40:30 &amp;ldquo;Если бы java, javac, jar были бы хорошими тулами, не было бы Мавена и Анта&amp;rdquo;
 00:45:19 &amp;ldquo;Команд лайн тулы на Джаве писать не нужно&amp;rdquo;
 00:50:36 Как писать API клиента
-00:58:25 Идеальный воркфлоу клиентской библиотеки
-01:03:01 Пишем по TDD прямо в подкасте</description></item><item><title>#46 - Федор Ярёменко - генерация кода из ТЗ с Kotlin DSL и Jetbrains MPS, медленный старт Спринг Бута</title><link>https://javaswag.github.io/episode/46/</link><pubDate>Wed, 05 Apr 2023 18:30:07 +0000</pubDate><guid>https://javaswag.github.io/episode/46/</guid><description>В 46 выпуске подкаста Javaswag поговорили с Федором Ярёменко о Kotlin DSL, Jetbrains MPS и Спринг Буте
+00:58:25 Идеальный воркфлоу клиентской библиотеки</description></item><item><title>#46 - Федор Ярёменко - генерация кода из ТЗ с Kotlin DSL и Jetbrains MPS, медленный старт Спринг Бута</title><link>https://javaswag.github.io/episode/46/</link><pubDate>Wed, 05 Apr 2023 18:30:07 +0000</pubDate><guid>https://javaswag.github.io/episode/46/</guid><description>В 46 выпуске подкаста Javaswag поговорили с Федором Ярёменко о Kotlin DSL, Jetbrains MPS и Спринг Буте
 00:01:42 О себе
 00:02:52 Что такое DSL
 00:07:12 DSL vs Domain Driven Design
