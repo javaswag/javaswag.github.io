@@ -1,4 +1,44 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Tue, 09 May 2023 12:58:20 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">47-sasha-pakhomov-2.mp3</guid><title>#47 - Саша Пахомов - прагматичные практики, АПИ клиенты и софтскиллы Drafts</title><pubDate>Sat, 08 Apr 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/47/</link><itunes:duration>02:11:10</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 47 выпуске подкаста Javaswag поговорили с Сашей Пахомовым о прагматичных практиках, АПИ клиентах и важности софтскиллах
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Mon, 29 May 2023 11:40:36 +0000</lastBuildDate><ttl>60</ttl><language>en</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">48-kirill-grishchuk.mp3</guid><title>#48 - Кирилл Грищук - Java собеседования, Литкод и полезный лайвкодинг Drafts</title><pubDate>Wed, 17 May 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/48/</link><itunes:duration>01:26:54</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 48 выпуске подкаста Javaswag поговорили с Кириллом Грищуком о Java собеседованиях, Литкоди и полезном лайвкодинге
+01:50 О себе
+06:00 Переход с C# в Java
+08:38 Архитектура онлайн доски на Редис
+16:28 &amp;ldquo;Интересные полиморфные объекты&amp;rdquo;
+27:40 Собеседования, интервью, 150 лайвкодингов и пример задачи
+33:50 Зачем решать задачи на Литкоде
+43:14 Что спрашивают на Джава собесах
+53:08 Топ вопросов Джава интервью и вопросы про Спринг
+1:05:05 Как развиваться разработчику
+1:14:05 Отвечаем на непопулярное мнение о наследовании
+1:16:04 Непопулярное мнение
+1:19:07 Переход на Golang
+Гость - https://kirya522.tech/
+Ссылки:
+https://kirya522.tech/
+Youtube https://www.youtube.com/@kirya522-dev
+Вопросы с интерьвю https://kirya522.tech/posts/interview/
+Про пагинацию под нагрузкой https://medium.com/swlh/sql-pagination-you-are-probably-doing-it-wrong-d0f2719cc166
+Про надежный pg https://medium.com/miro-engineering/implementing-fault-tolerance-postgresql-cluster-with-patroni-f008471a99b1
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 48 выпуске подкаста Javaswag поговорили с Кирилл...</itunes:subtitle><description>В 48 выпуске подкаста Javaswag поговорили с Кириллом Грищуком о Java собеседованиях, Литкоди и полезном лайвкодинге
+01:50 О себе
+06:00 Переход с C# в Java
+08:38 Архитектура онлайн доски на Редис
+16:28 &amp;ldquo;Интересные полиморфные объекты&amp;rdquo;
+27:40 Собеседования, интервью, 150 лайвкодингов и пример задачи
+33:50 Зачем решать задачи на Литкоде
+43:14 Что спрашивают на Джава собесах
+53:08 Топ вопросов Джава интервью и вопросы про Спринг
+1:05:05 Как развиваться разработчику
+1:14:05 Отвечаем на непопулярное мнение о наследовании
+1:16:04 Непопулярное мнение
+1:19:07 Переход на Golang
+Гость - https://kirya522.tech/
+Ссылки:
+https://kirya522.tech/
+Youtube https://www.youtube.com/@kirya522-dev
+Вопросы с интерьвю https://kirya522.tech/posts/interview/
+Про пагинацию под нагрузкой https://medium.com/swlh/sql-pagination-you-are-probably-doing-it-wrong-d0f2719cc166
+Про надежный pg https://medium.com/miro-engineering/implementing-fault-tolerance-postgresql-cluster-with-patroni-f008471a99b1
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/48-kirill-grishchuk.mp3" type="audio/mpeg" length="104288416"/><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">47-sasha-pakhomov-2.mp3</guid><title>#47 - Саша Пахомов - прагматичные практики, АПИ клиенты и софтскиллы Drafts</title><pubDate>Sat, 08 Apr 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/47/</link><itunes:duration>02:11:10</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 47 выпуске подкаста Javaswag поговорили с Сашей Пахомовым о прагматичных практиках, АПИ клиентах и важности софтскиллах
 00:01:15 О себе
 00:04:27 Зачем нужна слепая печать если есть Intellij IDEA
 00:18:16 vim
