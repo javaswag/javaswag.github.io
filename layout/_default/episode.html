@@ -26,11 +26,18 @@
           {{ end }}
         </ul>
 
-        <audio
-          src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}"
-          controls="controls"
-          preload="auto">
-        </audio>
+        <div class="scc">
+          <audio
+            src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}"
+            controls="controls"
+            preload="auto">
+          </audio>
+          <div>
+            <label for="pbrate">Speed:</label>
+            <input type="range" id="pbrate" min=.5 max=2 value=1 step=.1>
+            <span></span>
+          </div>
+        </div>
         {{ .Content }}
       </main>
 

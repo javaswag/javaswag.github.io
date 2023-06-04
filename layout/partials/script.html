@@ -59,4 +59,16 @@
 			}
 		}
 	}
+	// audiospeed`
+	const audio = document.querySelector('.scc  audio');
+	const playbackrate = document.querySelector('.scc input');
+	const display = document.querySelector('.scc span');
+	const displayvalue = val => {
+	  return parseInt(val * 100, 10) + '%'
+	}
+	display.innerText = displayvalue(audio.playbackRate);
+	playbackrate.addEventListener('change', e => {
+	  audio.playbackRate = playbackrate.value;
+	  display.innerText = displayvalue(playbackrate.value);
+	});
 </script>
