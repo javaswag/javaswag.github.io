@@ -1,4 +1,38 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sun, 04 Jun 2023 12:06:37 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">48-kirill-grishchuk.mp3</guid><title>#48 - Кирилл Грищук - Java собеседования, Литкод и полезный лайвкодинг Drafts</title><pubDate>Wed, 17 May 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/48/</link><itunes:duration>01:26:54</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 48 выпуске подкаста Javaswag поговорили с Кириллом Грищуком о Java собеседованиях, Литкоди и полезном лайвкодинге
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sun, 18 Jun 2023 21:37:19 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">449-vladimir-shvec.mp3</guid><title>#49 - Владимир Швец- от Джуна до Сеньора, как выжить в IT Drafts</title><pubDate>Fri, 09 Jun 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/49/</link><itunes:duration>01:59:01</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 49 выпуске подкаста Javaswag поговорили с Владимиром Щвецем о книге &amp;ldquo;От джуна до сеньора. Как стать востребованным разработчиком
+00:01:00 О себе и высоконагруженных сервисах
+00:15:37 Где в книге мидлы? Курсы, блоки в книге
+00:25:05 О книгах - &amp;ldquo;Я практически не читаю технической литературы&amp;rdquo;
+00:34:55 Стиль написания
+00:48:00 Работа с издательством, редактором, чистый код
+01:04:30 Об интервью и алгоритмах на &amp;ldquo;бумажке&amp;rdquo;
+01:13:18 Пример интервью
+01:20:20 &amp;ldquo;Побивание камнями&amp;rdquo; как стиль код-ревью
+01:29:20 Бюрократия
+01:36:40 Зачем в книге для программистов блок про психотерапию
+01:45:00 Следующая книга
+01:49:15 Отвечаем на непопулярное мнение из предыдущего выпуска
+01:53:0 Непопулярное мнение
+Гость - Владимир Швец
+Ссылки:
+Книга &amp;ldquo;От джуна до сеньора. Как стать востребованным разработчиком&amp;rdquo; https://alpinabook.ru/catalog/book-ot-dzhuna-do-senora/
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 49 выпуске подкаста Javaswag поговорили с Владим...</itunes:subtitle><description>В 49 выпуске подкаста Javaswag поговорили с Владимиром Щвецем о книге &amp;ldquo;От джуна до сеньора. Как стать востребованным разработчиком
+00:01:00 О себе и высоконагруженных сервисах
+00:15:37 Где в книге мидлы? Курсы, блоки в книге
+00:25:05 О книгах - &amp;ldquo;Я практически не читаю технической литературы&amp;rdquo;
+00:34:55 Стиль написания
+00:48:00 Работа с издательством, редактором, чистый код
+01:04:30 Об интервью и алгоритмах на &amp;ldquo;бумажке&amp;rdquo;
+01:13:18 Пример интервью
+01:20:20 &amp;ldquo;Побивание камнями&amp;rdquo; как стиль код-ревью
+01:29:20 Бюрократия
+01:36:40 Зачем в книге для программистов блок про психотерапию
+01:45:00 Следующая книга
+01:49:15 Отвечаем на непопулярное мнение из предыдущего выпуска
+01:53:0 Непопулярное мнение
+Гость - Владимир Швец
+Ссылки:
+Книга &amp;ldquo;От джуна до сеньора. Как стать востребованным разработчиком&amp;rdquo; https://alpinabook.ru/catalog/book-ot-dzhuna-do-senora/
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/449-vladimir-shvec.mp3" type="audio/mpeg" length="142818016"/><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">48-kirill-grishchuk.mp3</guid><title>#48 - Кирилл Грищук - Java собеседования, Литкод и полезный лайвкодинг Drafts</title><pubDate>Wed, 17 May 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/48/</link><itunes:duration>01:26:54</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 48 выпуске подкаста Javaswag поговорили с Кириллом Грищуком о Java собеседованиях, Литкоди и полезном лайвкодинге
 01:50 О себе
 06:00 Переход с C# в Java
 08:38 Архитектура онлайн доски на Редис

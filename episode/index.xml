@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Wed, 17 May 2023 15:11:07 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#48 - Кирилл Грищук - Java собеседования, Литкод и полезный лайвкодинг</title><link>https://javaswag.github.io/episode/48/</link><pubDate>Wed, 17 May 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/48/</guid><description>В 48 выпуске подкаста Javaswag поговорили с Кириллом Грищуком о Java собеседованиях, Литкоди и полезном лайвкодинге
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Fri, 09 Jun 2023 15:11:07 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#49 - Владимир Швец- от Джуна до Сеньора, как выжить в IT</title><link>https://javaswag.github.io/episode/49/</link><pubDate>Fri, 09 Jun 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/49/</guid><description>В 49 выпуске подкаста Javaswag поговорили с Владимиром Щвецем о книге &amp;ldquo;От джуна до сеньора. Как стать востребованным разработчиком
+00:01:00 О себе и высоконагруженных сервисах
+00:15:37 Где в книге мидлы? Курсы, блоки в книге
+00:25:05 О книгах - &amp;ldquo;Я практически не читаю технической литературы&amp;rdquo;
+00:34:55 Стиль написания
+00:48:00 Работа с издательством, редактором, чистый код
+01:04:30 Об интервью и алгоритмах на &amp;ldquo;бумажке&amp;rdquo;
+01:13:18 Пример интервью
+01:20:20 &amp;ldquo;Побивание камнями&amp;rdquo; как стиль код-ревью</description></item><item><title>#48 - Кирилл Грищук - Java собеседования, Литкод и полезный лайвкодинг</title><link>https://javaswag.github.io/episode/48/</link><pubDate>Wed, 17 May 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/48/</guid><description>В 48 выпуске подкаста Javaswag поговорили с Кириллом Грищуком о Java собеседованиях, Литкоди и полезном лайвкодинге
 01:50 О себе
 06:00 Переход с C# в Java
 08:38 Архитектура онлайн доски на Редис
