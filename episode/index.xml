@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Fri, 07 Jul 2023 15:11:07 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#50 - Андрей Корниенков - продуктовая разработка на Котлине</title><link>https://javaswag.github.io/episode/50/</link><pubDate>Fri, 07 Jul 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/50/</guid><description>В 50 выпуске подкаста Javaswag поговорили с Андреем Корниенковым о продуктовой разработке на Котлине, прототипировании и наследии JVM
-00:02:16 себе
+00:02:16 О себе
 00:07:08 Котлин после Джавы
 00:14:28 Котлин как песочница фич для Джавы
 00:25:14 Наследие JVM
 00:35:54 Пишем платформу
 00:55:24 Быстрее ли писать на Котлине?
-01:12:06 Инвентарь библиотек проекта
-01:19:10 Уши Джавы торчат
-01:22:34 Аспекты
-01:24:36 Кол-во зависимостей для переезда
-01:27:06 Продуктовая разработка на Котлине
-01:31:04 Агрегатор микросервисов
-01:33:10 Быстрое прототипирование
-01:42:16 Ответ на прошлое непопулярное мнение</description></item><item><title>#49 - Владимир Швец - от Джуна до Сеньора, как выжить в IT</title><link>https://javaswag.github.io/episode/49/</link><pubDate>Fri, 09 Jun 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/49/</guid><description>В 49 выпуске подкаста Javaswag поговорили с Владимиром Швецом, автором книги &amp;ldquo;От джуна до сеньора. Как стать востребованным разработчиком&amp;rdquo;
+01:11:26 Интвентарь библиотек проекта
+01:18:36 Уши Джавы торчат
+01:21:58 Аспекты
+01:23:54 Кол-во зависиомтей для перезда
+01:26:30 Продуктовая разработка на Котлине
+01:30:14 Агрегатор микросервисов
+01:32:20 Быстрое прототипирование</description></item><item><title>#49 - Владимир Швец - от Джуна до Сеньора, как выжить в IT</title><link>https://javaswag.github.io/episode/49/</link><pubDate>Fri, 09 Jun 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/49/</guid><description>В 49 выпуске подкаста Javaswag поговорили с Владимиром Швецом, автором книги &amp;ldquo;От джуна до сеньора. Как стать востребованным разработчиком&amp;rdquo;
 00:01:10 О себе и высоконагруженных сервисах
 00:15:37 Где в книге мидлы? Курсы, блоки в книге
 00:25:05 О книгах - &amp;ldquo;Я практически не читаю технической литературы&amp;rdquo;
