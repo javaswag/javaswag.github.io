@@ -1,14 +1,14 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Wed, 02 Aug 2023 12:10:57 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">50-andrey-kornienkov-1.mp3</guid><title>#50 - Андрей Корниенков - продуктовая разработка на Котлине Drafts</title><pubDate>Fri, 07 Jul 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/50/</link><itunes:duration>01:52:00</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 50 выпуске подкаста Javaswag поговорили с Андреем Корниенковым о продуктовой разработке на Котлине, прототипировании и наследии JVM
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Wed, 02 Aug 2023 20:02:05 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">50-andrey-kornienkov-1.mp3</guid><title>#50 - Андрей Корниенков - продуктовая разработка на Котлине Drafts</title><pubDate>Fri, 07 Jul 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/50/</link><itunes:duration>01:52:00</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 50 выпуске подкаста Javaswag поговорили с Андреем Корниенковым о продуктовой разработке на Котлине, прототипировании и наследии JVM
 00:02:16 О себе
 00:07:08 Котлин после Джавы
 00:14:28 Котлин как песочница фич для Джавы
 00:25:14 Наследие JVM
 00:35:54 Пишем платформу
 00:55:24 Быстрее ли писать на Котлине?
-01:11:26 Интвентарь библиотек проекта
+01:11:26 Инвентарь библиотек проекта
 01:18:36 Уши Джавы торчат
 01:21:58 Аспекты
-01:23:54 Кол-во зависиомтей для перезда
+01:23:54 Кол-во зависимостей для переезда
 01:26:30 Продуктовая разработка на Котлине
 01:30:14 Агрегатор микросервисов
 01:32:20 Быстрое прототипирование
@@ -25,10 +25,10 @@ https://github.com/Netflix/hollow
 00:25:14 Наследие JVM
 00:35:54 Пишем платформу
 00:55:24 Быстрее ли писать на Котлине?
-01:11:26 Интвентарь библиотек проекта
+01:11:26 Инвентарь библиотек проекта
 01:18:36 Уши Джавы торчат
 01:21:58 Аспекты
-01:23:54 Кол-во зависиомтей для перезда
+01:23:54 Кол-во зависимостей для переезда
 01:26:30 Продуктовая разработка на Котлине
 01:30:14 Агрегатор микросервисов
 01:32:20 Быстрое прототипирование
