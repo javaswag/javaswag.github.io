@@ -1,4 +1,42 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Fri, 07 Jul 2023 15:11:07 +0000</pubDate><lastBuildDate>Sun, 20 Aug 2023 10:18:29 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">49-vladimir-shvec.mp3</guid><title>#49 - Владимир Швец - от Джуна до Сеньора, как выжить в IT</title><pubDate>Fri, 09 Jun 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/49/</link><itunes:duration>01:59:01</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 49 выпуске подкаста Javaswag поговорили с Владимиром Швецом, автором книги &amp;ldquo;От джуна до сеньора. Как стать востребованным разработчиком&amp;rdquo;
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Fri, 07 Jul 2023 15:11:07 +0000</pubDate><lastBuildDate>Sun, 20 Aug 2023 12:31:49 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">50-andrey-kornienkov-4.mp3</guid><title>#50 - Андрей Корниенков - продуктовая разработка на Котлине</title><pubDate>Fri, 07 Jul 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/50/</link><itunes:duration>01:49:27</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 50 выпуске подкаста Javaswag поговорили с Андреем Корниенковым о продуктовой разработке на Котлине, прототипировании и наследии JVM
+00:02:15 О себе
+00:08:44 Котлин после Джавы
+00:14:41 Котлин как песочница фич для Джавы
+00:26:04 Наследие JVM
+00:36:25 Пишем платформу
+00:56:40 Быстрее ли писать на Котлине?
+01:02:38 Инвентарь библиотек проекта
+01:18:00 Уши Джавы торчат
+01:23:54 Аспекты, кол-во зависимостей и продуктовая разработка
+01:30:14 Агрегатор микросервисов
+01:31:00 Быстрое прототипирование
+01:40:40 Ответ на прошлое непопулярное мнение
+01:46:00 Непопулярное мнение
+Гость - Андрей Корниенков
+Ссылки:
+https://funtech.plus.yandex.ru/
+https://t.me/dobavitvlybimoe
+https://www.linkedin.com/in/andrey-kornienkov-6868041b/
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 50 выпуске подкаста Javaswag поговорили с Андрее...</itunes:subtitle><description>В 50 выпуске подкаста Javaswag поговорили с Андреем Корниенковым о продуктовой разработке на Котлине, прототипировании и наследии JVM
+00:02:15 О себе
+00:08:44 Котлин после Джавы
+00:14:41 Котлин как песочница фич для Джавы
+00:26:04 Наследие JVM
+00:36:25 Пишем платформу
+00:56:40 Быстрее ли писать на Котлине?
+01:02:38 Инвентарь библиотек проекта
+01:18:00 Уши Джавы торчат
+01:23:54 Аспекты, кол-во зависимостей и продуктовая разработка
+01:30:14 Агрегатор микросервисов
+01:31:00 Быстрое прототипирование
+01:40:40 Ответ на прошлое непопулярное мнение
+01:46:00 Непопулярное мнение
+Гость - Андрей Корниенков
+Ссылки:
+https://funtech.plus.yandex.ru/
+https://t.me/dobavitvlybimoe
+https://www.linkedin.com/in/andrey-kornienkov-6868041b/
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/50-andrey-kornienkov-4.mp3" type="audio/mpeg" length="131350336"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">49-vladimir-shvec.mp3</guid><title>#49 - Владимир Швец - от Джуна до Сеньора, как выжить в IT</title><pubDate>Fri, 09 Jun 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/49/</link><itunes:duration>01:59:01</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 49 выпуске подкаста Javaswag поговорили с Владимиром Швецом, автором книги &amp;ldquo;От джуна до сеньора. Как стать востребованным разработчиком&amp;rdquo;
 00:01:10 О себе и высоконагруженных сервисах
 00:15:37 Где в книге мидлы? Курсы, блоки в книге
 00:25:05 О книгах - &amp;ldquo;Я практически не читаю технической литературы&amp;rdquo;
