@@ -1,17 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Thu, 10 Aug 2023 15:11:07 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#51 - Олег Ненашев - Wiremock, построение сообществ и девелопер-адвокатура</title><link>https://javaswag.github.io/episode/51/</link><pubDate>Thu, 10 Aug 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/51/</guid><description>В 51 выпуске подкаста Javaswag поговорили с Олегом ненашевым о библиотеке Wiremock, построении сообществ и девелопер-адвокатуре
-01:01:20 Что поменялось с прошлого выпуска
-01:03:48 Индустрия тестирования
-01:11:50 История Wiremock
-01:16:30 Wiremock и поддержка других языков
-01:20:06 Пишем тест с Wiremock
-01:34:26 Wiremock &amp;amp; JUnit
-01:37:44 Темплейты и маркетплейс
-01:45:54 Единый стандарт для API
-01:50:10 Replay &amp;amp; Record
-01:53:38 Поддержка протоколов - вебсокеты, графкуэль, бинарные протоколы
-02:02:38 Админка
-02:06:40 Идеальный пользователь
-02:17:39 Как строить коммьюнити в который раз</description></item><item><title>#50 - Андрей Корниенков - продуктовая разработка на Котлине</title><link>https://javaswag.github.io/episode/50/</link><pubDate>Fri, 07 Jul 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/50/</guid><description>В 50 выпуске подкаста Javaswag поговорили с Андреем Корниенковым о продуктовой разработке на Котлине, прототипировании и наследии JVM
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Episodes on Javaswag</title><link>https://javaswag.github.io/episode/</link><description>Recent content in Episodes on Javaswag</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Thu, 10 Aug 2023 15:11:07 +0000</lastBuildDate><atom:link href="https://javaswag.github.io/episode/index.xml" rel="self" type="application/rss+xml"/><item><title>#51 - Олег Ненашев - WireMock, построение сообществ и девелопер-адвокатура</title><link>https://javaswag.github.io/episode/51/</link><pubDate>Thu, 10 Aug 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/51/</guid><description>В 51 выпуске подкаста Javaswag поговорили с Олегом Ненашевым о WireMock - туле для API mocking&amp;rsquo;a для Java и не только. Также поговорили о построении open-source сообществ и девелопер-адвокатуре.
+00:01:20 Что поменялось с прошлого выпуска
+00:03:48 Индустрия тестирования и успехи WireMock и Testcontainers
+00:11:50 История WireMock
+00:16:30 WireMock и поддержка других языков: Kotlin, Python, Golang и т.д.
+00:20:06 Пишем тест с WireMock
+00:34:26 WireMock &amp;amp; JUnit
+00:37:44 Темплейты и маркетплейс API Templates Library</description></item><item><title>#50 - Андрей Корниенков - продуктовая разработка на Котлине</title><link>https://javaswag.github.io/episode/50/</link><pubDate>Fri, 07 Jul 2023 15:11:07 +0000</pubDate><guid>https://javaswag.github.io/episode/50/</guid><description>В 50 выпуске подкаста Javaswag поговорили с Андреем Корниенковым о продуктовой разработке на Котлине, прототипировании и наследии JVM
 00:02:15 О себе
 00:08:44 Котлин после Джавы
 00:14:41 Котлин как песочница фич для Джавы
