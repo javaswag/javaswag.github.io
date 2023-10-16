@@ -1,4 +1,38 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Thu, 10 Aug 2023 15:11:07 +0000</pubDate><lastBuildDate>Sat, 07 Oct 2023 12:06:57 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">51-oleg-nenashev.mp3</guid><title>#51 - Олег Ненашев - WireMock, построение сообществ и девелопер-адвокатура</title><pubDate>Thu, 10 Aug 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/51/</link><itunes:duration>01:40:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 51 выпуске подкаста Javaswag поговорили с Олегом Ненашевым о WireMock - туле для API mocking&amp;rsquo;a для Java и не только. Также поговорили о построении open-source сообществ и девелопер-адвокатуре.
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Thu, 31 Aug 2023 15:11:07 +0000</pubDate><lastBuildDate>Mon, 16 Oct 2023 15:40:33 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">52-timur-mukhitdinov.mp3</guid><title>#52 - Тимур Мухитдинов - стартап на Джаве и архитектура в Букинге</title><pubDate>Thu, 31 Aug 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/52/</link><itunes:duration>01:56:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 52 выпуске подкаста Javaswag поговорили с Тимуром Мухитдиновым о стартапе на Джаве и архитектуре в Букинге
+00:01:38 О себе
+00:05:57 &amp;ldquo;Все что были книги о Джаве, я прочитал&amp;rdquo;
+00:23:56 Фреймворки
+00:42:34 Где ты вырос больше всего?
+00:49:19 Стартап
+01:05:36 Архитектура и что внутри
+01:15:54 Облако или поднимаем сами?
+01:22:38 Очередь поверх Постргрес вместо Кафки
+01:26:49 &amp;ldquo;С точки зрения технологий все сделано идеально&amp;rdquo;
+01:31:04 Что там в Букинге
+01:34:38 Что за стэк
+01:46:17 Отвечаем на предыдущее Непопулярное мнение
+01:50:35 Непопулярное мнение
+Гость - https://www.linkedin.com/in/timurnav/
+Ссылки:
+Менторство https://solvery.io/ru/mentor/timurnav
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 52 выпуске подкаста Javaswag поговорили с Тимуро...</itunes:subtitle><description>В 52 выпуске подкаста Javaswag поговорили с Тимуром Мухитдиновым о стартапе на Джаве и архитектуре в Букинге
+00:01:38 О себе
+00:05:57 &amp;ldquo;Все что были книги о Джаве, я прочитал&amp;rdquo;
+00:23:56 Фреймворки
+00:42:34 Где ты вырос больше всего?
+00:49:19 Стартап
+01:05:36 Архитектура и что внутри
+01:15:54 Облако или поднимаем сами?
+01:22:38 Очередь поверх Постргрес вместо Кафки
+01:26:49 &amp;ldquo;С точки зрения технологий все сделано идеально&amp;rdquo;
+01:31:04 Что там в Букинге
+01:34:38 Что за стэк
+01:46:17 Отвечаем на предыдущее Непопулярное мнение
+01:50:35 Непопулярное мнение
+Гость - https://www.linkedin.com/in/timurnav/
+Ссылки:
+Менторство https://solvery.io/ru/mentor/timurnav
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/52-timur-mukhitdinov.mp3" type="audio/mpeg" length="139325056"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">51-oleg-nenashev.mp3</guid><title>#51 - Олег Ненашев - WireMock, построение сообществ и девелопер-адвокатура</title><pubDate>Thu, 10 Aug 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/51/</link><itunes:duration>01:40:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 51 выпуске подкаста Javaswag поговорили с Олегом Ненашевым о WireMock - туле для API mocking&amp;rsquo;a для Java и не только. Также поговорили о построении open-source сообществ и девелопер-адвокатуре.
 00:01:20 Что поменялось с прошлого выпуска
 00:03:48 Индустрия тестирования и успехи WireMock и Testcontainers
 00:11:50 История WireMock
@@ -52,41 +86,7 @@ https://github.com/release-drafter/release-drafter
 https://maven.apache.org/enforcer/enforcer-rules/requireUpperBoundDeps.html
 https://www.wiremock.io/
 https://mockgpt.wiremock.io/
-Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/51-oleg-nenashev.mp3" type="audio/mpeg" length="120115456"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">52-timur-mukhitdinov.mp3</guid><title>#52 - Тимур Мухитдинов - стартап на Джаве и архитектура в Букинге</title><pubDate>Thu, 10 Aug 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/52/</link><itunes:duration>01:56:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 52 выпуске подкаста Javaswag поговорили с Тимуром Мухитдиновым о стартапе на Джаве и архитектуре в Букинге
-00:01:38 О себе
-00:05:57 &amp;ldquo;Все что были книги о Джаве, я прочитал&amp;rdquo;
-00:23:56 Фреймворки
-00:42:34 Где ты вырос больше всего?
-00:49:19 Стартап
-01:05:36 Архитектура и что внутри
-01:15:54 Облако или поднимаем сами?
-01:22:38 Очередь поверх Постргрес вместо Кафки
-01:26:49 &amp;ldquo;С точки зрения технологий все сделано идеально&amp;rdquo;
-01:31:04 Что там в Букинге
-01:34:38 Что за стэк
-01:46:17 Отвечаем на предыдущее Непопулярное мнение
-01:50:35 Непопулярное мнение
-Гость - https://www.linkedin.com/in/timurnav/
-Ссылки:
-Менторство https://solvery.io/ru/mentor/timurnav
-Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 52 выпуске подкаста Javaswag поговорили с Тимуро...</itunes:subtitle><description>В 52 выпуске подкаста Javaswag поговорили с Тимуром Мухитдиновым о стартапе на Джаве и архитектуре в Букинге
-00:01:38 О себе
-00:05:57 &amp;ldquo;Все что были книги о Джаве, я прочитал&amp;rdquo;
-00:23:56 Фреймворки
-00:42:34 Где ты вырос больше всего?
-00:49:19 Стартап
-01:05:36 Архитектура и что внутри
-01:15:54 Облако или поднимаем сами?
-01:22:38 Очередь поверх Постргрес вместо Кафки
-01:26:49 &amp;ldquo;С точки зрения технологий все сделано идеально&amp;rdquo;
-01:31:04 Что там в Букинге
-01:34:38 Что за стэк
-01:46:17 Отвечаем на предыдущее Непопулярное мнение
-01:50:35 Непопулярное мнение
-Гость - https://www.linkedin.com/in/timurnav/
-Ссылки:
-Менторство https://solvery.io/ru/mentor/timurnav
-Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/52-timur-mukhitdinov.mp3" type="audio/mpeg" length="139325056"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">50-andrey-kornienkov-4.mp3</guid><title>#50 - Андрей Корниенков - продуктовая разработка на Котлине</title><pubDate>Fri, 07 Jul 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/50/</link><itunes:duration>01:49:27</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 50 выпуске подкаста Javaswag поговорили с Андреем Корниенковым о продуктовой разработке на Котлине, прототипировании и наследии JVM
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/51-oleg-nenashev.mp3" type="audio/mpeg" length="120115456"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">50-andrey-kornienkov-4.mp3</guid><title>#50 - Андрей Корниенков - продуктовая разработка на Котлине</title><pubDate>Fri, 07 Jul 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/50/</link><itunes:duration>01:49:27</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 50 выпуске подкаста Javaswag поговорили с Андреем Корниенковым о продуктовой разработке на Котлине, прототипировании и наследии JVM
 00:02:15 О себе
 00:08:44 Котлин после Джавы
 00:14:41 Котлин как песочница фич для Джавы
