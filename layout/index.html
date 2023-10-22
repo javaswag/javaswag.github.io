@@ -8,7 +8,7 @@
       {{ partial "header.html" . }}
       <main class="Main">
 
-        {{ $paginator := .Paginate .Site.RegularPages }} 
+        {{ $paginator := .Paginate (where .Site.Pages "Type" "episode") }} 
         <ul class="EpisodeList">
           {{ range where $paginator.Pages "Draft" false}} 
             <li class="Episode">

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    {{ partial "meta.html" . }}
+  </head>
+  <body>
+    <div class="Container">
+      {{ partial "header.html" . }}
+      
+      <main class="Main">
+        <h2>Guests</h2>
+
+        <div class="">
+            
+            <div class="">
+                {{ range $person_name, $person := .Site.Data.people }}
+                <img class="img"
+                    title="{{$person_name}}"
+                    alt="{{$person_name}}"
+                    src="{{ $person.image }}"
+                    class=""
+                    style="width: 72px;"
+                />
+                {{ end }}
+            </div>
+            
+            </div>
+      </main>
+
+
+      {{ partial "footer.html" . }}
+    </div>
+    {{ partial "script.html" . }}
+
+  </body>
+</html>
