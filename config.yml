@@ -24,6 +24,8 @@ params:
   Keywords: technology,java,jvm
   yandexS3: "https://storage.yandexcloud.net/javaswag/"
   title: javaswag
+  mainTitle: "Подкаст о разработке на Java"
+  subTitle: "Все то, о чем вы боялись спросить в кулуарах."
   telegram: https://t.me/javaswag
   image: images/logo.png
   imageDraft: img/logo-draft.png

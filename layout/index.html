@@ -1,43 +1,76 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    {{ partial "meta.html" . }}
-  </head>
-  <body>
-    <div class="Container">
-      {{ partial "header.html" . }}
-      <main class="Main">
 
-        {{ $paginator := .Paginate ( where ( where .Site.Pages "Type" "episode") "Kind" "page") }} 
+<head>
+  {{ partial "meta.html" . }}
+</head>
+
+<body>
+  <div class="Container">
+    {{ partial "header.html" . }}
+    <main class="Main">
+      <div class="Fixed__Width">
+        <div class="Banner">
+          <div class="Banner__Left">
+            <h2>Велком в уютное Java комьюнити!</h2>
+            <p>Привет, я Дима и я Java разработчик. Я пишу подкаст с другими крутыми Java разработчиками. Задаю им
+              каверзные вопросы, спрашиваю непопулярное мнение и мы вместе выясняем куда катится индустрия. Велком!</p>
+          </div>
+          <div class="Banner__Right">
+            <img src="/img/people/main-man.png" alt="author">
+          </div>
+        </div>
+
+        {{ $paginator := .Paginate ( where ( where .Site.Pages "Type" "episode") "Kind" "page") }}
         <ul class="EpisodeList">
-          {{ range where $paginator.Pages "Draft" false}} 
+          {{ range where $paginator.Pages "Draft" false}}
 
-            <li class="Episode">
-              <div class="Episode__Date">{{ .Date.Format "2006.01.02" }}</div>
-              <h2 class="Episode__Title">
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-              </h2>
-            </li>
+          <li class="Episode">
+            <div class="Episode__Date">{{ .Date.Format "2 Jan 2006" }}</div>
+            <h2 class="Episode__Title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+            <div class="Single__Episode__Description">
+              {{ .Content }}
+            </div>
+            <button class="playBtn">
+              <img src="/img/play.png" alt="play button">
+              <span>Play</span>
+            </button>
+            <div class="scc audioItem">
+              <audio src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}" controls="controls" preload="auto">
+              </audio>
+            </div>
+          </li>
           {{ end }}
-        </ul> 
-       
+          <li>
+            <span class="Show__More">Show 5 more episodes</span>
+          </li>
+        </ul>
+
+
         <nav>
           {{ if .Paginator.HasPrev }}
-            <div>
-              <a href="{{ .Paginator.Prev.URL }}">👈 Prev</a>
-            </div>
+          <div>
+            <a href="{{ .Paginator.Prev.URL }}">👈 Prev</a>
+          </div>
           {{ else }}
           {{ end }}
           {{ if .Paginator.HasNext }}
-            <div>
-              <a href="{{ .Paginator.Next.URL }}">Next 👉</a>
-            </div>
+          <div>
+            <a href="{{ .Paginator.Next.URL }}">Next 👉</a>
+          </div>
           {{ else }}
           {{ end }}
         </nav>
-      </main>
-      {{ partial "footer.html" . }}
-    </div>
-    {{ partial "script.html" . }}
-  </body>
+      </div>
+      <div class="Main__Bottom">
+        <img src="/img/dots.svg" alt="dots image">
+      </div>
+    </main>
+    {{ partial "footer.html" . }}
+  </div>
+  {{ partial "script.html" . }}
+</body>
+
 </html>

@@ -3,8 +3,8 @@
 
 <script>
 	var audioEls = document.getElementsByTagName('audio');
-	if (audioEls.length === 1 ){
-		 var audioEl = audioEls[0];
+	if (audioEls.length === 1) {
+		var audioEl = audioEls[0];
 	}
 
 	function gotoTime(time) {
@@ -16,8 +16,8 @@
 
 	function addLink(p, replace, time) {
 		var text = p.innerHTML;
-		if (text.includes(replace) ) {
-			var link = "<a onclick=\"gotoTime("+ time + ");\"\>" + replace + "</a>";
+		if (text.includes(replace)) {
+			var link = "<a onclick=\"gotoTime(" + time + ");\"\>" + replace + "</a>";
 			newText = text.replace(replace, link);
 			p.innerHTML = newText;
 		}
@@ -26,7 +26,7 @@
 	function getTimecode(hours, minutes, seconds) {
 		return hours * 3600 + minutes * 60 + seconds;
 	}
-	
+
 	posts = document.getElementsByTagName('p')
 	for (let i = 0; i < posts.length; i++) {
 		p = posts[i]
@@ -60,15 +60,31 @@
 		}
 	}
 	// audiospeed`
-	const audio = document.querySelector('.scc  audio');
-	const playbackrate = document.querySelector('.scc input');
-	const display = document.querySelector('.scc span');
-	const displayvalue = val => {
-	  return parseInt(val * 100, 10) + '%'
-	}
-	display.innerText = displayvalue(audio.playbackRate);
-	playbackrate.addEventListener('change', e => {
-	  audio.playbackRate = playbackrate.value;
-	  display.innerText = displayvalue(playbackrate.value);
-	});
+	// const audio = document.querySelector('.scc  audio');
+	// const playbackrate = document.querySelector('.scc input');
+	// const display = document.querySelector('.scc span');
+	// const displayvalue = val => {
+	//   return parseInt(val * 100, 10) + '%'
+	// }
+	// display.innerText = displayvalue(audio.playbackRate);
+	// playbackrate.addEventListener('change', e => {
+	//   audio.playbackRate = playbackrate.value;
+	//   display.innerText = displayvalue(playbackrate.value);
+	// });
+
+	const playBtns = document.querySelectorAll(".playBtn")
+	const audioItems = document.querySelectorAll(".audioItem")
+	playBtns.forEach((item, i) => {
+		item.addEventListener("click", () => {
+			playBtns.forEach(val => {
+				val.style = "display: flex;"
+			})
+			audioItems.forEach(val => {
+				val.style = "display: none;"
+				val.querySelector("audio").pause()
+			})
+			item.style = "display: none;"
+			audioItems[i].style = "display: block;"
+		})
+	})
 </script>

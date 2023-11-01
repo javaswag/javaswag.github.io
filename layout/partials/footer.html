@@ -1,19 +1,34 @@
 <footer class="Footer">
-  <div class="Footer__Item">
-    <h2>{{ .Site.Title }}</h2>
-    <p>{{ .Site.Params.Desc }}</p>
-    <a href="{{ .Site.Params.twitter }}" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow {{ .Site.Params.twitterName }}</a>
-  </div>
-  <div class="Footer__Item">
-    <h2>Подписка</h2>
-    <ul>
-      <li><a href="{{ .Site.Params.itunes }}" target="_blank">Apple Podcasts</a></li>
-      <li><a href="{{ .Site.Params.android }}" target="_blank">Google Podcasts</a></li>
-      <li><a href="{{ .Site.Params.spotify }}" target="_blank">Spotify</a></li>
-      <li><a href="{{ .Site.Params.yandex }}" target="_blank">Yandex Music</a></li>
-      <li><a href="{{ .Site.Params.feed }}" target="_blank">RSS</a></li>
-      <li><a href="{{ .Site.Params.feedDraft }}" target="_blank">RSS Drafts</a></li>
-      <li><a href="{{ .Site.Params.s3Stats }}" target="_blank">Stats</a></li>
-    </ul>
+  <div class="Fixed__Width">
+    <div class="Footer__Item">
+      <h2>{{ .Site.Title }} <img src="/img/sunglasses.png" alt="sunglasses image"></h2>
+      <p>{{ .Site.Params.Desc }}</p>
+      <!-- <a href="{{ .Site.Params.twitter }}" class="twitter-follow-button" data-show-count="false"
+        data-show-screen-name="false">Follow {{ .Site.Params.twitterName }}</a> -->
+    </div>
+    <div class="Footer__Item">
+      <ul>
+        <li>
+          <img src="/img/Apple Podcasts.png" alt="icon">
+          <span>Apple</span>
+        </li>
+        <li>
+          <img src="/img/Google Podcasts.png" alt="icon">
+          <span>Google</span>
+        </li>
+        <li>
+          <img src="/img/Spotify.png" alt="icon">
+          <span>Spotify</span>
+        </li>
+        <li>
+          <img src="/img/yandex.png" alt="icon">
+          <span>Яндекс</span>
+        </li>
+        <li>
+          <img src="/img/RSS.png" alt="icon">
+          <span>RSS</span>
+        </li>
+      </ul>
+    </div>
   </div>
 </footer>

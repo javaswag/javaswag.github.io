@@ -1,5 +1,33 @@
 <header class="Header">
-  <h1 class="Header__Title">
-    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-  </h1>
+  <div class="Fixed__Width">
+    <div class="Header__Top">
+      <img src="/img/header-img.png" alt="logo">
+    </div>
+    <div class="Header__Bottom">
+      <h1>{{.Site.Params.MainTitle}}</h1>
+      <p>{{.Site.Params.SubTitle}}</p>
+      <ul>
+        <li>
+          <img src="/img/Apple Podcasts.png" alt="icon">
+          <span>Apple Podcast</span>
+        </li>
+        <li>
+          <img src="/img/Google Podcasts.png" alt="icon">
+          <span>Google Podcast</span>
+        </li>
+        <li>
+          <img src="/img/Spotify.png" alt="icon">
+          <span>Spotify</span>
+        </li>
+        <li>
+          <img src="/img/yandex.png" alt="icon">
+          <span>Яндекс Музыка</span>
+        </li>
+        <li>
+          <img src="/img/RSS.png" alt="icon">
+          <span>RSS</span>
+        </li>
+      </ul>
+    </div>
+  </div>
 </header>
