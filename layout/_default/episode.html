@@ -1,68 +1,68 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    {{ partial "meta.html" . }}
-  </head>
-  <body>
-    <div class="Container">
-      {{ partial "header.html" . }}
-      <main class="Main">
-        <h2>People</h2>
-        <ul class="People">
-          {{ range $person := .Params.people }}
-          {{ if isset $.Site.Data.people $person }}
+
+<head>
+  {{ partial "meta.html" . }}
+</head>
+
+<body>
+  <div class="Container">
+    {{ partial "episode-header.html" . }}
+    <main class="Main Episode__Main">
+
+      <div class="Fixed__Width Episode__Fixed">
+        <div class="Episode__Container">
+          <div class="Episode__Heading">
+            <span>{{ .Date.Format "2 Jan 2006" }}</span>
+            <h2>{{ .Title }}</h2>
+          </div>
+          <div class="scc">
+            <audio src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}" controls="controls" preload="auto">
+            </audio>
+            <!-- <div>
+            <label for="pbrate">Speed:</label>
+            <input type="range" id="pbrate" min=.5 max=2 value=1 step=.1>
+            <span></span>
+          </div> -->
+          </div>
+          <div class="Episode__Contents">
+            {{ .Content }}
+          </div>
+
+          <ul class="People">
+            {{ range $person := .Params.people }}
+            {{ if isset $.Site.Data.people $person }}
             <a href="{{ index $.Site.Data.people $person "url" }}">
+
               <li class="Person">
                 <img class="Person__Avatar" src="{{ index $.Site.Data.people $person "image" }}">
                 <div class="Person_Name">{{ $person }}</div>
               </li>
             </a>
             {{ else }}
-             <li class="Person">
-                <img class="Person__Avatar" src="{{ index $.Site.Data.people "unknown" "image" }}">
-                <div class="Person_Name">{{ $person }}</div>
-             </li>
+            <li class="Person">
+              <img class="Person__Avatar" src="{{ index $.Site.Data.people "unknown" "image" }}">
+              <div class="Person_Name">{{ $person }}</div>
+            </li>
             {{ end}}
-          {{ end }}
-        </ul>
-
-        <div class="scc">
-          <audio
-            src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}"
-            controls="controls"
-            preload="auto">
-          </audio>
-          <div>
-            <label for="pbrate">Speed:</label>
-            <input type="range" id="pbrate" min=.5 max=2 value=1 step=.1>
-            <span></span>
-          </div>
+            {{ end }}
+          </ul>
         </div>
-        {{ .Content }}
-      </main>
+      </div>
+    </main>
 
-        <div class="giscus"></div>
+    <!-- <div class="giscus"></div> -->
 
 
-      {{ partial "footer.html" . }}
-    </div>
-    {{ partial "script.html" . }}
+    {{ partial "footer.html" . }}
+  </div>
+  {{ partial "script.html" . }}
 
-    <script src="https://giscus.app/client.js"
-        data-repo="javaswag/javaswag.github.io"
-        data-repo-id="R_kgDOHhEUlg"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOHhEUls4CTtjR"
-        data-mapping="og:title"
-        data-strict="1"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
+  <!-- <script src="https://giscus.app/client.js" data-repo="javaswag/javaswag.github.io" data-repo-id="R_kgDOHhEUlg"
+    data-category="Announcements" data-category-id="DIC_kwDOHhEUls4CTtjR" data-mapping="og:title" data-strict="1"
+    data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en"
+    data-loading="lazy" crossorigin="anonymous" async> -->
     </script>
-  </body>
+</body>
+
 </html>
