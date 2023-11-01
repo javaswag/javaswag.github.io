@@ -213,7 +213,9 @@
   color: #4B5563;
 }
 
-.Single__Episode__Description p {
+.Single__Episode__Description p,
+.Single__Episode__Description ul,
+.Single__Episode__Description pre {
   display: none;
 }
 
