@@ -92,7 +92,7 @@
   align-items: center;
   font-size: 14px;
   padding: 4px 7px;
-  margin: 0 10px;
+  margin: 0 6px;
   border: 1px solid #E7E7E9;
   border-radius: 8px;
 }
@@ -301,6 +301,7 @@
 }
 
 .Header__Info {
+  height: 82px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -308,6 +309,7 @@
 
 .Header__Info__Item {
   width: 50%;
+  height: 100%;
   padding-right: 40px;
 }
 
@@ -360,7 +362,7 @@ ul.Header__Info__Item {
 .Episode__Fixed {
   background-color: #fff;
   border-radius: 20px;
-  margin-top: -180px;
+  margin-top: -207px;
 }
 
 .Episode__Container {
