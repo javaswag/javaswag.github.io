@@ -13,7 +13,7 @@
 
 .Fixed__Width {
   width: 100%;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 1em;
 }
@@ -295,7 +295,7 @@
 
 /* episode styles */
 .Episode__Header {
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 250px;
   background-color: #3602B0;
 }
@@ -360,7 +360,7 @@ ul.Header__Info__Item {
 .Episode__Fixed {
   background-color: #fff;
   border-radius: 20px;
-  margin-top: -150px;
+  margin-top: -180px;
 }
 
 .Episode__Container {
