@@ -96,6 +96,9 @@
   border: 1px solid #E7E7E9;
   border-radius: 8px;
 }
+.Footer__Item ul li:last-child {
+  margin-right: 0;
+}
 
 .Header__Bottom ul li img,
 .Footer__Item ul li img,
@@ -206,6 +209,13 @@
 .Episode__Title {
   font-size: 20px;
   margin: 5px 0;
+  transition: .2s;
+}
+.Episode__Title:hover {
+  color: #3602B0;
+}
+.Episode__Title a {
+  text-decoration: none;
 }
 
 .Episode p {
@@ -267,6 +277,7 @@
   padding: 40px 1em;
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
 }
 
 .Footer__Item {
