@@ -88,14 +88,28 @@
 .Header__Bottom ul li,
 .Footer__Item ul li,
 .Header__Info ul li {
-  display: flex;
+  /* display: flex;
+  align-items: center; */
+  /* font-size: 14px;
+  padding: 4px 7px; */
+  margin: 0 6px;
+  list-style: none;
+  /* border: 1px solid #E7E7E9;
+  border-radius: 8px; */
+}
+.Header__Bottom ul li a,
+.Footer__Item ul li a,
+.Header__Info ul li a {
+  display: flex !important;
   align-items: center;
   font-size: 14px;
   padding: 4px 7px;
-  margin: 0 6px;
+  /* margin: 0 6px; */
+  color: inherit;
   border: 1px solid #E7E7E9;
   border-radius: 8px;
 }
+
 .Footer__Item ul li:last-child {
   margin-right: 0;
 }
