@@ -1,6 +1,46 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Thu, 12 Oct 2023 15:11:07 +0000</pubDate><lastBuildDate>Sun, 12 Nov 2023 15:06:58 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false"/><title>About</title><pubDate>Sun, 22 Oct 2023 14:38:42 +0100</pubDate><link>https://javaswag.github.io/about/</link><itunes:duration/><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>About</itunes:summary><itunes:subtitle>About
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Thu, 12 Oct 2023 15:11:07 +0000</pubDate><lastBuildDate>Sun, 12 Nov 2023 22:40:22 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo.png"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false"/><title>About</title><pubDate>Sun, 22 Oct 2023 14:38:42 +0100</pubDate><link>https://javaswag.github.io/about/</link><itunes:duration/><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>About</itunes:summary><itunes:subtitle>About
 ...</itunes:subtitle><description>About</description><enclosure url="https://storage.yandexcloud.net/javaswag/" type="audio/mpeg" length=""/><itunes:image href="https://javaswag.github.io/"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false"/><title>Guests</title><pubDate>Sun, 22 Oct 2023 14:38:42 +0100</pubDate><link>https://javaswag.github.io/guests/</link><itunes:duration/><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>Guests</itunes:summary><itunes:subtitle>Guests
-...</itunes:subtitle><description>Guests</description><enclosure url="https://storage.yandexcloud.net/javaswag/" type="audio/mpeg" length=""/><itunes:image href="https://javaswag.github.io/"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">52-timur-mukhitdinov.mp3</guid><title>#52 - Тимур Мухитдинов - стартап на Джаве и архитектура в Букинге</title><pubDate>Thu, 31 Aug 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/52/</link><itunes:duration>01:56:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 52 выпуске подкаста Javaswag поговорили с Тимуром Мухитдиновым о стартапе на Джаве и архитектуре в Букинге
+...</itunes:subtitle><description>Guests</description><enclosure url="https://storage.yandexcloud.net/javaswag/" type="audio/mpeg" length=""/><itunes:image href="https://javaswag.github.io/"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">53-javaswag-anton-arhipov-3.mp3</guid><title>#53 - Антон Архипов - история JRebel, номер один фича Котлина и мультиплтаформа</title><pubDate>Thu, 12 Oct 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/53/</link><itunes:duration>02:40:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 53 выпуске подкаста Javaswag поговорили с Антоном Архиповым об истории JRebel, мультиплтаформе и фичах Котлина
+00:01:40 О себе, история ZeroTurnAround
+00:24:00 Почему JRebel взлетел?
+00:34:17 Первые пользователи
+00:48:45 Технология, лицензии
+00:56:50 Продукт менеджмент, фичи и приоритеты
+01:09:55 Jetbrains
+01:16:38 Трюки Деврела
+01:19:15 Teamcity
+01:36:30 Котлин
+01:48:38 DSL
+01:54:50 Copilot
+02:03:18 IDE
+02:09:10 Мультиплатформа
+02:26:10 Fleet, Space
+02:33:30 Предыдущее непопулярное мнение
+02:37:20 Непопулярное мнение
+Гость - https://twitter.com/antonarhipov
+Ссылки:
+Kotlin https://www.youtube.com/@kotlin
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 53 выпуске подкаста Javaswag поговорили с Антоно...</itunes:subtitle><description>В 53 выпуске подкаста Javaswag поговорили с Антоном Архиповым об истории JRebel, мультиплтаформе и фичах Котлина
+00:01:40 О себе, история ZeroTurnAround
+00:24:00 Почему JRebel взлетел?
+00:34:17 Первые пользователи
+00:48:45 Технология, лицензии
+00:56:50 Продукт менеджмент, фичи и приоритеты
+01:09:55 Jetbrains
+01:16:38 Трюки Деврела
+01:19:15 Teamcity
+01:36:30 Котлин
+01:48:38 DSL
+01:54:50 Copilot
+02:03:18 IDE
+02:09:10 Мультиплатформа
+02:26:10 Fleet, Space
+02:33:30 Предыдущее непопулярное мнение
+02:37:20 Непопулярное мнение
+Гость - https://twitter.com/antonarhipov
+Ссылки:
+Kotlin https://www.youtube.com/@kotlin
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/53-javaswag-anton-arhipov-3.mp3" type="audio/mpeg" length="153689025"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">52-timur-mukhitdinov.mp3</guid><title>#52 - Тимур Мухитдинов - стартап на Джаве и архитектура в Букинге</title><pubDate>Thu, 31 Aug 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/52/</link><itunes:duration>01:56:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 52 выпуске подкаста Javaswag поговорили с Тимуром Мухитдиновым о стартапе на Джаве и архитектуре в Букинге
 00:01:38 О себе
 00:05:57 &amp;ldquo;Все что были книги о Джаве, я прочитал&amp;rdquo;
 00:23:56 Фреймворки
