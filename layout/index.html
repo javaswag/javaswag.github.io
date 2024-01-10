@@ -21,10 +21,9 @@
           </div>
         </div>
 
-        {{ $paginator := .Paginate ( where ( where .Site.Pages "Type" "episode") "Kind" "page") }}
+        {{ $paginator := .Paginate (where (where .Site.Pages "Type" "episode") "Kind" "page") }}
         <ul class="EpisodeList">
           {{ range where $paginator.Pages "Draft" false}}
-
           <li class="Episode">
             <div class="Episode__Date">{{ .Date.Format "2 Jan 2006" }}</div>
             <h2 class="Episode__Title">
@@ -33,12 +32,13 @@
             <div class="Single__Episode__Description">
               {{ .Content }}
             </div>
-            <button class="playBtn">
+            <button class="playBtn" data-audio="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}">
               <img src="/img/play.png" alt="play button">
               <span>Play</span>
             </button>
             <div class="scc audioItem">
-              <audio src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}" controls="controls" preload="auto">
+              <audio controls="controls" preload="none">
+                <!-- Audio source will be set dynamically with JavaScript -->
               </audio>
             </div>
           </li>
@@ -66,11 +66,32 @@
       </div>
       <div class="Main__Bottom">
         <img src="/img/dots.svg" alt="dots image">
+        <img src="/img/dots-sm.svg" alt="dots image">
       </div>
     </main>
     {{ partial "footer.html" . }}
   </div>
   {{ partial "script.html" . }}
+
+
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var playButtons = document.querySelectorAll('.playBtn');
+
+      playButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          var audioContainer = button.nextElementSibling.querySelector('audio');
+          var audioSource = button.getAttribute('data-audio');
+
+          audioContainer.src = audioSource;
+          audioContainer.load();
+          audioContainer.play();
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
