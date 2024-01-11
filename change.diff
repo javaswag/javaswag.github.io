@@ -1,20 +1,20 @@
-<[31m?xml[0m[32mrss[0m version="[31m1[0m[32m2[0m.0" [31mencoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" [0mxmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" [31mver[0m[32mxmln[0ms[31mi[0m[32m:at[0mo[31mn[0m[32mm[0m="[32mhttp://www.w3.org/[0m2[31m.[0m[32m0[0m0[32m5/Atom[0m"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>[31mFri[0m[32mWed[0m, [32m1[0m0[31m8[0m [31mDec[0m[32mJan[0m 202[31m3[0m[32m4[0m 1[31m3[0m[32m6[0m:11:07 +0000</pubDate><lastBuildDate>[31mWed[0m[32mThu[0m, 1[31m0[0m[32m1[0m Jan 2024 1[31m5:44[0m[32m7[0m:5[32m2:[0m1[32m8[0m +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>[31mt[0m[32mjavas[0mw[31mitter.com/volyx[0m[32mag[0m</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="http[32ms[0m://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwag.[0mg[31m-[0m[32mithub.i[0mo[31mr[0m[32m/[0mi[32mm[0mg[31mina[0m[32m/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:[32mcategory text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">55-javaswag-dmitrii-tihomirov.mp3</guid><title>#55 - Дмитрий Тихомиров - J2CL и компиляция Java в Javascript, GWT и опенсорс в Редхат</title><pubDate>Wed, 10 Jan 2024 16:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/55/</link><itunes:duration>01:24:51</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:[0msummary>[31mП[0m[32mВ 55 выпуске п[0mодкаст[32mа[0m [32mJavaswag погов[0mо[32mрили с[0m [32mДмит[0mр[31mаз[0m[32mием Тихоми[0mр[31mаб[0mо[31mт[0m[32mвым о [0mк[31mе[0m[32mомпиляции[0m [31mна[0m[32mJava в[0m Java[31m.[0m[32mscript,[0m [31mВ[0m[32mGWT, J2CL и опенсор[0mсе [32mв Редха[0mт[32m
-01:01:50 О себе
-01:12:44 J2CL П[0mо[31m,[0m[32mрт[0m [32mQuake2
-01:19:53 J2CL и п[0mо[32mддержка новых версий Джавы
-01:28:05 GWT и Kotlin Multiplatform
-01:34:42 На что мигрировать с GWT, Elemental2, JSInterop
-01:46:15 В[0m чем вы[31m б[0m[32mг[0mо[31mял[0m[32mда п[0mис[32mат[0mь [31mс[0m[32mвеб на джаве
-01:48:44 Bazel
-01:50:17 Hello World на J2CL и Wasm
-01:58:30 TeaVM
-02:04:29 Будущее веб ком[0mп[32mонент
-02:08:08 Подде[0mр[32mжка GWT Редхат[0mо[32mм
-02:10:32 Редхат и опен[0mс[32mорс, [0mи[32mс[0mт[31mь[0m[32mория[0m [31mв[0m[32mпо[0m [32mCentOS
-02:16:30 Ре[0mк[32mлама FaangTalk
-02:18:08 Отвечаем на непоп[0mул[32mярное мнение из предыд[0mу[32mщего выпуск[0mа[32m
-02:20:52 Кусачие QA
-02:22:02 Непопуля[0mр[31mах[0m[32mное мнение
+<[31m?xml[0m[32mrss[0m version="[31m1[0m[32m2[0m.0" [31mencoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" [0mxmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" [31mver[0m[32mxmln[0ms[31mi[0m[32m:at[0mo[31mn[0m[32mm[0m="[32mhttp://www.w3.org/[0m2[31m.[0m[32m0[0m0[32m5/Atom[0m"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>[31mFri[0m[32mWed[0m, [32m1[0m0[31m8[0m [31mDec[0m[32mJan[0m 202[31m3[0m[32m4[0m 1[31m3[0m[32m6[0m:11:07 +0000</pubDate><lastBuildDate>[31mWed[0m[32mThu[0m, 1[31m0[0m[32m1[0m Jan 2024 1[31m5:44[0m[32m7[0m:5[32m5:[0m1[32m0[0m +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>[31mt[0m[32mjavas[0mw[31mitter.com/volyx[0m[32mag[0m</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="http[32ms[0m://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwag.[0mg[31m-[0m[32mithub.i[0mo[31mr[0m[32m/[0mi[32mm[0mg[31mina[0m[32m/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/><image><url>https://javaswag.github.io/img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:[32mcategory text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">55-javaswag-dmitrii-tihomirov.mp3</guid><title>#55 - Дмитрий Тихомиров - J2CL и компиляция Java в Javascript, GWT и опенсорс в Редхат</title><pubDate>Wed, 10 Jan 2024 16:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/55/</link><itunes:duration>01:24:51</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:[0msummary>[31mП[0m[32mВ 55 выпуске п[0mодкаст[32mа[0m [32mJavaswag погов[0mо[32mрили с[0m [32mДмит[0mр[31mаз[0m[32mием Тихоми[0mр[31mаб[0mо[31mт[0m[32mвым о [0mк[31mе[0m[32mомпиляции[0m [31mна[0m[32mJava в[0m Java[31m.[0m[32mscript,[0m [31mВ[0m[32mGWT, J2CL и опенсор[0mсе [32mв Редха[0mт[32m
+00:01:50 О себе
+00:12:44 J2CL П[0mо[31m,[0m[32mрт[0m [32mQuake2
+00:19:53 J2CL и п[0mо[32mддержка новых версий Джавы
+00:28:05 GWT и Kotlin Multiplatform
+00:34:42 На что мигрировать с GWT, Elemental2, JSInterop
+00:46:15 В[0m чем вы[31m б[0m[32mг[0mо[31mял[0m[32mда п[0mис[32mат[0mь [31mс[0m[32mвеб на джаве
+00:48:44 Bazel
+00:50:17 Hello World на J2CL и Wasm
+00:58:30 TeaVM
+01:04:29 Будущее веб ком[0mп[32mонент
+01:08:08 Подде[0mр[32mжка GWT Редхат[0mо[32mм
+01:10:32 Редхат и опен[0mс[32mорс, [0mи[32mс[0mт[31mь[0m[32mория[0m [31mв[0m[32mпо[0m [32mCentOS
+01:16:30 Ре[0mк[32mлама FaangTalk
+01:18:08 Отвечаем на непоп[0mул[32mярное мнение из предыд[0mу[32mщего выпуск[0mа[32m
+01:20:52 Кусачие QA
+01:22:02 Непопуля[0mр[31mах[0m[32mное мнение
 Гость - https://www.linkedin[0m.[32mcom/in/treblereel/
 Ссылки:
 J2CL - Java to Closure style JavaScript transpiler
@@ -26,22 +26,22 @@ JsInterop Specification
 J2CL community chat
 FaangTalk
 Кип сейф! 🖖[0m</itunes:summary><itunes:[31mc[0m[32msubtitle>В 55 выпуске подкаста J[0ma[32mvaswag поговорили с Дмитри...</i[0mt[32munes:subtitl[0me[32m><description>В 55 выпуске подкаста Javaswa[0mg[32m поговорили с Дмитрием Тихомировым о компиляции Java в Javascript, GWT, J2CL и опенсорсе в Редхат
-01:01:50 О себе
-01:12:44 J2CL Порт Quake2
-01:19:53 J2CL и поддержка новых версий Джавы
-01:28:05 GWT и Kotlin Multiplatf[0mor[31my[0m[32mm
-01:34:42 На что мигрировать с[0m [32mGWT, Elemental2, JSIn[0mte[31mx[0m[32mrop
-01:46:15 В чем выгода писать веб на джаве
-01:48:44 Bazel
-01:50:17 Hello World на J2CL и Wasm
-01:58:30 TeaVM
-02:04:29 Будущее веб компонент
-02:08:08 Поддержка GWT Редхатом
-02:10:32 Редхат и опенсорс, история по Cen[0mt[31m="[0m[32mOS
-02:16:30 Реклама Faang[0mT[32malk
-02:18:08 Отвечаем на непопулярное мнение из предыдущего выпуска
-02:20:52 Кусачие QA
-02:22:02 Непопулярное мнение
+00:01:50 О себе
+00:12:44 J2CL Порт Quake2
+00:19:53 J2CL и поддержка новых версий Джавы
+00:28:05 GWT и Kotlin Multiplatf[0mor[31my[0m[32mm
+00:34:42 На что мигрировать с[0m [32mGWT, Elemental2, JSIn[0mte[31mx[0m[32mrop
+00:46:15 В чем выгода писать веб на джаве
+00:48:44 Bazel
+00:50:17 Hello World на J2CL и Wasm
+00:58:30 TeaVM
+01:04:29 Будущее веб компонент
+01:08:08 Поддержка GWT Редхатом
+01:10:32 Редхат и опенсорс, история по Cen[0mt[31m="[0m[32mOS
+01:16:30 Реклама Faang[0mT[32malk
+01:18:08 Отвечаем на непопулярное мнение из предыдущего выпуска
+01:20:52 Кусачие QA
+01:22:02 Непопулярное мнение
 Гость - https://www.link[0me[32mdin.[0mc[31mh[0m[32mom/i[0mn[32m/treblereel/
 Ссылки:
 J2CL - Java t[0mo[32m C[0mlo[31mg[0m[32msure st[0my[31m"><[0m[32mle JavaScr[0mi[32mp[0mt[31mu[0m[32m tra[0mn[32mspil[0me[32mr
