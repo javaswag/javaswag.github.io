@@ -1,43 +1,45 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sat, 03 Feb 2024 19:31:26 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">56-javaswag-vladimir-dolzhenko-3.mp3</guid><title>#56 - Владмирир Долженко - производительность IDE, Котлин плагин и новый компилятор К2 Drafts</title><pubDate>Mon, 22 Jan 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/56/</link><itunes:duration>01:57:42</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 56 выпуске подкаста Javaswag поговорили с Владимиром Долженко о производительности IDE, Котлин плагине и новом компиляторе К2
-00:00:00 Интро
-00:03:09 Команда Kotlin плагина
-00:06:29 Абстрактное синтаксическое дерево и анализ кода
-00:09:10 Фризы и производительность
-00:10:25 IntelliJ как платформа, поддержка языков и другие IDE
-00:36:41 Гугл и Android Studio
-00:44:24 Рынок IDE
-00:48:18 К2 - новый Котлин компилятор
-01:06:52 Перформанс K2
-01:16:36 Догфудинг и монорепо
-01:35:06 K2 внутри Идеи
-01:49:12 Отвечаем на предыдущее непопулярное мнение
-01:52:20 Непопулярное мнение
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sun, 04 Feb 2024 22:16:57 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><image><url>https://javaswag.github.ioimg/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">56-javaswag-vladimir-dolzhenko-3.mp3</guid><title>#56 - Владмирир Долженко - производительность IDE, Котлин плагин и новый компилятор К2 Drafts</title><pubDate>Mon, 22 Jan 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/56/</link><itunes:duration>01:57:42</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 56 выпуске подкаста Javaswag поговорили с Владимиром Долженко о производительности IDE, Котлин плагине и новом компиляторе К2
+00:01:13 Путь в компиляторы, фризы и IntelliJ как платформа
+00:13:20 Опыт до Jetbrains
+00:20:05 Бенчамарки в Идее, метрики и на что смотреть
+00:29:00 Подсветка кода и Android Studio
+00:40:38 Рынок IDE, Google IDX, VsCode и К2 - новый Котлин компилятор
+01:05:20 Компиляетор и микросервисы
+01:09:15 К2 быстрее?
+01:24:00 Флаки тесты и локальные процессы в командах
+01:27:58 Монорепа и перенос плагинов
+01:33:20 Analysis API внутри IDEA
+01:39:10 Счатливое будущее K2 и дата релиза
+01:47:50 Отвечаем на предыдущее непопулярное мнение
+01:51:30 Непопулярное мнение &amp;ldquo;Разработчики не умеют использовать инструменты, которые у них есть&amp;rdquo;
 Гость - https://twitter.com/dolzhenko
 Ссылки:
 Доклад Светланы Исаковой что нужно знать о новом компиляторе
 Серия статей о перформансе от А. Шипилёва - JVM Anatomy Quarks
 Доклад А. Шипилёва про перформанс в целом
 Анонс IntelliJ IDEA’s K2 Kotlin Mode Now in Alpha!
+Видео про молоток
 Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 56 выпуске подкаста Javaswag поговорили с Владим...</itunes:subtitle><description>В 56 выпуске подкаста Javaswag поговорили с Владимиром Долженко о производительности IDE, Котлин плагине и новом компиляторе К2
-00:00:00 Интро
-00:03:09 Команда Kotlin плагина
-00:06:29 Абстрактное синтаксическое дерево и анализ кода
-00:09:10 Фризы и производительность
-00:10:25 IntelliJ как платформа, поддержка языков и другие IDE
-00:36:41 Гугл и Android Studio
-00:44:24 Рынок IDE
-00:48:18 К2 - новый Котлин компилятор
-01:06:52 Перформанс K2
-01:16:36 Догфудинг и монорепо
-01:35:06 K2 внутри Идеи
-01:49:12 Отвечаем на предыдущее непопулярное мнение
-01:52:20 Непопулярное мнение
+00:01:13 Путь в компиляторы, фризы и IntelliJ как платформа
+00:13:20 Опыт до Jetbrains
+00:20:05 Бенчамарки в Идее, метрики и на что смотреть
+00:29:00 Подсветка кода и Android Studio
+00:40:38 Рынок IDE, Google IDX, VsCode и К2 - новый Котлин компилятор
+01:05:20 Компиляетор и микросервисы
+01:09:15 К2 быстрее?
+01:24:00 Флаки тесты и локальные процессы в командах
+01:27:58 Монорепа и перенос плагинов
+01:33:20 Analysis API внутри IDEA
+01:39:10 Счатливое будущее K2 и дата релиза
+01:47:50 Отвечаем на предыдущее непопулярное мнение
+01:51:30 Непопулярное мнение &amp;ldquo;Разработчики не умеют использовать инструменты, которые у них есть&amp;rdquo;
 Гость - https://twitter.com/dolzhenko
 Ссылки:
 Доклад Светланы Исаковой что нужно знать о новом компиляторе
 Серия статей о перформансе от А. Шипилёва - JVM Anatomy Quarks
 Доклад А. Шипилёва про перформанс в целом
 Анонс IntelliJ IDEA’s K2 Kotlin Mode Now in Alpha!
+Видео про молоток
 Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/56-javaswag-vladimir-dolzhenko-3.mp3" type="audio/mpeg" length="226065220"/><itunes:image href="https://javaswag.github.io/img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">55-javaswag-dmitrii-tihomirov.mp3</guid><title>#55 - Дмитрий Тихомиров - J2CL и компиляция Java в Javascript, GWT и опенсорс в Редхат Drafts</title><pubDate>Thu, 11 Jan 2024 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/55/</link><itunes:duration>01:24:51</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 55 выпуске подкаста Javaswag поговорили с Дмитрием Тихомировым о компиляции Java в Javascript, GWT, J2CL и опенсорсе в Редхат
 00:01:50 О себе
 00:12:44 J2CL Порт Quake2
