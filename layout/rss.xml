@@ -32,7 +32,7 @@
 		</itunes:owner>
 		<item>
 			<guid isPermaLink="false">{{ .Params.Guid }}</guid>
-			<title>{{ .Title }} Type {{ .Type }} Kind {{ .Kind }} </title>
+			<title>{{ .Title }}</title>
 			<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
 			<link>{{ .Permalink }}</link>
 			<itunes:duration>{{ .Params.Duration }}</itunes:duration>
