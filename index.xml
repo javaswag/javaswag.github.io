@@ -1,4 +1,56 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Mon, 25 Mar 2024 10:11:07 +0000</pubDate><lastBuildDate>Thu, 28 Mar 2024 21:39:51 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">57-javaswag-alexey-andreev.mp3</guid><title>#57 - Алексей Андреев - компиляция Джава кода в Джаваскрипт, виртуальная машина TeaVM и будущее фронтенда</title><pubDate>Tue, 05 Mar 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/57/</link><itunes:duration>01:54:19</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 57 выпуске подкаста Javaswag поговорили с Алексеем Андреевым о компиляции Джава кода в Джаваскрипт, виртуальной машине TeaVM и будущем фронтенда
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Mon, 01 Apr 2024 18:11:07 +0000</pubDate><lastBuildDate>Mon, 01 Apr 2024 22:15:01 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">58-javaswag-michail-zhilin-1.mp3</guid><title>#58 - Михаил Жилин - Джава 15 лет назад и производительность базы данных Постгрес</title><pubDate>Mon, 01 Apr 2024 18:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/58/</link><itunes:duration>01:53:23</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 58 выпуске подкаста Javaswag поговорили с Михаилом Жилиным о том, как выглядела Джава 15 лет назад и о производительности базы данных Постгрес
+00:01:34 Встреча с Джеймсом Гослингом
+00:05:32 Джава 15 лет назад
+00:08:46 Минимализм в жестком энтерпрайзе
+00:19:02 Application Server - вся архитектура
+00:23:20 Профайлер
+00:26:14 Топ 5 багов
+00:35:46 Переход в PostgresPro
+00:42:32 Кластера и Патрони
+00:52:44 Берем любую БД
+00:59:06 Как сравнить производительность двух БД
+01:10:16 Поиск регрессий в релизах БД
+01:19:38 Где граница между OLTP и OLAP
+01:26:14 Постгрес и серверлесс
+01:34:50 32 битные платформы и Постгрес
+01:41:20 Предыдущее непопулярное мнение
+01:43:07 Непопулярное мнение
+01:44:10 Freebsd на десктопе
+Гость - https://github.com/mizhka
+Ссылки:
+Пост про Гослинга https://zlo.rt.mipt.cc/?read=2711367
+Конфа https://pgconf.ru/2024/timetable
+Про медальки https://wiki.postgresql.org/wiki/Contributor_Gifts
+PostgresPro https://github.com/postgrespro/
+Неон https://github.com/neondatabase
+Патрони https://github.com/zalando/patroni/
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 58 выпуске подкаста Javaswag поговорили с Михаил...</itunes:subtitle><description>В 58 выпуске подкаста Javaswag поговорили с Михаилом Жилиным о том, как выглядела Джава 15 лет назад и о производительности базы данных Постгрес
+00:01:34 Встреча с Джеймсом Гослингом
+00:05:32 Джава 15 лет назад
+00:08:46 Минимализм в жестком энтерпрайзе
+00:19:02 Application Server - вся архитектура
+00:23:20 Профайлер
+00:26:14 Топ 5 багов
+00:35:46 Переход в PostgresPro
+00:42:32 Кластера и Патрони
+00:52:44 Берем любую БД
+00:59:06 Как сравнить производительность двух БД
+01:10:16 Поиск регрессий в релизах БД
+01:19:38 Где граница между OLTP и OLAP
+01:26:14 Постгрес и серверлесс
+01:34:50 32 битные платформы и Постгрес
+01:41:20 Предыдущее непопулярное мнение
+01:43:07 Непопулярное мнение
+01:44:10 Freebsd на десктопе
+Гость - https://github.com/mizhka
+Ссылки:
+Пост про Гослинга https://zlo.rt.mipt.cc/?read=2711367
+Конфа https://pgconf.ru/2024/timetable
+Про медальки https://wiki.postgresql.org/wiki/Contributor_Gifts
+PostgresPro https://github.com/postgrespro/
+Неон https://github.com/neondatabase
+Патрони https://github.com/zalando/patroni/
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/58-javaswag-michail-zhilin-1.mp3" type="audio/mpeg" length="136054816"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">57-javaswag-alexey-andreev.mp3</guid><title>#57 - Алексей Андреев - компиляция Джава кода в Джаваскрипт, виртуальная машина TeaVM и будущее фронтенда</title><pubDate>Tue, 05 Mar 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/57/</link><itunes:duration>01:54:19</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 57 выпуске подкаста Javaswag поговорили с Алексеем Андреевым о компиляции Джава кода в Джаваскрипт, виртуальной машине TeaVM и будущем фронтенда
 00:01:47 О себе
 00:04:55 Не было нормальной ORM для Java - имелся в виду .NET
 00:09:38 Фул стек на Джаве 10 лет назад
