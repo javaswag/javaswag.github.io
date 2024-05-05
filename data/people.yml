@@ -169,6 +169,9 @@ mikhail-zhilin:
 evgenii-molokov:
   url: https://www.linkedin.com/in/eu-m/
   image: /img/people/evgenii-molokov.jpg
+vladimir-bukhtoyarov:
+  url: https://github.com/vladimir-bukhtoyarov
+  image: /img/people/vladimir-bukhtoyarov.jpg
 unknown:
   url: /
   image: /img/people/unknown.png
