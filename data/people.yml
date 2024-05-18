@@ -172,6 +172,9 @@ evgenii-molokov:
 vladimir-bukhtoyarov:
   url: https://github.com/vladimir-bukhtoyarov
   image: /img/people/vladimir-bukhtoyarov.jpg
+grisha-skobelev:
+  url: https://www.linkedin.com/in/grigoriy-skobelev-757030167/
+  image: /img/people/grisha-skobelev.jpg
 unknown:
   url: /
   image: /img/people/unknown.png
