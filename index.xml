@@ -1,4 +1,62 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sat, 15 Jun 2024 11:11:07 +0000</pubDate><lastBuildDate>Thu, 20 Jun 2024 10:54:31 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">62-javaswag-andrei-kuleshov-7.mp3</guid><title>#62 - Андрей Кулешов - Kotlin, технические конференции, Spring, диктат в анализе кода и kotlinx.serialization</title><pubDate>Fri, 07 Jun 2024 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/62/</link><itunes:duration>02:06:55</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 62 выпуске подкаста Javaswag поговорили с Андреем Кулешовым о конференциях, Котлин 2, мультиплатформе, анализе кода, библиотеках diktat и ktoml
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Fri, 21 Jun 2024 10:11:07 +0000</pubDate><lastBuildDate>Fri, 21 Jun 2024 13:26:32 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">63-javaswag-timofei-durakov.mp3</guid><title>#63 - Тимофей Дураков - Джава сертификация, топология сети поверх Apache Storm и графовые базы данных</title><pubDate>Fri, 21 Jun 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/63/</link><itunes:duration>01:52:00</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 63 выпуске подкаста Javaswag поговорили с Тимофеем Дураковым о Джава сертификации, построении топологии сети поверх Apache Storm и графовых базах данных
+00:00 Начало
+02:01 Сертификация по Java
+14:02 Грейды
+28:18 Оркестрация и безопасность в банковских системах
+35:04 Управление виртуальными машинами в OpenStack
+39:43 Live Migration виртуальных машин
+43:08 Архитектура OpenStack
+49:17 Решение проблемы SplitBrain с помощью федерации в OpenStack
+56:01 Использование оверлейных сетей в OpenStack
+56:55 Виртуальные сети и технология VLAN
+01:04:48 Apache Storm: система стримпроцессинга
+01:10:59 Перестройка маршрутов с помощью Apache Storm
+01:11:28 Граф-ориентированные базы данных и их роль в проекте
+01:14:20 Использование Neo4j и OrientDB в проекте
+01:27:21 Бэкбоны и мэш-сети
+01:31:04 Телеметрия и аналитика
+01:35:27 Построение маршрутов в графе
+01:40:15 Использование time series и графов
+01:44:06 Непопулярное мнение
+01:58:00 Непопулярные мнение
+Гость - https://www.linkedin.com/in/timofei-durakov/
+Ссылки:
+https://www.openstack.org/
+https://storm.apache.org/
+https://tinkerpop.apache.org/gremlin.html
+https://neo4j.com/
+https://orientdb.org/
+https://opentsdb.net/
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 63 выпуске подкаста Javaswag поговорили с Тимофе...</itunes:subtitle><description>В 63 выпуске подкаста Javaswag поговорили с Тимофеем Дураковым о Джава сертификации, построении топологии сети поверх Apache Storm и графовых базах данных
+00:00 Начало
+02:01 Сертификация по Java
+14:02 Грейды
+28:18 Оркестрация и безопасность в банковских системах
+35:04 Управление виртуальными машинами в OpenStack
+39:43 Live Migration виртуальных машин
+43:08 Архитектура OpenStack
+49:17 Решение проблемы SplitBrain с помощью федерации в OpenStack
+56:01 Использование оверлейных сетей в OpenStack
+56:55 Виртуальные сети и технология VLAN
+01:04:48 Apache Storm: система стримпроцессинга
+01:10:59 Перестройка маршрутов с помощью Apache Storm
+01:11:28 Граф-ориентированные базы данных и их роль в проекте
+01:14:20 Использование Neo4j и OrientDB в проекте
+01:27:21 Бэкбоны и мэш-сети
+01:31:04 Телеметрия и аналитика
+01:35:27 Построение маршрутов в графе
+01:40:15 Использование time series и графов
+01:44:06 Непопулярное мнение
+01:58:00 Непопулярные мнение
+Гость - https://www.linkedin.com/in/timofei-durakov/
+Ссылки:
+https://www.openstack.org/
+https://storm.apache.org/
+https://tinkerpop.apache.org/gremlin.html
+https://neo4j.com/
+https://orientdb.org/
+https://opentsdb.net/
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/63-javaswag-timofei-durakov.mp3" type="audio/mpeg" length="134407456"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">62-javaswag-andrei-kuleshov-7.mp3</guid><title>#62 - Андрей Кулешов - Kotlin, технические конференции, Spring, диктат в анализе кода и kotlinx.serialization</title><pubDate>Fri, 07 Jun 2024 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/62/</link><itunes:duration>02:06:55</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 62 выпуске подкаста Javaswag поговорили с Андреем Кулешовым о конференциях, Котлин 2, мультиплатформе, анализе кода, библиотеках diktat и ktoml
 Дисклеймер: выпуск писался в начале мая, Positive Hack days прошел, а Kotlin 2 вышел!
 00:00 Начало
 11:33 Системное программирования
