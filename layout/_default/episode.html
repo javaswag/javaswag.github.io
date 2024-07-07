@@ -3,6 +3,8 @@
 
 <head>
   {{ partial "meta.html" . }}
+  <script src="/Waveform/Waveform.js"></script>
+  <link rel="stylesheet" type="text/css" href="/Waveform/Waveform.css">
 </head>
 
 <body>
@@ -16,9 +18,28 @@
             <span>{{ .Date.Format "2 Jan 2006" }}</span>
             <h2>{{ .Title }}</h2>
           </div>
+          <figure class="Waveform"></figure>
           <div class="scc">
-            <audio src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}" controls="controls" preload="auto">
+            <audio id="WaveformAudio" src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}" controls="controls" preload="auto">
             </audio>
+            <script>
+              const isMobile = window.matchMedia('(max-width: 780px)').matches;
+              if (isMobile)
+                document.body.classList.add('--mobile');
+
+              // add "{{ .Site.Params.yandexS3 }}" like it's in #WaveformAudio
+              // and to /episodes/*.md:waveform relative to s3
+              const waveformPath = "/waveforms/{{ $.Params.Waveform}}";
+
+              const waveform = new Waveform({
+                $el: document.querySelector('.Waveform'),
+                $audio: document.querySelector('#WaveformAudio'),
+                waveformPath,
+                height: 70,
+                barsCount: isMobile ? 110 : 220,
+                isMobile,
+              });
+            </script>
             <!-- <div>
             <label for="pbrate">Speed:</label>
             <input type="range" id="pbrate" min=.5 max=2 value=1 step=.1>

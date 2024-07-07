@@ -78,6 +78,7 @@ people:
   - volyx
   - {{ .Guest}}
 audio: {{ .Audio}}
+waveform: {{ .Waveform}}
 size: {{ .Size }}
 guid: {{ .Guid }}
 image: images/logo.png

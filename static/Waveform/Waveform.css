@@ -1,0 +1,49 @@
+.Waveform {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: end;
+
+  margin: 0;
+  width: var(--wf-w);
+
+  opacity: .8;
+  transition: opacity .2s;
+}
+
+.Waveform:hover { opacity: 1 }
+
+.Waveform__col {
+  display: inline-block;
+  width: 2px;
+  background: rgba(0,0,0, .2);
+  padding: 0;
+/*  ff6a00 ff3400 */
+}
+
+.Waveform__col.--past {
+  background: red;
+  background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,155,0,1) 30px);
+}
+
+.Episode__Container audio {
+  --ml: 30px;
+  width: calc(var(--wf-w) + var(--ml));
+/*  margin-top: -10px;*/
+  opacity: .8;
+  border-radius: var(--ml);
+  height: var(--ml);
+  margin-left: calc(-1 * var(--ml) / 2);
+  transition: opacity .2s;
+}
+
+.Episode__Container audio:hover {
+  opacity: 1;
+}
+body {
+  --wf-w: 660px;
+}
+body.--mobile {
+  --wf-w: 330px;
+}
