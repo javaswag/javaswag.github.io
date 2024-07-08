@@ -2,34 +2,79 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"os"
-
-	"github.com/hajimehoshi/go-mp3"
+	"path"
+	"math"
+	"github.com/hopesea/godub/v2"
 )
 
-const (
-	gomp3NumChannels   = 2
-	gomp3Precision     = 2
-	gomp3BytesPerFrame = gomp3NumChannels * gomp3Precision
-)
+const bands = 220
 
 func main() {
-	fmt.Println("Open: ", os.Args[1])
-	f, err := os.Open(os.Args[1])
+	f := os.Args[1]
+	fmt.Println("Open: ", f)
+	filePath := path.Join(f)
+	segment, err := godub.NewLoader().Load(filePath)
 	if err != nil {
-		log.Fatal(err)
+		fmt.Println("%w", err)
 	}
-	defer f.Close()
+	fmt.Println(segment)
 
-	d, err := mp3.NewDecoder(f)
+	aMono, err := segment.ForkWithChannels(1)
+
 	if err != nil {
-		log.Fatal(err)
+		fmt.Println("%w", err)
 	}
 
-	fmt.Printf("SampleRate %d\n", d.SampleRate())
-	// 134,407,456
-	fmt.Printf("Length %d bytes\n", d.Length()/gomp3BytesPerFrame)
-	// fmt.Printf("Length %d Mb\n", )
+	fmt.Println(aMono)
 
+	aData := aMono.RawData()
+	aDataLen := len(aData)
+
+	aDurationSecs := aDataLen / int(aMono.FrameRate())
+
+	fmt.Println("aDurationSecs", aDurationSecs)
+
+	aBandList := make([]int, 0)
+
+	BAND_STEP := int(math.Round(float64(aDataLen / bands)))
+
+	fmt.Println("Analyzing audio..")
+
+	for i := range bands {
+		aBand := aData[i * BAND_STEP:(i+1) * BAND_STEP]
+		// fmt.Println(aBand)		aBandInfo := ABandInfo {}
+		for sample := range aBand {
+			absSample = int(math.Abs(sample))
+			aBandInfo.max = int(math.Max(float64(absSample), float64(aBandInfo.max)))
+			aBandInfo.avg = (absSample + aBandInfo.avg) / 2
+		}
+
+		writeVal := aBandInfo.avg
+		fmt.Println(i, writeVal)
+  		aBandList = append(aBandList, writeVal)
+	}
+	aBandList = append(aBandList, aDurationSecs)
+
+	filename := fmt.Sprintf("{%s.avg%d.new.bin", f, bands)
+	fmt.Println("Writing into: ", filename)
+
+	fileOutput, err := os.Create(filename)
+    if err != nil {
+		fmt.Printf("%w", err)
+	}
+
+    defer fileOutput.Close()
+
+    d2 := []byte{115, 111, 109, 101, 10}
+    n2, err := fileOutput.Write(d2)
+    if err != nil {
+		fmt.Printf("%w", err)
+	}
+    fmt.Printf("wrote %d bytes\n", n2)
+}
+
+type ABandInfo struct {
+	max int
+	avg int
 }
