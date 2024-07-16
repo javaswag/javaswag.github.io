@@ -1,4 +1,56 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Fri, 12 Jul 2024 10:11:07 +0000</pubDate><lastBuildDate>Tue, 16 Jul 2024 10:05:09 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">63-javaswag-timofei-durakov.mp3</guid><title>#63 - Тимофей Дураков - Джава сертификация, топология сети поверх Apache Storm и графовые базы данных</title><pubDate>Fri, 21 Jun 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/63/</link><itunes:duration>01:52:00</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 63 выпуске подкаста Javaswag поговорили с Тимофеем Дураковым о Джава сертификации, построении топологии сети поверх Apache Storm и графовых базах данных
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Mon, 15 Jul 2024 10:11:07 +0000</pubDate><lastBuildDate>Tue, 16 Jul 2024 12:29:19 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">64-javaswag-andreii-kogun-2.mp3</guid><title>#64 - Андрей Когунь - генерация кода для платформы, AI ассистенты для кода и уникальность Eclipse IDE</title><pubDate>Mon, 15 Jul 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/64/</link><itunes:duration>02:07:53</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 64 выпуске подкаста Javaswag поговорили с Андреем Когунем о генерации кода, AI асситентах для программировани и об Eclipse IDE
+00:00 Начало
+06:09 JUG и путь в КРОК
+21:17 Преимущества генерации кода
+26:49 Разработка фронтенда и проблемы с кастомизацией
+32:32 Выбор баз данных и инструментов для работы с ними
+35:24 Выбор между open source и коммерческими решениями
+39:21 Гибкость и возможность расширения функциональности
+43:36 Генерация кода
+47:28 Генерация типового репозитория, сервисов и контроллеров
+57:36 Разработка плагинов для IntelliJ IDEA и проблемы обратной совместимости (травмирующий опыт)
+59:02 Преимущества использования LSP серверов и работы с различными редакторами
+01:03:17 История приобретения плагина JPA Buddy JetBrains
+01:11:23 Использование AI-ассистента в программировании
+01:41:04 Олимпиадное программирование
+01:52:52 Ответ на предыдущее непопулярное мнение
+01:55:17 Непопулярное мнение: Eclipse
+01:55:31 Непопулярное мнение: Maven
+02:01:36 Блиц
+Гость - https://x.com/andrei_kogun
+Ссылки:
+https://jpa-buddy.com/ - плагин, сильно помогающий с @JPA, теперь часть IntelliJ IDEA Ultimate.
+https://github.com/kogun/jpoint-spring-boot-xtend-demo - как генерировать java бойлерплейт код с xtend, допматериалы гуглятся.
+https://github.com/croc-code/jxfw - что получилось в итоге, наш фреймворк с возможностью быстрой разработки, описывая в большинстве случаев только модель, напишите, если хотите увидеть версию с поддержкой Spring Boot 3.x
+https://www.youtube.com/watch?v=awP-C4L1g3M - стендап на тему know-how, как код.
+https://www.youtube.com/watch?v=x0EZRFmaKUg - как сегодня разрабатывать с AI ассистентами.
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 64 выпуске подкаста Javaswag поговорили с Андрее...</itunes:subtitle><description>В 64 выпуске подкаста Javaswag поговорили с Андреем Когунем о генерации кода, AI асситентах для программировани и об Eclipse IDE
+00:00 Начало
+06:09 JUG и путь в КРОК
+21:17 Преимущества генерации кода
+26:49 Разработка фронтенда и проблемы с кастомизацией
+32:32 Выбор баз данных и инструментов для работы с ними
+35:24 Выбор между open source и коммерческими решениями
+39:21 Гибкость и возможность расширения функциональности
+43:36 Генерация кода
+47:28 Генерация типового репозитория, сервисов и контроллеров
+57:36 Разработка плагинов для IntelliJ IDEA и проблемы обратной совместимости (травмирующий опыт)
+59:02 Преимущества использования LSP серверов и работы с различными редакторами
+01:03:17 История приобретения плагина JPA Buddy JetBrains
+01:11:23 Использование AI-ассистента в программировании
+01:41:04 Олимпиадное программирование
+01:52:52 Ответ на предыдущее непопулярное мнение
+01:55:17 Непопулярное мнение: Eclipse
+01:55:31 Непопулярное мнение: Maven
+02:01:36 Блиц
+Гость - https://x.com/andrei_kogun
+Ссылки:
+https://jpa-buddy.com/ - плагин, сильно помогающий с @JPA, теперь часть IntelliJ IDEA Ultimate.
+https://github.com/kogun/jpoint-spring-boot-xtend-demo - как генерировать java бойлерплейт код с xtend, допматериалы гуглятся.
+https://github.com/croc-code/jxfw - что получилось в итоге, наш фреймворк с возможностью быстрой разработки, описывая в большинстве случаев только модель, напишите, если хотите увидеть версию с поддержкой Spring Boot 3.x
+https://www.youtube.com/watch?v=awP-C4L1g3M - стендап на тему know-how, как код.
+https://www.youtube.com/watch?v=x0EZRFmaKUg - как сегодня разрабатывать с AI ассистентами.
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/64-javaswag-andreii-kogun-2.mp3" type="audio/mpeg" length="153467776"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">63-javaswag-timofei-durakov.mp3</guid><title>#63 - Тимофей Дураков - Джава сертификация, топология сети поверх Apache Storm и графовые базы данных</title><pubDate>Fri, 21 Jun 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/63/</link><itunes:duration>01:52:00</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 63 выпуске подкаста Javaswag поговорили с Тимофеем Дураковым о Джава сертификации, построении топологии сети поверх Apache Storm и графовых базах данных
 00:00 Начало
 02:01 Сертификация по Java
 14:02 Грейды
@@ -56,59 +108,7 @@ https://tinkerpop.apache.org/gremlin.html
 https://neo4j.com/
 https://orientdb.org/
 https://opentsdb.net/
-Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/63-javaswag-timofei-durakov.mp3" type="audio/mpeg" length="134407456"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">64-javaswag-andreii-kogun-2.mp3</guid><title>#64 - Андрей Когунь - генерация кода для платформы, AI ассистенты для кода и уникальность Eclipse IDE</title><pubDate>Fri, 21 Jun 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/64/</link><itunes:duration>02:07:53</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 64 выпуске подкаста Javaswag поговорили с Андреем Когунем о генерации кода, AI асситентах для программировани и об Eclipse IDE
-00:00 Начало
-06:09 JUG и путь в КРОК
-21:17 Преимущества генерации кода
-26:49 Разработка фронтенда и проблемы с кастомизацией
-32:32 Выбор баз данных и инструментов для работы с ними
-35:24 Выбор между open source и коммерческими решениями
-39:21 Гибкость и возможность расширения функциональности
-43:36 Генерация кода
-47:28 Генерация типового репозитория, сервисов и контроллеров
-57:36 Разработка плагинов для IntelliJ IDEA и проблемы обратной совместимости (травмирующий опыт)
-59:02 Преимущества использования LSP серверов и работы с различными редакторами
-01:03:17 История приобретения плагина JPA Buddy JetBrains
-01:11:23 Использование AI-ассистента в программировании
-01:41:04 Олимпиадное программирование
-01:52:52 Ответ на предыдущее непопулярное мнение
-01:55:17 Непопулярное мнение: Eclipse
-01:55:31 Непопулярное мнение: Maven
-02:01:36 Блиц
-Гость - https://x.com/andrei_kogun
-Ссылки:
-https://jpa-buddy.com/ - плагин, сильно помогающий с @JPA, теперь часть IntelliJ IDEA Ultimate.
-https://github.com/kogun/jpoint-spring-boot-xtend-demo - как генерировать java бойлерплейт код с xtend, допматериалы гуглятся.
-https://github.com/croc-code/jxfw - что получилось в итоге, наш фреймворк с возможностью быстрой разработки, описывая в большинстве случаев только модель, напишите, если хотите увидеть версию с поддержкой Spring Boot 3.x
-https://www.youtube.com/watch?v=awP-C4L1g3M - стендап на тему know-how, как код.
-https://www.youtube.com/watch?v=x0EZRFmaKUg - как сегодня разрабатывать с AI ассистентами.
-Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 64 выпуске подкаста Javaswag поговорили с Андрее...</itunes:subtitle><description>В 64 выпуске подкаста Javaswag поговорили с Андреем Когунем о генерации кода, AI асситентах для программировани и об Eclipse IDE
-00:00 Начало
-06:09 JUG и путь в КРОК
-21:17 Преимущества генерации кода
-26:49 Разработка фронтенда и проблемы с кастомизацией
-32:32 Выбор баз данных и инструментов для работы с ними
-35:24 Выбор между open source и коммерческими решениями
-39:21 Гибкость и возможность расширения функциональности
-43:36 Генерация кода
-47:28 Генерация типового репозитория, сервисов и контроллеров
-57:36 Разработка плагинов для IntelliJ IDEA и проблемы обратной совместимости (травмирующий опыт)
-59:02 Преимущества использования LSP серверов и работы с различными редакторами
-01:03:17 История приобретения плагина JPA Buddy JetBrains
-01:11:23 Использование AI-ассистента в программировании
-01:41:04 Олимпиадное программирование
-01:52:52 Ответ на предыдущее непопулярное мнение
-01:55:17 Непопулярное мнение: Eclipse
-01:55:31 Непопулярное мнение: Maven
-02:01:36 Блиц
-Гость - https://x.com/andrei_kogun
-Ссылки:
-https://jpa-buddy.com/ - плагин, сильно помогающий с @JPA, теперь часть IntelliJ IDEA Ultimate.
-https://github.com/kogun/jpoint-spring-boot-xtend-demo - как генерировать java бойлерплейт код с xtend, допматериалы гуглятся.
-https://github.com/croc-code/jxfw - что получилось в итоге, наш фреймворк с возможностью быстрой разработки, описывая в большинстве случаев только модель, напишите, если хотите увидеть версию с поддержкой Spring Boot 3.x
-https://www.youtube.com/watch?v=awP-C4L1g3M - стендап на тему know-how, как код.
-https://www.youtube.com/watch?v=x0EZRFmaKUg - как сегодня разрабатывать с AI ассистентами.
-Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/64-javaswag-andreii-kogun-2.mp3" type="audio/mpeg" length="153467776"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">62-javaswag-andrei-kuleshov-7.mp3</guid><title>#62 - Андрей Кулешов - Kotlin, технические конференции, Spring, диктат в анализе кода и kotlinx.serialization</title><pubDate>Fri, 07 Jun 2024 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/62/</link><itunes:duration>02:06:55</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 62 выпуске подкаста Javaswag поговорили с Андреем Кулешовым о конференциях, Котлин 2, мультиплатформе, анализе кода, библиотеках diktat и ktoml
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/63-javaswag-timofei-durakov.mp3" type="audio/mpeg" length="134407456"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">62-javaswag-andrei-kuleshov-7.mp3</guid><title>#62 - Андрей Кулешов - Kotlin, технические конференции, Spring, диктат в анализе кода и kotlinx.serialization</title><pubDate>Fri, 07 Jun 2024 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/62/</link><itunes:duration>02:06:55</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 62 выпуске подкаста Javaswag поговорили с Андреем Кулешовым о конференциях, Котлин 2, мультиплатформе, анализе кода, библиотеках diktat и ktoml
 Дисклеймер: выпуск писался в начале мая, Positive Hack days прошел, а Kotlin 2 вышел!
 00:00 Начало
 11:33 Системное программирования
