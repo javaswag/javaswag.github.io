@@ -7,3 +7,4 @@ static/.DS_Store
 resources/**
 static/img/.DS_Store
 video/**
+audio/.venv/**

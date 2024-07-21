@@ -6,41 +6,39 @@ import (
 	"log"
 	"math"
 	"os"
+	"path/filepath"
 
-	"github.com/hajimehoshi/go-mp3"
-)
-
-const (
-	gomp3NumChannels   = 2
-	gomp3Precision     = 2
-	gomp3BytesPerFrame = gomp3NumChannels * gomp3Precision
+	"github.com/hopesea/godub"
 )
 
 func main() {
-	fmt.Println("Open: ", os.Args[1])
-	f, err := os.Open(os.Args[1])
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer f.Close()
+	p := os.Args[1]
+	d := os.Args[2]
+	fmt.Println("Open: ", p)
+	fmt.Println("Dir: ", d)
 
-	d, err := mp3.NewDecoder(f)
-	if err != nil {
-		log.Fatal(err)
-	}
+	aMono, err := godub.NewLoader().Load(p)
 
-	fmt.Println(aMono)
+	if err != nil {
+		log.Fatalf("%v", err)
+	}
 
 	aData := aMono.RawData()
 	aDataLen := len(aData)
 
-	aDurationSecs := aDataLen / int(aMono.FrameRate())
+	aDurationSecs := aMono.Duration().Seconds()
 
-	fmt.Println("aDurationSecs", aDurationSecs)
+	fmt.Printf("%s\n", aMono.String())
 
-	aBandList := make([]int16, 0)
+	aBandList := make([]float64, 0)
 
-	BAND_STEP := int(math.Round(float64(aDataLen / bands)))
+	bands := 220
+
+	BAND_STEP := aDataLen / bands
+
+	fmt.Printf("aDataLen %d\n", aDataLen)
+
+	fmt.Printf("BAND_STEP %d\n", BAND_STEP)
 
 	fmt.Println("Analyzing audio..")
 
@@ -48,45 +46,46 @@ func main() {
 		aBand := aData[i*BAND_STEP : (i+1)*BAND_STEP]
 		// fmt.Println(aBand)
 		aBandInfo := ABandInfo{}
-		for index, sample := range aBand {
-			absSample := int16(math.Abs(float64(sample)))
-			aBandInfo.max = int16(math.Max(float64(absSample), float64(aBandInfo.max)))
-			aBandInfo.avg = int16((absSample + aBandInfo.avg) / 2)
-			if index < 5 {
-				fmt.Printf("%d %v\n", index, aBandInfo)
-			}
+		for _, sample := range aBand {
+			absSample := math.Abs(float64(sample))
+			aBandInfo.max = math.Max(float64(absSample), float64(aBandInfo.max))
+			aBandInfo.avg = (absSample + aBandInfo.avg) / 2
 		}
-		writeVal := aBandInfo.avg
+		// writeVal := aBandInfo.avg
+		writeVal := (aBandInfo.max - aBandInfo.avg) / 2
 		fmt.Println(i, writeVal)
-		aBandList = append(aBandList, int16(writeVal))
+		aBandList = append(aBandList, writeVal)
 	}
-	// aBandList = append(aBandList, aDurationSecs)
+	aBandList = append(aBandList, aDurationSecs)
 
-	filename := fmt.Sprintf("{%s.avg%d.new.bin", f, bands)
+	filename := fmt.Sprintf("%s/%s.avg%d.bin", d, filepath.Base(p), bands)
 	fmt.Println("Writing into: ", filename)
+
+	err = os.Remove(filename)
+	if err != nil {
+		fmt.Printf("%v\n", err)
+	}
 
 	fileOutput, err := os.Create(filename)
 	if err != nil {
-		fmt.Printf("%w", err)
+		log.Fatalf("%w", err)
 	}
 
 	defer fileOutput.Close()
 
-	// d2 := []byte{115, 111, 109, 101, 10}
-
-	// var i int16 = 41
-
-	for i := range aBandList {
-		arr := make([]byte, 0)
-		binary.LittleEndian.PutUint16(arr, uint16(i))
-		_, err := fileOutput.Write(arr)
+	var b = make([]byte, 2)
+	for _, ii := range aBandList {
+		binary.LittleEndian.PutUint16(b, uint16(ii))
+		_, err := fileOutput.Write(b)
 		if err != nil {
-			panic(err)
+			fmt.Println("err!", err)
 		}
+		// fmt.Printf("%x ", b)
+		b[0], b[1] = 0, 0
 	}
 }
 
 type ABandInfo struct {
-	max int16
-	avg int16
+	max float64
+	avg float64
 }

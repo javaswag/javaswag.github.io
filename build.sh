@@ -1,1 +1,2 @@
-hugo -d docs && npm run build
+rm -rf docs/
+hugo -d docs --baseURL=http://localhost:1313 && npm run build
