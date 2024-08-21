@@ -1,4 +1,60 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Mon, 19 Aug 2024 10:11:07 +0000</pubDate><lastBuildDate>Mon, 19 Aug 2024 [31m1[0m[32m2[0m2[31m:31[0m:0[31m6[0m[32m7:33[0m +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">65-javaswag-slava-ledovskih.mp3</guid><title>#65 - Слава Ледовских - как расти до мидла, двухфазный коммит и oncall практики</title><pubDate>Sat, 20 Jul 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/65/</link><itunes:duration>01:48:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 65 выпуске подкаста Javaswag поговорили со Славой Ледовских о том как расти до миддла, двухфазном комите и on call практиках
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Mon, 19 Aug 2024 10:11:07 +0000</pubDate><lastBuildDate>[31mMon[0m[32mWed[0m, [32m2[0m1[31m9[0m Aug 2024 [31m22[0m[32m15[0m:[31m07[0m[32m44[0m:[31m33[0m[32m48[0m +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/[32m><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">66-javaswag-ivan-osipov.mp3</guid><title>#66 - Иван Осипов - современный стэк: Котлин, ГрафКуэль, Спринг-Бут</title><pubDate>Mon, 19 Aug 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/66/</link><itunes:duration>02:20:43</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 66 выпуске подкаста Javaswag поговорили с Иваном Осиповым современный стэке на Котлин, ГрафКуэль, Спринг-Буте
+00:00 Начало. Электротранспорт в Arrival
+12:23 Стэк
+20:20 3D-сцены, Docker и Kubernetes
+24:40 Проблемы разработки на низком уровне
+29:00 Kotlin мышление
+35:54 Kotlin и Jetbrains
+43:06 Изучение и использование Kotlin SDK
+48:07 Факторы, влияющие на на внедрение GraphQL
+57:40 Опыт использования GraphQL в стартапе
+01:06:41 Федерации в GraphQL
+01:12:24 Роль API Gateway, Rest и GraphQL
+01:13:20 Мутации и загрузчики
+01:20:12 Проблема N+1 запросов
+01:21:41 Графовые базы данных для GraphQL
+01:33:31 Управление и мониторинг с помощью Spring Boot Admin
+01:40:38 Доминирование Spring Boot
+01:41:56 The Benefits of Using Spring Boot for Development
+01:42:52 Spring Boot мидлов и синьеоров
+01:54:45 Различия между тех лидом и инженеринг менеджером
+02:05:45 Организация процессов и взаимодействие в команде
+02:09:03 Непопулярные мнения
+02:13:01 Валидация на уровне GraphQL
+02:17:17 Блиц
+Гость - https://github.com/ivan-osipov
+Ссылки:
+канал на русском https://t.me/from_junior_to_cto
+сайт/рассылка на англ https://devtower.io
+Кип сейф! 🖖</itunes:summary><itunes:subtitle>В 66 выпуске подкаста Javaswag поговорили с Иваном...</itunes:subtitle><description>В 66 выпуске подкаста Javaswag поговорили с Иваном Осиповым современный стэке на Котлин, ГрафКуэль, Спринг-Буте
+00:00 Начало. Электротранспорт в Arrival
+12:23 Стэк
+20:20 3D-сцены, Docker и Kubernetes
+24:40 Проблемы разработки на низком уровне
+29:00 Kotlin мышление
+35:54 Kotlin и Jetbrains
+43:06 Изучение и использование Kotlin SDK
+48:07 Факторы, влияющие на на внедрение GraphQL
+57:40 Опыт использования GraphQL в стартапе
+01:06:41 Федерации в GraphQL
+01:12:24 Роль API Gateway, Rest и GraphQL
+01:13:20 Мутации и загрузчики
+01:20:12 Проблема N+1 запросов
+01:21:41 Графовые базы данных для GraphQL
+01:33:31 Управление и мониторинг с помощью Spring Boot Admin
+01:40:38 Доминирование Spring Boot
+01:41:56 The Benefits of Using Spring Boot for Development
+01:42:52 Spring Boot мидлов и синьеоров
+01:54:45 Различия между тех лидом и инженеринг менеджером
+02:05:45 Организация процессов и взаимодействие в команде
+02:09:03 Непопулярные мнения
+02:13:01 Валидация на уровне GraphQL
+02:17:17 Блиц
+Гость - https://github.com/ivan-osipov
+Ссылки:
+канал на русском https://t.me/from_junior_to_cto
+сайт/рассылка на англ https://devtower.io
+Кип сейф! 🖖</description><enclosure url="https://storage.yandexcloud.net/javaswag/66-javaswag-ivan-osipov.mp3" type="audio/mpeg" length="337707840"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item[0m><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">65-javaswag-slava-ledovskih.mp3</guid><title>#65 - Слава Ледовских - как расти до мидла, двухфазный коммит и oncall практики</title><pubDate>Sat, 20 Jul 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/65/</link><itunes:duration>01:48:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 65 выпуске подкаста Javaswag поговорили со Славой Ледовских о том как расти до миддла, двухфазном комите и on call практиках
 00:00 Начало
 08:09 Развитие сотрудников: учить и помогать расти
 12:44 Различия между уровнями разработчиков
