@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Wed, 21 Aug 2024 15:44:48 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">66-javaswag-ivan-osipov.mp3</guid><title>#66 - Иван Осипов - современный стэк: Котлин, ГрафКуэль, Спринг-Бут Drafts</title><pubDate>Mon, 19 Aug 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/66/</link><itunes:duration>02:20:43</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 66 выпуске подкаста Javaswag поговорили с Иваном Осиповым современный стэке на Котлин, ГрафКуэль, Спринг-Буте
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sat, 31 Aug 2024 10:22:41 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">66-javaswag-ivan-osipov.mp3</guid><title>#66 - Иван Осипов - современный стэк: Котлин, ГрафКуэль, Спринг-Бут Drafts</title><pubDate>Mon, 19 Aug 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/66/</link><itunes:duration>02:20:43</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 66 выпуске подкаста Javaswag поговорили с Иваном Осиповым современный стэке на Котлин, ГрафКуэль, Спринг-Буте
 00:00 Начало. Электротранспорт в Arrival
 12:23 Стэк
 20:20 3D-сцены, Docker и Kubernetes
@@ -234,7 +234,7 @@ https://opentsdb.net/
 29:25 От Scala к Kotlin
 37:14 Инфраструктура для разработки в крупных компаниях
 38:25 Анализ кода и графовые базы данных
-40:16 Библиотека &ldquo;diktat&rdquo; и формализация код-стиля
+40:16 Библиотека diktat и формализация код-стиля
 59:04 Внедрение анализаторов кода и рулов
 01:06:28 Компиляторные плагины
 01:12:02 Мультиплатформенность и Kotlin 2.0
@@ -256,7 +256,7 @@ https://github.com/akuleshov7/ktoml
 29:25 От Scala к Kotlin
 37:14 Инфраструктура для разработки в крупных компаниях
 38:25 Анализ кода и графовые базы данных
-40:16 Библиотека &ldquo;diktat&rdquo; и формализация код-стиля
+40:16 Библиотека diktat и формализация код-стиля
 59:04 Внедрение анализаторов кода и рулов
 01:06:28 Компиляторные плагины
 01:12:02 Мультиплатформенность и Kotlin 2.0
