@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Tue, 17 Sep 2024 08:40:22 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">67-javaswag-sergey-petrelevich.mp3</guid><title>#67 - Сергей Петрелевич - реактивные приложения, WebFlux, блокируий код и Micronaut Drafts</title><pubDate>Mon, 16 Sep 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/67/</link><itunes:duration>02:12:02</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 67 выпуске подкаста Javaswag поговорили с Сергеем Петрелевичем о WebFlux, блокирующем коде в реактивном приложении и Micronaut
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Tue, 17 Sep 2024 09:02:25 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">67-javaswag-sergey-petrelevich.mp3</guid><title>#67 - Сергей Петрелевич - реактивные приложения, WebFlux, блокируий код и Micronaut Drafts</title><pubDate>Mon, 16 Sep 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/67/</link><itunes:duration>02:12:02</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 67 выпуске подкаста Javaswag поговорили с Сергеем Петрелевичем о WebFlux, блокирующем коде в реактивном приложении и Micronaut
 00:00 Начало
 02:52 Путь к Java от BASIC
 05:59 Опыт работы с автоматизированными системами управления
@@ -9,7 +9,7 @@
 21:11 Заключение и выводы о будущем Java
 26:05 Технологические достижения и их влияние на банковский сектор
 29:14 Архитектурные особенности платежных систем
-33:26 Опыт работы в Deutsche Bank и Райфазен
+33:26 Опыт работы в Deutsche Bank и Райффайзен
 36:39 Качества успешного разработчика в финансовых технологиях
 40:24 Понимание Disruptor и его применение в высокопроизводительных системах
 45:01 Event Loop и его роль в современных приложениях
@@ -20,7 +20,7 @@
 01:02:42 Преимущества и недостатки реактивного программирования
 01:07:35 Сравнение фреймворков: Micronaut, Quarkus и Spring
 01:18:05 Использование GraalVM для нативных образов
-01:19:39 Сравнение фреймворков: Армерия и Вертакс
+01:19:39 Сравнение фреймворков: Armeria и Vert.X
 01:27:12 Виртуальные потоки в Java: необходимость и применение
 01:39:39 Современный Java стек: выбор технологий и библиотек
 01:46:48 Обновление зависимостей и предвидение проблем
@@ -42,7 +42,7 @@
 21:11 Заключение и выводы о будущем Java
 26:05 Технологические достижения и их влияние на банковский сектор
 29:14 Архитектурные особенности платежных систем
-33:26 Опыт работы в Deutsche Bank и Райфазен
+33:26 Опыт работы в Deutsche Bank и Райффайзен
 36:39 Качества успешного разработчика в финансовых технологиях
 40:24 Понимание Disruptor и его применение в высокопроизводительных системах
 45:01 Event Loop и его роль в современных приложениях
@@ -53,7 +53,7 @@
 01:02:42 Преимущества и недостатки реактивного программирования
 01:07:35 Сравнение фреймворков: Micronaut, Quarkus и Spring
 01:18:05 Использование GraalVM для нативных образов
-01:19:39 Сравнение фреймворков: Армерия и Вертакс
+01:19:39 Сравнение фреймворков: Armeria и Vert.X
 01:27:12 Виртуальные потоки в Java: необходимость и применение
 01:39:39 Современный Java стек: выбор технологий и библиотек
 01:46:48 Обновление зависимостей и предвидение проблем
