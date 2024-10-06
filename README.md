@@ -7,7 +7,9 @@ To run:
 ```
 brew install hugo
 
-sh buils.sh
+make build
 
-sh preview.sh
+make preview
+
+# open http://localhost:1313/
 ```
