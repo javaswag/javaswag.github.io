@@ -12,7 +12,7 @@
 
 {{ $options := dict "inlineImports" true }}
 
-{{ $critical := resources.Get "/css/app.css" | resources.PostCSS $options | resources.ToCSS}}
+{{ $critical := resources.Get "/css/app.css" | css.PostCSS $options | css.Sass}}
 
 <style>{{ $critical.Content | safeCSS }}</style>
 
