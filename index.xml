@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sat, 09 Nov 2024 07:11:07 +0000</pubDate><lastBuildDate>Sun, 10 Nov 2024 16:45:27 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">70-javaswag-alex-zakharchenko.mp3</guid><title>#70 - Алексей Захарченко - аутстафинг, криптобиржа на Джаве и Редис</title><pubDate>Thu, 24 Oct 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/70/</link><itunes:duration>02:05:57</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 70 выпуске подкаста Javaswag поговорили с Алексеем Захарченко о аутстафинге и построении криптобиржы на Джаве
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Tue, 12 Nov 2024 07:11:07 +0000</pubDate><lastBuildDate>Wed, 13 Nov 2024 00:11:59 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">70-javaswag-alex-zakharchenko.mp3</guid><title>#70 - Алексей Захарченко - аутстафинг, криптобиржа на Джаве и Редис</title><pubDate>Thu, 24 Oct 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/70/</link><itunes:duration>02:05:57</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 70 выпуске подкаста Javaswag поговорили с Алексеем Захарченко о аутстафинге и построении криптобиржы на Джаве
 00:00 Начало
 05:48 Аутстаффинг и компания Кроссовер
 20:17 Монструозные проекты и их последствия
@@ -3390,7 +3390,9 @@ To be continued
 Сайт javaswag.ru
 Подкаст записан на конференции 2019.rigadevdays.lv/
 Голос подкаста - t.me/volyx
-Продакшн подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/2-javaswag-oleg-shelaev.mp3" type="audio/mpeg" length="28125309"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/655299722</guid><title>#1 - Олег Докука - Project Reactor, Rsocket, Netify</title><pubDate>Thu, 25 Jul 2019 13:43:15 +0000</pubDate><link>https://javaswag.github.io/episode/1/</link><itunes:duration>01:24:07</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>#1 - Олег Докука - Project Reactor, Rsocket, Netify
+Продакшн подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/2-javaswag-oleg-shelaev.mp3" type="audio/mpeg" length="28125309"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/655299722</guid><title>#1 - Олег Докука - Project Reactor, Rsocket, Netify</title><pubDate>Thu, 25 Jul 2019 13:43:15 +0000</pubDate><link>https://javaswag.github.io/episode/1/</link><itunes:duration>01:24:07</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>Олег Докука - Project Reactor, Rsocket, Netify
+Телеграм канал https://t.me/javaswag Сайт https://javaswag.github.io Подкаст записан на конференции 2019.rigadevdays.lv/
+00:00:00 Начало
 00:00:25 Как прошел доклад? Зачем бросаться конфетами на конференции?
 00:02:01 Как начал выступать на конференциях?
 00:03:50 Сколько конференций посетил в этом году?
@@ -3410,12 +3412,10 @@ To be continued
 00:56:54 Куда пропали евангелисты Grpc? QUIC3 замена Grpc?
 00:64:04 Proteus - новый брокер сообщений для RSocket. Что такое sidecar, servicemesh?
 00:79:20 Как измерить девелопер адвоката?
-Телеграм канал t.me/javaswag
-Чат t.me/javaswag_chat
-Сайт javaswag.ru
-Подкаст записан на конференции 2019.rigadevdays.lv/
-Голос подкаста - t.me/volyx
-Звук подкаста - t.me/pahaus</itunes:summary><itunes:subtitle>#1 - Олег Докука - Project Reactor, Rsocket, Netif...</itunes:subtitle><description>#1 - Олег Докука - Project Reactor, Rsocket, Netify
+Гость: https://www.linkedin.com/in/olegdokuka/</itunes:summary><itunes:subtitle>Олег Докука - Project Reactor, Rsocket, Netify
+Тел...</itunes:subtitle><description>Олег Докука - Project Reactor, Rsocket, Netify
+Телеграм канал https://t.me/javaswag Сайт https://javaswag.github.io Подкаст записан на конференции 2019.rigadevdays.lv/
+00:00:00 Начало
 00:00:25 Как прошел доклад? Зачем бросаться конфетами на конференции?
 00:02:01 Как начал выступать на конференциях?
 00:03:50 Сколько конференций посетил в этом году?
@@ -3435,12 +3435,10 @@ To be continued
 00:56:54 Куда пропали евангелисты Grpc? QUIC3 замена Grpc?
 00:64:04 Proteus - новый брокер сообщений для RSocket. Что такое sidecar, servicemesh?
 00:79:20 Как измерить девелопер адвоката?
-Телеграм канал t.me/javaswag
-Чат t.me/javaswag_chat
-Сайт javaswag.ru
-Подкаст записан на конференции 2019.rigadevdays.lv/
-Голос подкаста - t.me/volyx
-Звук подкаста - t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/1-javaswag-oleg-dokuka.mp3" type="audio/mpeg" length="201693492"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/642018345</guid><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><pubDate>Tue, 25 Jun 2019 20:22:41 +0000</pubDate><link>https://javaswag.github.io/episode/0/</link><itunes:duration>00:53:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге
+Гость: https://www.linkedin.com/in/olegdokuka/</description><enclosure url="https://storage.yandexcloud.net/javaswag/1-javaswag-oleg-dokuka.mp3" type="audio/mpeg" length="201693492"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/642018345</guid><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><pubDate>Tue, 25 Jun 2019 20:22:41 +0000</pubDate><link>https://javaswag.github.io/episode/0/</link><itunes:duration>00:53:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге
+Телеграм канал https://t.me/javaswag
+Сайт https://javaswag.github.io
+Подкаст записан на конференции https://2019.rigadevdays.lv/
 00:00:00 Как начал выступать на конференции?
 00:07:25 Что такое айбирнейт?
 00:08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?
@@ -3462,13 +3460,10 @@ To be continued
 00:44:34 Как учить программированию своих детей?
 00:46:40 Как все успевать?
 00:46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице
-00:50:30 Стоит ли ходить на воркшоп?
+00:50:30 Стоит ли ходить на воркшоп?</itunes:summary><itunes:subtitle>Евгений Борисов о пчелах на слайдах, айбирнейте и ...</itunes:subtitle><description>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге
 Телеграм канал https://t.me/javaswag
-Чат https://t.me/javaswag_chat
-Сайт https://javaswag.ru
+Сайт https://javaswag.github.io
 Подкаст записан на конференции https://2019.rigadevdays.lv/
-Голос подкаста - https://t.me/volyx
-Звук подкаста - https://t.me/pahaus</itunes:summary><itunes:subtitle>Евгений Борисов о пчелах на слайдах, айбирнейте и ...</itunes:subtitle><description>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге
 00:00:00 Как начал выступать на конференции?
 00:07:25 Что такое айбирнейт?
 00:08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?
@@ -3490,10 +3485,4 @@ To be continued
 00:44:34 Как учить программированию своих детей?
 00:46:40 Как все успевать?
 00:46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице
-00:50:30 Стоит ли ходить на воркшоп?
-Телеграм канал https://t.me/javaswag
-Чат https://t.me/javaswag_chat
-Сайт https://javaswag.ru
-Подкаст записан на конференции https://2019.rigadevdays.lv/
-Голос подкаста - https://t.me/volyx
-Звук подкаста - https://t.me/pahaus</description><enclosure url="https://storage.yandexcloud.net/javaswag/0-javaswag-evgenii-borisov.mp3" type="audio/mpeg" length="127406628"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item></channel></rss>
+00:50:30 Стоит ли ходить на воркшоп?</description><enclosure url="https://storage.yandexcloud.net/javaswag/0-javaswag-evgenii-borisov.mp3" type="audio/mpeg" length="127406628"/><itunes:image href="https://javaswag.github.io//images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item></channel></rss>
