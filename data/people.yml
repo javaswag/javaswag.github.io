@@ -27,7 +27,7 @@ lancov-3:
   image: /img/people/lancov-3.jpg
 plizga-5:
   url: https://twitter.com/toparvion
-  image: /img/people/plizga-5.jpg 
+  image: /img/people/plizga-5.jpg
 armen-nanuparov:
   url: https://t.me/xFirefly
   image: /img/people/unknown.png
@@ -114,7 +114,7 @@ maxim-gramin:
   image: /img/people/maxim-gramin.jpg
 propopov-1:
   url: https://twitter.com/nikitonsky
-  image: /img/people/propopov-1.jpg  
+  image: /img/people/propopov-1.jpg
 pavel-safronov:
   url: https://t.me/omgitsblog
   image: /img/people/pavel-safronov.jpg
@@ -123,7 +123,7 @@ gregorii-koshelev:
   image: /img/people/gregorii-koshelev.jpg
 mark-struchkov:
   url: https://t.me/dev_java_blog
-  image: /img/people/mark-struchkov.jpg 
+  image: /img/people/mark-struchkov.jpg
 ivan-ponomarev:
   url: https://twitter.com/inponomarev
   image: /img/people/ivan-ponomarev.jpg
@@ -201,10 +201,13 @@ dmitry-chuiko:
   image: /img/people/dmitry-chuiko.jpg
 alex-zakharchenko:
   url: https://www.linkedin.com/in/chess/
-  image: /img/people/alex-zakharchenko.jpg  
+  image: /img/people/alex-zakharchenko.jpg
 alexey-zhidkov:
   url: https://azhidkov.pro/
   image: /img/people/alexey-zhidkov.jpg
+abarmin:
+  url: https://www.linkedin.com/in/abarmin/
+  image: /img/people/abarmin/jpg
 unknown:
   url: /
   image: /img/people/unknown.png
