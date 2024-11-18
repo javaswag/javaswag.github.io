@@ -1,9 +1,53 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Mon, 18 Nov 2024 20:59:14 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">72-javaswag-alexander-barmin.mp3</guid><title>#72 - Александр Бармин - Спринг Drafts</title><pubDate>Mon, 18 Nov 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/72/</link><itunes:duration>01:54:03</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 72 выпуске подкаста Javaswag поговорили с Александром Барминым о Спринге
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Mon, 18 Nov 2024 21:42:24 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">72-javaswag-alexander-barmin.mp3</guid><title>#72 - Александр Бармин - Спринг Drafts</title><pubDate>Mon, 18 Nov 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/72/</link><itunes:duration>01:54:03</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 72 выпуске подкаста Javaswag поговорили с Александром Барминым о Спринге
 00:00 Начало
-Гость
+Chapters
+00:00 Начало
+05:34 Значение доменной области в разработке
+17:28 IBM FileNet и Java EE
+22:45 Проблемы и эволюция Java EE
+32:50 Spring и Spring Boot
+48:10 Миграция между версиями Spring
+56:05 Гибкость и сложности Spring Boot
+01:01:02 Адаптация Spring к современным трендам
+01:04:50 Проблемы зависимости от Spring
+01:07:10 Конкуренция и эволюция Spring
+01:14:49 Kotlin и Spring: синергия технологий
+01:15:44 Эволюция TransferWise в Neobank
+01:16:36 Архитектура Wise: микросервисы и AWS
+01:19:21 Kubernetes и проблемы распределенных систем
+01:24:55 Консистентность и механизмы реконсиляции
+01:29:08 Управление микросервисами и версиями
+01:33:20 Автоматизация обновления зависимостей
+01:37:07 CI/CD и миграции баз данных
+01:41:17 Деплой
+01:46:49 Непопулярное мнение о языках программирования
+01:50:00 Критика Spring Boot и его магии
+Гость https://www.linkedin.com/in/abarmin/
 Ссылки:</itunes:summary><itunes:subtitle>В 72 выпуске подкаста Javaswag поговорили с Алекса...</itunes:subtitle><description>В 72 выпуске подкаста Javaswag поговорили с Александром Барминым о Спринге
 00:00 Начало
-Гость
+Chapters
+00:00 Начало
+05:34 Значение доменной области в разработке
+17:28 IBM FileNet и Java EE
+22:45 Проблемы и эволюция Java EE
+32:50 Spring и Spring Boot
+48:10 Миграция между версиями Spring
+56:05 Гибкость и сложности Spring Boot
+01:01:02 Адаптация Spring к современным трендам
+01:04:50 Проблемы зависимости от Spring
+01:07:10 Конкуренция и эволюция Spring
+01:14:49 Kotlin и Spring: синергия технологий
+01:15:44 Эволюция TransferWise в Neobank
+01:16:36 Архитектура Wise: микросервисы и AWS
+01:19:21 Kubernetes и проблемы распределенных систем
+01:24:55 Консистентность и механизмы реконсиляции
+01:29:08 Управление микросервисами и версиями
+01:33:20 Автоматизация обновления зависимостей
+01:37:07 CI/CD и миграции баз данных
+01:41:17 Деплой
+01:46:49 Непопулярное мнение о языках программирования
+01:50:00 Критика Spring Boot и его магии
+Гость https://www.linkedin.com/in/abarmin/
 Ссылки:</description><enclosure url="https://storage.yandexcloud.net/javaswag/72-javaswag-alexander-barmin.mp3" type="audio/mpeg" length="273709440"/><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">71-javaswag-alexey-zhidkov-1.mp3</guid><title>#71 - Алексей Жидков - эргономичный подход и декомпозиция архитектуры Drafts</title><pubDate>Tue, 12 Nov 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/71/</link><itunes:duration>01:48:51</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 71 выпуске подкаста Javaswag поговорили с Алексеем Жидковым об эргономичном подходе для разработки архитектуры проекта
 00:00 Начало
 12:06 Работа консультанта
