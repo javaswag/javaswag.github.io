@@ -207,7 +207,10 @@ alexey-zhidkov:
   image: /img/people/alexey-zhidkov.jpg
 abarmin:
   url: https://www.linkedin.com/in/abarmin/
-  image: /img/people/abarmin/jpg
+  image: /img/people/abarmin.jpg
+brekelov:
+  url: https://www.linkedin.com/in/brekelov/
+  image: /img/people/brekelov.jpg
 unknown:
   url: /
   image: /img/people/unknown.png
