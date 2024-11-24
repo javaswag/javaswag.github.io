@@ -1,8 +1,40 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sun, 24 Nov 2024 19:28:34 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">73-javaswag-seva-brekelov.mp3</guid><title>#73 - Сева Брекелов - Drafts</title><pubDate>Sun, 24 Nov 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/73/</link><itunes:duration>02:08:36</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 73 выпуске подкаста Javaswag поговорили с Севой Брекеловым
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sun, 24 Nov 2024 19:41:26 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">73-javaswag-seva-brekelov.mp3</guid><title>#73 - Сева Брекелов - автоматизация, видеостриминг и AI для Miro Drafts</title><pubDate>Sun, 24 Nov 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/73/</link><itunes:duration>02:08:36</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 73 выпуске подкаста Javaswag поговорили с Севой Брекеловым о автоматизация тестирования, платформе идеостриминга и AI для Miro
 00:00 Начало
+12:07 Путь к автоматизации тестирования
+25:22 Переход от тестирования к программированию
+32:43 Работа в Google и Nike
+39:11 Управление заказами и функциональные возможности
+42:26 Тестирование и проблемы с микросервисами
+45:15 Внедрение тест-контейнеров в процесс разработки
+48:06 Apache Camel
+55:35 Работа контрактором и синдром самозванца
+01:05:26 PMM
+01:08:10 Создание видеостриминговой платформы, WebRTC
+01:32:07 Генерация синтетических данных для банков
+01:35:21 Miro и AI
+01:51:22 Инфраструктура
+01:53:45 Роль принципала
+01:57:33 Непопулярные мнения о Spring Boot
+02:02:36 Непопулярное мнение
 Гость https://www.linkedin.com/in/brekelov/
-Ссылки:</itunes:summary><itunes:subtitle>В 73 выпуске подкаста Javaswag поговорили с Севой ...</itunes:subtitle><description>В 73 выпуске подкаста Javaswag поговорили с Севой Брекеловым
+Ссылки:</itunes:summary><itunes:subtitle>В 73 выпуске подкаста Javaswag поговорили с Севой ...</itunes:subtitle><description>В 73 выпуске подкаста Javaswag поговорили с Севой Брекеловым о автоматизация тестирования, платформе идеостриминга и AI для Miro
 00:00 Начало
+12:07 Путь к автоматизации тестирования
+25:22 Переход от тестирования к программированию
+32:43 Работа в Google и Nike
+39:11 Управление заказами и функциональные возможности
+42:26 Тестирование и проблемы с микросервисами
+45:15 Внедрение тест-контейнеров в процесс разработки
+48:06 Apache Camel
+55:35 Работа контрактором и синдром самозванца
+01:05:26 PMM
+01:08:10 Создание видеостриминговой платформы, WebRTC
+01:32:07 Генерация синтетических данных для банков
+01:35:21 Miro и AI
+01:51:22 Инфраструктура
+01:53:45 Роль принципала
+01:57:33 Непопулярные мнения о Spring Boot
+02:02:36 Непопулярное мнение
 Гость https://www.linkedin.com/in/brekelov/
 Ссылки:</description><enclosure url="https://storage.yandexcloud.net/javaswag/73-javaswag-seva-brekelov.mp3" type="audio/mpeg" length="308657280"/><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">72-javaswag-alexander-barmin.mp3</guid><title>#72 - Александр Бармин - эволюция Спринга и архитектура Необанка Drafts</title><pubDate>Mon, 18 Nov 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/72/</link><itunes:duration>01:54:03</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 72 выпуске подкаста Javaswag поговорили с Александром Барминым о Спринге и архитектуре Необанка
 00:00 Начало
