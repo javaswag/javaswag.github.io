@@ -24,6 +24,7 @@
 			<link>{{ .Site.Params.Telegram}}</link>
 		</image>
 		<itunes:keywords>{{ .Site.Params.Keywords }}</itunes:keywords>
+		<category>Technology</category>
 		<itunes:category text="Technology"></itunes:category>
     {{ range where (where .Site.RegularPages "Draft" false) "Type" "episode"}}
 		<itunes:owner>
@@ -38,12 +39,20 @@
 			<itunes:duration>{{ .Params.Duration }}</itunes:duration>
 			<itunes:author>{{ .Site.Params.ItunesAuthor }}</itunes:author>
 			<itunes:explicit>no</itunes:explicit>
-			<itunes:summary>{{ .Content | plainify}}</itunes:summary>
+			<itunes:summary>
+				{{ printf "<![CDATA[" | safeHTML }}
+				    {{ .Content | safeHTML  }}
+  				{{- printf "]]>" | safeHTML }}
+			</itunes:summary>
 			<!-- {{ .Content | html }} -->
       {{$subtitle := .Content | plainify}}
 			<itunes:subtitle>{{ substr $subtitle 0 50}}...</itunes:subtitle>
 			<!-- {{ .Summary | html }} -->
-			<description>{{ .Content | plainify}}</description>
+			<description>
+				{{ printf "<![CDATA[" | safeHTML }}
+				    {{ .Content | safeHTML  }}
+  				{{- printf "]]>" | safeHTML }}
+			</description>
 			<!-- {{ .Content | html }} -->
 			<enclosure url="{{$.Site.Params.yandexS3}}{{ .Params.Audio }}" type="audio/mpeg" length="{{ .Params.Size }}"/>
 			<itunes:image href="{{ .Site.BaseURL }}/{{ .Params.Image }}" />
