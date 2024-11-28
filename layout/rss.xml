@@ -46,7 +46,7 @@
 			</itunes:summary>
 			<!-- {{ .Content | html }} -->
       {{$subtitle := .Content | plainify}}
-			<itunes:subtitle>{{ substr $subtitle 0 50}}...</itunes:subtitle>
+			<itunes:subtitle>{{ substr $subtitle 0 150}}...</itunes:subtitle>
 			<!-- {{ .Summary | html }} -->
 			<description>
 				{{ printf "<![CDATA[" | safeHTML }}
@@ -55,7 +55,7 @@
 			</description>
 			<!-- {{ .Content | html }} -->
 			<enclosure url="{{$.Site.Params.yandexS3}}{{ .Params.Audio }}" type="audio/mpeg" length="{{ .Params.Size }}"/>
-			<itunes:image href="{{ .Site.BaseURL }}/{{ .Params.Image }}" />
+			<itunes:image href="{{ .Site.BaseURL }}{{ .Params.Image }}" />
 			<author>{{ .Site.Params.ItunesAuthor }}</author>
 			<itunes:keywords>{{ .Site.Params.Keywords }}</itunes:keywords>
 		</item>
