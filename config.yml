@@ -18,6 +18,7 @@ params:
   yandex: https://music.yandex.ru/album/10870021
   castbox: https://castbox.fm/channel/javaswag-id2626600
   vk: https://vk.com/podcasts-126637725
+  podcast: https://pc.st/1498075914
   feed: /index.xml
   feedDraft: /draft/index.xml
   s3Stats: https://javaswag-logs.website.yandexcloud.net/
