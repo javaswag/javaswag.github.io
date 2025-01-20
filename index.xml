@@ -1,4 +1,78 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Tue, 14 Jan 2025 07:11:07 +0000</pubDate><lastBuildDate>Wed, 15 Jan 2025 10:12:01 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><category>Technology</category><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">73-javaswag-seva-brekelov.mp3</guid><title>#73 - Сева Брекелов - автоматизация, видеостриминг и AI для Miro</title><pubDate>Sun, 24 Nov 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/73/</link><itunes:duration>02:08:36</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Mon, 20 Jan 2025 14:11:07 +0000</pubDate><lastBuildDate>Mon, 20 Jan 2025 14:30:30 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><category>Technology</category><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">74-javaswag-derar-bakr.mp3</guid><title>#74 - Дерар Бакр - риалтайм системы на JVM стэке</title><pubDate>Mon, 20 Jan 2025 14:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/74/</link><itunes:duration>02:38:27</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 74 выпуске подкаста Javaswag поговорили с Дераром о риалтайм аттрибуции в рекламной сети постороенной на JVM стэке</p>
+<p>00:00 Начало</p>
+<p>05:46 Преимущества и недостатки платформы JVM</p>
+<p>11:56 Размышления о будущем Java</p>
+<p>17:12 Что такое AppFlyer?</p>
+<p>22:20 Обработка больших данных в AppFlyer</p>
+<p>28:16 Архитектура обработки данных и Kafka</p>
+<p>36:40 Clojure</p>
+<p>42:49 Эффективность и выразительность кода на Clojure</p>
+<p>49:17 Java и Clojure</p>
+<p>55:24 Проблемы экосистемы Clojure</p>
+<p>01:02:40 Знание основ Java для Clojure-разработчиков</p>
+<p>01:11:19 Масштабирование и партиции в Kafka</p>
+<p>01:16:24 Подсчет удалений приложений</p>
+<p>01:22:57 Инструменты для масштабирования и обработки данных</p>
+<p>01:30:09 Минимальные знания для разработчиков многопоточных приложений</p>
+<p>01:39:31 Блокирующий и неблокирующий ввод-вывод</p>
+<p>01:45:49 Сложности работы с данными и идентификаторами</p>
+<p>01:52:55 Опыт работы в крупных компаниях и корпоративной среде</p>
+<p>01:59:26 Менторинг</p>
+<p>02:05:46 Роль софт-скилов в карьере инженера</p>
+<p>02:11:20 Анонимные отзывы</p>
+<p>02:18:11 AI</p>
+<p>02:24:22 Непопулярное мнение о потоках в Java</p>
+<p>02:32:33 Асинхронность и производительность в современных системах</p>
+<p>Гость <a href="https://www.linkedin.com/in/derarbakr/">https://www.linkedin.com/in/derarbakr/</a></p>
+<p>Ссылки:</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В 74 выпуске подкаста Javaswag поговорили с Дераром о риалтайм аттрибуции в рекламной сети постороенной на JVM стэке
+00:00 Начало
+05:46 Преимущества и...</itunes:subtitle><description><![CDATA[
+				    <p>В 74 выпуске подкаста Javaswag поговорили с Дераром о риалтайм аттрибуции в рекламной сети постороенной на JVM стэке</p>
+<p>00:00 Начало</p>
+<p>05:46 Преимущества и недостатки платформы JVM</p>
+<p>11:56 Размышления о будущем Java</p>
+<p>17:12 Что такое AppFlyer?</p>
+<p>22:20 Обработка больших данных в AppFlyer</p>
+<p>28:16 Архитектура обработки данных и Kafka</p>
+<p>36:40 Clojure</p>
+<p>42:49 Эффективность и выразительность кода на Clojure</p>
+<p>49:17 Java и Clojure</p>
+<p>55:24 Проблемы экосистемы Clojure</p>
+<p>01:02:40 Знание основ Java для Clojure-разработчиков</p>
+<p>01:11:19 Масштабирование и партиции в Kafka</p>
+<p>01:16:24 Подсчет удалений приложений</p>
+<p>01:22:57 Инструменты для масштабирования и обработки данных</p>
+<p>01:30:09 Минимальные знания для разработчиков многопоточных приложений</p>
+<p>01:39:31 Блокирующий и неблокирующий ввод-вывод</p>
+<p>01:45:49 Сложности работы с данными и идентификаторами</p>
+<p>01:52:55 Опыт работы в крупных компаниях и корпоративной среде</p>
+<p>01:59:26 Менторинг</p>
+<p>02:05:46 Роль софт-скилов в карьере инженера</p>
+<p>02:11:20 Анонимные отзывы</p>
+<p>02:18:11 AI</p>
+<p>02:24:22 Непопулярное мнение о потоках в Java</p>
+<p>02:32:33 Асинхронность и производительность в современных системах</p>
+<p>Гость <a href="https://www.linkedin.com/in/derarbakr/">https://www.linkedin.com/in/derarbakr/</a></p>
+<p>Ссылки:</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/74-javaswag-derar-bakr.mp3" type="audio/mpeg" length="380287680"/><itunes:image href="https://javaswag.github.io/images/logo.png?v=74"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">73-javaswag-seva-brekelov.mp3</guid><title>#73 - Сева Брекелов - автоматизация, видеостриминг и AI для Miro</title><pubDate>Sun, 24 Nov 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/73/</link><itunes:duration>02:08:36</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 73 выпуске подкаста Javaswag поговорили с Севой Брекеловым о автоматизация тестирования, платформе видеостриминга и AI для Miro</p>
 <p>00:00 Начало</p>
 <p>12:07 Путь к автоматизации тестирования</p>
