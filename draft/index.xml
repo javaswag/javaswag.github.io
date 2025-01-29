@@ -1,11 +1,57 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Wed, 29 Jan 2025 21:19:39 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">75-javaswag-ilia-ilinukh.mp3</guid><title>#75 - Илья Ильиных - Голэнг как убица Джавы, Вим Drafts</title><pubDate>Wed, 29 Jan 2025 14:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/75/</link><itunes:duration>02:34:50</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 75 выпуске подкаста Javaswag поговорили
-00:00 Начало
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Wed, 29 Jan 2025 22:04:33 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">75-javaswag-ilia-ilinukh.mp3</guid><title>#75 - Илья Ильиных - Голэнг как убица Джавы, Вим Drafts</title><pubDate>Wed, 29 Jan 2025 14:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/75/</link><itunes:duration>02:34:50</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 75 выпуске подкаста Javaswag поговорили
+00:00 Переход от Java к Go
+06:13 Проблемы с Optional и его использование
+11:20 Использование Optional в Java
+18:30 Важность форматирования кода
+23:42 Проблемы и решения в команде
+31:05 Переход на Vim и его связь с GoLang
+36:30 Проблемы с Gradle и тестами
+44:51 Проекты и архитектура микросервисов
+51:03 Сравнение Go и Java
+56:13 Погружение в Go и его особенности
+01:02:17 Инструменты и туллинг в Go
+01:10:36 Мутационное тестирование и его важность
+01:16:09 Сравнение тестирования в Java и Go
+01:24:44 Принципы написания устойчивых тестов
+01:31:32 Тестирование как черный ящик
+01:37:13 Интерфейсы в Go и Java
+01:43:09 Обработка ошибок в Go и Java
+01:48:18 Теория монады и её применение в Java
+01:53:35 Проблемы написания больших проектов на Go
+01:58:54 Новые возможности Go и использование генериков
+02:04:50 Итераторы в Go и Lua
+02:13:26 Эффективные методы работы с кодом
+02:19:12 Непопулярные мнения о потоках в Java и Kotlin
+02:24:34 Проблемы и решения в Java и Kotlin
 Гость
 Ссылки:
 Ссылки на подкаст:
 Сайт - https://javaswag.github.io/ Телеграм - https://t.me/javaswag Youtube - https://www.youtube.com/@javaswag Linkedin - https://www.linkedin.com/in/volyihin/ X - https://x.com/javaswagpodcast</itunes:summary><itunes:subtitle>В 75 выпуске подкаста Javaswag поговорили
-00:00 На...</itunes:subtitle><description>В 75 выпуске подкаста Javaswag поговорили
-00:00 Начало
+00:00 Пе...</itunes:subtitle><description>В 75 выпуске подкаста Javaswag поговорили
+00:00 Переход от Java к Go
+06:13 Проблемы с Optional и его использование
+11:20 Использование Optional в Java
+18:30 Важность форматирования кода
+23:42 Проблемы и решения в команде
+31:05 Переход на Vim и его связь с GoLang
+36:30 Проблемы с Gradle и тестами
+44:51 Проекты и архитектура микросервисов
+51:03 Сравнение Go и Java
+56:13 Погружение в Go и его особенности
+01:02:17 Инструменты и туллинг в Go
+01:10:36 Мутационное тестирование и его важность
+01:16:09 Сравнение тестирования в Java и Go
+01:24:44 Принципы написания устойчивых тестов
+01:31:32 Тестирование как черный ящик
+01:37:13 Интерфейсы в Go и Java
+01:43:09 Обработка ошибок в Go и Java
+01:48:18 Теория монады и её применение в Java
+01:53:35 Проблемы написания больших проектов на Go
+01:58:54 Новые возможности Go и использование генериков
+02:04:50 Итераторы в Go и Lua
+02:13:26 Эффективные методы работы с кодом
+02:19:12 Непопулярные мнения о потоках в Java и Kotlin
+02:24:34 Проблемы и решения в Java и Kotlin
 Гость
 Ссылки:
 Ссылки на подкаст:
