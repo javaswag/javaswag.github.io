@@ -6,13 +6,30 @@
   align-items: end;
 
   margin: 0;
-  width: var(--wf-w);
+  /* width: var(--wf-w); */
 
   opacity: .8;
   transition: opacity .2s;
+
+  cursor: pointer;
+  cursor: col-resize;
+
+  transform-origin: left;
 }
 
 .Waveform:hover { opacity: 1 }
+
+.Waveform:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 92%;
+  height: 1px;
+  background: white;
+  width: 100%;
+  height: 50%;
+  opacity: 0.3;
+}
 
 .Waveform__col {
   display: inline-block;
@@ -21,6 +38,7 @@
   padding: 0;
 /*  ff6a00 ff3400 */
 }
+
 
 .Waveform__col.--past {
   background: red;
@@ -41,9 +59,9 @@
 .Episode__Container audio:hover {
   opacity: 1;
 }
-body {
+/* body {
   --wf-w: 660px;
 }
 body.--mobile {
   --wf-w: 330px;
-}
+} */
