@@ -5,6 +5,7 @@
   {{ partial "meta.html" . }}
   <script src="/Waveform/Waveform.js"></script>
   <link rel="stylesheet" type="text/css" href="/Waveform/Waveform.css">
+  <link rel="stylesheet" type="text/css" href="/Waveform/PlayerUI.css">
 </head>
 
 <body>
@@ -23,21 +24,18 @@
             <audio id="WaveformAudio" src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}" controls="controls" preload="auto">
             </audio>
             <script>
-              const isMobile = window.matchMedia('(max-width: 780px)').matches;
-              if (isMobile)
-                document.body.classList.add('--mobile');
-
               // add "{{ .Site.Params.yandexS3 }}" like it's in #WaveformAudio
               // and to /episodes/*.md:waveform relative to s3
               const waveformPath = "/waveforms/{{ $.Params.Waveform}}";
 
-              const waveform = new Waveform({
-                $el: document.querySelector('.Waveform'),
-                $audio: document.querySelector('#WaveformAudio'),
-                waveformPath,
-                height: 70,
-                barsCount: isMobile ? 110 : 220,
-                isMobile,
+              setTimeout(() => {
+                const waveform = new PodcastPlayer({
+                  $waveform: document.querySelector('.Waveform'),
+                  $audio: document.querySelector('#WaveformAudio'),
+                  title: "{{ .Params.title }}",
+                  waveformPath,
+                  height: 70,
+                });
               });
             </script>
             <!-- <div>
