@@ -7,6 +7,20 @@ window.addEventListener('load', () => {
     document.body.classList.add('--mobile');
 });
 
+const lerp = (x, y, a) => x * (1 - a) + y * a;
+const invlerp = (x, y, a) => clamp(0, 1, (a - x) / (y - x));
+const clamp = (min, max, a) => Math.min(max, Math.max(min, a));
+const rerange = (x1,  y1,  x2,  y2,  a) => lerp(x2, y2, invlerp(x1, y1, a));
+
+function bindPreventAll (cb) {
+  return function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+    return cb(e);
+  }
+}
+
 const LocalStorage = {
   _: 'PlayerUI_',
   get (key) { return JSON.parse(localStorage.getItem(this._ + key)); },
@@ -53,28 +67,40 @@ class Waveform {
   scaleX = 1;
 
   constructor (opts/* { waveform, $el }*/) {
-    const { player, $waveform, waveformPath, height, barsCount } = opts;
-    Object.assign(this, { player, $waveform, waveformPath, height, barsCount });
+    const { player, $el, waveformPath, height, barsCount } = opts;
+    Object.assign(this, { player, $el, waveformPath, height, barsCount });
 
     this.barsCount = window.matchMedia('(max-width: 780px)').matches ? 110 : 220;
     // this.barsCount = 220;
 
-    this.$waveform.style.height = this.height;
+    this.$el.style.height = this.height;
 
     this.handlePointer = this.handlePointer.bind(this);
 
     this.fetchAnalyzeData(this.waveformPath).then(data => {
       // console.log('Fetched: ', this.duration, this.data);
       this.draw();
-      const w = this.$waveform.offsetWidth;
-      this.$waveform.style.width = `fit-content`;
-      const inw = this.$waveform.offsetWidth;
+      const w = this.$el.offsetWidth;
+      this.$el.style.width = `fit-content`;
+      const inw = this.$el.offsetWidth;
       this.scaleX = w / inw;
-      this.$waveform.style.transform = `scaleX(${ this.scaleX })`;
+      this.$el.style.transform = `scaleX(${ this.scaleX })`;
 
-      // this.scaleX = this.$waveform.parentNode.offsetWidth / this.$waveform.offsetWidth;
-      // this.$waveform.style.transform = `scaleX(${ this.scaleX })`;
-      // this.$waveform.style.width = `fit-content`;
+      let $playback = null;
+      this.$el.appendChild(
+        ($playback = createEl('button', {
+          className: '__playback',
+          onclick: bindPreventAll(() => this.player.togglePlay()),
+          style: { transform: `scaleX(${ 1/this.scaleX })` },
+        }, [
+          createEl({ className: 'Icon --playback' }),
+        ])),
+      );
+      $playback.addEventListener('pointerdown', e => e.stopPropagation());
+
+      // this.scaleX = this.$el.parentNode.offsetWidth / this.$el.offsetWidth;
+      // this.$el.style.transform = `scaleX(${ this.scaleX })`;
+      // this.$el.style.width = `fit-content`;
 
       // this.pollAudio();
       this.listenPointer();
@@ -93,9 +119,9 @@ class Waveform {
 
   listenPointer () {
     this.pointerPress = false;
-    this.$waveform.addEventListener('pointerdown', this.handlePointer);
-    this.$waveform.addEventListener('pointerup', this.handlePointer);
-    this.$waveform.addEventListener('pointermove', this.handlePointer);
+    this.$el.addEventListener('pointerdown', this.handlePointer);
+    this.$el.addEventListener('pointerup', this.handlePointer);
+    this.$el.addEventListener('pointermove', this.handlePointer);
   }
 
   handlePointer (e) {
@@ -108,7 +134,7 @@ class Waveform {
     }
 
     if (this.pointerPress) {
-      const seek = (e.x - this.$waveform.offsetLeft) / this.$waveform.offsetWidth;
+      const seek = (e.x - this.$el.offsetLeft) / this.$el.offsetWidth;
       const time = (seek / this.scaleX) * this.duration;
       this.player.seek(time);
       try {
@@ -126,6 +152,7 @@ class Waveform {
         avg,
       };
     }
+
     const sampleArr = Object.assign([], SampleInfo(0));
     for (let i = 0; i < this.barsCount; i++) {
       const sample = this.data.slice(i * SAMPLE_LEN, (i+1) * SAMPLE_LEN);
@@ -156,9 +183,9 @@ class Waveform {
 
       const $col = this.createCol(val);
       // $col.addEventListener('mouseover', e => {
-      //   this.$waveform.style.setProperty('--over-i', i);
+      //   this.$el.style.setProperty('--over-i', i);
       // }, false);
-      this.$waveform.appendChild($col);
+      this.$el.appendChild($col);
     });
 
     window.ANLZ = sampleArr;
@@ -186,12 +213,14 @@ class PlayerUI {
     this.handlePointerMove = this.handlePointerMove.bind(this);
     this.handleSeeking = this.handleSeeking.bind(this);
     this.handleVoluming = this.handleVoluming.bind(this);
+    this.handleSpeeding = this.handleSpeeding.bind(this);
     this.init();
 
     if (!isMobile) {
       window.addEventListener('pointerup', () => {
         this._seeking = false;
         this._voluming = false;
+        this._speeding = false;
 
         window.removeEventListener('pointermove', this.handlePointerMove);
       });
@@ -203,6 +232,7 @@ class PlayerUI {
   handlePointerMove (e) {
     if (this._seeking) this.handleSeeking(e);
     else if (this._voluming) this.handleVoluming(e);
+    else if (this._speeding) this.handleSpeeding(e);
   }
 
   init () {
@@ -213,12 +243,27 @@ class PlayerUI {
 
     const { ref } = this;
 
+    function btnHoldRepeatEvents (cb, immediate = true) {
+      let actionInterval = -1;
+      return {
+        onpointerdown (e) {
+          if (immediate)
+            cb(e);
+          actionInterval = setInterval(() => { cb(e) }, 500);
+        },
+        onpointerup (e) { clearInterval(actionInterval) },
+        onpointerleave (e) { clearInterval(actionInterval) },
+      };
+    }
+
     this.$el = createEl({ className: 'PlayerUI' },
     [
       createEl({ className: '__inner' },
       [
         btn('backward', () => this.player.jumpToNextCue(-1), { accessKey: ',' }),
+        btn('rewind-backward', null, btnHoldRepeatEvents(() => this.player.rewindTime(-1))),
         btn('playback', () => this.player.togglePlay(), { accessKey: 'p' }),
+        btn('rewind-forward', null, btnHoldRepeatEvents(() => this.player.rewindTime(1))),
         btn('forward', () => this.player.jumpToNextCue(+1), { accessKey: '.' }),
 
         ...(isMobile ? [
@@ -233,8 +278,13 @@ class PlayerUI {
           ])),
           (ref.duration = createEl({ className: '__duration', textContent: '4:20' })),
 
+          btn('speed', () => this.player.setSpeed(1), { accessKey: 'l' }),
+          (ref.speedSlider = createEl({ className: '__vert-slider __speed-slider Popup--passive',
+            onclick: this.handleSpeeding,
+            onpointerdown: e => { this._speeding = true },
+          })),
           btn('volume', () => this.player.toggleMute(), { accessKey: 'm' }),
-          (ref.volumeSlider = createEl({ className: '__volume-slider',
+          (ref.volumeSlider = createEl({ className: '__vert-slider __volume-slider Popup--passive',
             onclick: this.handleVoluming,
             onpointerdown: e => { this._voluming = true },
           })),
@@ -249,6 +299,7 @@ class PlayerUI {
     const { seek: $el } = this.ref;
     const { left, width } = $el.getBoundingClientRect();
     this.player.seekProgress((e.x - left) / width);
+    this.player.$audio.play();
   }
 
   handleVoluming (e) {
@@ -256,6 +307,15 @@ class PlayerUI {
     const { top, height } = $el.getBoundingClientRect();
     const volume = 1 - Math.min(1, Math.max(0, (e.y - top) / height));
     this.player.setVolume(volume);
+  }
+
+  handleSpeeding (e) {
+    const { speedSlider: $el } = this.ref;
+    const { top, height } = $el.getBoundingClientRect();
+    let speed = 1 - Math.min(1, Math.max(0, (e.y - top) / height));
+    speed = Math.round(speed * 7) / 7; // 8 steps
+    speed = lerp(.5, 1.75, speed); // rerange
+    this.player.setSpeed(speed);
   }
 }
 
@@ -272,7 +332,7 @@ class PodcastPlayer {
     Object.assign(this, { $audio });
 
     this.waveform = new Waveform({
-      $waveform, waveformPath, height,
+      $el: $waveform, waveformPath, height,
       player: this,
     });
 
@@ -280,13 +340,14 @@ class PodcastPlayer {
     this.listenToAudioEvent();
 
     // setTimeout(() => {
-      this.parseCues();
+      this.updateCues();
       this.ui = new PlayerUI({ player: this, title });
     // });
     // this.$audio.style.display = 'none';
     if (!isMobile)
       this.setVolume(LocalStorage.get('volume') || 1);
-    window.PodcastPlayer = PodcastPlayer;
+
+    window.PodcastPlayer = this;
   }
 
   listenToAudioEvent () {
@@ -316,7 +377,7 @@ class PodcastPlayer {
   handlePollAudio (_time) {
     // waveform handling
     const prog = this.getProgress(_time);
-    [...this.waveform.$waveform.children].forEach(($col, i) => {
+    [...this.waveform.$el.children].forEach(($col, i) => {
       const colProg = i / this.waveform.barsCount;
       $col.classList.toggle('--past', colProg < prog);
     });
@@ -336,7 +397,10 @@ class PodcastPlayer {
         cueTitle.textContent = this.getCue().title;
     }
 
+    this.updateSpeedView();
+
     this.ui.$el.classList.toggle('--playing', this.playing);
+    this.waveform.$el.classList.toggle('--playing', this.playing);
     this.ui.$el.classList.toggle('--muted', this.$audio.volume === 0);
   }
 
@@ -370,9 +434,10 @@ class PodcastPlayer {
     this.handlePollAudio(time);
   }
 
-  parseCues (cues) {
+  updateCues (cues) {
     let idx = 0;
     for (let $cue of document.querySelectorAll('.__cue')) {
+      $cue.dataset.cueIdx = idx;
       this.cues.push({
         time: Number($cue.dataset.cueTime),
         title: $cue.parentNode.childNodes[1].textContent,
@@ -399,10 +464,25 @@ class PodcastPlayer {
     this.$audio.play();
   }
 
+  rewindTime (dir) {
+    this.$audio.currentTime += dir * 10;
+  }
+
   setVolume (volume) {
     this.$audio.volume = volume;
     this.ui.ref.volumeSlider.style.setProperty('--value', volume);
     LocalStorage.set('volume', volume);
+  }
+
+  setSpeed (speed) {
+    this.$audio.playbackRate = speed;
+    this.updateSpeedView();
+  }
+
+  updateSpeedView () {
+    const speed = this.$audio.playbackRate;
+    if (this.ui.ref.speedSlider)
+      this.ui.ref.speedSlider.style.setProperty('--value', invlerp(.5, 1.75, speed));
   }
 }
 
