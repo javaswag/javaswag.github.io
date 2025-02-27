@@ -583,8 +583,10 @@ class PodcastPlayer {
       else
         return this.$audio.play();
     }
-    else
+    else {
+      this.$audio.pause();
       return Promise.resolve(false);
+    }
   }
 
   setMuted (state) {
