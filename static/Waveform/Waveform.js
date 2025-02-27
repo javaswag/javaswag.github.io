@@ -218,8 +218,8 @@ class PlayerUI {
     '.' () { this.player.rewindTime(1) },
     '!>' () { this.player.jumpToNextCue(-1) },
     '!<' () { this.player.jumpToNextCue(1) },
-    'l' () { this.speedSliderVisibility(true); this.player.setSpeed(this.player.$audio.playbackRate + .25) },
-    'k' () { this.speedSliderVisibility(true); this.player.setSpeed(this.player.$audio.playbackRate - .25) },
+    'l' () { this.player.setSpeed(this.player.$audio.playbackRate + .25) },
+    'k' () { this.player.setSpeed(this.player.$audio.playbackRate - .25) },
   };
 
   constructor (opts) {
@@ -237,12 +237,6 @@ class PlayerUI {
         this._seeking = false;
         this._voluming = false;
         this._speeding = false;
-
-        if (this._pressingPlayback) {
-          clearTimeout(this._pressingPlayback);
-          this._pressingPlayback = false;
-        } else
-          this.ref.speedSlider.style.display = 'none';
 
         window.removeEventListener('pointermove', this.handlePointerMove);
       });
@@ -308,21 +302,7 @@ class PlayerUI {
           ...btnHoldRepeatEvents(() => this.player.rewindTime(-1)),
         }),
 
-        btn('playback', () => { !this.speedSliderVisibility() && this.player.setPlaying(TOGGLE) },
-          {
-            title: `Playback\nShortcut: [P] \n[LONG TAP] or [K/L] to change speed`,
-            onpointerdown: e => {
-              this._pressingPlayback = setTimeout(() => this.speedSliderVisibility(true), 500)
-            },
-            onpointerup: e => { clearInterval(this._pressingPlayback); },
-          }, [
-            (ref.speedSlider = createEl({ className: '__vert-slider __speed-slider',
-              onclick: bindPreventAll(this.handleSpeeding),
-              style: { display: 'none', opacity: 1 },
-              onpointerdown: e => { this._speeding = true },
-            })),
-          ]
-        ),
+        btn('playback', () => { this.player.setPlaying(TOGGLE) }),
 
         btn('rewind-forward', null, {
           title: `Rewind backward\nShortcuts: [>], [shift + >] next chapter \n[LONG TAP] to repeat rewind`,
@@ -343,7 +323,8 @@ class PlayerUI {
           ])),
           (ref.duration = createEl({ className: '__duration', textContent: '4:20' })),
 
-          // btn('speed', () => this.player.setSpeed(1), { accessKey: 'l' }),
+
+
           btn('volume', () => this.player.setMuted(TOGGLE), {
             title: `Volume\nShortcut: [M]`,
           }),
@@ -351,6 +332,13 @@ class PlayerUI {
             onclick: bindPreventAll(this.handleVoluming),
             onpointerdown: e => { this._voluming = true },
           })),
+        ]).concat([
+          btn('speed', () => this.player.setSpeed(1), {}, [
+            (ref.speedSlider = createEl({ className: '__vert-slider __speed-slider Popup--passive',
+              onclick: bindPreventAll(this.handleSpeeding),
+              onpointerdown: e => { this._speeding = true },
+            })),
+          ]),
         ]),
 
       ])

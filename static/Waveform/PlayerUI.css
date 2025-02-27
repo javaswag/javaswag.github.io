@@ -191,16 +191,23 @@ button {
   height: calc(100% * var(--value));
   background-color: #3602B0;
 }
-
+.PlayerUI .__volume {
+  order: 99;
+}
 .PlayerUI .__volume-slider {
   right: 8px; bottom: 48px;
 }
+
+.PlayerUI .__speed {
+  position: relative;
+}
 .PlayerUI .__speed-slider {
-  right: 12px; bottom: 48px;
+  /* right: 12px; bottom: 48px; */
+  right: 8px; bottom: 40px;
 }
 
 .PlayerUI:not(.--muted) .__volume:hover + .__volume-slider,
-/* .PlayerUI .__playback:hover .__speed-slider, */
+.PlayerUI .__speed:hover .__speed-slider,
 .PlayerUI .__vert-slider:hover {
   opacity: .8;
   pointer-events: auto;
