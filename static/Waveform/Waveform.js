@@ -5,6 +5,7 @@ const MIN_SPEED = .5;
 
 // --- Utils ---
 const TOGGLE = Symbol('TOGGLE');
+const IOS = /iP(hone|ad|od)/.test((navigator.userAgentData || navigator).platform);
 
 const isMobile = window.matchMedia('(max-width: 480px)').matches;
 window.addEventListener('load', () => {
@@ -417,8 +418,8 @@ class Cues {
     console.log('cues', this.cues);
   }
 
-  updateView () {
-    const currentCue = this.getCue();
+  updateView (time = this.player.$audio.currentTime) {
+    const currentCue = this.getCue(time);
     let changeCurrentCue = false;
     const $prevCue = this.$cues.find($cue => $cue.classList.contains('--active'));
     if ($prevCue) {
@@ -470,15 +471,21 @@ class PodcastPlayer {
       this.setVolume(LocalStorage.get('volume') || 1);
     // this.setSpeed(LocalStorage.get('speed') || 1);
 
-    if (this.episodeId != null) {
-      let seek = LocalStorage.get('seek-' + this.episodeId);
-      if (seek)
-        this.seek(seek);
-    }
-
     this.listenToAudioEvent();
 
     window.PodcastPlayer = this;
+  }
+
+  setSavedSeek () {
+    if (this.episodeId != null) {
+      let seek = LocalStorage.get('seek-' + this.episodeId);
+      if (seek) {
+        if (IOS && !this.played)
+          this.handlePollAudio(seek);
+        else
+          this.seek(seek);
+      }
+    }
   }
 
   listenToAudioEvent () {
@@ -490,6 +497,8 @@ class PodcastPlayer {
       this.handlePollAudio();
     });
     this.$audio.addEventListener('loadedmetadata', e => {
+      setTimeout(() => this.setSavedSeek(), 30);
+
       this.$audio.style.display = 'none';
       this.handlePollAudio();
     });
@@ -500,7 +509,7 @@ class PodcastPlayer {
     });
     this.$audio.addEventListener('seeked', this.handlePollAudio);
 
-    this.handlePollAudio();
+    // this.handlePollAudio();
   }
 
   getProgress (time) {
@@ -515,7 +524,7 @@ class PodcastPlayer {
       $col.classList.toggle('--past', colProg < prog);
     });
 
-    const currentCue = this.cues.getCue();
+    const currentCue = this.cues.getCue(_time);
     {
       const { seek, time, duration, cueTitle } = this.ui.ref;
       if (seek)
@@ -538,9 +547,10 @@ class PodcastPlayer {
     this.ui.$el.classList.toggle('--muted', this.$audio.volume === 0);
 
     // cue highlighting
-    this.cues.updateView();
-    if (this.$audio.currentTime)
+    this.cues.updateView(_time);
+    if (this.$audio.currentTime) {
       LocalStorage.set('seek-' + this.episodeId, this.$audio.currentTime);
+    }
   }
 
   seekProgress (prog) {
@@ -552,9 +562,29 @@ class PodcastPlayer {
       this.playing = !this.playing;
     else this.playing = state;
 
-    if (this.playing)
-      this.$audio.play();
-    else this.$audio.pause();
+    if (this.playing) {
+      if (IOS && !this.played) { // fix currentTime bug IOS
+        const prevVolume = this.$audio.volume;
+        this.$audio.volume = 0;
+
+        // return new Promise((resolve) => {
+        //   setTimeout(() => {
+            const play = this.$audio.play();
+            return play.then(e => {
+              this.setSavedSeek();
+              this.$audio.pause();
+              return new Promise((resolve) => {
+                setTimeout(() => resolve(this.$audio.play()), 30)
+              });
+            });
+        //   }, 30);
+        // });
+      }
+      else
+        return this.$audio.play();
+    }
+    else
+      return Promise.resolve(false);
   }
 
   setMuted (state) {
@@ -573,7 +603,8 @@ class PodcastPlayer {
   }
 
   seek (time) {
-    time = Math.min(this.$audio.duration, Math.max(0, time));
+    if (this.$audio.duration)
+      time = clamp(0, this.$audio.duration, time);
     console.log('Seeking to', time);
     this.$audio.currentTime = time;
     this.handlePollAudio(time);
