@@ -256,7 +256,6 @@ class PlayerUI {
         return;
 
       const shortcut = `${ e.shiftKey ? '!' : '' }${ e.key.toLowerCase() }`;
-      console.log(shortcut)
       const shortcutFn = this.shortcuts[shortcut];
       shortcutFn && shortcutFn.call(this, e);
     });
@@ -404,7 +403,6 @@ class Cues {
 
   _updateCues () {
     this.$cues = [...document.querySelectorAll('.PlayerUI__cue')];
-    this.$cues.reverse();
 
     let idx = 0;
     for (let $cue of this.$cues) {
@@ -415,7 +413,7 @@ class Cues {
         idx: idx++,
       });
     }
-    console.log('cues', this.cues);
+    this.cues.reverse();
   }
 
   updateView (time = this.player.$audio.currentTime) {
@@ -428,7 +426,8 @@ class Cues {
         $prevCue.classList.remove('--active');
       }
     }
-    document.querySelector('.PlayerUI__cue[data-cue-idx="' + currentCue.idx + '"]').classList.add('--active');
+    const $nextCue = document.querySelector('.PlayerUI__cue[data-cue-idx="' + currentCue.idx + '"]')
+    $nextCue.classList.add('--active');
   }
 
   getCueIdx (time = this.player.$audio.currentTime) {
@@ -447,13 +446,14 @@ class PodcastPlayer {
   ui = null;
   cues = null;
   episodeId = null;
+  episodeTitle = 'Title';
 
   played = false;
   playing = false;
 
   constructor(opts) {
-    const { $audio, $waveform, waveformPath, height, title, episodeId } = opts;
-    Object.assign(this, { $audio, episodeId: Number(episodeId) });
+    const { $audio, $waveform, waveformPath, height, title: episodeTitle, episodeId } = opts;
+    Object.assign(this, { $audio, episodeId: Number(episodeId), episodeTitle });
 
     this.waveform = new Waveform({
       $el: $waveform, waveformPath, height,
@@ -464,7 +464,7 @@ class PodcastPlayer {
 
     this.cues = new Cues({ player: this });
     // setTimeout(() => {
-      this.ui = new PlayerUI({ player: this, title });
+      this.ui = new PlayerUI({ player: this, title: episodeTitle });
     // });
     // this.$audio.style.display = 'none';
     if (!isMobile)
@@ -496,20 +496,25 @@ class PodcastPlayer {
       this.played = true;
       this.handlePollAudio();
     });
-    this.$audio.addEventListener('loadedmetadata', e => {
-      setTimeout(() => this.setSavedSeek(), 30);
 
-      this.$audio.style.display = 'none';
-      this.handlePollAudio();
-    });
+    if (this.$audio.readyState === 0)
+      this.$audio.addEventListener('loadedmetadata', e => this.handleLoaded());
+    else
+      this.handleLoaded();
+
     this.$audio.addEventListener('pause', e => {
       clearInterval(this.seekInterval);
       this.playing = false;
       this.handlePollAudio();
     });
-    this.$audio.addEventListener('seeked', this.handlePollAudio);
+    this.$audio.addEventListener('seeked', e => this.handlePollAudio());
+  }
 
-    // this.handlePollAudio();
+  handleLoaded () {
+    setTimeout(() => this.setSavedSeek(), 30);
+
+    this.$audio.style.display = 'none';
+    this.handlePollAudio();
   }
 
   getProgress (time) {
@@ -536,8 +541,12 @@ class PodcastPlayer {
       if (duration)
         duration.textContent = formatTime(this.$audio.duration);
 
-      if (cueTitle && (this.played || this.$audio.currentTime > 0))
-        cueTitle.textContent = currentCue.title;
+      if (cueTitle) {
+        if (this.played || this.$audio.currentTime > 0)
+          cueTitle.textContent = currentCue.title;
+        else
+          cueTitle.textContent = this.episodeTitle;
+      }
     }
 
     this.updateSpeedView();
@@ -564,7 +573,7 @@ class PodcastPlayer {
 
     if (this.playing) {
       if (IOS && !this.played) { // fix currentTime bug IOS
-        const prevVolume = this.$audio.volume;
+        // const prevVolume = this.$audio.volume;
         this.$audio.volume = 0;
 
         // return new Promise((resolve) => {
