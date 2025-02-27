@@ -1,6 +1,11 @@
 (function () {
 
+const MAX_SPEED = 1.75;
+const MIN_SPEED = .5;
+
 // --- Utils ---
+const TOGGLE = Symbol('TOGGLE');
+
 const isMobile = window.matchMedia('(max-width: 480px)').matches;
 window.addEventListener('load', () => {
   if (isMobile)
@@ -90,7 +95,7 @@ class Waveform {
       this.$el.appendChild(
         ($playback = createEl('button', {
           className: '__playback',
-          onclick: bindPreventAll(() => this.player.togglePlay()),
+          onclick: bindPreventAll(() => this.player.setPlaying(TOGGLE)),
           style: { transform: `scaleX(${ 1/this.scaleX })` },
         }, [
           createEl({ className: 'Icon --playback' }),
@@ -205,6 +210,16 @@ class Waveform {
 // ---
 class PlayerUI {
   ref = {};
+  shortcuts = {
+    'p' () { this.player.setPlaying(TOGGLE) },
+    'm' () { this.player.setMuted(TOGGLE) },
+    ',' () { this.player.rewindTime(-1) },
+    '.' () { this.player.rewindTime(1) },
+    '!>' () { this.player.jumpToNextCue(-1) },
+    '!<' () { this.player.jumpToNextCue(1) },
+    'l' () { this.speedSliderVisibility(true); this.player.setSpeed(this.player.$audio.playbackRate + .25) },
+    'k' () { this.speedSliderVisibility(true); this.player.setSpeed(this.player.$audio.playbackRate - .25) },
+  };
 
   constructor (opts) {
     this.player = opts.player;
@@ -216,17 +231,34 @@ class PlayerUI {
     this.handleSpeeding = this.handleSpeeding.bind(this);
     this.init();
 
-    if (!isMobile) {
+    // if (!isMobile) {
       window.addEventListener('pointerup', () => {
         this._seeking = false;
         this._voluming = false;
         this._speeding = false;
 
+        if (this._pressingPlayback) {
+          clearTimeout(this._pressingPlayback);
+          this._pressingPlayback = false;
+        } else
+          this.ref.speedSlider.style.display = 'none';
+
         window.removeEventListener('pointermove', this.handlePointerMove);
       });
 
       window.addEventListener('pointerdown', e => window.addEventListener('pointermove', this.handlePointerMove));
-    }
+    // }
+
+    const preventShortcutTags = ['INPUT', 'TEXTAREA'];
+    window.addEventListener('keypress', e => {
+      if (preventShortcutTags.includes(e.currentTarget.tagName))
+        return;
+
+      const shortcut = `${ e.shiftKey ? '!' : '' }${ e.key.toLowerCase() }`;
+      console.log(shortcut)
+      const shortcutFn = this.shortcuts[shortcut];
+      shortcutFn && shortcutFn.call(this, e);
+    });
   }
 
   handlePointerMove (e) {
@@ -236,23 +268,33 @@ class PlayerUI {
   }
 
   init () {
-    function btn (name, onclick, props) {
+    function btn (name, onclick, props, children = []) {
       return createEl('button', { className: '__' + name, name, onclick, ...props },
-          [ createEl({ className: 'Icon --' + name }) ]);
+          [ createEl({ className: 'Icon --' + name }), ...children ]);
     }
 
     const { ref } = this;
 
     function btnHoldRepeatEvents (cb, immediate = true) {
       let actionInterval = -1;
+      let preventClick = false;
+      function clear () {
+        clearInterval(actionInterval);
+        setTimeout(() => { preventClick = false }, .016);
+      }
       return {
+        onclick (e) {
+          if (!preventClick)
+            cb(e);
+        },
         onpointerdown (e) {
           if (immediate)
             cb(e);
+          preventClick = true;
           actionInterval = setInterval(() => { cb(e) }, 500);
         },
-        onpointerup (e) { clearInterval(actionInterval) },
-        onpointerleave (e) { clearInterval(actionInterval) },
+        onpointerup: clear,
+        onpointerleave: clear,
       };
     }
 
@@ -260,32 +302,53 @@ class PlayerUI {
     [
       createEl({ className: '__inner' },
       [
-        btn('backward', () => this.player.jumpToNextCue(-1), { accessKey: ',' }),
-        btn('rewind-backward', null, btnHoldRepeatEvents(() => this.player.rewindTime(-1))),
-        btn('playback', () => this.player.togglePlay(), { accessKey: 'p' }),
-        btn('rewind-forward', null, btnHoldRepeatEvents(() => this.player.rewindTime(1))),
-        btn('forward', () => this.player.jumpToNextCue(+1), { accessKey: '.' }),
+        // btn('backward', () => this.player.jumpToNextCue(-1), { accessKey: ',' }),
+        btn('rewind-backward', null, {
+          title: `Rewind forward\nShortcuts: [<], [shift + <] prev chapter \n[LONG TAP] to repeat rewind`,
+          ...btnHoldRepeatEvents(() => this.player.rewindTime(-1)),
+        }),
+
+        btn('playback', () => { !this.speedSliderVisibility() && this.player.setPlaying(TOGGLE) },
+          {
+            title: `Playback\nShortcut: [P] \n[LONG TAP] or [K/L] to change speed`,
+            onpointerdown: e => {
+              this._pressingPlayback = setTimeout(() => this.speedSliderVisibility(true), 500)
+            },
+            onpointerup: e => { clearInterval(this._pressingPlayback); },
+          }, [
+            (ref.speedSlider = createEl({ className: '__vert-slider __speed-slider',
+              onclick: bindPreventAll(this.handleSpeeding),
+              style: { display: 'none', opacity: 1 },
+              onpointerdown: e => { this._speeding = true },
+            })),
+          ]
+        ),
+
+        btn('rewind-forward', null, {
+          title: `Rewind backward\nShortcuts: [>], [shift + >] next chapter \n[LONG TAP] to repeat rewind`,
+          accessKey: '.',
+          ...btnHoldRepeatEvents(() => this.player.rewindTime(1)),
+        }),
+        // btn('forward', () => this.player.jumpToNextCue(+1), { accessKey: '.' }),
 
         ...(isMobile ? [
           (ref.cueTitle = createEl({ className: '__title', textContent: this.title })),
         ] : [
           (ref.time = createEl({ className: '__time', textContent: '0:00' })),
           (ref.seek = createEl({ className: '__seek',
-            onclick: this.handleSeeking,
+            onclick: bindPreventAll(this.handleSeeking),
             onpointerdown: e => { this._seeking = true },
           }, [
             (ref.cueTitle = createEl({ className: '__cue-title', textContent: '' })),
           ])),
           (ref.duration = createEl({ className: '__duration', textContent: '4:20' })),
 
-          btn('speed', () => this.player.setSpeed(1), { accessKey: 'l' }),
-          (ref.speedSlider = createEl({ className: '__vert-slider __speed-slider Popup--passive',
-            onclick: this.handleSpeeding,
-            onpointerdown: e => { this._speeding = true },
-          })),
-          btn('volume', () => this.player.toggleMute(), { accessKey: 'm' }),
+          // btn('speed', () => this.player.setSpeed(1), { accessKey: 'l' }),
+          btn('volume', () => this.player.setMuted(TOGGLE), {
+            title: `Volume\nShortcut: [M]`,
+          }),
           (ref.volumeSlider = createEl({ className: '__vert-slider __volume-slider Popup--passive',
-            onclick: this.handleVoluming,
+            onclick: bindPreventAll(this.handleVoluming),
             onpointerdown: e => { this._voluming = true },
           })),
         ]),
@@ -293,6 +356,12 @@ class PlayerUI {
       ])
     ]);
     document.body.appendChild(this.$el);
+  }
+
+  speedSliderVisibility (state) {
+    if (state == null)
+      return !this.ref.speedSlider.style.display;
+    this.ref.speedSlider.style.display = state ? '' : 'none';
   }
 
   handleSeeking (e) {
@@ -314,22 +383,76 @@ class PlayerUI {
     const { top, height } = $el.getBoundingClientRect();
     let speed = 1 - Math.min(1, Math.max(0, (e.y - top) / height));
     speed = Math.round(speed * 7) / 7; // 8 steps
-    speed = lerp(.5, 1.75, speed); // rerange
+    speed = lerp(MIN_SPEED, MAX_SPEED, speed); // rerange
     this.player.setSpeed(speed);
   }
 }
 
+class Cues {
+  player = null;
+  cues = [];
+  $cues = [];
+  currentCue = null;
+
+  constructor (opts) {
+    const { player } = opts;
+    Object.assign(this, { player });
+
+    this._updateCues();
+  }
+
+  _updateCues () {
+    this.$cues = [...document.querySelectorAll('.PlayerUI__cue')];
+    this.$cues.reverse();
+
+    let idx = 0;
+    for (let $cue of this.$cues) {
+      $cue.dataset.cueIdx = idx;
+      this.cues.push({
+        time: Number($cue.dataset.cueTime),
+        title: $cue.parentNode.querySelector('.PlayerUI__cue-text').textContent,
+        idx: idx++,
+      });
+    }
+    console.log('cues', this.cues);
+  }
+
+  updateView () {
+    const currentCue = this.getCue();
+    let changeCurrentCue = false;
+    const $prevCue = this.$cues.find($cue => $cue.classList.contains('--active'));
+    if ($prevCue) {
+      const changeCurrentCue = currentCue.idx === Number($prevCue.dataset.cueIdx);
+      if (!changeCurrentCue) {
+        $prevCue.classList.remove('--active');
+      }
+    }
+    document.querySelector('.PlayerUI__cue[data-cue-idx="' + currentCue.idx + '"]').classList.add('--active');
+  }
+
+  getCueIdx (time = this.player.$audio.currentTime) {
+    const idx = this.cues.findIndex(cue => cue.time <= time);
+    return idx === -1 ? 0 : idx;
+  }
+  getCue (time = this.player.$audio.currentTime) {
+    const idx = this.getCueIdx(time);
+    return this.cues[idx];
+  }
+}
+
+// ---
 class PodcastPlayer {
   waveform = null;
   ui = null;
+  cues = null;
+  episodeId = null;
 
   played = false;
   playing = false;
-  cues = [];
 
   constructor(opts) {
-    const { $audio, $waveform, waveformPath, height, title } = opts;
-    Object.assign(this, { $audio });
+    const { $audio, $waveform, waveformPath, height, title, episodeId } = opts;
+    Object.assign(this, { $audio, episodeId: Number(episodeId) });
 
     this.waveform = new Waveform({
       $el: $waveform, waveformPath, height,
@@ -337,15 +460,23 @@ class PodcastPlayer {
     });
 
     this.handlePollAudio = this.handlePollAudio.bind(this);
-    this.listenToAudioEvent();
 
+    this.cues = new Cues({ player: this });
     // setTimeout(() => {
-      this.updateCues();
       this.ui = new PlayerUI({ player: this, title });
     // });
     // this.$audio.style.display = 'none';
     if (!isMobile)
       this.setVolume(LocalStorage.get('volume') || 1);
+    // this.setSpeed(LocalStorage.get('speed') || 1);
+
+    if (this.episodeId != null) {
+      let seek = LocalStorage.get('seek-' + this.episodeId);
+      if (seek)
+        this.seek(seek);
+    }
+
+    this.listenToAudioEvent();
 
     window.PodcastPlayer = this;
   }
@@ -368,6 +499,8 @@ class PodcastPlayer {
       this.handlePollAudio();
     });
     this.$audio.addEventListener('seeked', this.handlePollAudio);
+
+    this.handlePollAudio();
   }
 
   getProgress (time) {
@@ -382,6 +515,7 @@ class PodcastPlayer {
       $col.classList.toggle('--past', colProg < prog);
     });
 
+    const currentCue = this.cues.getCue();
     {
       const { seek, time, duration, cueTitle } = this.ui.ref;
       if (seek)
@@ -394,7 +528,7 @@ class PodcastPlayer {
         duration.textContent = formatTime(this.$audio.duration);
 
       if (cueTitle && (this.played || this.$audio.currentTime > 0))
-        cueTitle.textContent = this.getCue().title;
+        cueTitle.textContent = currentCue.title;
     }
 
     this.updateSpeedView();
@@ -402,21 +536,32 @@ class PodcastPlayer {
     this.ui.$el.classList.toggle('--playing', this.playing);
     this.waveform.$el.classList.toggle('--playing', this.playing);
     this.ui.$el.classList.toggle('--muted', this.$audio.volume === 0);
+
+    // cue highlighting
+    this.cues.updateView();
+    if (this.$audio.currentTime)
+      LocalStorage.set('seek-' + this.episodeId, this.$audio.currentTime);
   }
 
   seekProgress (prog) {
     this.seek(prog * this.$audio.duration);
   }
 
-  togglePlay () {
+  setPlaying (state) {
+    if (state === TOGGLE)
+      this.playing = !this.playing;
+    else this.playing = state;
+
     if (this.playing)
-      this.$audio.pause();
-    else
       this.$audio.play();
+    else this.$audio.pause();
   }
 
-  toggleMute () {
-    this._muted = !this._muted;
+  setMuted (state) {
+    if (state === TOGGLE)
+      this._muted = !this._muted;
+    else this._muted = state;
+
     if (this._muted) {
       this._volumeBeforeMute = this.$audio.volume;
       this.$audio.volume = 0;
@@ -434,55 +579,36 @@ class PodcastPlayer {
     this.handlePollAudio(time);
   }
 
-  updateCues (cues) {
-    let idx = 0;
-    for (let $cue of document.querySelectorAll('.__cue')) {
-      $cue.dataset.cueIdx = idx;
-      this.cues.push({
-        time: Number($cue.dataset.cueTime),
-        title: $cue.parentNode.childNodes[1].textContent,
-        idx: idx++,
-      });
-    }
-  }
-
-  getCueIdx (time = this.$audio.currentTime) {
-    const i = this.cues.findIndex(cue => cue.time > time);
-    return i === -1 ? 0 : i - 1;
-  }
-  getCue (time = this.$audio.currentTime) {
-    return this.cues[this.getCueIdx(time)];
-  }
-
   jumpToNextCue (dir) {
-    const currentCue = this.getCue();
+    const currentCue = this.cues.getCue();
     if (dir < 0 && this.$audio.currentTime > currentCue.time + 3)
       dir = 0;
-    const cue = this.cues[currentCue.idx + dir];
+    const cue = this.cues.cues[currentCue.idx + dir];
     if (cue != null)
       this.seek(cue.time);
     this.$audio.play();
   }
 
   rewindTime (dir) {
-    this.$audio.currentTime += dir * 10;
+    this.$audio.currentTime += dir * 5;
   }
 
   setVolume (volume) {
-    this.$audio.volume = volume;
+    this.$audio.volume = Math.pow(volume, 1.6);
     this.ui.ref.volumeSlider.style.setProperty('--value', volume);
     LocalStorage.set('volume', volume);
   }
 
   setSpeed (speed) {
-    this.$audio.playbackRate = speed;
+    this.$audio.playbackRate = clamp(MIN_SPEED, MAX_SPEED, speed);
     this.updateSpeedView();
+    // LocalStorage.set('speed', speed);
   }
 
   updateSpeedView () {
     const speed = this.$audio.playbackRate;
     if (this.ui.ref.speedSlider)
-      this.ui.ref.speedSlider.style.setProperty('--value', invlerp(.5, 1.75, speed));
+      this.ui.ref.speedSlider.style.setProperty('--value', invlerp(MIN_SPEED, MAX_SPEED, speed));
   }
 }
 
