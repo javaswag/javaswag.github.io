@@ -17,9 +17,9 @@
 	function addLink(p, replace, time) {
 		var text = p.innerHTML;
 		if (text.includes(replace)) {
-			var link = "<a class='__cue' data-cue-time='" + time + "' onclick=\"gotoTime(" + time + ");\"\>" + replace + "</a>";
-			newText = text.replace(replace, link);
-			p.innerHTML = newText;
+			var link = "<a class='PlayerUI__cue' data-cue-time='" + time + "' onclick=\"gotoTime(" + time + ");\"\>" + replace + "</a>";
+			newText = text.replace(replace, link + ' <span class="PlayerUI__cue-text">');
+			p.innerHTML = newText + '</span>';
 		}
 	}
 

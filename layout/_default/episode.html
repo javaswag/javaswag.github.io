@@ -30,13 +30,14 @@
 
               setTimeout(() => {
                 const waveform = new PodcastPlayer({
+                  episodeId: "{{ .Params.number }}",
                   $waveform: document.querySelector('.Waveform'),
                   $audio: document.querySelector('#WaveformAudio'),
                   title: "{{ .Params.title }}",
                   waveformPath,
                   height: 70,
                 });
-              });
+              }, 200);
             </script>
             <!-- <div>
             <label for="pbrate">Speed:</label>
