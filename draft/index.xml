@@ -1,10 +1,54 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Wed, 21 May 2025 21:35:39 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">77-javaswag-andrey-breslav.mp3</guid><title>#77 - Андрей Бреслав - Котлин Drafts</title><pubDate>Wed, 21 May 2025 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/77/</link><itunes:duration>01:53:25</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 77 выпуске подкаста Javaswag поговорили с Андреем Бреславом
-00:00 Начало
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Thu, 22 May 2025 20:49:03 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">77-javaswag-andrey-breslav.mp3</guid><title>#77 - Андрей Бреслав - Котлин Drafts</title><pubDate>Wed, 21 May 2025 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/77/</link><itunes:duration>01:53:25</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary>В 77 выпуске подкаста Javaswag поговорили с Андреем Бреславом
+00:00 История создания Kotlin
+10:11 Разработка языка
+14:40 Этапы развития языка программирования
+19:16 Влияние Java
+23:44 Неоднозначность грамматики
+30:35 Дженерики
+35:57 Успех Kotlin
+41:27 Проблемы экосистемы
+46:30 Мультиплатформа
+54:05 Выгорание
+01:01:03 Работа с языками программирования
+01:10:30 AI
+01:18:53 Язык программирования следующего поколения
+01:20:26 Котлин и Java
+01:28:45 Swing
+01:29:04 Мультиплатформа
+01:31:55 Swift и Objective-C
+01:34:41 Непопулярное мнение
+01:39:30 Будущее AI
+01:42:52 Инновации
+01:45:09 Проблемы амбициозных идей в индустрии
+01:46:28 Инновации в больших компаниях и малых компаниях
+01:50:21 Продуктивность
 Гость https://www.linkedin.com/in/abreslav/
 Ссылки:
 Ссылки на подкаст:
 Сайт - https://javaswag.github.io/ Телеграм - https://t.me/javaswag Youtube - https://www.youtube.com/@javaswag Linkedin - https://www.linkedin.com/in/volyihin/ X - https://x.com/javaswagpodcast</itunes:summary><itunes:subtitle>В 77 выпуске подкаста Javaswag поговорили с Андрее...</itunes:subtitle><description>В 77 выпуске подкаста Javaswag поговорили с Андреем Бреславом
-00:00 Начало
+00:00 История создания Kotlin
+10:11 Разработка языка
+14:40 Этапы развития языка программирования
+19:16 Влияние Java
+23:44 Неоднозначность грамматики
+30:35 Дженерики
+35:57 Успех Kotlin
+41:27 Проблемы экосистемы
+46:30 Мультиплатформа
+54:05 Выгорание
+01:01:03 Работа с языками программирования
+01:10:30 AI
+01:18:53 Язык программирования следующего поколения
+01:20:26 Котлин и Java
+01:28:45 Swing
+01:29:04 Мультиплатформа
+01:31:55 Swift и Objective-C
+01:34:41 Непопулярное мнение
+01:39:30 Будущее AI
+01:42:52 Инновации
+01:45:09 Проблемы амбициозных идей в индустрии
+01:46:28 Инновации в больших компаниях и малых компаниях
+01:50:21 Продуктивность
 Гость https://www.linkedin.com/in/abreslav/
 Ссылки:
 Ссылки на подкаст:
