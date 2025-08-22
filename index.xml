@@ -1,4 +1,112 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sat, 16 Aug 2025 11:11:07 +0000</pubDate><lastBuildDate>Fri, 22 Aug 2025 12:53:16 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><category>Technology</category><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">79-javaswag-arhipov-polivaha.mp3</guid><title>#79 - Архипов и Поливаха - Java конференции в 2025 году</title><pubDate>Wed, 13 Aug 2025 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/79/</link><itunes:duration>01:53:32</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Fri, 22 Aug 2025 10:11:07 +0000</pubDate><lastBuildDate>Fri, 22 Aug 2025 14:17:56 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><category>Technology</category><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">80-javaswag-ilya-zonov.mp3</guid><title>#80 - Илья Зонов - роль архитектора, подход API First и Code of Architecture</title><pubDate>Fri, 22 Aug 2025 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/80/</link><itunes:duration>02:06:58</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 80 выпуске подкаста Javaswag поговорили с Ильей Зоновым о роли архитектора, подходе API First и Code of Architecture</p>
+<p>00:00 Начало</p>
+<p>06:03 Linux и эмбедед системы</p>
+<p>12:57 Проекты на Java</p>
+<p>19:03 Рост</p>
+<p>26:12 Переход в банк</p>
+<p>30:31 PostgreSQL</p>
+<p>34:55 Бизнес-процессы</p>
+<p>42:13 Процесс разработки в малых и крупных компаниях</p>
+<p>49:12 Принятие решений в команде</p>
+<p>55:16 Ворк лайф баланс жизни на высоких грейдах</p>
+<p>01:02:38 Подход API First</p>
+<p>01:10:36 Кафка и сериализацией</p>
+<p>01:14:23 Роль архитектора и Kotlin</p>
+<p>01:17:23 Генерация клиентов</p>
+<p>01:25:10 Книжный клуб Code of Architecture</p>
+<p>01:33:48 Мотивация</p>
+<p>01:40:45 Чтение книг</p>
+<p>01:47:29 Инструменты для работы с текстом и заметками</p>
+<p>01:55:10 Vim и Emacs</p>
+<p>01:56:52 Ответ на предыдущее непопулярное мнение</p>
+<p>02:01:35 Готовность к изменениям</p>
+<p>Гость <a href="https://www.linkedin.com/in/zonov/">https://www.linkedin.com/in/zonov/</a></p>
+<p>Ссылки:</p>
+<ul>
+<li><a href="https://t.me/ArchPuzoTerka">ПузоТёрка</a>
+<ul>
+<li>Немного про <a href="https://t.me/ArchPuzoTerka/70">Zotero</a> и <a href="https://t.me/ArchPuzoTerka/61">Obsidian</a></li>
+<li>Про <a href="https://puzan.dev/posts/20210723102744-Kotlin">Kotlin</a></li>
+</ul>
+</li>
+<li><a href="https://puzan.dev/projects/2021-10-Code-of-Architecture">Code of Architecture</a>
+<ul>
+<li>Мой личный ТОП-1 разобранных книг: <a href="https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201">Ousterhout J. - A Philosophy of Software Design</a></li>
+<li><a href="https://books.mnogosdelal.ru">Курс про неЧтение</a></li>
+</ul>
+</li>
+<li>Emacs и Vim
+<ul>
+<li><a href="https://www.spacemacs.org">Spacemacs</a>: сборка Emacs, собирающее лучшее из миров Emacs и Vim</li>
+<li><a href="https://github.com/emacs-evil/evil">Evil Mode</a>: Vim внутри Emacs</li>
+</ul>
+</li>
+</ul>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В 80 выпуске подкаста Javaswag поговорили с Ильей Зоновым о роли архитектора, подходе API First и Code of Architecture
+00:00 Начало
+06:03 Linux и эмбе...</itunes:subtitle><description><![CDATA[
+				    <p>В 80 выпуске подкаста Javaswag поговорили с Ильей Зоновым о роли архитектора, подходе API First и Code of Architecture</p>
+<p>00:00 Начало</p>
+<p>06:03 Linux и эмбедед системы</p>
+<p>12:57 Проекты на Java</p>
+<p>19:03 Рост</p>
+<p>26:12 Переход в банк</p>
+<p>30:31 PostgreSQL</p>
+<p>34:55 Бизнес-процессы</p>
+<p>42:13 Процесс разработки в малых и крупных компаниях</p>
+<p>49:12 Принятие решений в команде</p>
+<p>55:16 Ворк лайф баланс жизни на высоких грейдах</p>
+<p>01:02:38 Подход API First</p>
+<p>01:10:36 Кафка и сериализацией</p>
+<p>01:14:23 Роль архитектора и Kotlin</p>
+<p>01:17:23 Генерация клиентов</p>
+<p>01:25:10 Книжный клуб Code of Architecture</p>
+<p>01:33:48 Мотивация</p>
+<p>01:40:45 Чтение книг</p>
+<p>01:47:29 Инструменты для работы с текстом и заметками</p>
+<p>01:55:10 Vim и Emacs</p>
+<p>01:56:52 Ответ на предыдущее непопулярное мнение</p>
+<p>02:01:35 Готовность к изменениям</p>
+<p>Гость <a href="https://www.linkedin.com/in/zonov/">https://www.linkedin.com/in/zonov/</a></p>
+<p>Ссылки:</p>
+<ul>
+<li><a href="https://t.me/ArchPuzoTerka">ПузоТёрка</a>
+<ul>
+<li>Немного про <a href="https://t.me/ArchPuzoTerka/70">Zotero</a> и <a href="https://t.me/ArchPuzoTerka/61">Obsidian</a></li>
+<li>Про <a href="https://puzan.dev/posts/20210723102744-Kotlin">Kotlin</a></li>
+</ul>
+</li>
+<li><a href="https://puzan.dev/projects/2021-10-Code-of-Architecture">Code of Architecture</a>
+<ul>
+<li>Мой личный ТОП-1 разобранных книг: <a href="https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201">Ousterhout J. - A Philosophy of Software Design</a></li>
+<li><a href="https://books.mnogosdelal.ru">Курс про неЧтение</a></li>
+</ul>
+</li>
+<li>Emacs и Vim
+<ul>
+<li><a href="https://www.spacemacs.org">Spacemacs</a>: сборка Emacs, собирающее лучшее из миров Emacs и Vim</li>
+<li><a href="https://github.com/emacs-evil/evil">Evil Mode</a>: Vim внутри Emacs</li>
+</ul>
+</li>
+</ul>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/80-javaswag-ilya-zonov.mp3" type="audio/mpeg" length="304730880"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">79-javaswag-arhipov-polivaha.mp3</guid><title>#79 - Архипов и Поливаха - Java конференции в 2025 году</title><pubDate>Wed, 13 Aug 2025 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/79/</link><itunes:duration>01:53:32</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 79 выпуске подкаста Javaswag поговорили с Антоном Архиповым и Мишей Поливаха о Java конференциях в 2025 году</p>
 <p>00:00 Начало</p>
 <p>04:26 Сравнение старых и новых докладов</p>
