@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Success</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 600px; 
+            margin: 50px auto; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        .success { 
+            color: green; 
+            background-color: #f0f8f0; 
+            padding: 20px; 
+            border-radius: 5px; 
+            margin: 20px 0; 
+        }
+        .back-link { 
+            display: inline-block; 
+            margin-top: 20px; 
+            padding: 10px 20px; 
+            background-color: #007bff; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Successful!</h1>
+    <div class="success">
+        <h2>✓ File uploaded successfully</h2>
+        <p><strong>Filename:</strong> {{.Filename}}</p>
+        <p><strong>Size:</strong> {{.SizeMB}} MB</p>
+        <p><strong>Saved to:</strong> uploads/{{.Filename}}</p>
+    </div>
+    <a href="/input" class="back-link">Upload Another File</a>
+</body>
+</html>

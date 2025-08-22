@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Upload</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .upload-form {
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .file-input {
+            margin: 20px 0;
+        }
+        .upload-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .upload-btn:hover {
+            background-color: #0056b3;
+        }
+        .file-info {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        .progress-container {
+            width: 100%;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            margin: 20px 0;
+            display: none;
+        }
+        .progress-bar {
+            width: 0%;
+            height: 20px;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 20px;
+            color: white;
+            font-size: 12px;
+            transition: width 0.3s ease;
+        }
+        .upload-status {
+            margin-top: 10px;
+            font-weight: bold;
+            display: none;
+        }
+        .status-uploading {
+            color: #007bff;
+        }
+        .status-success {
+            color: #28a745;
+        }
+        .status-error {
+            color: #dc3545;
+        }
+        .captcha-container {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+        }
+        .captcha-question {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .captcha-question label {
+            font-weight: bold;
+            color: #333;
+        }
+        #captchaQuestion {
+            font-family: monospace;
+            font-size: 18px;
+            color: #007bff;
+            font-weight: bold;
+        }
+        #captchaInput {
+            width: 80px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            text-align: center;
+            font-size: 16px;
+        }
+        .refresh-btn {
+            background: none;
+            border: 1px solid #007bff;
+            border-radius: 3px;
+            padding: 5px 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .refresh-btn:hover {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload MP3 Audio File</h1>
+
+    {{ if .Region }}
+<h2>I'm running in the {{.Region}} region</h2>
+{{end}}
+    
+    <form class="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+        <h2>Select an MP3 file to upload</h2>
+        
+        <div class="file-input">
+            <input type="file" id="audioFile" name="audioFile" accept=".mp3,audio/mp3" required>
+        </div>
+        
+        <div class="captcha-container">
+            <div class="captcha-question">
+                <label for="captchaInput">Security Check: <span id="captchaQuestion">5 + 3 = ?</span></label>
+                <input type="number" id="captchaInput" name="captchaAnswer" placeholder="Enter answer" required>
+                <button type="button" id="refreshCaptcha" class="refresh-btn">🔄</button>
+            </div>
+        </div>
+        
+        <button type="submit" class="upload-btn" id="uploadBtn">Upload MP3</button>
+        
+        <div class="progress-container" id="progressContainer">
+            <div class="progress-bar" id="progressBar">0%</div>
+        </div>
+        
+        <div class="upload-status" id="uploadStatus"></div>
+        
+        <div class="file-info">
+            <p>Only MP3 files are allowed</p>
+            <p>Maximum file size: 500MB</p>
+        </div>
+    </form>
+
+    <script>
+        const audioFileInput = document.getElementById('audioFile');
+        const uploadForm = document.querySelector('.upload-form');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const progressContainer = document.getElementById('progressContainer');
+        const progressBar = document.getElementById('progressBar');
+        const uploadStatus = document.getElementById('uploadStatus');
+        
+        // CAPTCHA elements
+        const captchaQuestion = document.getElementById('captchaQuestion');
+        const captchaInput = document.getElementById('captchaInput');
+        const refreshCaptcha = document.getElementById('refreshCaptcha');
+        
+        // CAPTCHA variables
+        let captchaAnswer = 0;
+
+        // Generate random CAPTCHA
+        function generateCaptcha() {
+            const operations = ['+', '-', '*'];
+            const operation = operations[Math.floor(Math.random() * operations.length)];
+            
+            let num1, num2, answer, questionText;
+            
+            switch(operation) {
+                case '+':
+                    num1 = Math.floor(Math.random() * 20) + 1;
+                    num2 = Math.floor(Math.random() * 20) + 1;
+                    answer = num1 + num2;
+                    questionText = `${num1} + ${num2} = ?`;
+                    break;
+                case '-':
+                    num1 = Math.floor(Math.random() * 30) + 10;
+                    num2 = Math.floor(Math.random() * num1) + 1;
+                    answer = num1 - num2;
+                    questionText = `${num1} - ${num2} = ?`;
+                    break;
+                case '*':
+                    num1 = Math.floor(Math.random() * 10) + 1;
+                    num2 = Math.floor(Math.random() * 10) + 1;
+                    answer = num1 * num2;
+                    questionText = `${num1} × ${num2} = ?`;
+                    break;
+            }
+            
+            captchaAnswer = answer;
+            captchaQuestion.textContent = questionText;
+            captchaInput.value = '';
+        }
+
+        // Validate CAPTCHA
+        function validateCaptcha() {
+            const userAnswer = parseInt(captchaInput.value);
+            return userAnswer === captchaAnswer;
+        }
+
+        // Initialize CAPTCHA on page load
+        generateCaptcha();
+
+        // Refresh CAPTCHA button
+        refreshCaptcha.addEventListener('click', generateCaptcha);
+
+        // File validation on selection
+        audioFileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                if (!file.type.startsWith('audio/') && !file.name.toLowerCase().endsWith('.mp3')) {
+                    alert('Please select an MP3 file only.');
+                    e.target.value = '';
+                    return;
+                }
+                
+                if (file.size > 500 * 1024 * 1024) {
+                    alert('File size must be less than 500MB.');
+                    e.target.value = '';
+                    return;
+                }
+                
+                console.log('Selected file:', file.name, 'Size:', (file.size / 1024 / 1024).toFixed(2) + 'MB');
+            }
+        });
+
+        // Handle form submission with AJAX and progress tracking
+        uploadForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const file = audioFileInput.files[0];
+            if (!file) {
+                alert('Please select a file first.');
+                return;
+            }
+
+            // Validate CAPTCHA
+            if (!validateCaptcha()) {
+                alert('Incorrect answer to security question. Please try again.');
+                captchaInput.focus();
+                captchaInput.select();
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('audioFile', file);
+
+            // Reset UI
+            progressContainer.style.display = 'block';
+            progressBar.style.width = '0%';
+            progressBar.textContent = '0%';
+            uploadStatus.style.display = 'block';
+            uploadStatus.textContent = 'Preparing upload...';
+            uploadStatus.className = 'upload-status status-uploading';
+            uploadBtn.disabled = true;
+            uploadBtn.textContent = 'Uploading...';
+
+            const xhr = new XMLHttpRequest();
+
+            // Track upload progress
+            xhr.upload.addEventListener('progress', function(e) {
+                if (e.lengthComputable) {
+                    const percentComplete = Math.round((e.loaded / e.total) * 100);
+                    progressBar.style.width = percentComplete + '%';
+                    progressBar.textContent = percentComplete + '%';
+                    uploadStatus.textContent = `Uploading... ${percentComplete}%`;
+                }
+            });
+
+            // Handle successful upload
+            xhr.addEventListener('load', function() {
+                if (xhr.status === 200) {
+                    progressBar.style.width = '100%';
+                    progressBar.textContent = '100%';
+                    uploadStatus.textContent = 'Upload completed successfully!';
+                    uploadStatus.className = 'upload-status status-success';
+                    
+                    // Generate new CAPTCHA for next upload
+                    generateCaptcha();
+                    
+                    // Redirect to success page after a short delay
+                    setTimeout(function() {
+                        document.body.innerHTML = xhr.responseText;
+                    }, 1000);
+                } else {
+                    uploadStatus.textContent = 'Upload failed: ' + xhr.statusText;
+                    uploadStatus.className = 'upload-status status-error';
+                    resetUploadForm();
+                }
+            });
+
+            // Handle upload errors
+            xhr.addEventListener('error', function() {
+                uploadStatus.textContent = 'Upload failed: Network error';
+                uploadStatus.className = 'upload-status status-error';
+                resetUploadForm();
+            });
+
+            // Handle upload abort
+            xhr.addEventListener('abort', function() {
+                uploadStatus.textContent = 'Upload cancelled';
+                uploadStatus.className = 'upload-status status-error';
+                resetUploadForm();
+            });
+
+            // Send the request
+            xhr.open('POST', '/upload');
+            xhr.send(formData);
+        });
+
+        function resetUploadForm() {
+            uploadBtn.disabled = false;
+            uploadBtn.textContent = 'Upload MP3';
+            progressContainer.style.display = 'none';
+            progressBar.style.width = '0%';
+            progressBar.textContent = '0%';
+            generateCaptcha(); // Generate new CAPTCHA on error
+        }
+    </script>
+</body>
+</html>
