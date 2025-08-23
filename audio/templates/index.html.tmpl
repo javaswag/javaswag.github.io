@@ -4,149 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio Upload</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-        }
-        .upload-form {
-            border: 2px dashed #ccc;
-            border-radius: 10px;
-            padding: 40px;
-            text-align: center;
-            background-color: #f9f9f9;
-        }
-        .file-input {
-            margin: 20px 0;
-        }
-        .upload-btn {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .upload-btn:hover {
-            background-color: #0056b3;
-        }
-        .file-info {
-            margin-top: 10px;
-            font-size: 14px;
-            color: #666;
-        }
-        .progress-container {
-            width: 100%;
-            background-color: #f0f0f0;
-            border-radius: 5px;
-            margin: 20px 0;
-            display: none;
-        }
-        .progress-bar {
-            width: 0%;
-            height: 20px;
-            background-color: #007bff;
-            border-radius: 5px;
-            text-align: center;
-            line-height: 20px;
-            color: white;
-            font-size: 12px;
-            transition: width 0.3s ease;
-        }
-        .upload-status {
-            margin-top: 10px;
-            font-weight: bold;
-            display: none;
-        }
-        .status-uploading {
-            color: #007bff;
-        }
-        .status-success {
-            color: #28a745;
-        }
-        .status-error {
-            color: #dc3545;
-        }
-        .captcha-container {
-            margin: 20px 0;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            background-color: #f8f9fa;
-        }
-        .captcha-question {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-        .captcha-question label {
-            font-weight: bold;
-            color: #333;
-        }
-        #captchaQuestion {
-            font-family: monospace;
-            font-size: 18px;
-            color: #007bff;
-            font-weight: bold;
-        }
-        #captchaInput {
-            width: 80px;
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-            text-align: center;
-            font-size: 16px;
-        }
-        .refresh-btn {
-            background: none;
-            border: 1px solid #007bff;
-            border-radius: 3px;
-            padding: 5px 8px;
-            cursor: pointer;
-            font-size: 14px;
-        }
-        .refresh-btn:hover {
-            background-color: #007bff;
-            color: white;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Upload MP3 Audio File</h1>
+<body class="font-sans max-w-2xl mx-auto p-5 mt-12">
+    <h1 class="text-3xl font-bold text-center mb-8 text-gray-800">Upload MP3 Audio File</h1>
 
     {{ if .Region }}
-<h2>I'm running in the {{.Region}} region</h2>
-{{end}}
+    <h2 class="text-xl text-center mb-6 text-gray-600">I'm running in the {{.Region}} region</h2>
+    {{end}}
     
-    <form class="upload-form" action="/upload" method="post" enctype="multipart/form-data">
-        <h2>Select an MP3 file to upload</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data" class="border-2 border-dashed border-gray-300 rounded-lg p-10 text-center bg-gray-50">
+        <h2 class="text-2xl font-semibold mb-8 text-gray-700">Select an MP3 file to upload</h2>
         
-        <div class="file-input">
-            <input type="file" id="audioFile" name="audioFile" accept=".mp3,audio/mp3" required>
+        <div class="my-5">
+            <input type="file" id="audioFile" name="audioFile" accept=".mp3,audio/mp3" required
+                   class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100">
         </div>
         
-        <div class="captcha-container">
-            <div class="captcha-question">
-                <label for="captchaInput">Security Check: <span id="captchaQuestion">5 + 3 = ?</span></label>
-                <input type="number" id="captchaInput" name="captchaAnswer" placeholder="Enter answer" required>
-                <button type="button" id="refreshCaptcha" class="refresh-btn">🔄</button>
+        <div class="my-5 p-4 border border-gray-300 rounded-lg bg-gray-100">
+            <div class="flex items-center justify-center gap-3 flex-wrap">
+                <label for="captchaInput" class="font-bold text-gray-700">
+                    Security Check: <span id="captchaQuestion" class="font-mono text-lg text-blue-600 font-bold">5 + 3 = ?</span>
+                </label>
+                <input type="number" id="captchaInput" name="captchaAnswer" placeholder="Enter answer" required
+                       class="w-20 px-2 py-1 border border-gray-300 rounded text-center text-base">
+                <button type="button" id="refreshCaptcha" 
+                        class="border border-blue-600 rounded px-2 py-1 text-sm cursor-pointer hover:bg-blue-600 hover:text-white transition-colors">
+                    🔄
+                </button>
             </div>
         </div>
         
-        <button type="submit" class="upload-btn" id="uploadBtn">Upload MP3</button>
+        <button type="submit" id="uploadBtn" 
+                class="bg-blue-600 text-white px-5 py-2 rounded-lg cursor-pointer text-base hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+            Upload MP3
+        </button>
         
-        <div class="progress-container" id="progressContainer">
-            <div class="progress-bar" id="progressBar">0%</div>
+        <div id="progressContainer" class="w-full bg-gray-200 rounded-lg my-5 hidden">
+            <div id="progressBar" class="h-5 bg-blue-600 rounded-lg text-center text-white text-xs leading-5 transition-all duration-300 ease-in-out" style="width: 0%;">
+                0%
+            </div>
         </div>
         
-        <div class="upload-status" id="uploadStatus"></div>
+        <div id="uploadStatus" class="mt-2 font-bold hidden"></div>
         
-        <div class="file-info">
+        <div class="mt-2 text-sm text-gray-600">
             <p>Only MP3 files are allowed</p>
             <p>Maximum file size: 500MB</p>
         </div>
@@ -154,7 +56,7 @@
 
     <script>
         const audioFileInput = document.getElementById('audioFile');
-        const uploadForm = document.querySelector('.upload-form');
+        const uploadForm = document.querySelector('form');
         const uploadBtn = document.getElementById('uploadBtn');
         const progressContainer = document.getElementById('progressContainer');
         const progressBar = document.getElementById('progressBar');
@@ -255,12 +157,12 @@
             formData.append('audioFile', file);
 
             // Reset UI
-            progressContainer.style.display = 'block';
+            progressContainer.classList.remove('hidden');
             progressBar.style.width = '0%';
             progressBar.textContent = '0%';
-            uploadStatus.style.display = 'block';
+            uploadStatus.classList.remove('hidden');
             uploadStatus.textContent = 'Preparing upload...';
-            uploadStatus.className = 'upload-status status-uploading';
+            uploadStatus.className = 'mt-2 font-bold text-blue-600';
             uploadBtn.disabled = true;
             uploadBtn.textContent = 'Uploading...';
 
@@ -282,7 +184,7 @@
                     progressBar.style.width = '100%';
                     progressBar.textContent = '100%';
                     uploadStatus.textContent = 'Upload completed successfully!';
-                    uploadStatus.className = 'upload-status status-success';
+                    uploadStatus.className = 'mt-2 font-bold text-green-600';
                     
                     // Generate new CAPTCHA for next upload
                     generateCaptcha();
@@ -293,7 +195,7 @@
                     }, 1000);
                 } else {
                     uploadStatus.textContent = 'Upload failed: ' + xhr.statusText;
-                    uploadStatus.className = 'upload-status status-error';
+                    uploadStatus.className = 'mt-2 font-bold text-red-600';
                     resetUploadForm();
                 }
             });
@@ -301,14 +203,14 @@
             // Handle upload errors
             xhr.addEventListener('error', function() {
                 uploadStatus.textContent = 'Upload failed: Network error';
-                uploadStatus.className = 'upload-status status-error';
+                uploadStatus.className = 'mt-2 font-bold text-red-600';
                 resetUploadForm();
             });
 
             // Handle upload abort
             xhr.addEventListener('abort', function() {
                 uploadStatus.textContent = 'Upload cancelled';
-                uploadStatus.className = 'upload-status status-error';
+                uploadStatus.className = 'mt-2 font-bold text-red-600';
                 resetUploadForm();
             });
 
@@ -320,7 +222,7 @@
         function resetUploadForm() {
             uploadBtn.disabled = false;
             uploadBtn.textContent = 'Upload MP3';
-            progressContainer.style.display = 'none';
+            progressContainer.classList.add('hidden');
             progressBar.style.width = '0%';
             progressBar.textContent = '0%';
             generateCaptcha(); // Generate new CAPTCHA on error
