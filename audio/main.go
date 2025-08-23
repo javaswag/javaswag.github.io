@@ -1,91 +1,119 @@
 package main
 
 import (
-	"encoding/binary"
+	"embed"
 	"fmt"
+	"html/template"
+	"io"
 	"log"
-	"math"
+	"net/http"
 	"os"
 	"path/filepath"
-
-	"github.com/hopesea/godub"
+	"strings"
+	"time"
 )
 
-func main() {
-	p := os.Args[1]
-	d := os.Args[2]
-	fmt.Println("Open: ", p)
-	fmt.Println("Dir: ", d)
+//go:embed templates/*
+var resources embed.FS
 
-	aMono, err := godub.NewLoader().Load(p)
+var t = template.Must(template.ParseFS(resources, "templates/*"))
 
+const maxBodySize = 500 * 1024 * 1024 // 500 MB in bytes
+
+func handleFileUpload(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPost {
+		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	r.Body = http.MaxBytesReader(w, r.Body, maxBodySize)
+
+	// Now proceed with parsing the multipart form
+	err := r.ParseMultipartForm(32 << 20) // 32MB max memory
 	if err != nil {
-		log.Fatalf("%v", err)
+		// http.MaxBytesReader will return an error here if the size is exceeded
+		http.Error(w, "Request entity is too large.", http.StatusRequestEntityTooLarge)
+		return
 	}
 
-	aData := aMono.RawData()
-	aDataLen := len(aData)
-
-	aDurationSecs := aMono.Duration().Seconds()
-
-	fmt.Printf("%s\n", aMono.String())
-
-	aBandList := make([]float64, 0)
-
-	bands := 220
-
-	BAND_STEP := aDataLen / bands
-
-	fmt.Printf("aDataLen %d\n", aDataLen)
-
-	fmt.Printf("BAND_STEP %d\n", BAND_STEP)
-
-	fmt.Println("Analyzing audio..")
-
-	for i := range bands {
-		aBand := aData[i*BAND_STEP : (i+1)*BAND_STEP]
-		// fmt.Println(aBand)
-		aBandInfo := ABandInfo{}
-		for _, sample := range aBand {
-			absSample := math.Abs(float64(sample))
-			aBandInfo.max = math.Max(float64(absSample), float64(aBandInfo.max))
-			aBandInfo.avg = (absSample + aBandInfo.avg) / 2
-		}
-		// writeVal := aBandInfo.avg
-		writeVal := (aBandInfo.max - aBandInfo.avg) / 2
-		fmt.Println(i, writeVal)
-		aBandList = append(aBandList, writeVal)
-	}
-	aBandList = append(aBandList, aDurationSecs)
-
-	filename := fmt.Sprintf("%s/%s.avg%d.bin", d, filepath.Base(p), bands)
-	fmt.Println("Writing into: ", filename)
-
-	err = os.Remove(filename)
+	// Get the file from form data
+	file, header, err := r.FormFile("audioFile")
 	if err != nil {
-		fmt.Printf("%v\n", err)
+		http.Error(w, "Unable to get file: "+err.Error(), http.StatusBadRequest)
+		return
+	}
+	defer file.Close()
+
+	// Validate file extension
+	ext := strings.ToLower(filepath.Ext(header.Filename))
+	if ext != ".mp3" {
+		http.Error(w, "Only MP3 files are allowed", http.StatusBadRequest)
+		return
 	}
 
-	fileOutput, err := os.Create(filename)
+	// Validate file size (500MB max)
+	if header.Size > 500<<20 {
+		http.Error(w, "File size exceeds 500MB limit", http.StatusBadRequest)
+		return
+	}
+
+	// Create uploads directory if it doesn't exist
+	uploadsDir := "uploads"
+	if err := os.MkdirAll(uploadsDir, 0755); err != nil {
+		http.Error(w, "Unable to create uploads directory: "+err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	// Create the destination file
+	dst, err := os.Create(filepath.Join(uploadsDir, header.Filename))
 	if err != nil {
-		log.Fatalf("%w", err)
+		http.Error(w, "Unable to create file: "+err.Error(), http.StatusInternalServerError)
+		return
+	}
+	defer dst.Close()
+
+	// Copy the uploaded file to destination
+	_, err = io.Copy(dst, file)
+	if err != nil {
+		http.Error(w, "Unable to save file: "+err.Error(), http.StatusInternalServerError)
+		return
 	}
 
-	defer fileOutput.Close()
-
-	var b = make([]byte, 2)
-	for _, ii := range aBandList {
-		binary.LittleEndian.PutUint16(b, uint16(ii))
-		_, err := fileOutput.Write(b)
-		if err != nil {
-			fmt.Println("err!", err)
-		}
-		// fmt.Printf("%x ", b)
-		b[0], b[1] = 0, 0
+	// Success response
+	data := map[string]interface{}{
+		"Filename": header.Filename,
+		"SizeMB":   fmt.Sprintf("%.2f", float64(header.Size)/(1024*1024)),
 	}
+
+	t.ExecuteTemplate(w, "success.html.tmpl", data)
+
+	log.Printf("File uploaded successfully: %s (%.2f MB)", header.Filename, float64(header.Size)/(1024*1024))
 }
 
-type ABandInfo struct {
-	max float64
-	avg float64
+func main() {
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		data := map[string]string{
+			"Region": os.Getenv("FLY_REGION"),
+		}
+
+		t.ExecuteTemplate(w, "index.html.tmpl", data)
+	})
+
+	http.HandleFunc("/upload", handleFileUpload)
+
+	log.Printf("listening on http://localhost:%s\n", port)
+	server := &http.Server{
+		Addr:         ":" + port,
+		Handler:      nil,
+		ReadTimeout:  200 * time.Second,
+		WriteTimeout: 200 * time.Second,
+		IdleTimeout:  200 * time.Second,
+	}
+	server.ListenAndServe()
+	// log.Fatal(http.ListenAndServe(":"+port, nil))
 }
