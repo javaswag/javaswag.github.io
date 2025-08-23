@@ -8,3 +8,4 @@ resources/**
 static/img/.DS_Store
 video/**
 audio/.venv/**
+audio/uploads/**

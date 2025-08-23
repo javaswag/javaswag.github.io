@@ -12,6 +12,18 @@
     {{ if .Region }}
     <h2 class="text-xl text-center mb-6 text-gray-600">I'm running in the {{.Region}} region</h2>
     {{end}}
+
+    {{ if .UploadSuccess }}
+    <div class="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
+        <div class="flex items-center">
+            <span class="text-2xl mr-3">✅</span>
+            <div>
+                <h3 class="font-bold">Upload Successful!</h3>
+                <p class="text-sm">File "{{.UploadFilename}}" ({{.UploadSizeMB}} MB) has been uploaded and is being processed.</p>
+            </div>
+        </div>
+    </div>
+    {{end}}
     
     <form action="/upload" method="post" enctype="multipart/form-data" class="border-2 border-dashed border-gray-300 rounded-lg p-10 text-center bg-gray-50">
         <h2 class="text-2xl font-semibold mb-8 text-gray-700">Select an MP3 file to upload</h2>
@@ -53,6 +65,22 @@
             <p>Maximum file size: 500MB</p>
         </div>
     </form>
+
+    <!-- Files List Section -->
+    <div class="mt-12">
+        <h2 class="text-2xl font-bold text-center mb-6 text-gray-800">Uploaded Files</h2>
+        <div id="filesList" class="bg-white border border-gray-200 rounded-lg shadow-sm">
+            <div id="filesLoading" class="p-4 text-center text-gray-500">
+                Loading files...
+            </div>
+            <div id="filesEmpty" class="p-4 text-center text-gray-500 hidden">
+                No files uploaded yet.
+            </div>
+            <div id="filesContent" class="hidden">
+                <!-- Files will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
 
     <script>
         const audioFileInput = document.getElementById('audioFile');
@@ -189,9 +217,41 @@
                     // Generate new CAPTCHA for next upload
                     generateCaptcha();
                     
-                    // Redirect to success page after a short delay
+                    // Reset form and show success message
                     setTimeout(function() {
-                        document.body.innerHTML = xhr.responseText;
+                        resetUploadForm();
+                        audioFileInput.value = '';
+                        
+                        // Show success notification
+                        const successDiv = document.createElement('div');
+                        successDiv.className = 'mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg';
+                        successDiv.innerHTML = `
+                            <div class="flex items-center">
+                                <span class="text-2xl mr-3">✅</span>
+                                <div>
+                                    <h3 class="font-bold">Upload Successful!</h3>
+                                    <p class="text-sm">Your file has been uploaded and is being processed.</p>
+                                </div>
+                            </div>
+                        `;
+                        
+                        // Remove any existing success messages
+                        const existingSuccess = document.querySelector('.bg-green-100');
+                        if (existingSuccess) {
+                            existingSuccess.remove();
+                        }
+                        
+                        // Insert success message before the form
+                        const form = document.querySelector('form');
+                        form.parentNode.insertBefore(successDiv, form);
+                        
+                        // Auto-hide success message after 5 seconds
+                        setTimeout(function() {
+                            successDiv.remove();
+                        }, 5000);
+                        
+                        // Refresh files list
+                        loadFilesList();
                     }, 1000);
                 } else {
                     uploadStatus.textContent = 'Upload failed: ' + xhr.statusText;
@@ -227,6 +287,194 @@
             progressBar.textContent = '0%';
             generateCaptcha(); // Generate new CAPTCHA on error
         }
+
+        // Files list functionality
+        const filesLoading = document.getElementById('filesLoading');
+        const filesEmpty = document.getElementById('filesEmpty');
+        const filesContent = document.getElementById('filesContent');
+
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+        }
+
+        function getFileIcon(filename, isAudio) {
+            const ext = filename.toLowerCase().split('.').pop();
+            if (isAudio) {
+                return '🎵';
+            } else if (ext === 'png' || ext === 'jpg' || ext === 'svg') {
+                return '🖼️';
+            }
+            return '📄';
+        }
+
+        function createFileRow(file) {
+            const fileRow = document.createElement('div');
+            fileRow.className = 'flex items-center justify-between p-4 border-b border-gray-100 last:border-b-0 hover:bg-gray-50';
+            
+            const leftSection = document.createElement('div');
+            leftSection.className = 'flex items-center space-x-3 flex-1';
+            
+            const icon = document.createElement('span');
+            icon.textContent = getFileIcon(file.name, file.isAudio);
+            icon.className = 'text-2xl';
+            
+            const fileInfo = document.createElement('div');
+            fileInfo.className = 'flex-1 min-w-0';
+            
+            const fileName = document.createElement('div');
+            fileName.className = 'text-sm font-medium text-gray-900 truncate';
+            fileName.textContent = file.name;
+            
+            const fileDetails = document.createElement('div');
+            fileDetails.className = 'text-sm text-gray-500';
+            fileDetails.textContent = `${file.sizeMB} MB • ${formatDate(file.modified)}`;
+            
+            fileInfo.appendChild(fileName);
+            fileInfo.appendChild(fileDetails);
+            leftSection.appendChild(icon);
+            leftSection.appendChild(fileInfo);
+            
+            const actionsSection = document.createElement('div');
+            actionsSection.className = 'flex items-center space-x-2';
+            
+            // Download/View button
+            const viewBtn = document.createElement('a');
+            viewBtn.href = `/files/${encodeURIComponent(file.name)}`;
+            viewBtn.className = 'inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-xs font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500';
+            viewBtn.textContent = file.isAudio ? 'Play' : 'View';
+            if (file.isAudio) {
+                viewBtn.target = '_blank';
+            }
+            
+            // Delete button
+            const deleteBtn = document.createElement('button');
+            deleteBtn.className = 'inline-flex items-center px-3 py-1.5 border border-red-300 shadow-sm text-xs font-medium rounded-md text-red-700 bg-white hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500';
+            deleteBtn.textContent = 'Delete';
+            deleteBtn.onclick = function() {
+                deleteFile(file.name, fileRow);
+            };
+            
+            actionsSection.appendChild(viewBtn);
+            actionsSection.appendChild(deleteBtn);
+            
+            fileRow.appendChild(leftSection);
+            fileRow.appendChild(actionsSection);
+            
+            return fileRow;
+        }
+
+        function loadFilesList() {
+            filesLoading.classList.remove('hidden');
+            filesEmpty.classList.add('hidden');
+            filesContent.classList.add('hidden');
+            
+            fetch('/api/files')
+                .then(response => response.json())
+                .then(files => {
+                    filesLoading.classList.add('hidden');
+                    
+                    if (files.length === 0) {
+                        filesEmpty.classList.remove('hidden');
+                    } else {
+                        filesContent.innerHTML = '';
+                        files.forEach(file => {
+                            const fileRow = createFileRow(file);
+                            filesContent.appendChild(fileRow);
+                        });
+                        filesContent.classList.remove('hidden');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading files:', error);
+                    filesLoading.classList.add('hidden');
+                    filesEmpty.textContent = 'Error loading files. Please refresh the page.';
+                    filesEmpty.classList.remove('hidden');
+                });
+        }
+
+        // Delete file function
+        function deleteFile(filename, fileRow) {
+            if (!confirm(`Are you sure you want to delete "${filename}"?`)) {
+                return;
+            }
+            
+            // Show loading state
+            const deleteBtn = fileRow.querySelector('button');
+            const originalText = deleteBtn.textContent;
+            deleteBtn.textContent = 'Deleting...';
+            deleteBtn.disabled = true;
+            deleteBtn.className = deleteBtn.className.replace('hover:bg-red-50', 'opacity-50 cursor-not-allowed');
+            
+            fetch(`/api/files/${encodeURIComponent(filename)}`, {
+                method: 'DELETE'
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    throw new Error(`Failed to delete file: ${response.statusText}`);
+                }
+            })
+            .then(data => {
+                // Remove the file row from UI with animation
+                fileRow.style.transition = 'opacity 0.3s ease-out';
+                fileRow.style.opacity = '0';
+                setTimeout(() => {
+                    fileRow.remove();
+                    
+                    // Check if files list is empty after deletion
+                    const remainingFiles = filesContent.children.length;
+                    if (remainingFiles === 0) {
+                        filesContent.classList.add('hidden');
+                        filesEmpty.classList.remove('hidden');
+                    }
+                }, 300);
+                
+                // Show success notification
+                const successDiv = document.createElement('div');
+                successDiv.className = 'fixed top-4 right-4 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded z-50';
+                successDiv.innerHTML = `
+                    <div class="flex items-center">
+                        <span class="mr-2">✅</span>
+                        <span>File "${filename}" deleted successfully</span>
+                    </div>
+                `;
+                document.body.appendChild(successDiv);
+                
+                // Auto-hide success notification
+                setTimeout(() => {
+                    successDiv.remove();
+                }, 3000);
+            })
+            .catch(error => {
+                console.error('Error deleting file:', error);
+                
+                // Reset button state
+                deleteBtn.textContent = originalText;
+                deleteBtn.disabled = false;
+                deleteBtn.className = deleteBtn.className.replace('opacity-50 cursor-not-allowed', 'hover:bg-red-50');
+                
+                // Show error notification
+                const errorDiv = document.createElement('div');
+                errorDiv.className = 'fixed top-4 right-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded z-50';
+                errorDiv.innerHTML = `
+                    <div class="flex items-center">
+                        <span class="mr-2">❌</span>
+                        <span>Failed to delete "${filename}"</span>
+                    </div>
+                `;
+                document.body.appendChild(errorDiv);
+                
+                // Auto-hide error notification
+                setTimeout(() => {
+                    errorDiv.remove();
+                }, 5000);
+            });
+        }
+
+        // Load files list on page load
+        loadFilesList();
     </script>
 </body>
 </html>

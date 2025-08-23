@@ -7,17 +7,22 @@ import (
 	"math"
 	"os"
 	"path/filepath"
+	"strings"
 
 	"github.com/hopesea/godub"
 )
 
-func Run() {
-	p := os.Args[1]
-	d := os.Args[2]
-	fmt.Println("Open: ", p)
-	fmt.Println("Dir: ", d)
+func Run(inputFile string, outputDir string) (string, error) {
+	if !strings.HasSuffix(inputFile, ".mp3") {
+		return "", fmt.Errorf("only mp3 files are supported")
+	}
 
-	aMono, err := godub.NewLoader().Load(p)
+	// p := os.Args[1]
+	// d := os.Args[2]
+	fmt.Println("Open: ", inputFile)
+	fmt.Println("Dir: ", outputDir)
+
+	aMono, err := godub.NewLoader().Load(inputFile)
 
 	if err != nil {
 		log.Fatalf("%v", err)
@@ -58,7 +63,7 @@ func Run() {
 	}
 	aBandList = append(aBandList, aDurationSecs)
 
-	filename := fmt.Sprintf("%s/%s.avg%d.bin", d, filepath.Base(p), bands)
+	filename := fmt.Sprintf("%s/%s.avg%d.bin", outputDir, filepath.Base(inputFile), bands)
 	fmt.Println("Writing into: ", filename)
 
 	err = os.Remove(filename)
@@ -83,6 +88,7 @@ func Run() {
 		// fmt.Printf("%x ", b)
 		b[0], b[1] = 0, 0
 	}
+	return filename, nil
 }
 
 type ABandInfo struct {
