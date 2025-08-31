@@ -274,7 +274,7 @@ func main() {
 
 		t.ExecuteTemplate(w, "index.html.tmpl", data)
 	})
-	
+
 	http.HandleFunc("/input", func(w http.ResponseWriter, r *http.Request) {
 		data := map[string]interface{}{
 			"Region": os.Getenv("FLY_REGION"),
@@ -283,7 +283,7 @@ func main() {
 		t.ExecuteTemplate(w, "index.html.tmpl", data)
 	})
 
-	http.HandleFunc("/upload", handleFileUpload)
+	http.HandleFunc("POST /upload", handleFileUpload)
 	http.HandleFunc("/api/files", handleFilesList)
 	http.HandleFunc("/api/files/", handleFileDelete)
 	http.HandleFunc("/files/", handleFileServe)
