@@ -105,7 +105,7 @@ func handleFileUpload(w http.ResponseWriter, r *http.Request) {
 		"UploadSizeMB":   fmt.Sprintf("%.2f", float64(header.Size)/(1024*1024)),
 	}
 
-	t.ExecuteTemplate(w, "index.html.tmpl", data)
+	t.ExecuteTemplate(w, "index.tmpl.html", data)
 
 	log.Printf("File uploaded successfully: %s (%.2f MB)", header.Filename, float64(header.Size)/(1024*1024))
 }
@@ -261,6 +261,8 @@ func handleFileDelete(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte(`{"success": true, "message": "File deleted successfully"}`))
 }
 
+const indexTemplate = "index.tmpl.html"
+
 func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
@@ -272,7 +274,7 @@ func main() {
 			"Region": os.Getenv("FLY_REGION"),
 		}
 
-		t.ExecuteTemplate(w, "index.html.tmpl", data)
+		t.ExecuteTemplate(w, indexTemplate, data)
 	})
 
 	http.HandleFunc("/input", func(w http.ResponseWriter, r *http.Request) {
@@ -280,7 +282,7 @@ func main() {
 			"Region": os.Getenv("FLY_REGION"),
 		}
 
-		t.ExecuteTemplate(w, "index.html.tmpl", data)
+		t.ExecuteTemplate(w, indexTemplate, data)
 	})
 
 	http.HandleFunc("POST /upload", handleFileUpload)

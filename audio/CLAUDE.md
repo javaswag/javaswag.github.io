@@ -47,7 +47,7 @@ fly deploy
 - Calculates max/avg values for each band
 - Outputs binary waveform data (.bin files)
 
-**templates/index.html.tmpl** - Single-page web interface:
+**templates/index.tmpl.html** - Single-page web interface:
 - TailwindCSS for styling
 - File upload with progress tracking
 - CAPTCHA security validation
