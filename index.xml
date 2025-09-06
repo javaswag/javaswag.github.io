@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sat, 06 Sep 2025 08:11:07 +0000</pubDate><lastBuildDate>Sat, 06 Sep 2025 09:33:48 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><category>Technology</category><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">81-javaswag-misha-polivaha.mp3</guid><title>#81 - Михаил Поливаха - реактивное программирование и опен сорс</title><pubDate>Sat, 06 Sep 2025 08:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/81/</link><itunes:duration>01:56:13</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sat, 06 Sep 2025 08:11:07 +0000</pubDate><lastBuildDate>Sat, 06 Sep 2025 10:20:38 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><category>Technology</category><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">81-javaswag-misha-polivaha.mp3</guid><title>#81 - Михаил Поливаха - реактивное программирование и опен сорс</title><pubDate>Sat, 06 Sep 2025 08:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/81/</link><itunes:duration>01:56:13</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 81 выпуске подкаста Javaswag поговорили Михаилом Поливахой о реактивном программировании и Open Source</p>
 <p>00:00 Начало</p>
 <p>15:42 Cтартапы</p>
@@ -21,7 +21,7 @@
 <p>Гость</p>
 <p><a href="https://www.linkedin.com/in/mikhail-polivakha-7995571ab/">https://www.linkedin.com/in/mikhail-polivakha-7995571ab/</a></p>
 <p>Ссылки:</p>
-<p><a href="https://mpolivaha.com/">https://mpolivaha.com/</a></p>
+<p><a href="https://t.me/mipo256">https://t.me/mipo256</a></p>
 <p>Ссылки на подкаст:</p>
 <ul>
 <li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
@@ -56,7 +56,7 @@
 <p>Гость</p>
 <p><a href="https://www.linkedin.com/in/mikhail-polivakha-7995571ab/">https://www.linkedin.com/in/mikhail-polivakha-7995571ab/</a></p>
 <p>Ссылки:</p>
-<p><a href="https://mpolivaha.com/">https://mpolivaha.com/</a></p>
+<p><a href="https://t.me/mipo256">https://t.me/mipo256</a></p>
 <p>Ссылки на подкаст:</p>
 <ul>
 <li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
