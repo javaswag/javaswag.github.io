@@ -1,4 +1,76 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sun, 19 Oct 2025 06:11:07 +0000</pubDate><lastBuildDate>Thu, 20 Nov 2025 09:03:32 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><category>Technology</category><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">84-javaswag-ivan-lyagaev.mp3</guid><title>#84 - Иван Лягаев - Scala, платформенные задачи и кодогенерация</title><pubDate>Fri, 03 Oct 2025 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/84/</link><itunes:duration>01:45:01</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sat, 29 Nov 2025 06:11:07 +0000</pubDate><lastBuildDate>Sat, 29 Nov 2025 13:56:07 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo.png"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><category>Technology</category><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">85-javaswag-romann-grebennikov.mp3</guid><title>#85 - Роман Гребенников - Lucene, Scala и стейтслесс поиск</title><pubDate>Sat, 29 Nov 2025 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/85/</link><itunes:duration>01:59:30</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 85 выпуске подкаста Javaswag в гостях Роман Гребенников, инженер с огромным опытом в разработке поисковых движков (Findify, Delivery Hero) и создатель open-source проектов Metarank и Nixie Search.</p>
+<p>Мы обсудили эволюцию поиска от &ldquo;просто возьми Elastic&rdquo; до хайпа по векторным базам данных и обратно. Поговорили о том, почему Scala всё еще жива, зачем нужен GraalVM в 2024 году, и как построить свой поисковый движок поверх S3 и AWS Lambda.</p>
+<p>00:00 — Начало</p>
+<p>04:44 — Findify: скраперы на C++, переход на Scala</p>
+<p>13:25 — Эволюция поиска - ElasticSearch</p>
+<p>19:37 — Elasticsearch vs OpenSearch</p>
+<p>22:50 — Apache Lucene Deep Dive</p>
+<p>28:53 — Как выбрать поиск для своего проекта?</p>
+<p>38:40 — Spark vs Apache Flink</p>
+<p>48:30 — MetaRank</p>
+<p>53:48 — Почему Scala</p>
+<p>01:05:25 — Python в ML</p>
+<p>01:13:41 — Стартапы vs Корпорации</p>
+<p>01:21:17 — Nixie Search</p>
+<p>01:36:58 — Рынок векторных БД: Qdrant, Meilisearch, TurboPuffer</p>
+<p>01:47:15 — Опыт с GraalVM: Как засунуть Scala и Lucene в AWS Lambda с холодным стартом в 20 мс</p>
+<p>01:57:24 — Непопулярное мнение</p>
+<p>Гость: <a href="https://twitter.com/public_void_grv">https://twitter.com/public_void_grv</a></p>
+<p>Ссылки:</p>
+<ul>
+<li>Nixie Search <a href="https://github.com/nixiesearch/nixiesearch">https://github.com/nixiesearch/nixiesearch</a></li>
+<li>MetaRank <a href="https://github.com/metarank/metarank">https://github.com/metarank/metarank</a></li>
+<li>Apache Lucene <a href="https://lucene.apache.org/">https://lucene.apache.org/</a></li>
+<li>Apache Flink <a href="https://flink.apache.org/">https://flink.apache.org/</a></li>
+<li>GraalVM <a href="https://www.graalvm.org">https://www.graalvm.org</a></li>
+<li>Qdrant <a href="https://qdrant.tech/">https://qdrant.tech/</a></li>
+</ul>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В 85 выпуске подкаста Javaswag в гостях Роман Гребенников, инженер с огромным опытом в разработке поисковых движков (Findify, Delivery Hero) и создате...</itunes:subtitle><description><![CDATA[
+				    <p>В 85 выпуске подкаста Javaswag в гостях Роман Гребенников, инженер с огромным опытом в разработке поисковых движков (Findify, Delivery Hero) и создатель open-source проектов Metarank и Nixie Search.</p>
+<p>Мы обсудили эволюцию поиска от &ldquo;просто возьми Elastic&rdquo; до хайпа по векторным базам данных и обратно. Поговорили о том, почему Scala всё еще жива, зачем нужен GraalVM в 2024 году, и как построить свой поисковый движок поверх S3 и AWS Lambda.</p>
+<p>00:00 — Начало</p>
+<p>04:44 — Findify: скраперы на C++, переход на Scala</p>
+<p>13:25 — Эволюция поиска - ElasticSearch</p>
+<p>19:37 — Elasticsearch vs OpenSearch</p>
+<p>22:50 — Apache Lucene Deep Dive</p>
+<p>28:53 — Как выбрать поиск для своего проекта?</p>
+<p>38:40 — Spark vs Apache Flink</p>
+<p>48:30 — MetaRank</p>
+<p>53:48 — Почему Scala</p>
+<p>01:05:25 — Python в ML</p>
+<p>01:13:41 — Стартапы vs Корпорации</p>
+<p>01:21:17 — Nixie Search</p>
+<p>01:36:58 — Рынок векторных БД: Qdrant, Meilisearch, TurboPuffer</p>
+<p>01:47:15 — Опыт с GraalVM: Как засунуть Scala и Lucene в AWS Lambda с холодным стартом в 20 мс</p>
+<p>01:57:24 — Непопулярное мнение</p>
+<p>Гость: <a href="https://twitter.com/public_void_grv">https://twitter.com/public_void_grv</a></p>
+<p>Ссылки:</p>
+<ul>
+<li>Nixie Search <a href="https://github.com/nixiesearch/nixiesearch">https://github.com/nixiesearch/nixiesearch</a></li>
+<li>MetaRank <a href="https://github.com/metarank/metarank">https://github.com/metarank/metarank</a></li>
+<li>Apache Lucene <a href="https://lucene.apache.org/">https://lucene.apache.org/</a></li>
+<li>Apache Flink <a href="https://flink.apache.org/">https://flink.apache.org/</a></li>
+<li>GraalVM <a href="https://www.graalvm.org">https://www.graalvm.org</a></li>
+<li>Qdrant <a href="https://qdrant.tech/">https://qdrant.tech/</a></li>
+</ul>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/85-javaswag-romann-grebennikov.mp3" type="audio/mpeg" length="286799040"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">84-javaswag-ivan-lyagaev.mp3</guid><title>#84 - Иван Лягаев - Scala, платформенные задачи и кодогенерация</title><pubDate>Fri, 03 Oct 2025 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/84/</link><itunes:duration>01:45:01</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 84 выпуске подкаста Javaswag поговорили Иваном Лягаевым о Scala, платформенных задачах и кодогенерации</p>
 <p>00:00 Начало</p>
 <p>04:36 Парадигмы программирования</p>
