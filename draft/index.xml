@@ -1,25 +1,25 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Fri, 13 Feb 2026 23:53:15 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">87-javaswag-dmitry-solomennikov.mp3</guid><title>#87 - Дмитрий Соломенников — О разработке компиляторов, Java и языках выходного дня Drafts</title><pubDate>Fri, 13 Feb 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/87/</link><itunes:duration>01:57:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Fri, 13 Feb 2026 23:57:17 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">87-javaswag-dmitry-solomennikov.mp3</guid><title>#87 - Дмитрий Соломенников — О разработке компиляторов, Java и языках выходного дня Drafts</title><pubDate>Fri, 13 Feb 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/87/</link><itunes:duration>01:57:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
             <p>В 87 выпуске подкаста Javaswag обсуждаем внутреннюю кухню создания языков, почему Java упрощает исходники и зачем крупным компаниям вроде Huawei свои языки программирования.</p>
 <p>00:00 — Интро</p>
 <p>01:58 — ZX Spectrum 128 и Basic</p>
-<p>04:12 — От лексического анализа до разработки компиляторов.</p>
-<p>06:56 — Разработка компиляторов — это интеллектуальный вызов и «красота в сложности».</p>
-<p>09:37 — Язык vs Компилятор</p>
-<p>13:00 — Зачем компаниям создавать свои языки?</p>
-<p>22:17 — На чем пишут компиляторы? OCaml, Lisp, C++ и процесс «раскрутки» (bootstrapping).</p>
-<p>26:05 — OCaml и Lisp</p>
-<p>31:22 — Опыт работы в Huawei: Создание языка Arcts</p>
-<p>41:50 — Почему важно контролировать компилятор? Лекция Кена Томпсона и защита цепочек поставок.</p>
-<p>45:55 — Психология фич: Почему в языке должно быть единоначалие и почему важно уметь говорить «нет» новым фичам.</p>
-<p>55:30 — Парсер vs Компилятор</p>
-<p>01:00:09 — Javac</p>
-<p>01:04:27 — Что впечатляет и что расстраивает в Java: Элегантность лямбд vs тяжеловесность Enum и стирание типов (Type Erasure)</p>
-<p>01:09:24 — Язык Ficus: Массивы как &ldquo;First Class Citizens&rdquo; и высокая производительность</p>
-<p>01:13:29 — Java 25</p>
-<p>01:27:05 — Axiom JDK</p>
-<p>01:34:51 — Можно ли ускорить Javac?</p>
-<p>01:45:16 — Cообщество энтузиастов разработки языков</p>
-<p>01:48:32 — ИИ в компиляторах</p>
+<p>04:12 — Путь от анализа к компиляторам</p>
+<p>06:56 — Красота и сложность разработки компиляторов</p>
+<p>09:37 — Противостояние: Язык против Компилятора</p>
+<p>13:00 — Зачем компаниям собственные языки?</p>
+<p>22:17 — Инструменты и процесс раскрутки компиляторов</p>
+<p>26:05 — Специфика OCaml и Lisp</p>
+<p>31:22 — Huawei: Создание языка Arcts</p>
+<p>41:50 — Контроль кода и лекция Томпсона</p>
+<p>45:55 — Психология фич: важность отказа</p>
+<p>55:30 — Различия парсера и компилятора</p>
+<p>01:00:09 — Обзор Javac</p>
+<p>01:04:27 — Плюсы лямбд против минусов Java</p>
+<p>01:09:24 — Язык Ficus: массивы и производительность</p>
+<p>01:13:29 - Java 25</p>
+<p>01:27:05 — Проект Axiom JDK</p>
+<p>01:34:51 — Возможно ли ускорить Javac?</p>
+<p>01:45:16 — Сообщество создателей языков программирования</p>
+<p>01:48:32 — Применение ИИ в компиляторах</p>
 <p>01:53:13 — Непопулярное мнение</p>
 <p>Гость: <a href="https://www.linkedin.com/in/dmitrysolomennikov/">https://www.linkedin.com/in/dmitrysolomennikov/</a></p>
 <p>Ссылки:</p>
@@ -72,24 +72,24 @@
             <p>В 87 выпуске подкаста Javaswag обсуждаем внутреннюю кухню создания языков, почему Java упрощает исходники и зачем крупным компаниям вроде Huawei свои языки программирования.</p>
 <p>00:00 — Интро</p>
 <p>01:58 — ZX Spectrum 128 и Basic</p>
-<p>04:12 — От лексического анализа до разработки компиляторов.</p>
-<p>06:56 — Разработка компиляторов — это интеллектуальный вызов и «красота в сложности».</p>
-<p>09:37 — Язык vs Компилятор</p>
-<p>13:00 — Зачем компаниям создавать свои языки?</p>
-<p>22:17 — На чем пишут компиляторы? OCaml, Lisp, C++ и процесс «раскрутки» (bootstrapping).</p>
-<p>26:05 — OCaml и Lisp</p>
-<p>31:22 — Опыт работы в Huawei: Создание языка Arcts</p>
-<p>41:50 — Почему важно контролировать компилятор? Лекция Кена Томпсона и защита цепочек поставок.</p>
-<p>45:55 — Психология фич: Почему в языке должно быть единоначалие и почему важно уметь говорить «нет» новым фичам.</p>
-<p>55:30 — Парсер vs Компилятор</p>
-<p>01:00:09 — Javac</p>
-<p>01:04:27 — Что впечатляет и что расстраивает в Java: Элегантность лямбд vs тяжеловесность Enum и стирание типов (Type Erasure)</p>
-<p>01:09:24 — Язык Ficus: Массивы как &ldquo;First Class Citizens&rdquo; и высокая производительность</p>
-<p>01:13:29 — Java 25</p>
-<p>01:27:05 — Axiom JDK</p>
-<p>01:34:51 — Можно ли ускорить Javac?</p>
-<p>01:45:16 — Cообщество энтузиастов разработки языков</p>
-<p>01:48:32 — ИИ в компиляторах</p>
+<p>04:12 — Путь от анализа к компиляторам</p>
+<p>06:56 — Красота и сложность разработки компиляторов</p>
+<p>09:37 — Противостояние: Язык против Компилятора</p>
+<p>13:00 — Зачем компаниям собственные языки?</p>
+<p>22:17 — Инструменты и процесс раскрутки компиляторов</p>
+<p>26:05 — Специфика OCaml и Lisp</p>
+<p>31:22 — Huawei: Создание языка Arcts</p>
+<p>41:50 — Контроль кода и лекция Томпсона</p>
+<p>45:55 — Психология фич: важность отказа</p>
+<p>55:30 — Различия парсера и компилятора</p>
+<p>01:00:09 — Обзор Javac</p>
+<p>01:04:27 — Плюсы лямбд против минусов Java</p>
+<p>01:09:24 — Язык Ficus: массивы и производительность</p>
+<p>01:13:29 - Java 25</p>
+<p>01:27:05 — Проект Axiom JDK</p>
+<p>01:34:51 — Возможно ли ускорить Javac?</p>
+<p>01:45:16 — Сообщество создателей языков программирования</p>
+<p>01:48:32 — Применение ИИ в компиляторах</p>
 <p>01:53:13 — Непопулярное мнение</p>
 <p>Гость: <a href="https://www.linkedin.com/in/dmitrysolomennikov/">https://www.linkedin.com/in/dmitrysolomennikov/</a></p>
 <p>Ссылки:</p>
