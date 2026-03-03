@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Tue, 03 Mar 2026 21:39:12 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">88-javaswag-ruslan-ibragimov.mp3</guid><title>#88 - Руслан Ибрагимов - о будущем Kotlin и архитектуре Snowflake Drafts</title><pubDate>Tue, 03 Mar 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/88/</link><itunes:duration>1:29:56</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Tue, 03 Mar 2026 21:44:44 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">88-javaswag-ruslan-ibragimov.mp3</guid><title>#88 - Руслан Ибрагимов - о будущем Kotlin и архитектуре Snowflake Drafts</title><pubDate>Tue, 03 Mar 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/88/</link><itunes:duration>1:29:56</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
             <p>В гостях Руслан Ибрагимов — Kotlin-разработчик и архитектор. Обсуждаем эволюцию языка, замену шардированных баз на Snowflake и модернизацию легаси с помощью ИИ.</p>
 <p>00:00 — Интро</p>
 <p>03:00 — Путь Руслана в Kotlin</p>
@@ -13,14 +13,24 @@
 <p>51:00 — Автоматизация и Argo Workflows</p>
 <p>01:24:00 — Поломка обратной совместимости</p>
 <ul>
-<li><strong>Фреймворки:</strong> <a href="https://ktor.io/">Ktor</a>, <a href="https://spring.io/projects/spring-boot">Spring Boot</a>, <a href="https://quarkus.io/">Quarkus</a>, <a href="https://micronaut.io/">Micronaut</a>.</li>
-<li><strong>Инфраструктура:</strong> <a href="https://www.google.com/search?q=https://www.snowflake.com/">Snowflake</a>, <a href="https://argoproj.github.io/workflows/">Argo Workflows</a>, <a href="https://temporal.io/">Temporal</a>, <a href="https://kubernetes.io/">Kubernetes</a>.</li>
-<li><strong>Базы данных:</strong> <a href="https://www.postgresql.org/">PostgreSQL</a>, <a href="https://www.sqlite.org/">SQLite</a>, <a href="https://www.mongodb.com/">MongoDB</a>.</li>
-<li><strong>Инструменты:</strong> <a href="https://www.jooq.org/">jOOQ</a>, <a href="https://gradle.org/">Gradle</a>, <a href="https://insert-koin.io/">Koin</a>, <a href="https://testcontainers.com/">Testcontainers</a>.</li>
-<li><strong>Ресурсы:</strong> <a href="https://kotlin.link/">Awesome Kotlin</a>, <a href="https://github.com/modelcontextprotocol/kotlin-sdk">Kotlin MCP</a>.</li>
-<li><strong>Kotlin Community:</strong> <a href="https://www.google.com/search?q=https://t.me/kotlin_lang">@kotlin_lang</a> — основное русскоязычное сообщество.</li>
-<li><strong>Kotlin News:</strong> <a href="https://www.google.com/search?q=https://t.me/kotlin_news">@kotlin_news</a> — канал Руслана с обновлениями экосистемы.</li>
-<li><strong>Java Swag:</strong> <a href="https://www.google.com/search?q=https://t.me/javaswag">@javaswag</a> — официальный канал подкаста.</li>
+<li><a href="https://ktor.io/">Ktor</a>, <a href="https://spring.io/projects/spring-boot">Spring Boot</a>, <a href="https://quarkus.io/">Quarkus</a>, <a href="https://micronaut.io/">Micronaut</a>.</li>
+<li><a href="https://www.google.com/search?q=https://www.snowflake.com/">Snowflake</a></li>
+<li><a href="https://argoproj.github.io/workflows/">Argo Workflows</a></li>
+<li><a href="https://temporal.io/">Temporal</a></li>
+<li><a href="https://www.jooq.org/">jOOQ</a></li>
+<li><a href="https://insert-koin.io/">Koin</a></li>
+<li><a href="https://kotlin.link/">Awesome Kotlin</a></li>
+<li><a href="https://github.com/modelcontextprotocol/kotlin-sdk">Kotlin MCP</a></li>
+<li><a href="https://www.google.com/search?q=https://t.me/kotlin_lang">@kotlin_lang</a></li>
+<li><a href="https://www.google.com/search?q=https://t.me/kotlin_news">@kotlin_news</a></li>
+</ul>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
 ]]></itunes:summary><itunes:subtitle>В гостях Руслан Ибрагимов — Kotlin-разработчик и а...</itunes:subtitle><description><![CDATA[
             <p>В гостях Руслан Ибрагимов — Kotlin-разработчик и архитектор. Обсуждаем эволюцию языка, замену шардированных баз на Snowflake и модернизацию легаси с помощью ИИ.</p>
@@ -37,14 +47,24 @@
 <p>51:00 — Автоматизация и Argo Workflows</p>
 <p>01:24:00 — Поломка обратной совместимости</p>
 <ul>
-<li><strong>Фреймворки:</strong> <a href="https://ktor.io/">Ktor</a>, <a href="https://spring.io/projects/spring-boot">Spring Boot</a>, <a href="https://quarkus.io/">Quarkus</a>, <a href="https://micronaut.io/">Micronaut</a>.</li>
-<li><strong>Инфраструктура:</strong> <a href="https://www.google.com/search?q=https://www.snowflake.com/">Snowflake</a>, <a href="https://argoproj.github.io/workflows/">Argo Workflows</a>, <a href="https://temporal.io/">Temporal</a>, <a href="https://kubernetes.io/">Kubernetes</a>.</li>
-<li><strong>Базы данных:</strong> <a href="https://www.postgresql.org/">PostgreSQL</a>, <a href="https://www.sqlite.org/">SQLite</a>, <a href="https://www.mongodb.com/">MongoDB</a>.</li>
-<li><strong>Инструменты:</strong> <a href="https://www.jooq.org/">jOOQ</a>, <a href="https://gradle.org/">Gradle</a>, <a href="https://insert-koin.io/">Koin</a>, <a href="https://testcontainers.com/">Testcontainers</a>.</li>
-<li><strong>Ресурсы:</strong> <a href="https://kotlin.link/">Awesome Kotlin</a>, <a href="https://github.com/modelcontextprotocol/kotlin-sdk">Kotlin MCP</a>.</li>
-<li><strong>Kotlin Community:</strong> <a href="https://www.google.com/search?q=https://t.me/kotlin_lang">@kotlin_lang</a> — основное русскоязычное сообщество.</li>
-<li><strong>Kotlin News:</strong> <a href="https://www.google.com/search?q=https://t.me/kotlin_news">@kotlin_news</a> — канал Руслана с обновлениями экосистемы.</li>
-<li><strong>Java Swag:</strong> <a href="https://www.google.com/search?q=https://t.me/javaswag">@javaswag</a> — официальный канал подкаста.</li>
+<li><a href="https://ktor.io/">Ktor</a>, <a href="https://spring.io/projects/spring-boot">Spring Boot</a>, <a href="https://quarkus.io/">Quarkus</a>, <a href="https://micronaut.io/">Micronaut</a>.</li>
+<li><a href="https://www.google.com/search?q=https://www.snowflake.com/">Snowflake</a></li>
+<li><a href="https://argoproj.github.io/workflows/">Argo Workflows</a></li>
+<li><a href="https://temporal.io/">Temporal</a></li>
+<li><a href="https://www.jooq.org/">jOOQ</a></li>
+<li><a href="https://insert-koin.io/">Koin</a></li>
+<li><a href="https://kotlin.link/">Awesome Kotlin</a></li>
+<li><a href="https://github.com/modelcontextprotocol/kotlin-sdk">Kotlin MCP</a></li>
+<li><a href="https://www.google.com/search?q=https://t.me/kotlin_lang">@kotlin_lang</a></li>
+<li><a href="https://www.google.com/search?q=https://t.me/kotlin_news">@kotlin_news</a></li>
+</ul>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
 ]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/88-javaswag-ruslan-ibragimov.mp3" type="audio/mpeg" length="215876160"/><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">87-javaswag-dmitry-solomennikov.mp3</guid><title>#87 - Дмитрий Соломенников — О разработке компиляторов, Java и языках выходного дня Drafts</title><pubDate>Fri, 20 Feb 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/87/</link><itunes:duration>01:57:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
             <p>В 87 выпуске подкаста Javaswag обсуждаем внутреннюю кухню создания языков, почему Java упрощает исходники и зачем крупным компаниям вроде Huawei свои языки программирования.</p>
