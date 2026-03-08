@@ -1,30 +1,4 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sun, 08 Mar 2026 11:01:38 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">89-javaswag-dmitry-chuyko.mp3</guid><title>#89 - Дмитрий Чуйко - Performance Architect, интринсики, контейнеры и будущее OpenJDK Drafts</title><pubDate>Tue, 03 Mar 2026 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/89/</link><itunes:duration>1:23:09</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
-            <p>В гостях Дмитрий Чуйко, Performance Architect в компании Bellsoft. Мы обсудили, как устроена работа над производительностью Java «под капотом», зачем компаниям свои дистрибутивы JDK и почему дефолтные настройки в контейнерах — это путь в никуда.</p>
-<h3 id="в-этом-выпуске"><strong>В этом выпуске:</strong></h3>
-<p>01:48 Путь из Deutsche Bank в Oracle.</p>
-<p>03:43 Замеры производительности до появления JMH.</p>
-<p>08:19 Функциональные тесты рантайма и микробенчмарки.</p>
-<p>17:50 Проблемы производительности десктопных приложений.</p>
-<p>22:02 JFR — универсальный инструмент диагностики.</p>
-<p>32:10 Рынок дистрибутивов и лицензии JDK.</p>
-<p>45:37 Оптимизация через платформенные интринсики.</p>
-<p>59:51 Java и Linux внутри Docker-контейнеров.</p>
-<p>01:05:01 Мгновенный старт: технологии CRaC и Леден.</p>
-<p>01:16:10 Кто такой системный разработчик сегодня.</p>
-]]></itunes:summary><itunes:subtitle>В гостях Дмитрий Чуйко, Performance Architect в ко...</itunes:subtitle><description><![CDATA[
-            <p>В гостях Дмитрий Чуйко, Performance Architect в компании Bellsoft. Мы обсудили, как устроена работа над производительностью Java «под капотом», зачем компаниям свои дистрибутивы JDK и почему дефолтные настройки в контейнерах — это путь в никуда.</p>
-<h3 id="в-этом-выпуске"><strong>В этом выпуске:</strong></h3>
-<p>01:48 Путь из Deutsche Bank в Oracle.</p>
-<p>03:43 Замеры производительности до появления JMH.</p>
-<p>08:19 Функциональные тесты рантайма и микробенчмарки.</p>
-<p>17:50 Проблемы производительности десктопных приложений.</p>
-<p>22:02 JFR — универсальный инструмент диагностики.</p>
-<p>32:10 Рынок дистрибутивов и лицензии JDK.</p>
-<p>45:37 Оптимизация через платформенные интринсики.</p>
-<p>59:51 Java и Linux внутри Docker-контейнеров.</p>
-<p>01:05:01 Мгновенный старт: технологии CRaC и Леден.</p>
-<p>01:16:10 Кто такой системный разработчик сегодня.</p>
-]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/89-javaswag-dmitry-chuyko.mp3" type="audio/mpeg" length="199568640"/><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">88-javaswag-ruslan-ibragimov.mp3</guid><title>#88 - Руслан Ибрагимов - о будущем Kotlin и архитектуре Snowflake Drafts</title><pubDate>Tue, 03 Mar 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/88/</link><itunes:duration>1:29:56</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sun, 08 Mar 2026 11:02:37 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">88-javaswag-ruslan-ibragimov.mp3</guid><title>#88 - Руслан Ибрагимов - о будущем Kotlin и архитектуре Snowflake Drafts</title><pubDate>Sun, 08 Mar 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/88/</link><itunes:duration>1:29:56</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
             <p>В гостях Руслан Ибрагимов — Kotlin-разработчик и архитектор. Обсуждаем эволюцию языка, замену шардированных баз на Snowflake и модернизацию легаси с помощью ИИ.</p>
 <p>00:00 — Интро</p>
 <p>03:00 — Путь Руслана в Kotlin</p>
@@ -94,7 +68,33 @@
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/88-javaswag-ruslan-ibragimov.mp3" type="audio/mpeg" length="215876160"/><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">87-javaswag-dmitry-solomennikov.mp3</guid><title>#87 - Дмитрий Соломенников — О разработке компиляторов, Java и языках выходного дня Drafts</title><pubDate>Fri, 20 Feb 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/87/</link><itunes:duration>01:57:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/88-javaswag-ruslan-ibragimov.mp3" type="audio/mpeg" length="215876160"/><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">89-javaswag-dmitry-chuyko.mp3</guid><title>#89 - Дмитрий Чуйко - Performance Architect, интринсики, контейнеры и будущее OpenJDK Drafts</title><pubDate>Tue, 03 Mar 2026 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/89/</link><itunes:duration>1:23:09</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+            <p>В гостях Дмитрий Чуйко, Performance Architect в компании Bellsoft. Мы обсудили, как устроена работа над производительностью Java «под капотом», зачем компаниям свои дистрибутивы JDK и почему дефолтные настройки в контейнерах — это путь в никуда.</p>
+<h3 id="в-этом-выпуске"><strong>В этом выпуске:</strong></h3>
+<p>01:48 Путь из Deutsche Bank в Oracle.</p>
+<p>03:43 Замеры производительности до появления JMH.</p>
+<p>08:19 Функциональные тесты рантайма и микробенчмарки.</p>
+<p>17:50 Проблемы производительности десктопных приложений.</p>
+<p>22:02 JFR — универсальный инструмент диагностики.</p>
+<p>32:10 Рынок дистрибутивов и лицензии JDK.</p>
+<p>45:37 Оптимизация через платформенные интринсики.</p>
+<p>59:51 Java и Linux внутри Docker-контейнеров.</p>
+<p>01:05:01 Мгновенный старт: технологии CRaC и Леден.</p>
+<p>01:16:10 Кто такой системный разработчик сегодня.</p>
+]]></itunes:summary><itunes:subtitle>В гостях Дмитрий Чуйко, Performance Architect в ко...</itunes:subtitle><description><![CDATA[
+            <p>В гостях Дмитрий Чуйко, Performance Architect в компании Bellsoft. Мы обсудили, как устроена работа над производительностью Java «под капотом», зачем компаниям свои дистрибутивы JDK и почему дефолтные настройки в контейнерах — это путь в никуда.</p>
+<h3 id="в-этом-выпуске"><strong>В этом выпуске:</strong></h3>
+<p>01:48 Путь из Deutsche Bank в Oracle.</p>
+<p>03:43 Замеры производительности до появления JMH.</p>
+<p>08:19 Функциональные тесты рантайма и микробенчмарки.</p>
+<p>17:50 Проблемы производительности десктопных приложений.</p>
+<p>22:02 JFR — универсальный инструмент диагностики.</p>
+<p>32:10 Рынок дистрибутивов и лицензии JDK.</p>
+<p>45:37 Оптимизация через платформенные интринсики.</p>
+<p>59:51 Java и Linux внутри Docker-контейнеров.</p>
+<p>01:05:01 Мгновенный старт: технологии CRaC и Леден.</p>
+<p>01:16:10 Кто такой системный разработчик сегодня.</p>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/89-javaswag-dmitry-chuyko.mp3" type="audio/mpeg" length="199568640"/><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">87-javaswag-dmitry-solomennikov.mp3</guid><title>#87 - Дмитрий Соломенников — О разработке компиляторов, Java и языках выходного дня Drafts</title><pubDate>Fri, 20 Feb 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/87/</link><itunes:duration>01:57:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
             <p>В 87 выпуске подкаста Javaswag обсуждаем внутреннюю кухню создания языков, почему Java упрощает исходники и зачем крупным компаниям вроде Huawei свои языки программирования.</p>
 <p>00:00 — Интро</p>
 <p>01:58 — ZX Spectrum 48/128 и Basic</p>
