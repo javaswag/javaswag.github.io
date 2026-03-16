@@ -1,4 +1,4 @@
-<[31m?xml[0m[32mrss[0m version="[31m1[0m[32m2[0m.0" [31mencoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" [0mxmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" [31mver[0m[32mxmln[0ms[31mi[0m[32m:at[0mo[31mn[0m[32mm[0m="[32mhttp://www.w3.org/[0m2[31m.[0m[32m0[0m0[32m5/Atom[0m"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sat, 12 Dec 2026 06:11:07 +0000</pubDate><lastBuildDate>[31mSun[0m[32mFri[0m, [31m08[0m[32m13[0m Mar 2026 [31m11:0[0m2[32m1[0m:3[32m1:5[0m7 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>[31mt[0m[32mjavas[0mw[31mitter.com/volyx[0m[32mag[0m</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="http[32ms[0m://[31mi1.sndcdn.com/[0m[32mj[0mava[31mtar[0ms[31m-hQenmJZyBXHdE1r3-4rqAq[0m[32mwag.[0mg[31m-[0m[32mithub.i[0mo[31mr[0m[32m//[0mi[32mm[0mg[31mina[0m[32m/[0ml[32mogo[0m.[31mj[0mp[32mn[0mg"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><category>Technology</category><itunes:[31msummary>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</itunes:summary><itunes:[0mcategory text="Technology"[32m/[0m><itunes:[31mcateg[0mo[31mry t[0m[32mwn[0me[31mxt="Tech News"/[0m[32mr[0m><[31m/[0mitunes:[31mc[0m[32mn[0ma[31mt[0m[32mm[0me[31mgory[0m>[32mjavaswag[0m<[32m/[0mitunes:[31mow[0mn[32mam[0me[31mr[0m><itunes:email>volyihin@[31mgm[0m[32my[0ma[31mil[0m[32mndex[0m.[31mcom[0m[32mru[0m</itunes:email><[31mitunes:name>twitter.com/volyx</itunes:name><[0m/itunes:owner><item><guid isPermaLink="false">88-javaswag-ruslan-ibragimov.mp3</guid><title>#88 - Руслан Ибрагимов - о будущем Kotlin и архитектуре Snowflake</title><pubDate>Sun, 08 Mar 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/88/</link><itunes:duration>1:29:56</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+<[31m?xml[0m[32mrss[0m version="[31m1[0m[32m2[0m.0" [31mencoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" [0mxmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" [31mver[0m[32mxmln[0ms[31mi[0m[32m:at[0mo[31mn[0m[32mm[0m="[31m2[0m[32mhttp://www[0m.[32mw3.org/2[0m0[32m05/Atom[0m"><channel><title>javaswag</title><link>https://javaswag.github.io/</link><pubDate>Sat, 12 Dec 2026 06:11:07 +0000</pubDate><lastBuildDate>[31mFri[0m[32mMon[0m, 1[31m3[0m[32m6[0m Mar 2026 2[31m1[0m[32m2[0m:[31m31[0m[32m07[0m:[32m2[0m5[31m7[0m +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>[31mt[0m[32mjavas[0mw[31mitter.com/volyx[0m[32mag[0m</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="http[32ms[0m://[31mi1.sndcdn.com/[0m[32mj[0mava[32mswag.gi[0mt[31mars-[0mh[31mQen[0m[32mub.io//i[0mm[31mJZyBXHdE1r3-4rqAq[0mg[31m-[0m[32m/l[0mo[31mri[0mg[31minal[0m[32mo[0m.[31mj[0mp[32mn[0mg"/><image><url>https://javaswag.github.io//img/logo.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><category>Technology</category><itunes:[31msummary>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</itunes:summary><itunes:[0mcategory text="Technology"[32m/[0m><itunes:[31mcateg[0mo[31mry text="Tech Ne[0mw[31ms"/[0m[32mner[0m><[31m/[0mitunes:[31mc[0m[32mn[0ma[31mt[0m[32mm[0me[31mgory[0m>[32mjavaswag[0m<[32m/[0mitunes:[31mow[0mn[32mam[0me[31mr[0m><itunes:email>volyihin@[31mgm[0m[32my[0ma[31mil[0m[32mndex[0m.[31mcom[0m[32mru[0m</itunes:email[31m><itunes:name>twitter.com/volyx</itunes:name[0m></itunes:owner><item><guid isPermaLink="false">88-javaswag-ruslan-ibragimov.mp3</guid><title>#88 - Руслан Ибрагимов - о будущем Kotlin и архитектуре Snowflake</title><pubDate>Sun, 08 Mar 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/88/</link><itunes:duration>1:29:56</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В гостях Руслан Ибрагимов — Kotlin-разработчик и архитектор. Обсуждаем эволюцию языка, замену шардированных баз на Snowflake и модернизацию легаси с помощью ИИ.</p>
 <p>00:00 — Интро</p>
 <p>03:00 — Путь Руслана в Kotlin</p>
@@ -68,7 +68,49 @@
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="215876160" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/88-javaswag-ruslan-ibragimov.mp3"[32m type="audio/mpeg" length="215876160"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">87-javaswag-dmitry-solomennikov.mp3</guid><title>#87 - Дмитрий Соломенников — О разработке компиляторов, Java и языках выходного дня</title><pubDate>Fri, 20 Feb 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/87/</link><itunes:duration>01:57:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="215876160" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/88-javaswag-ruslan-ibragimov.mp3"[32m type="audio/mpeg" length="215876160"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[32m/item><itunes:owner><itunes:n[0ma[32mme>javaswag</it[0mu[32mnes:name><i[0mt[32munes:email>volyi[0mh[32min@yandex.ru</itunes:email></itunes:[0mo[32mwne[0mr>[32m<item><guid isPermaLink="false">89-ja[0mv[32maswag-dmitry-chuyk[0mo[32m.mp3</guid><tit[0ml[32me>#89 - Дмитрий Чуйко - Performance Architect, интринсики, контейнеры и будущее OpenJDK</title><pubDate>Tue, 03 Mar 2026 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/89/</link><itunes:duration>1:23:09</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summar[0my[32m><![CDATA[
+				    <p>В гостях Дмитрий Чуйко, Performance Arch[0mi[32mtect в компании Bellsoft. Мы обсудили, как устроена работа над производительностью Java «под капотом», зачем компаниям свои дистрибутивы JDK и почему дефолтные настройки в контейнерах — это путь в никуда.</p>
+<[0mh[32m3 [0mi[32md="в-этом-выпуске"><stro[0mn[31m@[0m[32mg>В этом выпуске:</stron[0mg[32m></h3>
+<p>00:00 Старт</p>
+<p>01:48 Путь из Deutsche Bank в Oracle.</p>
+<p>03:43 Замеры производительности до появления JMH.</p>
+<p>08:19 Функциональные тесты рантайма и микробенчмарки.</p>
+<p>17:50 Проблемы производительности десктопных приложений.</p>
+<p>22:02 JFR — универсальный инструмент диагностики.</p>
+<p>32:10 Рынок дистрибутивов и лицензии JDK.</p>
+<p>45:37 Оптимизация через платформенные интринсики.</p>
+<p>59:51 Java и Linux внутри Docker-контейнеров.</p>
+<p>01:05:01 Мгновенный старт: технологии CRaC и Леден.</p>
+<p>01:16:10 Кто такой системный разработчик сегодня.</p>
+<p>Ссылки</p>
+<ul>
+<li><a href="https://bell-sw.co[0mm[32m/blog/wh[0ma[32mt-is-crac-a-guide-to-cutting-java-startup-and-warmup-from-minutes-to-m[0mil[32mliseconds/">https://bell-sw[0m.com[31m ([0m[32m/blog/what-is-crac-a-guide-to-cutting-java-star[0mt[32mup-and-[0mw[32marmup-from-m[0mi[32mnu[0mt[32mes-[0mt[32mo-millis[0me[32mconds/</a></li>
+<li><a h[0mr[32mef="https://blog.jetbrains[0m.com/[32mkotlin/2026/01/the-journey-to-compose-hot-reload-1-0-0/">https://blog.jetbrains.com/kotlin/2026/01/the-journey-to-compose-hot-reload-1-0-0/</a></li>
+<li><a href="https://openjdk.org/projects/leyden/">https://openjdk.org/projects/leyden/</a></li>
+<li><a href="https://openjdk.org/jeps/516">https://openjdk.org/jeps/516</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В гостях Дмитрий Чуйко, Performance Architect в компании Bellsoft. Мы обсудили, как устроена работа над производительностью Ja[0mv[32ma «под капотом», зачем ...</itunes:subtitle><descripti[0mo[32mn><![CDATA[
+				    <p>В гостях Дмитрий Чуйко, Performance Architect в компании Be[0ml[32mlsoft. Мы обсудили, как устроена работа над производительностью Java «под капотом», зачем компаниям свои дистрибутивы JDK и почему дефолтные настройки в контейнерах — это путь в никуда.</p>
+<h3 id="в-этом-выпуске"><strong>В этом выпуске:</strong></h3>
+<p>00:00 Старт</p>
+<p>01:48 Путь из Deutsche Bank в Oracle.</p>
+<p>03:43 Замеры производительности до появления JMH.</p>
+<p>08:19 Функциональные тесты рантайма и микробенчмарки.</p>
+<p>17:50 Проблемы производительности десктопных приложений.</p>
+<p>22:02 JFR — универсальный инструмент диагностики.</p>
+<p>32:10 Рынок дистрибутивов и лицензии JDK.</p>
+<p>45:37 Оптимизация через платформенные интринсики.</p>
+<p>59:51 Java и Linux внутри Docker-контейнеров.</p>
+<p>01:05:01 Мгновенный старт: технологии CRaC и Леден.</p>
+<p>01:16:10 Кто такой системный разработчик сегодня.</p>
+<p>Ссылки</p>
+<ul>
+<li><a href="https://bell-sw.com/blog/what-is-crac-a-guide-to-cutting-java-startup-and-warmup-from-minutes-to-milliseconds/">https://bell-sw.com/blog/what-is-crac-a-guide-to-cutting-java-startup-and-warmup-from-minutes-to-milliseconds/</a></li>
+<li><a href="https://blog.jetbrains.com/kotlin/2026/01/the-journe[0my[32m-to-compose-hot-reload-1-0-0/">https://blog.jetbrains.com/kotlin/2026/01/the-journey-to-compose-hot-reload-1-0-0/</a></li>
+<li><a href="https://openjdk.org/projects/leyden/">https://openjdk.org/projects/leyden/</a></li>
+<li><a href="https://openjdk.org/jeps/516">https://openjdk.org/jeps/516</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yande[0mx[31m)[0m[32mcloud.net/javaswag/89-javaswag-dmitry-chuyko.mp3" type="audio/mpeg" length="199568640"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag[0m</author[32m><itunes:keywords>technology,java,jvm</itunes:keywords[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">87-javaswag-dmitry-solomennikov.mp3</guid><title>#87 - Дмитрий Соломенников — О разработке компиляторов, Java и языках выходного дня</title><pubDate>Fri, 20 Feb 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/87/</link><itunes:duration>01:57:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 87 выпуске подкаста Javaswag обсуждаем внутреннюю кухню создания языков, почему Java упрощает исходники и зачем крупным компаниям вроде Huawei свои языки программирования.</p>
 <p>00:00 — Интро</p>
 <p>01:58 — ZX Spectrum 48/128 и Basic</p>
@@ -283,7 +325,7 @@
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="264942720" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/86-javaswag-grigoriy-vakhmistrov.mp3"[32m type="audio/mpeg" length="264942720"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">85-javaswag-romann-grebennikov.mp3</guid><title>#85 - Роман Гребенников - Lucene, Scala и стейтслесс поиск</title><pubDate>Sat, 29 Nov 2025 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/85/</link><itunes:duration>01:59:30</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="264942720" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/86-javaswag-grigoriy-vakhmistrov.mp3"[32m type="audio/mpeg" length="264942720"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">85-javaswag-romann-grebennikov.mp3</guid><title>#85 - Роман Гребенников - Lucene, Scala и стейтслесс поиск</title><pubDate>Sat, 29 Nov 2025 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/85/</link><itunes:duration>01:59:30</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 85 выпуске подкаста Javaswag в гостях Роман Гребенников, инженер с огромным опытом в разработке поисковых движков (Findify, Delivery Hero) и создатель open-source проектов Metarank и Nixie Search.</p>
 <p>Мы обсудили эволюцию поиска от &ldquo;просто возьми Elastic&rdquo; до хайпа по векторным базам данных и обратно. Поговорили о том, почему Scala всё еще жива, зачем нужен GraalVM в 2024 году, и как построить свой поисковый движок поверх S3 и AWS Lambda.</p>
 <p>00:00 — Начало</p>
@@ -539,7 +581,7 @@
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="328898880" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/82-javaswag-vladimir-sitnikov.mp3"[32m type="audio/mpeg" length="328898880"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">81-javaswag-misha-polivaha.mp3</guid><title>#81 - Михаил Поливаха - реактивное программирование и опен сорс</title><pubDate>Sat, 06 Sep 2025 08:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/81/</link><itunes:duration>01:56:13</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="328898880" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/82-javaswag-vladimir-sitnikov.mp3"[32m type="audio/mpeg" length="328898880"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/[32m><author>javaswag</author[0m><itunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">81-javaswag-misha-polivaha.mp3</guid><title>#81 - Михаил Поливаха - реактивное программирование и опен сорс</title><pubDate>Sat, 06 Sep 2025 08:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/81/</link><itunes:duration>01:56:13</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 81 выпуске подкаста Javaswag поговорили Михаилом Поливахой о реактивном программировании и Open Source</p>
 <p>00:00 Начало</p>
 <p>15:42 Cтартапы</p>
@@ -606,7 +648,7 @@
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="278922240" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/81-javaswag-misha-polivaha.mp3"[32m type="audio/mpeg" length="278922240"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">80-javaswag-ilya-zonov.mp3</guid><title>#80 - Илья Зонов - роль архитектора, подход API First и Code of Architecture</title><pubDate>Fri, 22 Aug 2025 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/80/</link><itunes:duration>02:06:58</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="278922240" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/81-javaswag-misha-polivaha.mp3"[32m type="audio/mpeg" length="278922240"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">80-javaswag-ilya-zonov.mp3</guid><title>#80 - Илья Зонов - роль архитектора, подход API First и Code of Architecture</title><pubDate>Fri, 22 Aug 2025 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/80/</link><itunes:duration>02:06:58</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 80 выпуске подкаста Javaswag поговорили с Ильей Зоновым о роли архитектора, подходе API First и Code of Architecture</p>
 <p>00:00 Начало</p>
 <p>06:03 Linux и эмбедед системы</p>
@@ -770,7 +812,7 @@
 <p>Видео версия:</p>
 <p>Yandex Video <a href="https://runtime.video.cloud.yandex.net/player/video/vplvy4tmjbx4eqz52cgu?autoplay=0&amp;mute=0">https://runtime.video.cloud.yandex.net/player/video/vplvy4tmjbx4eqz52cgu?autoplay=0&amp;mute=0</a></p>
 <p>Youtube <a href="https://youtu.be/yF6gZnrsVJk">https://youtu.be/yF6gZnrsVJk</a></p>
-]]></description><enclosure [31mlength="272475840" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/79-javaswag-arhipov-polivaha.mp3[32m" type="audio/mpeg" length="272475840[0m"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">78-javaswag-plillip-delgyado-2.mp3</guid><title>#78 - Филипп Дельгядо - ФинТех на Котлине и правильные велосипеды поверх Постгреса</title><pubDate>Thu, 26 Jun 2025 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/78/</link><itunes:duration>02:02:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="272475840" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/79-javaswag-arhipov-polivaha.mp3"[32m type="audio/mpeg" length="272475840"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">78-javaswag-plillip-delgyado-2.mp3</guid><title>#78 - Филипп Дельгядо - ФинТех на Котлине и правильные велосипеды поверх Постгреса</title><pubDate>Thu, 26 Jun 2025 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/78/</link><itunes:duration>02:02:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 78 выпуске подкаста Javaswag поговорили с Филиппом Дельгядо о ФинТехе, Котлине и правильных велосипедах поверх Постгреса</p>
 <p><a href="https://lekton.io">https://lekton.io</a></p>
 <p>00:00 Начало</p>
@@ -832,7 +874,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="293032320" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/78-javaswag-plillip-delgyado-2.mp3"[32m type="audio/mpeg" length="293032320"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">77-javaswag-andrey-breslav-1.mp3</guid><title>#77 - Андрей Бреслав - Котлин для Джависта</title><pubDate>Wed, 21 May 2025 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/77/</link><itunes:duration>01:53:25</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="293032320" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/78-javaswag-plillip-delgyado-2.mp3"[32m type="audio/mpeg" length="293032320"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">77-javaswag-andrey-breslav-1.mp3</guid><title>#77 - Андрей Бреслав - Котлин для Джависта</title><pubDate>Wed, 21 May 2025 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/77/</link><itunes:duration>01:53:25</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 77 выпуске подкаста Javaswag поговорили с Андреем Бреславом о Котлине, новом AI языке и мультиплатформе</p>
 <p>00:00 История создания Kotlin</p>
 <p>10:11 Разработка языка</p>
@@ -981,7 +1023,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="302222400" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/76-javaswag-sergey-kuksenko.mp3"[32m type="audio/mpeg" length="302222400"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">75-javaswag-ilia-ilinukh.mp3</guid><title>#75 - Илья Ильиных - Голэнг как убица Джавы, и Вим</title><pubDate>Tue, 04 Feb 2025 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/75/</link><itunes:duration>02:34:50</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="302222400" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/76-javaswag-sergey-kuksenko.mp3"[32m type="audio/mpeg" length="302222400"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">75-javaswag-ilia-ilinukh.mp3</guid><title>#75 - Илья Ильиных - Голэнг как убица Джавы, и Вим</title><pubDate>Tue, 04 Feb 2025 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/75/</link><itunes:duration>02:34:50</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 75 выпуске подкаста Javaswag поговорили Ильей Ильиных о том почему Голэнг лучше Джавы, и как Вим делает из вас лучшего разразботчика</p>
 <p>00:00 Переход от Java к Go</p>
 <p>06:13 Проблемы с Optional и его использование</p>
@@ -1472,7 +1514,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="302269440" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/70-javaswag-alex-zakharchenko.mp3"[32m type="audio/mpeg" length="302269440"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">69-javaswag-dmitry-chuiko.mp3</guid><title>#69 - Дмитрий Чуйко - старт Джава проектов с нуля</title><pubDate>Thu, 17 Oct 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/69/</link><itunes:duration>01:55:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="302269440" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/70-javaswag-alex-zakharchenko.mp3"[32m type="audio/mpeg" length="302269440"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">69-javaswag-dmitry-chuiko.mp3</guid><title>#69 - Дмитрий Чуйко - старт Джава проектов с нуля</title><pubDate>Thu, 17 Oct 2024 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/69/</link><itunes:duration>01:55:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 69 выпуске подкаста Javaswag поговорили с Дмитрием Чуйко о старте Джава проектов с нуля</p>
 <p>00:00 Начало</p>
 <p>10:09 Технологический стек и его эволюция</p>
@@ -1639,7 +1681,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="330236160" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/68-javaswag-armem-boiarshinov.mp3"[32m type="audio/mpeg" length="330236160"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">67-javaswag-sergey-petrelevich.mp3</guid><title>#67 - Сергей Петрелевич - реактивные приложения, WebFlux, блокирующий код и Micronaut</title><pubDate>Thu, 26 Sep 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/67/</link><itunes:duration>02:12:02</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="330236160" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/68-javaswag-armem-boiarshinov.mp3"[32m type="audio/mpeg" length="330236160"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">67-javaswag-sergey-petrelevich.mp3</guid><title>#67 - Сергей Петрелевич - реактивные приложения, WebFlux, блокирующий код и Micronaut</title><pubDate>Thu, 26 Sep 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/67/</link><itunes:duration>02:12:02</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 67 выпуске подкаста Javaswag поговорили с Сергеем Петрелевичем о WebFlux, блокирующем коде в реактивном приложении и Micronaut</p>
 <p>00:00 Начало</p>
 <p>02:52 Путь к Java от BASIC</p>
@@ -1816,7 +1858,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="337707840" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/66-javaswag-ivan-osipov.mp3"[32m type="audio/mpeg" length="337707840"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/[32m><author>javaswag</author[0m><itunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">65-javaswag-slava-ledovskih.mp3</guid><title>#65 - Слава Ледовских - как расти до мидла, двухфазный коммит и oncall практики</title><pubDate>Sat, 20 Jul 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/65/</link><itunes:duration>01:48:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="337707840" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/66-javaswag-ivan-osipov.mp3"[32m type="audio/mpeg" length="337707840"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">65-javaswag-slava-ledovskih.mp3</guid><title>#65 - Слава Ледовских - как расти до мидла, двухфазный коммит и oncall практики</title><pubDate>Sat, 20 Jul 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/65/</link><itunes:duration>01:48:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 65 выпуске подкаста Javaswag поговорили со Славой Ледовских о том как расти до миддла, двухфазном комите и on call практиках</p>
 <p>00:00 Начало</p>
 <p>08:09 Развитие сотрудников: учить и помогать расти</p>
@@ -2048,7 +2090,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="134407456" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/63-javaswag-timofei-durakov.mp3"[32m type="audio/mpeg" length="134407456"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">62-javaswag-andrei-kuleshov-7.mp3</guid><title>#62 - Андрей Кулешов - Kotlin, технические конференции, Spring, диктат в анализе кода и kotlinx.serialization</title><pubDate>Fri, 07 Jun 2024 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/62/</link><itunes:duration>02:06:55</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="134407456" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/63-javaswag-timofei-durakov.mp3"[32m type="audio/mpeg" length="134407456"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">62-javaswag-andrei-kuleshov-7.mp3</guid><title>#62 - Андрей Кулешов - Kotlin, технические конференции, Spring, диктат в анализе кода и kotlinx.serialization</title><pubDate>Fri, 07 Jun 2024 11:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/62/</link><itunes:duration>02:06:55</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 62 выпуске подкаста Javaswag поговорили с Андреем Кулешовым о конференциях, Котлин 2, мультиплатформе, анализе кода, библиотеках diktat и ktoml</p>
 <p>Дисклеймер: выпуск писался в начале мая, Positive Hack days прошел, а Kotlin 2 вышел!</p>
 <p>00:00 Начало</p>
@@ -2323,7 +2365,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="153975033" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/59-javaswag-evgenii-molokov-2.mp3"[32m type="audio/mpeg" length="153975033"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">58-javaswag-michail-zhilin-1.mp3</guid><title>#58 - Михаил Жилин - Джава 15 лет назад и производительность базы данных Постгрес</title><pubDate>Mon, 01 Apr 2024 18:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/58/</link><itunes:duration>01:53:23</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="153975033" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/59-javaswag-evgenii-molokov-2.mp3"[32m type="audio/mpeg" length="153975033"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">58-javaswag-michail-zhilin-1.mp3</guid><title>#58 - Михаил Жилин - Джава 15 лет назад и производительность базы данных Постгрес</title><pubDate>Mon, 01 Apr 2024 18:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/58/</link><itunes:duration>01:53:23</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 58 выпуске подкаста Javaswag поговорили с Михаилом Жилиным о том, как выглядела Джава 15 лет назад и о производительности базы данных Постгрес</p>
 <p>00:01:34 Встреча с Джеймсом Гослингом</p>
 <p>00:05:32 Джава 15 лет назад</p>
@@ -2465,7 +2507,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="219596121" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/57-javaswag-alexey-andreev.mp3"[32m type="audio/mpeg" length="219596121"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">56-javaswag-vladimir-dolzhenko-3.mp3</guid><title>#56 - Владимир Долженко - производительность IDE, Котлин плагин и новый компилятор К2</title><pubDate>Mon, 22 Jan 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/56/</link><itunes:duration>01:57:42</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="219596121" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/57-javaswag-alexey-andreev.mp3"[32m type="audio/mpeg" length="219596121"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">56-javaswag-vladimir-dolzhenko-3.mp3</guid><title>#56 - Владимир Долженко - производительность IDE, Котлин плагин и новый компилятор К2</title><pubDate>Mon, 22 Jan 2024 10:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/56/</link><itunes:duration>01:57:42</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 56 выпуске подкаста Javaswag поговорили с Владимиром Долженко о производительности IDE, Котлин плагине и новом компиляторе К2</p>
 <p>00:01:13 Путь в компиляторы, фризы и IntelliJ как платформа</p>
 <p>00:13:20 Опыт до Jetbrains</p>
@@ -2526,7 +2568,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="226065220" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/56-javaswag-vladimir-dolzhenko-3.mp3"[32m type="audio/mpeg" length="226065220"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">55-javaswag-dmitrii-tihomirov.mp3</guid><title>#55 - Дмитрий Тихомиров - J2CL и компиляция Java в Javascript, GWT и опенсорс в Редхат</title><pubDate>Thu, 11 Jan 2024 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/55/</link><itunes:duration>01:24:51</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="226065220" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/56-javaswag-vladimir-dolzhenko-3.mp3"[32m type="audio/mpeg" length="226065220"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">55-javaswag-dmitrii-tihomirov.mp3</guid><title>#55 - Дмитрий Тихомиров - J2CL и компиляция Java в Javascript, GWT и опенсорс в Редхат</title><pubDate>Thu, 11 Jan 2024 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/55/</link><itunes:duration>01:24:51</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 55 выпуске подкаста Javaswag поговорили с Дмитрием Тихомировым о компиляции Java в Javascript, GWT, J2CL и опенсорсе в Редхат</p>
 <p>00:01:50 О себе</p>
 <p>00:12:44 <a href="https://github.com/treblereel/quake2-j2cl-port">J2CL Порт Quake2</a></p>
@@ -2719,7 +2761,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="153689025" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/53-javaswag-anton-arhipov-3.mp3"[32m type="audio/mpeg" length="153689025"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">52-timur-mukhitdinov.mp3</guid><title>#52 - Тимур Мухитдинов - стартап на Джаве и архитектура в Букинге</title><pubDate>Thu, 31 Aug 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/52/</link><itunes:duration>01:56:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="153689025" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/53-javaswag-anton-arhipov-3.mp3"[32m type="audio/mpeg" length="153689025"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">52-timur-mukhitdinov.mp3</guid><title>#52 - Тимур Мухитдинов - стартап на Джаве и архитектура в Букинге</title><pubDate>Thu, 31 Aug 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/52/</link><itunes:duration>01:56:06</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 52 выпуске подкаста Javaswag поговорили с Тимуром Мухитдиновым о стартапе на Джаве и архитектуре в Букинге</p>
 <p>00:01:38 О себе</p>
 <p>00:05:57 Все что были книги о Джаве, я прочитал</p>
@@ -3026,7 +3068,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="104288416" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/48-kirill-grishchuk.mp3"[32m type="audio/mpeg" length="104288416"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">47-sasha-pakhomov-2.mp3</guid><title>#47 - Саша Пахомов - прагматичные практики, АПИ клиенты и софтскиллы</title><pubDate>Sat, 08 Apr 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/47/</link><itunes:duration>02:11:10</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="104288416" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/48-kirill-grishchuk.mp3"[32m type="audio/mpeg" length="104288416"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">47-sasha-pakhomov-2.mp3</guid><title>#47 - Саша Пахомов - прагматичные практики, АПИ клиенты и софтскиллы</title><pubDate>Sat, 08 Apr 2023 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/47/</link><itunes:duration>02:11:10</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 47 выпуске подкаста Javaswag поговорили с Сашей Пахомовым о прагматичных практиках, АПИ клиентах и важности софтскиллах</p>
 <p>00:01:15 О себе</p>
 <p>00:04:27 Зачем нужна слепая печать если есть Intellij IDEA</p>
@@ -3380,7 +3422,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="130236736" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/43-javaswag-ivan-ponomarev-1.mp3"[32m type="audio/mpeg" length="130236736"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">42-javaswag-mark-struchkov</guid><title>#42 - Марк Стручков - курс на Яндекс Практикуме, собеседования и библиотека Кваркус</title><pubDate>Thu, 29 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/42/</link><itunes:duration>01:43:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="130236736" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/43-javaswag-ivan-ponomarev-1.mp3"[32m type="audio/mpeg" length="130236736"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">42-javaswag-mark-struchkov</guid><title>#42 - Марк Стручков - курс на Яндекс Практикуме, собеседования и библиотека Кваркус</title><pubDate>Thu, 29 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/42/</link><itunes:duration>01:43:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 42 выпуске подкаста Javaswag поговорили с Марком Стручковым о курсах на Яндекс Практикуме, собеседованиях и библиотеке Кваркусе</p>
 <p>00:00:44 О себе</p>
 <p>00:03:10 Почему Java</p>
@@ -3521,7 +3563,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure[31m length="128213536" type="audio/mpeg"[0m url="https://storage.yandexcloud.net/javaswag/41-gregorii-koshelev.mp3"[32m type="audio/mpeg" length="128213536"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1405241773</guid><title>#40 - Никита Прокопов - разочарование в Java, простота Clojure и опенсорс проекты</title><pubDate>Fri, 23 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/40/</link><itunes:duration>01:36:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="128213536" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/41-gregorii-koshelev.mp3"[32m type="audio/mpeg" length="128213536"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1405241773</guid><title>#40 - Никита Прокопов - разочарование в Java, простота Clojure и опенсорс проекты</title><pubDate>Fri, 23 Dec 2022 15:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/40/</link><itunes:duration>01:36:12</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 40 выпуске подкаста Javaswag поговорили с Никитой Прокоповым о разочаровании в Java, простоте Clojure и опенсорс проектах</p>
 <p>00:01:20 О себе, Java, Erlang, Ocaml, Clojure</p>
 <p>00:05:52 Что хорошего в Java</p>
@@ -3578,7 +3620,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="115456576" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/40-javaswag-nikita-propopov-1.mp3"[32m type="audio/mpeg" length="115456576"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1395940009</guid><title>#39 - Максим Грамин - SQL city, метаданные и подход Database as a Code</title><pubDate>Wed, 14 Dec 2022 11:08:13 +0000</pubDate><link>https://javaswag.github.io/episode/39/</link><itunes:duration>01:31:35</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="115456576" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/40-javaswag-nikita-propopov-1.mp3"[32m type="audio/mpeg" length="115456576"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/[32m><author>javaswag</author[0m><itunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1395940009</guid><title>#39 - Максим Грамин - SQL city, метаданные и подход Database as a Code</title><pubDate>Wed, 14 Dec 2022 11:08:13 +0000</pubDate><link>https://javaswag.github.io/episode/39/</link><itunes:duration>01:31:35</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 39 выпуске подкаста Javaswag поговорили с Максимом Граминым о подходе Database as a Code, метаданных БД и работе с SQL кодом в проекте</p>
 <p>00:01:40 О себе, ;жизнь в SQL city</p>
 <p>00:09:30 Переход в Джаву</p>
@@ -3763,7 +3805,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="99393222" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/37-javaswag-pavel-safronov.mp3"[32m type="audio/mpeg" length="99393222"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1376966872</guid><title>#36 - Владимир Иванов - мобильная архитектура, развитие в архитектора/стафф инженера</title><pubDate>Fri, 11 Nov 2022 13:05:13 +0000</pubDate><link>https://javaswag.github.io/episode/36/</link><itunes:duration>01:34:26</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="99393222" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/37-javaswag-pavel-safronov.mp3"[32m type="audio/mpeg" length="99393222"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1376966872</guid><title>#36 - Владимир Иванов - мобильная архитектура, развитие в архитектора/стафф инженера</title><pubDate>Fri, 11 Nov 2022 13:05:13 +0000</pubDate><link>https://javaswag.github.io/episode/36/</link><itunes:duration>01:34:26</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 36 выпуске подкаста Javaswag поговорили с Владимиром Ивановым об архитектуре мобильных приложений и развитии в архитектора/стафф инженера</p>
 <p>00:01:44 О себе</p>
 <p>00:03:24 Мобильная разработка - прошлое</p>
@@ -3894,7 +3936,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="132087033" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/35-javaswag-alexei-ragozin.mp3"[32m type="audio/mpeg" length="132087033"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1359200659</guid><title>#34 - Андрей Сундуков - из PHP в Java, чистый код и собеседования</title><pubDate>Wed, 12 Oct 2022 16:17:43 +0000</pubDate><link>https://javaswag.github.io/episode/34/</link><itunes:duration>01:34:26</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="132087033" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/35-javaswag-alexei-ragozin.mp3"[32m type="audio/mpeg" length="132087033"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1359200659</guid><title>#34 - Андрей Сундуков - из PHP в Java, чистый код и собеседования</title><pubDate>Wed, 12 Oct 2022 16:17:43 +0000</pubDate><link>https://javaswag.github.io/episode/34/</link><itunes:duration>01:34:26</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 34 выпуске подкаста Javaswag поговорили с Андреем Сундуковым о переходе c PHP на Java, чистом коде и о собеседованиях</p>
 <p>00:00:09 Инженер дата-центра</p>
 <p>00:02:54 Из PHP в Java</p>
@@ -4213,7 +4255,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="123736209" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/31-anton-batyaev.mp3"[32m type="audio/mpeg" length="123736209"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/[32m><author>javaswag</author[0m><itunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1294248001</guid><title>#30 - Владимир Плизга - Side Effect Injection, 10 лет техлида и интернет вещей</title><pubDate>Mon, 04 Jul 2022 14:22:20 +0000</pubDate><link>https://javaswag.github.io/episode/30/</link><itunes:duration>02:05:00</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="123736209" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/31-anton-batyaev.mp3"[32m type="audio/mpeg" length="123736209"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1294248001</guid><title>#30 - Владимир Плизга - Side Effect Injection, 10 лет техлида и интернет вещей</title><pubDate>Mon, 04 Jul 2022 14:22:20 +0000</pubDate><link>https://javaswag.github.io/episode/30/</link><itunes:duration>02:05:00</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 30 выпуске подкаста Javaswag поговорили с Владимиром Плизга о Side Effect Injection, 10 лет техлида и интернете вещей</p>
 <p>00:01:45 Проекты в ЦФТ</p>
 <p>00:05:30 Специфика интернет банка</p>
@@ -4297,7 +4339,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="150009646" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/30-javaswag-vladimir-plizga-5.mp3"[32m type="audio/mpeg" length="150009646"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1280842711</guid><title>#29 - Армен Нунупаров - PhD, беспилотные автомобили и медитация</title><pubDate>Fri, 10 Jun 2022 14:26:30 +0000</pubDate><link>https://javaswag.github.io/episode/29/</link><itunes:duration>01:58:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="150009646" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/30-javaswag-vladimir-plizga-5.mp3"[32m type="audio/mpeg" length="150009646"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1280842711</guid><title>#29 - Армен Нунупаров - PhD, беспилотные автомобили и медитация</title><pubDate>Fri, 10 Jun 2022 14:26:30 +0000</pubDate><link>https://javaswag.github.io/episode/29/</link><itunes:duration>01:58:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 29 выпуске подкаста Javaswag поговорили с Арменом Нунупаровым о нужности PhD, квадрокоптерах, беспилотных авто и медитации</p>
 <p>00:06:18 Писать диссер и работать</p>
 <p>00:13:50 Квадрокоптеры</p>
@@ -4713,7 +4755,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="92702511" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/24-javaswag-ivan-uglyanskii.mp3"[32m type="audio/mpeg" length="92702511"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1143436066</guid><title>#23 - Сергей Голицын - в разработку через курсы, Гейм-Дев и GRPC микросервисы</title><pubDate>Mon, 18 Oct 2021 13:10:15 +0000</pubDate><link>https://javaswag.github.io/episode/23/</link><itunes:duration>01:32:28</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="92702511" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/24-javaswag-ivan-uglyanskii.mp3"[32m type="audio/mpeg" length="92702511"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1143436066</guid><title>#23 - Сергей Голицын - в разработку через курсы, Гейм-Дев и GRPC микросервисы</title><pubDate>Mon, 18 Oct 2021 13:10:15 +0000</pubDate><link>https://javaswag.github.io/episode/23/</link><itunes:duration>01:32:28</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 23 выпуске подкаста Javaswag поговорили с Сергеем Голицыным о попадании в разработку через курсы, ГеймДеве и сервисах GRPC.</p>
 <p>00:02:18 О себе, в разработку через курсы, почему Java</p>
 <p>00:10:56 Микроконтроллеры и синдром Самозванца. Но когда я ушел пришел новый тимлид и все выпилил</p>
@@ -4790,7 +4832,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="88767007" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/23-javaswag-sergei-golicin.mp3"[32m type="audio/mpeg" length="88767007"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1076614906</guid><title>#22 - Владимир Озеров - архитектура Ignite, Hazelcast, SQL движок Calcite и своя компания</title><pubDate>Tue, 29 Jun 2021 12:15:27 +0000</pubDate><link>https://javaswag.github.io/episode/22/</link><itunes:duration>01:25:30</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="88767007" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/23-javaswag-sergei-golicin.mp3"[32m type="audio/mpeg" length="88767007"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1076614906</guid><title>#22 - Владимир Озеров - архитектура Ignite, Hazelcast, SQL движок Calcite и своя компания</title><pubDate>Tue, 29 Jun 2021 12:15:27 +0000</pubDate><link>https://javaswag.github.io/episode/22/</link><itunes:duration>01:25:30</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 22 выпуске подкаста Javaswag поговорили с Владимиром Озеровым об архитектуре Ignite, Hazelcast и фреймворкe для построения SQL движков - Apache Calcite</p>
 <p>01:53 О себе</p>
 <p>05:26 Для чего задумывался Ignite 10 лет назад? Terracotta, Hazelcast</p>
@@ -4840,7 +4882,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="82077152" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/22-javaswag-vladimir-ozerov.mp3"[32m type="audio/mpeg" length="82077152"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1056384004</guid><title>#21 - Фёдор Коротков - CI в облаках, микросервисы на Котлине и магия Cirrus CI</title><pubDate>Thu, 27 May 2021 13:03:10 +0000</pubDate><link>https://javaswag.github.io/episode/21/</link><itunes:duration>02:08:55</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="82077152" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/22-javaswag-vladimir-ozerov.mp3"[32m type="audio/mpeg" length="82077152"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1056384004</guid><title>#21 - Фёдор Коротков - CI в облаках, микросервисы на Котлине и магия Cirrus CI</title><pubDate>Thu, 27 May 2021 13:03:10 +0000</pubDate><link>https://javaswag.github.io/episode/21/</link><itunes:duration>02:08:55</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 21 выпуске подкаста Javaswag поговорили с Федором Коротковым о микросервисах, CI в облаках и магически быстром Cirrus CI</p>
 <p>Гость - twitter.com/fedor</p>
 <p>01:38 О себе</p>
@@ -4991,7 +5033,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="100703085" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/20-javaswag-dmitrii-konstantinov.mp3"[32m type="audio/mpeg" length="100703085"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1032700729</guid><title>#19 - Андрей Ребров - работа CTO и кофаундером, Agile-практики и стартапы</title><pubDate>Fri, 23 Apr 2021 13:52:26 +0000</pubDate><link>https://javaswag.github.io/episode/19/</link><itunes:duration>01:51:44</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="100703085" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/20-javaswag-dmitrii-konstantinov.mp3"[32m type="audio/mpeg" length="100703085"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/1032700729</guid><title>#19 - Андрей Ребров - работа CTO и кофаундером, Agile-практики и стартапы</title><pubDate>Fri, 23 Apr 2021 13:52:26 +0000</pubDate><link>https://javaswag.github.io/episode/19/</link><itunes:duration>01:51:44</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 19 выпуске подкаста Javaswag поговорили с Андреем Ребровым о том, как быть основателем и CTO одновременно, Agile практиках и о работе в стартапе</p>
 <p>Гость - <a href="https://twitter.com/andrebrov">https://twitter.com/andrebrov</a></p>
 <p>Телеграмм канал Андрея - <a href="https://t.me/ssc_blog">https://t.me/ssc_blog</a></p>
@@ -5168,7 +5210,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="76751098" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/17-javaswag-roman-kudryashov.mp3"[32m type="audio/mpeg" length="76751098"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/946805950</guid><title>#16 - Андрей Мизуров - GameDev на Java, протоколы Stomp, RSocket и чем хорош Netty</title><pubDate>Tue, 15 Dec 2020 11:28:08 +0000</pubDate><link>https://javaswag.github.io/episode/16/</link><itunes:duration>01:29:44</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="76751098" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/17-javaswag-roman-kudryashov.mp3"[32m type="audio/mpeg" length="76751098"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/946805950</guid><title>#16 - Андрей Мизуров - GameDev на Java, протоколы Stomp, RSocket и чем хорош Netty</title><pubDate>Tue, 15 Dec 2020 11:28:08 +0000</pubDate><link>https://javaswag.github.io/episode/16/</link><itunes:duration>01:29:44</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 16 выпуске подкаста Javaswag поговорили с Андреем Мизуровым о GameDeve на Java, протоколах Stomp, RSocket и о том, чем так хороша библиотека Netty</p>
 <p>00:01:56 О себе, FoxPro, Квн, Налоговая</p>
 <p>00:04:40 Как начать писать код если ты DBA?</p>
@@ -5374,7 +5416,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="76109531" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/14-javaswag-sergey-celovalnikov.mp3"[32m type="audio/mpeg" length="76109531"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/888395179</guid><title>#13 - Сергей Цыпанов - Производительные строки и Хибернейтный Спринг</title><pubDate>Wed, 09 Sep 2020 07:35:50 +0000</pubDate><link>https://javaswag.github.io/episode/13/</link><itunes:duration>01:30:53</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure [31mlength="76109531" type="a[0mu[31mdio/mpeg" url="https://storage.yandexcloud.net/javaswag/14-javaswag-sergey-celovalnikov.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/888395179</guid><title>#13 - Сергей Цыпанов - Производительные строки и Хибернейтный Спринг</title><pubDate>Wed, 09 Sep 2020 07:35:50 +0000</pubDate><link>https://javaswag.github.io/episode/13/</link><itunes:duration>01:30:53</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 13 выпуске подкаста Javaswag поговорили с Сергеем  Цыпановым о производительности строк, Спринге и Хибернейте.</p>
 <p>00:01:17	О себе</p>
 <p>00:02:35	Как начал заниматься производительностью?</p>
@@ -5448,7 +5490,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="87246471" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/13-javaswag-sergey-tsypanov.mp3"[32m type="audio/mpeg" length="87246471"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/875054869</guid><title>#12 - Алексей Зиновьев - Машинное обучение изнутри Спарка и Игнайта</title><pubDate>Fri, 14 Aug 2020 14:28:32 +0000</pubDate><link>https://javaswag.github.io/episode/12/</link><itunes:duration>01:49:25</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="87246471" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/13-javaswag-sergey-tsypanov.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/875054869</guid><title>#12 - Алексей Зиновьев - Машинное обучение изнутри Спарка и Игнайта</title><pubDate>Fri, 14 Aug 2020 14:28:32 +0000</pubDate><link>https://javaswag.github.io/episode/12/</link><itunes:duration>01:49:25</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 12 выпуске подкаста Javaswag поговорили с Алексеем Зиновьевым о машинном обучении внутри Apache Spark и Apache Ignite.</p>
 <p>00:03:03 Как все началось?</p>
 <p>00:06:31 Что такое задача машинного обучения?</p>
@@ -5520,7 +5562,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="105046935" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/12-javaswag-alex-zinoviev.mp3"[32m type="audio/mpeg" length="105046935"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/852475576</guid><title>#11 - Антон Куранда - Первый в мире опенсорсный платежный процессинг</title><pubDate>Wed, 08 Jul 2020 13:08:04 +0000</pubDate><link>https://javaswag.github.io/episode/11/</link><itunes:duration>01:18:04</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="105046935" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/12-javaswag-alex-zinoviev.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/852475576</guid><title>#11 - Антон Куранда - Первый в мире опенсорсный платежный процессинг</title><pubDate>Wed, 08 Jul 2020 13:08:04 +0000</pubDate><link>https://javaswag.github.io/episode/11/</link><itunes:duration>01:18:04</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 11 выпуске подкаста Javaswag поговорили с Антоном Куранда первой в мире платежной платформе с открытым исходным кодом</p>
 <p>00:00:38 Как пришел в разработку платежных систем</p>
 <p>00:03:53 Как планировать архитектуру?</p>
@@ -5587,7 +5629,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="74943843" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/11-javaswag-anton-kuranda.mp3"[32m type="audio/mpeg" length="74943843"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/841394422</guid><title>#10 - Тагир Валеев - Сибирский Java чемпион</title><pubDate>Wed, 17 Jun 2020 08:35:45 +0000</pubDate><link>https://javaswag.github.io/episode/10/</link><itunes:duration>01:39:05</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="74943843" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/11-javaswag-anton-kuranda.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/841394422</guid><title>#10 - Тагир Валеев - Сибирский Java чемпион</title><pubDate>Wed, 17 Jun 2020 08:35:45 +0000</pubDate><link>https://javaswag.github.io/episode/10/</link><itunes:duration>01:39:05</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 10 выпуске подкаста Javaswag поговорили с Тагиром Валеевым о джава чемпионстве, фичах Intellij IDEA и коммитах в OpenJDK.</p>
 <p>00:00 Приветствие</p>
 <p>01:11 Как стать джава чемпионом</p>
@@ -5653,7 +5695,7 @@ https://lekton.io
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
 <p>Голоса подкаста - t.me/volyx, <a href="https://twitter.com/ZhekaKozlov">https://twitter.com/ZhekaKozlov</a></p>
-]]></description><enclosure [31mlength="95129182" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/10-javaswag-tagir-valeev.mp3"[32m type="audio/mpeg" length="95129182"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/836777332</guid><title>#9 - Евгений Козлов - День рождения Java и новые фичи Java 12-14</title><pubDate>Tue, 09 Jun 2020 08:22:32 +0000</pubDate><link>https://javaswag.github.io/episode/9/</link><itunes:duration>01:56:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="95129182" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/10-javaswag-tagir-valeev.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/836777332</guid><title>#9 - Евгений Козлов - День рождения Java и новые фичи Java 12-14</title><pubDate>Tue, 09 Jun 2020 08:22:32 +0000</pubDate><link>https://javaswag.github.io/episode/9/</link><itunes:duration>01:56:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 9 выпуске подкаста Javaswag поговорили с Евгением Козловым о 25 летии джавы и новых фичах в 12 и 14 версиях.</p>
 <p>00:00 Приветствие</p>
 <p>00:49 История Java 1.0</p>
@@ -5757,7 +5799,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="111656124" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/9-javaswag-zheka-kozlov-java-release.mp3"[32m type="audio/mpeg" length="111656124"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/826975594</guid><title>#8 - Евгений Козлов - почему не C#, var - зло или нет, новые фичи Java 9-11</title><pubDate>Tue, 26 May 2020 10:32:12 +0000</pubDate><link>https://javaswag.github.io/episode/8/</link><itunes:duration>01:48:44</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="111656124" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/9-javaswag-zheka-kozlov-java-release.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/826975594</guid><title>#8 - Евгений Козлов - почему не C#, var - зло или нет, новые фичи Java 9-11</title><pubDate>Tue, 26 May 2020 10:32:12 +0000</pubDate><link>https://javaswag.github.io/episode/8/</link><itunes:duration>01:48:44</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 8 выпуске подкаста Javaswag поговорили с Евгением Козловым о фичах, которые появились начиная с Java 9 по 11 версию.</p>
 <p>00:00 Приветствие</p>
 <p>02:50 О себе</p>
@@ -5814,7 +5856,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="104382380" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/8-javaswag-zheka-kozlov.mp3"[32m type="audio/mpeg" length="104382380"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/787048462</guid><title>#7 - Роман Левентов - Apache Druid, ChronicleMap, Koloboke</title><pubDate>Wed, 01 Apr 2020 13:07:22 +0000</pubDate><link>https://javaswag.github.io/episode/7/</link><itunes:duration>02:02:20</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="104382380" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/8-javaswag-zheka-kozlov.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/787048462</guid><title>#7 - Роман Левентов - Apache Druid, ChronicleMap, Koloboke</title><pubDate>Wed, 01 Apr 2020 13:07:22 +0000</pubDate><link>https://javaswag.github.io/episode/7/</link><itunes:duration>02:02:20</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 7 выпуске подкаста Javaswag поговорили с Романом Левентов об Apache Druid, ChronicleMap и библиотеке Романа Колобок.</p>
 <p>00:00 Приветствие</p>
 <p>01:00 Что такое Apache Druid</p>
@@ -5870,7 +5912,7 @@ https://lekton.io
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="117439007" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/7-javaswag-roman-leventov.mp3"[32m type="audio/mpeg" length="117439007"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/759848851</guid><title>#6 - Игорь Сорока - Переезд в Финляндию, работа консультантом, софт скиллы</title><pubDate>Fri, 14 Feb 2020 14:49:30 +0000</pubDate><link>https://javaswag.github.io/episode/6/</link><itunes:duration>01:18:11</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="117439007" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/7-javaswag-roman-leventov.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/759848851</guid><title>#6 - Игорь Сорока - Переезд в Финляндию, работа консультантом, софт скиллы</title><pubDate>Fri, 14 Feb 2020 14:49:30 +0000</pubDate><link>https://javaswag.github.io/episode/6/</link><itunes:duration>01:18:11</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В 6 выпуске подкаста Javaswag поговорили с Игорем Сорокой о переезде в Финляндию, о изучении разных языков программирования, о работе консультантом и о важности софт скиллов.</p>
 <p>00-00 Приветствие</p>
 <p>00-57 Из инженера-механика в программисты</p>
@@ -5996,7 +6038,7 @@ Vaadin - UI framework для джавистов : <a href="https://vaadin.com/le
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
 <p>Продакшн подкаста - <a href="https://t.me/pahaus">https://t.me/pahaus</a></p>
-]]></description><enclosure [31mlength="75066305" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/6-javaswag-igor-soroka.mp3"[32m type="audio/mpeg" length="75066305"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/751838761</guid><title>#5 - Олег Чирухин - Habr, JUG, Sber</title><pubDate>Fri, 31 Jan 2020 13:28:04 +0000</pubDate><link>https://javaswag.github.io/episode/5/</link><itunes:duration>01:58:29</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="75066305" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/6-javaswag-igor-soroka.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/751838761</guid><title>#5 - Олег Чирухин - Habr, JUG, Sber</title><pubDate>Fri, 31 Jan 2020 13:28:04 +0000</pubDate><link>https://javaswag.github.io/episode/5/</link><itunes:duration>01:58:29</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.</p>
 <p>00:00:00 Приветствие</p>
 <p>00:00:56 5-ый в рейтинге Хабра, как так получилось?</p>
@@ -6118,7 +6160,7 @@ Vaadin - UI framework для джавистов : <a href="https://vaadin.com/le
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="113745502" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/5-javaswag-oleg-chiruhin.mp3"[32m type="audio/mpeg" length="113745502"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/724565152</guid><title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title><pubDate>Thu, 12 Dec 2019 17:56:39 +0000</pubDate><link>https://javaswag.github.io/episode/4/</link><itunes:duration>00:34:11</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="113745502" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/5-javaswag-oleg-chiruhin.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/724565152</guid><title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title><pubDate>Thu, 12 Dec 2019 17:56:39 +0000</pubDate><link>https://javaswag.github.io/episode/4/</link><itunes:duration>00:34:11</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor</p>
 <p>00:00:44 Что делает програмный коммитет конференции?</p>
 <p>00:01:58 Чем хорош <a href="https://bootique.io/">https://bootique.io/</a>?</p>
@@ -6205,7 +6247,7 @@ Vaadin - UI framework для джавистов : <a href="https://vaadin.com/le
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="32823170" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/4-javaswag-ruslan-ibragimov.mp3"[32m type="audio/mpeg" length="32823170"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords><[31mauthor>volyihin@gmail.com (twitter.com/volyx)</author><[0m/item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/702438730</guid><title>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</title><pubDate>Mon, 04 Nov 2019 16:56:25 +0000</pubDate><link>https://javaswag.github.io/episode/3/</link><itunes:duration>01:16:48</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="32823170" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/4-javaswag-ruslan-ibragimov.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/702438730</guid><title>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</title><pubDate>Mon, 04 Nov 2019 16:56:25 +0000</pubDate><link>https://javaswag.github.io/episode/3/</link><itunes:duration>01:16:48</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</p>
 <p>00:00:49 Доклад про <a href="https://github.com/testcontainers/">https://github.com/testcontainers/</a></p>
 <p>00:06:17 Разработка игр</p>
@@ -6348,7 +6390,7 @@ Vaadin - UI framework для джавистов : <a href="https://vaadin.com/le
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="73728000" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/3-javaswag-sergei-egorov.mp3"[32m type="audio/mpeg" length="73728000"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/688411723</guid><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><pubDate>Mon, 21 Oct 2019 18:22:01 +0000</pubDate><link>https://javaswag.github.io/episode/2/</link><itunes:duration>00:29:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="73728000" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/3-javaswag-sergei-egorov.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/688411723</guid><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><pubDate>Mon, 21 Oct 2019 18:22:01 +0000</pubDate><link>https://javaswag.github.io/episode/2/</link><itunes:duration>00:29:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>00:00:25 Как стал девелопер-адвокатом?</p>
 <p>00:05:58 Как начал заниматься маркетингом в JRebel?</p>
 <p>00:10:37 Virtual Java User Group <a href="https://virtualjug.com/">https://virtualjug.com/</a></p>
@@ -6383,7 +6425,7 @@ Vaadin - UI framework для джавистов : <a href="https://vaadin.com/le
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
 <p>Подкаст записан на конференции 2019.rigadevdays.lv/</p>
-]]></description><enclosure [31mlength="28125309" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/2-javaswag-oleg-shelaev.mp3"[32m type="audio/mpeg" length="28125309"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/655299722</guid><title>#1 - Олег Докука - Project Reactor, Rsocket, Netify</title><pubDate>Thu, 25 Jul 2019 13:43:15 +0000</pubDate><link>https://javaswag.github.io/episode/1/</link><itunes:duration>01:24:07</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="28125309" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/2-javaswag-oleg-shelaev.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/655299722</guid><title>#1 - Олег Докука - Project Reactor, Rsocket, Netify</title><pubDate>Thu, 25 Jul 2019 13:43:15 +0000</pubDate><link>https://javaswag.github.io/episode/1/</link><itunes:duration>01:24:07</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>Олег Докука - Project Reactor, Rsocket, Netify</p>
 <p>Подкаст записан на конференции 2019.rigadevdays.lv/</p>
 <p>00:00:00 Начало</p>
@@ -6450,7 +6492,7 @@ Vaadin - UI framework для джавистов : <a href="https://vaadin.com/le
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="201693492" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/1-javaswag-oleg-dokuka.mp3"[32m type="audio/mpeg" length="201693492"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/642018345</guid><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><pubDate>Tue, 25 Jun 2019 20:22:41 +0000</pubDate><link>https://javaswag.github.io/episode/0/</link><itunes:duration>00:53:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+]]></description><enclosure length="201693492" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/1-javaswag-oleg-dokuka.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/642018345</guid><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><pubDate>Tue, 25 Jun 2019 20:22:41 +0000</pubDate><link>https://javaswag.github.io/episode/0/</link><itunes:duration>00:53:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
 				    <p>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге</p>
 <p>Телеграм канал <a href="https://t.me/javaswag">https://t.me/javaswag</a></p>
 <p>Сайт <a href="https://javaswag.github.io">https://javaswag.github.io</a></p>
@@ -6523,4 +6565,1153 @@ Vaadin - UI framework для джавистов : <a href="https://vaadin.com/le
 <li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
 <li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
 </ul>
-]]></description><enclosure [31mlength="127406628" type="audio/mpeg" [0murl="https://storage.yandexcloud.net/javaswag/0-javaswag-evgenii-borisov.mp3"[32m type="audio/mpeg" length="127406628"[0m/><itunes:image href="https://javaswag.github.io/images/logo.png"/><[32mauthor>javaswag</author><[0mitunes:keywords>technology,java,jvm</itunes:keywords[31m><author>volyihin@gmail.com (twitter.com/volyx)</author[0m></item></channel></rss>
+]]></description><enclosure length="127406628" type="audio/mpeg" url="https://storage.yandexcloud.net/javaswag/0-javaswag-evgenii-borisov.mp3"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><itunes:keywords>technology,java,jvm</itunes:keywords><author>volyihin@gmail.com (twitter.com/volyx)</author[0m[32mrl="https://storage.yandexcloud.net/javaswag/14-javaswag-sergey-celovalnikov.mp3" type="audio/mpeg" length="76109531"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/888395179</guid><title>#13 - Сергей Цыпанов - Производительные строки и Хибернейтный Спринг</title><pubDate>Wed, 09 Sep 2020 07:35:50 +0000</pubDate><link>https://javaswag.github.io/episode/13/</link><itunes:duration>01:30:53</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 13 выпуске подкаста Javaswag поговорили с Сергеем  Цыпановым о производительности строк, Спринге и Хибернейте.</p>
+<p>00:01:17	О себе</p>
+<p>00:02:35	Как начал заниматься производительностью?</p>
+<p>00:06:59	Что делать когда приходят люди и говорят у нас проблема?</p>
+<p>00:09:05	Нужен ли выделенный перфоманс инженер?</p>
+<p>00:14:42	Патчи в OpenJDK</p>
+<p>00:23:19	Project Skara</p>
+<p>00:26:19	Баги при работе со строками</p>
+<p>00:31:35	В 2к20 FindBugs, SonarQube, Intellij IDEA must have</p>
+<p>00:32:42	Доклад на JPoint</p>
+<p>00:37:45	Spring и производительность</p>
+<p>00:39:55	Можно ли на Спринге написать производительное приложение?</p>
+<p>00:47:15	Модули спринга</p>
+<p>00:48:19	Spring Data JPA чем так хороши?</p>
+<p>00:53:43	Можно ли использовать Spring Data без Hibernate?</p>
+<p>01:58:48	Сложность конфигурирования Hibernate</p>
+<p>01:02:48	Когда использовать Hibernate а когда JDBC?</p>
+<p>01:07:12	Информационный пузырь Спринга</p>
+<p>01:09:11	Есть ли конкурент спринга?</p>
+<p>01:11:26	Есть будущее у Котлина в разработке бекендов?</p>
+<p>01:12:25	Хибернейт и реактивщина</p>
+<p>01:13:50	Стоит ли изучать Спринг и Хибернейт начинающему разработчику?</p>
+<p>01:14:51	Архитектура проекта</p>
+<p>01:18:33	CI/CD/CodeReview</p>
+<p>01:20:44	Сервис Дискавери</p>
+<p>01:24:31	Тестирование</p>
+<p>Гость - <a href="https://habr.com/users/tsypanov/">https://habr.com/users/tsypanov/</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В 13 выпуске подкаста Javaswag поговорили с Сергеем Цыпановым о производительности строк, Спринге и Хибернейте.
+00:01:17 О себе
+00:02:35 Как начал зан...</itunes:subtitle><description><![CDATA[
+				    <p>В 13 выпуске подкаста Javaswag поговорили с Сергеем  Цыпановым о производительности строк, Спринге и Хибернейте.</p>
+<p>00:01:17	О себе</p>
+<p>00:02:35	Как начал заниматься производительностью?</p>
+<p>00:06:59	Что делать когда приходят люди и говорят у нас проблема?</p>
+<p>00:09:05	Нужен ли выделенный перфоманс инженер?</p>
+<p>00:14:42	Патчи в OpenJDK</p>
+<p>00:23:19	Project Skara</p>
+<p>00:26:19	Баги при работе со строками</p>
+<p>00:31:35	В 2к20 FindBugs, SonarQube, Intellij IDEA must have</p>
+<p>00:32:42	Доклад на JPoint</p>
+<p>00:37:45	Spring и производительность</p>
+<p>00:39:55	Можно ли на Спринге написать производительное приложение?</p>
+<p>00:47:15	Модули спринга</p>
+<p>00:48:19	Spring Data JPA чем так хороши?</p>
+<p>00:53:43	Можно ли использовать Spring Data без Hibernate?</p>
+<p>01:58:48	Сложность конфигурирования Hibernate</p>
+<p>01:02:48	Когда использовать Hibernate а когда JDBC?</p>
+<p>01:07:12	Информационный пузырь Спринга</p>
+<p>01:09:11	Есть ли конкурент спринга?</p>
+<p>01:11:26	Есть будущее у Котлина в разработке бекендов?</p>
+<p>01:12:25	Хибернейт и реактивщина</p>
+<p>01:13:50	Стоит ли изучать Спринг и Хибернейт начинающему разработчику?</p>
+<p>01:14:51	Архитектура проекта</p>
+<p>01:18:33	CI/CD/CodeReview</p>
+<p>01:20:44	Сервис Дискавери</p>
+<p>01:24:31	Тестирование</p>
+<p>Гость - <a href="https://habr.com/users/tsypanov/">https://habr.com/users/tsypanov/</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/13-javaswag-sergey-tsypanov.mp3" type="audio/mpeg" length="87246471"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/875054869</guid><title>#12 - Алексей Зиновьев - Машинное обучение изнутри Спарка и Игнайта</title><pubDate>Fri, 14 Aug 2020 14:28:32 +0000</pubDate><link>https://javaswag.github.io/episode/12/</link><itunes:duration>01:49:25</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 12 выпуске подкаста Javaswag поговорили с Алексеем Зиновьевым о машинном обучении внутри Apache Spark и Apache Ignite.</p>
+<p>00:03:03 Как все началось?</p>
+<p>00:06:31 Что такое задача машинного обучения?</p>
+<p>00:09:46 Посчитать статистику это  уже ML? Предсказать событие это уже ML? А когда это ML?</p>
+<p>00:13:13 DevOps ML Engineer, QA ML Developer, Business ML Analyst и другие вакансии будущего</p>
+<p>00:20:43 Почему дата сайнтисты пишут на питоне?</p>
+<p>00:22:04 В какой момент в дата сайнсе появилась Джава?</p>
+<p>00:24:49 Что было до Apache Spark?</p>
+<p>00:29:29 Модуль Spark ML</p>
+<p>00:35:22 Почему Apache Spark победил в мире ETL?</p>
+<p>00:37:07 История SparkML</p>
+<p>00:40:28 Как написать новый алгоритм для Apache Spark?</p>
+<p>00:44:03 Apache Spark 3.0</p>
+<p>00:48:12 Спарк - помойка джаров с мавен централа</p>
+<p>00:50:46 Apache Spark движется на встречу дата сайнтистам, но они питонисты</p>
+<p>00:52:56 Опенсорсные продукты, за которыми стоит одна кампания</p>
+<p>00:55:05 Apache Ignite</p>
+<p>01:03:40 ML  в Apache Ignite</p>
+<p>01:09:41 Как спроектировать API ML библиотеки</p>
+<p>01:15:55 Как Ignite попал в Apache Foundation?</p>
+<p>01:16:52 Какие алгоритмы реализовали первыми в Apache Ignite?</p>
+<p>01:21:35 Меряемся фичами Игнайта и Спарка</p>
+<p>01:25:32 Будущее Ignite ML</p>
+<p>01:31:17 Как стать коммитером в Ignite? В какие блоки можно контрибьютить?</p>
+<p>01:38:30 Как вкатиться в датасаенс в 2к20? Курс Воронцова и секретный дата саенс чат</p>
+<p>Гость - <a href="https://twitter.com/zaleslaw">https://twitter.com/zaleslaw</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В 12 выпуске подкаста Javaswag поговорили с Алексеем Зиновьевым о машинном обучении внутри Apache Spark и Apache Ignite.
+00:03:03 Как все началось?
+00...</itunes:subtitle><description><![CDATA[
+				    <p>В 12 выпуске подкаста Javaswag поговорили с Алексеем Зиновьевым о машинном обучении внутри Apache Spark и Apache Ignite.</p>
+<p>00:03:03 Как все началось?</p>
+<p>00:06:31 Что такое задача машинного обучения?</p>
+<p>00:09:46 Посчитать статистику это  уже ML? Предсказать событие это уже ML? А когда это ML?</p>
+<p>00:13:13 DevOps ML Engineer, QA ML Developer, Business ML Analyst и другие вакансии будущего</p>
+<p>00:20:43 Почему дата сайнтисты пишут на питоне?</p>
+<p>00:22:04 В какой момент в дата сайнсе появилась Джава?</p>
+<p>00:24:49 Что было до Apache Spark?</p>
+<p>00:29:29 Модуль Spark ML</p>
+<p>00:35:22 Почему Apache Spark победил в мире ETL?</p>
+<p>00:37:07 История SparkML</p>
+<p>00:40:28 Как написать новый алгоритм для Apache Spark?</p>
+<p>00:44:03 Apache Spark 3.0</p>
+<p>00:48:12 Спарк - помойка джаров с мавен централа</p>
+<p>00:50:46 Apache Spark движется на встречу дата сайнтистам, но они питонисты</p>
+<p>00:52:56 Опенсорсные продукты, за которыми стоит одна кампания</p>
+<p>00:55:05 Apache Ignite</p>
+<p>01:03:40 ML  в Apache Ignite</p>
+<p>01:09:41 Как спроектировать API ML библиотеки</p>
+<p>01:15:55 Как Ignite попал в Apache Foundation?</p>
+<p>01:16:52 Какие алгоритмы реализовали первыми в Apache Ignite?</p>
+<p>01:21:35 Меряемся фичами Игнайта и Спарка</p>
+<p>01:25:32 Будущее Ignite ML</p>
+<p>01:31:17 Как стать коммитером в Ignite? В какие блоки можно контрибьютить?</p>
+<p>01:38:30 Как вкатиться в датасаенс в 2к20? Курс Воронцова и секретный дата саенс чат</p>
+<p>Гость - <a href="https://twitter.com/zaleslaw">https://twitter.com/zaleslaw</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/12-javaswag-alex-zinoviev.mp3" type="audio/mpeg" length="105046935"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/852475576</guid><title>#11 - Антон Куранда - Первый в мире опенсорсный платежный процессинг</title><pubDate>Wed, 08 Jul 2020 13:08:04 +0000</pubDate><link>https://javaswag.github.io/episode/11/</link><itunes:duration>01:18:04</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 11 выпуске подкаста Javaswag поговорили с Антоном Куранда первой в мире платежной платформе с открытым исходным кодом</p>
+<p>00:00:38 Как пришел в разработку платежных систем</p>
+<p>00:03:53 Как планировать архитектуру?</p>
+<p>00:07:43 Типовая архитектура платежной системы</p>
+<p>00:10:47 Как объяснить бизнесу новую архитектуру приложения?</p>
+<p>00:14:12 Soft skills, sales skills для тех дира</p>
+<p>00:15:03 Как делить архитектуру на микросервисы?</p>
+<p>00:21:14 Конфигурация, деплой микросервисов</p>
+<p>00:25:58 Фронтенд и бекенд микросервисы</p>
+<p>00:28:56 HTTP vs Thrift микросервисы</p>
+<p>00:31:37 Как происходит обновление версий АПИ ?</p>
+<p>00:35:54 Опенсорс платформы. Та самая статья на Хабре - <a href="https://habr.com/ru/company/rbkmoney/blog/493202/">https://habr.com/ru/company/rbkmoney/blog/493202/</a></p>
+<p>00:41:45 Nginx и опенсорс</p>
+<p>00:42:38 Опасения опенсорса</p>
+<p>00:44:42 Как отреагировало сообщество , Хабр еще тот!</p>
+<p>00:48:36 Что писать на Эрланге, а что на Джаве?</p>
+<p>00:50:01 Java библиотеки которые используете</p>
+<p>00:51:35 Почему именно Rial KV?</p>
+<p>00:58:20 Apache Kafka</p>
+<p>01:02:12 Зависимости между микросервисами</p>
+<p>01:03:15 Команда</p>
+<p>01:07:18 CI, документация</p>
+<p>01:13:50 Чтобы хотел поменять в архитектуре, если вернуться в прошлое</p>
+<p>Гость - <a href="https://habr.com/ru/users/akuranda/">https://habr.com/ru/users/akuranda/</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В 11 выпуске подкаста Javaswag поговорили с Антоном Куранда первой в мире платежной платформе с открытым исходным кодом
+00:00:38 Как пришел в разработ...</itunes:subtitle><description><![CDATA[
+				    <p>В 11 выпуске подкаста Javaswag поговорили с Антоном Куранда первой в мире платежной платформе с открытым исходным кодом</p>
+<p>00:00:38 Как пришел в разработку платежных систем</p>
+<p>00:03:53 Как планировать архитектуру?</p>
+<p>00:07:43 Типовая архитектура платежной системы</p>
+<p>00:10:47 Как объяснить бизнесу новую архитектуру приложения?</p>
+<p>00:14:12 Soft skills, sales skills для тех дира</p>
+<p>00:15:03 Как делить архитектуру на микросервисы?</p>
+<p>00:21:14 Конфигурация, деплой микросервисов</p>
+<p>00:25:58 Фронтенд и бекенд микросервисы</p>
+<p>00:28:56 HTTP vs Thrift микросервисы</p>
+<p>00:31:37 Как происходит обновление версий АПИ ?</p>
+<p>00:35:54 Опенсорс платформы. Та самая статья на Хабре - <a href="https://habr.com/ru/company/rbkmoney/blog/493202/">https://habr.com/ru/company/rbkmoney/blog/493202/</a></p>
+<p>00:41:45 Nginx и опенсорс</p>
+<p>00:42:38 Опасения опенсорса</p>
+<p>00:44:42 Как отреагировало сообщество , Хабр еще тот!</p>
+<p>00:48:36 Что писать на Эрланге, а что на Джаве?</p>
+<p>00:50:01 Java библиотеки которые используете</p>
+<p>00:51:35 Почему именно Rial KV?</p>
+<p>00:58:20 Apache Kafka</p>
+<p>01:02:12 Зависимости между микросервисами</p>
+<p>01:03:15 Команда</p>
+<p>01:07:18 CI, документация</p>
+<p>01:13:50 Чтобы хотел поменять в архитектуре, если вернуться в прошлое</p>
+<p>Гость - <a href="https://habr.com/ru/users/akuranda/">https://habr.com/ru/users/akuranda/</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/11-javaswag-anton-kuranda.mp3" type="audio/mpeg" length="74943843"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/841394422</guid><title>#10 - Тагир Валеев - Сибирский Java чемпион</title><pubDate>Wed, 17 Jun 2020 08:35:45 +0000</pubDate><link>https://javaswag.github.io/episode/10/</link><itunes:duration>01:39:05</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 10 выпуске подкаста Javaswag поговорили с Тагиром Валеевым о джава чемпионстве, фичах Intellij IDEA и коммитах в OpenJDK.</p>
+<p>00:00 Приветствие</p>
+<p>01:11 Как стать джава чемпионом</p>
+<p>08:31 Кандидат наук</p>
+<p>17:12 Как ты все успеваешь?</p>
+<p>28:26 Три самые крупные фичи в IDEA</p>
+<p>37:01 Поддержка рекордов в IDEA</p>
+<p>40:19 IDEA умеет генерировать рекорды по классам?</p>
+<p>43:42 Как IDEA справляется с полугодовым релизным циклом?</p>
+<p>46:46 Недооцененная фича в IDEA по мнению Тагира</p>
+<p>52:51 Насколько глубоко анализирует IDEA?</p>
+<p>1:00:38 Выведение контрактов в IDEA</p>
+<p>1:07:02 Какой самый первый патч в OpenJDK?</p>
+<p>1:08:29 OpenJDK и GitHub</p>
+<p>1:13:23 Можно ли обновлять поля рекордов?</p>
+<p>1:18:28 Деконструкция рекордов</p>
+<p>1:23:10 Рекорды и сериализация</p>
+<p>1:24:31 На рекорды стоит смотреть через призму сериализации</p>
+<p>1:25:32 Сериализация восстанет из пепла</p>
+<p>1:26:20 Про конференции</p>
+<p>1:29:38 JVM Language Summit</p>
+<p>Гость - <a href="https://twitter.com/tagir_valeev">https://twitter.com/tagir_valeev</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+<p>Голоса подкаста - t.me/volyx, <a href="https://twitter.com/ZhekaKozlov">https://twitter.com/ZhekaKozlov</a></p>
+]]></itunes:summary><itunes:subtitle>В 10 выпуске подкаста Javaswag поговорили с Тагиром Валеевым о джава чемпионстве, фичах Intellij IDEA и коммитах в OpenJDK.
+00:00 Приветствие
+01:11 Ка...</itunes:subtitle><description><![CDATA[
+				    <p>В 10 выпуске подкаста Javaswag поговорили с Тагиром Валеевым о джава чемпионстве, фичах Intellij IDEA и коммитах в OpenJDK.</p>
+<p>00:00 Приветствие</p>
+<p>01:11 Как стать джава чемпионом</p>
+<p>08:31 Кандидат наук</p>
+<p>17:12 Как ты все успеваешь?</p>
+<p>28:26 Три самые крупные фичи в IDEA</p>
+<p>37:01 Поддержка рекордов в IDEA</p>
+<p>40:19 IDEA умеет генерировать рекорды по классам?</p>
+<p>43:42 Как IDEA справляется с полугодовым релизным циклом?</p>
+<p>46:46 Недооцененная фича в IDEA по мнению Тагира</p>
+<p>52:51 Насколько глубоко анализирует IDEA?</p>
+<p>1:00:38 Выведение контрактов в IDEA</p>
+<p>1:07:02 Какой самый первый патч в OpenJDK?</p>
+<p>1:08:29 OpenJDK и GitHub</p>
+<p>1:13:23 Можно ли обновлять поля рекордов?</p>
+<p>1:18:28 Деконструкция рекордов</p>
+<p>1:23:10 Рекорды и сериализация</p>
+<p>1:24:31 На рекорды стоит смотреть через призму сериализации</p>
+<p>1:25:32 Сериализация восстанет из пепла</p>
+<p>1:26:20 Про конференции</p>
+<p>1:29:38 JVM Language Summit</p>
+<p>Гость - <a href="https://twitter.com/tagir_valeev">https://twitter.com/tagir_valeev</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+<p>Голоса подкаста - t.me/volyx, <a href="https://twitter.com/ZhekaKozlov">https://twitter.com/ZhekaKozlov</a></p>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/10-javaswag-tagir-valeev.mp3" type="audio/mpeg" length="95129182"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/836777332</guid><title>#9 - Евгений Козлов - День рождения Java и новые фичи Java 12-14</title><pubDate>Tue, 09 Jun 2020 08:22:32 +0000</pubDate><link>https://javaswag.github.io/episode/9/</link><itunes:duration>01:56:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 9 выпуске подкаста Javaswag поговорили с Евгением Козловым о 25 летии джавы и новых фичах в 12 и 14 версиях.</p>
+<p>00:00 Приветствие</p>
+<p>00:49 История Java 1.0</p>
+<p>06:29 Джава не прижилась в клиенте</p>
+<p>12:17 Зависимости в СиШарпе</p>
+<p>20:10  Java-конструкторы должны быть deprecated <a href="https://twitter.com/headius/status/1265876680188592129?s=20">https://twitter.com/headius/status/1265876680188592129?s=20</a></p>
+<p>37:12 Одногнездники</p>
+<ul>
+<li>Nestmates: <a href="http://openjdk.java.net/jeps/181">http://openjdk.java.net/jeps/181</a></li>
+</ul>
+<p>39:25 Четыре способа написать switch</p>
+<ul>
+<li>
+<p>JEP 325: Switch Expressions (Preview) <a href="https://openjdk.java.net/jeps/325">https://openjdk.java.net/jeps/325</a></p>
+</li>
+<li>
+<p>Статья Стива Колборна - <a href="https://blog.joda.org/2019/11/java-switch-4-wrongs-dont-make-right.html">https://blog.joda.org/2019/11/java-switch-4-wrongs-dont-make-right.html</a></p>
+</li>
+</ul>
+<p>53:00 Raw String Literals были отклонены: <a href="https://openjdk.java.net/jeps/326">https://openjdk.java.net/jeps/326</a></p>
+<p>59:26 Text blocks (preview): <a href="https://openjdk.java.net/jeps/355">https://openjdk.java.net/jeps/355</a></p>
+<p>1:09:50 Class Data Sharing: <a href="https://minijug.ru/java_13_is_out.html">https://minijug.ru/java_13_is_out.html</a></p>
+<p>1:15:10 Рекорды в Java 14 - туплы, именованные кортежи</p>
+<ul>
+<li>JEP 359: Records (Preview) <a href="https://openjdk.java.net/jeps/359">https://openjdk.java.net/jeps/359</a></li>
+</ul>
+<p>1:21-30 методы with для рекордов</p>
+<ul>
+<li><a href="https://mail.openjdk.java.net/pipermail/amber-spec-experts/2020-May/002217.html">https://mail.openjdk.java.net/pipermail/amber-spec-experts/2020-May/002217.html</a></li>
+</ul>
+<p>01:39:58 Паттерн матчинг</p>
+<ul>
+<li>
+<p>JEP 305: Pattern Matching for instanceof (Preview) <a href="https://openjdk.java.net/jeps/305">https://openjdk.java.net/jeps/305</a></p>
+</li>
+<li>
+<p>Перекрытие полей: <a href="https://mail.openjdk.java.net/pipermail/amber-spec-experts/2019-November/001835.html">https://mail.openjdk.java.net/pipermail/amber-spec-experts/2019-November/001835.html</a></p>
+</li>
+</ul>
+<p>Гость - twitter.com/ZhekaKozlov</p>
+<p>Сайт minijug.ru/</p>
+<p>Телеграм канал Жени - t.me/miniJUG</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В 9 выпуске подкаста Javaswag поговорили с Евгением Козловым о 25 летии джавы и новых фичах в 12 и 14 версиях.
+00:00 Приветствие
+00:49 История Java 1....</itunes:subtitle><description><![CDATA[
+				    <p>В 9 выпуске подкаста Javaswag поговорили с Евгением Козловым о 25 летии джавы и новых фичах в 12 и 14 версиях.</p>
+<p>00:00 Приветствие</p>
+<p>00:49 История Java 1.0</p>
+<p>06:29 Джава не прижилась в клиенте</p>
+<p>12:17 Зависимости в СиШарпе</p>
+<p>20:10  Java-конструкторы должны быть deprecated <a href="https://twitter.com/headius/status/1265876680188592129?s=20">https://twitter.com/headius/status/1265876680188592129?s=20</a></p>
+<p>37:12 Одногнездники</p>
+<ul>
+<li>Nestmates: <a href="http://openjdk.java.net/jeps/181">http://openjdk.java.net/jeps/181</a></li>
+</ul>
+<p>39:25 Четыре способа написать switch</p>
+<ul>
+<li>
+<p>JEP 325: Switch Expressions (Preview) <a href="https://openjdk.java.net/jeps/325">https://openjdk.java.net/jeps/325</a></p>
+</li>
+<li>
+<p>Статья Стива Колборна - <a href="https://blog.joda.org/2019/11/java-switch-4-wrongs-dont-make-right.html">https://blog.joda.org/2019/11/java-switch-4-wrongs-dont-make-right.html</a></p>
+</li>
+</ul>
+<p>53:00 Raw String Literals были отклонены: <a href="https://openjdk.java.net/jeps/326">https://openjdk.java.net/jeps/326</a></p>
+<p>59:26 Text blocks (preview): <a href="https://openjdk.java.net/jeps/355">https://openjdk.java.net/jeps/355</a></p>
+<p>1:09:50 Class Data Sharing: <a href="https://minijug.ru/java_13_is_out.html">https://minijug.ru/java_13_is_out.html</a></p>
+<p>1:15:10 Рекорды в Java 14 - туплы, именованные кортежи</p>
+<ul>
+<li>JEP 359: Records (Preview) <a href="https://openjdk.java.net/jeps/359">https://openjdk.java.net/jeps/359</a></li>
+</ul>
+<p>1:21-30 методы with для рекордов</p>
+<ul>
+<li><a href="https://mail.openjdk.java.net/pipermail/amber-spec-experts/2020-May/002217.html">https://mail.openjdk.java.net/pipermail/amber-spec-experts/2020-May/002217.html</a></li>
+</ul>
+<p>01:39:58 Паттерн матчинг</p>
+<ul>
+<li>
+<p>JEP 305: Pattern Matching for instanceof (Preview) <a href="https://openjdk.java.net/jeps/305">https://openjdk.java.net/jeps/305</a></p>
+</li>
+<li>
+<p>Перекрытие полей: <a href="https://mail.openjdk.java.net/pipermail/amber-spec-experts/2019-November/001835.html">https://mail.openjdk.java.net/pipermail/amber-spec-experts/2019-November/001835.html</a></p>
+</li>
+</ul>
+<p>Гость - twitter.com/ZhekaKozlov</p>
+<p>Сайт minijug.ru/</p>
+<p>Телеграм канал Жени - t.me/miniJUG</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/9-javaswag-zheka-kozlov-java-release.mp3" type="audio/mpeg" length="111656124"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/826975594</guid><title>#8 - Евгений Козлов - почему не C#, var - зло или нет, новые фичи Java 9-11</title><pubDate>Tue, 26 May 2020 10:32:12 +0000</pubDate><link>https://javaswag.github.io/episode/8/</link><itunes:duration>01:48:44</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 8 выпуске подкаста Javaswag поговорили с Евгением Козловым о фичах, которые появились начиная с Java 9 по 11 версию.</p>
+<p>00:00 Приветствие</p>
+<p>02:50 О себе</p>
+<p>04:20 Чем хорош/плох C#?</p>
+<p>13:00 Про функциональщину, иммутабельность и взаимодействие с коллегами</p>
+<p>16:36 Диагноз Стримоз - когда используешь стримы везде</p>
+<p>17:40 Что такое JEP ?</p>
+<p>25:00 Модульность в Java 9</p>
+<p>40:26 Переходим на новую версию Джавы со старым класспасом</p>
+<p>46:30 Изменения в Джаве 9 помимо модулей</p>
+<p>63:29 Несинтаксические изменения в 9</p>
+<p>77:58 JShell</p>
+<p>87:30 Новый полугодовой релизный цикл</p>
+<p>91:10 Java 10. Когда использовать var? Когда ставить тип, а когда использовать var? var! var!</p>
+<p>106:08 Java 11. var в лямбдах</p>
+<p>Гость - twitter.com/ZhekaKozlov</p>
+<p>Сайт minijug.ru/</p>
+<p>Телеграм канал Жени - t.me/miniJUG</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В 8 выпуске подкаста Javaswag поговорили с Евгением Козловым о фичах, которые появились начиная с Java 9 по 11 версию.
+00:00 Приветствие
+02:50 О себе
+...</itunes:subtitle><description><![CDATA[
+				    <p>В 8 выпуске подкаста Javaswag поговорили с Евгением Козловым о фичах, которые появились начиная с Java 9 по 11 версию.</p>
+<p>00:00 Приветствие</p>
+<p>02:50 О себе</p>
+<p>04:20 Чем хорош/плох C#?</p>
+<p>13:00 Про функциональщину, иммутабельность и взаимодействие с коллегами</p>
+<p>16:36 Диагноз Стримоз - когда используешь стримы везде</p>
+<p>17:40 Что такое JEP ?</p>
+<p>25:00 Модульность в Java 9</p>
+<p>40:26 Переходим на новую версию Джавы со старым класспасом</p>
+<p>46:30 Изменения в Джаве 9 помимо модулей</p>
+<p>63:29 Несинтаксические изменения в 9</p>
+<p>77:58 JShell</p>
+<p>87:30 Новый полугодовой релизный цикл</p>
+<p>91:10 Java 10. Когда использовать var? Когда ставить тип, а когда использовать var? var! var!</p>
+<p>106:08 Java 11. var в лямбдах</p>
+<p>Гость - twitter.com/ZhekaKozlov</p>
+<p>Сайт minijug.ru/</p>
+<p>Телеграм канал Жени - t.me/miniJUG</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/8-javaswag-zheka-kozlov.mp3" type="audio/mpeg" length="104382380"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/787048462</guid><title>#7 - Роман Левентов - Apache Druid, ChronicleMap, Koloboke</title><pubDate>Wed, 01 Apr 2020 13:07:22 +0000</pubDate><link>https://javaswag.github.io/episode/7/</link><itunes:duration>02:02:20</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 7 выпуске подкаста Javaswag поговорили с Романом Левентов об Apache Druid, ChronicleMap и библиотеке Романа Колобок.</p>
+<p>00:00 Приветствие</p>
+<p>01:00 Что такое Apache Druid</p>
+<p>21:00 База данных на Java</p>
+<p>30:30 Опенсорс в Метамаркетс, внешние контрибьютеры</p>
+<p>35:39 Будущее колоночных баз</p>
+<p>37:15 OpenHFT</p>
+<p>43:29 Trove vs HashMap</p>
+<p>46:01 Как Koloboke генерирует Хешмапы?</p>
+<p>48:57 ChronicleMap, чем отличается ChronicleMap от ConcurrentHashMap?</p>
+<p>56:01 Трейдофы хештаблиц</p>
+<p>68:53 Дрифт врмени в ScheduledThreadPoolExecutor</p>
+<p>78:10 Библиотека примитивов Koloboke</p>
+<p>85:06 Консалтинг</p>
+<p>92:15 Engineering Ideas <a href="https://engineeringideas.substack.com/">https://engineeringideas.substack.com/</a></p>
+<p>96:48 Code Review Checklist: Java Concurrency <a href="https://github.com/code-review-checklists/java-concurrency">https://github.com/code-review-checklists/java-concurrency</a></p>
+<p>112:28 Удаленная работа, климатические изменения</p>
+<p>Гость - twitter.com/leventov/</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В 7 выпуске подкаста Javaswag поговорили с Романом Левентов об Apache Druid, ChronicleMap и библиотеке Романа Колобок.
+00:00 Приветствие
+01:00 Что так...</itunes:subtitle><description><![CDATA[
+				    <p>В 7 выпуске подкаста Javaswag поговорили с Романом Левентов об Apache Druid, ChronicleMap и библиотеке Романа Колобок.</p>
+<p>00:00 Приветствие</p>
+<p>01:00 Что такое Apache Druid</p>
+<p>21:00 База данных на Java</p>
+<p>30:30 Опенсорс в Метамаркетс, внешние контрибьютеры</p>
+<p>35:39 Будущее колоночных баз</p>
+<p>37:15 OpenHFT</p>
+<p>43:29 Trove vs HashMap</p>
+<p>46:01 Как Koloboke генерирует Хешмапы?</p>
+<p>48:57 ChronicleMap, чем отличается ChronicleMap от ConcurrentHashMap?</p>
+<p>56:01 Трейдофы хештаблиц</p>
+<p>68:53 Дрифт врмени в ScheduledThreadPoolExecutor</p>
+<p>78:10 Библиотека примитивов Koloboke</p>
+<p>85:06 Консалтинг</p>
+<p>92:15 Engineering Ideas <a href="https://engineeringideas.substack.com/">https://engineeringideas.substack.com/</a></p>
+<p>96:48 Code Review Checklist: Java Concurrency <a href="https://github.com/code-review-checklists/java-concurrency">https://github.com/code-review-checklists/java-concurrency</a></p>
+<p>112:28 Удаленная работа, климатические изменения</p>
+<p>Гость - twitter.com/leventov/</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/7-javaswag-roman-leventov.mp3" type="audio/mpeg" length="117439007"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/759848851</guid><title>#6 - Игорь Сорока - Переезд в Финляндию, работа консультантом, софт скиллы</title><pubDate>Fri, 14 Feb 2020 14:49:30 +0000</pubDate><link>https://javaswag.github.io/episode/6/</link><itunes:duration>01:18:11</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В 6 выпуске подкаста Javaswag поговорили с Игорем Сорокой о переезде в Финляндию, о изучении разных языков программирования, о работе консультантом и о важности софт скиллов.</p>
+<p>00-00 Приветствие</p>
+<p>00-57 Из инженера-механика в программисты</p>
+<p>01-30 Как решил заняться программированием?</p>
+<p>02-30 Набор курсов в магистратуре</p>
+<p>05-11 Групповой проект. JavaFX не новый для Java UI фреймворк, деплой в Heroku, VueJS</p>
+<p>08-18 Я приходил к другу, который знал финский, и он переводил в Гугл транслейте</p>
+<p>08-48 JavaRush - советую всем, кто очень поздно пришел в программирование, много основ.</p>
+<p>09-38 Финский Java курc, JavaRush</p>
+<p>10-58 Сколько понадобилось времени для того чтобы писать приложение на Джаве? Первый фриланс</p>
+<p>13-10 Поиск работы после магистратуры. Ошибка - искать работу по своей специальности и по программированию.</p>
+<p>15-00 Стартап. Адройд-приложение - слуховой аппарат в телефоне.</p>
+<p>15-36 40 отказов по резюме. Что спасало - это большая мотивация найти работу</p>
+<p>17-19 Резюме, в котором было все!</p>
+<p>18-00 Синдром самозванца и записная книжка с вопросами по Core Java</p>
+<p>20-26 Первый оффер. Очень много работы и подготовки.</p>
+<p>22-24 Нужны ли Soft Skills для Junior?</p>
+<p>23-11 Стэк - монолит, OSGI, Vaadin, Jenkins, embeded. Работает ли OSGI? Вечерний девопс.</p>
+<p>29-30 Финский график работы</p>
+<p>31-15 Fullstack разработчик умеет все? 30% Java, остальное Fullstack</p>
+<p>35-04 Amazon Associate Developer нужен ли?</p>
+<p>37-50 Консалтинг</p>
+<p>40-10 Как внедрить AWS?</p>
+<p>41-15 Чем приглянулся Typescript?</p>
+<p>42-02 У каждого клиента свой стек. Gatling, Scala. Архитектор решил, что Gatling идеальный тул и его все послушали</p>
+<p>45-42 Прокачка консультантских софт скиллов. Что такое софт скиллы?</p>
+<p>50-07 Можно проверить софт-скилы по резюме?</p>
+<p>53-27 Зачем вести блог? Блог Игоря - <a href="https://medium.com/@igorsoroka/">https://medium.com/@igorsoroka/</a> Важность английского языка.</p>
+<p>62-02 Были ли проблемы с английским языком при переезде?</p>
+<p>63-40 Новая работа. Angular, Typescript, Kotlin, Java, AWS.</p>
+<p>66-00 Идем к микросервисам. Все написано просто, без Спринга. Amazon RDS, Postgres</p>
+<p>67-15 На Джаве все новое писать не хочется поэтому переходим на Котлин. С Котлином легче?</p>
+<p>69-50 Подкастинг</p>
+<p>72-30 GeekExport</p>
+<p>Ссылки от Игоря
+Первые опыт с облаками: <a href="https://www.heroku.com/">https://www.heroku.com/</a>
+Где учился программировать: <a href="https://javarush.ru">https://javarush.ru</a>
+Vaadin - UI framework для джавистов : <a href="https://vaadin.com/learn/tutorials/v14">https://vaadin.com/learn/tutorials/v14</a></p>
+<p>Книги:</p>
+<ul>
+<li><a href="https://www.amazon.com/dp/0596155409/ref=cm_sw_r_tw_dp_U_x_HCfoEbC1K6V04">https://www.amazon.com/dp/0596155409/ref=cm_sw_r_tw_dp_U_x_HCfoEbC1K6V04</a></li>
+<li><a href="https://www.reinventingorganizations.com/">https://www.reinventingorganizations.com/</a></li>
+</ul>
+<p>Подкасты:</p>
+<ul>
+<li><a href="https://willbedone.ru/podcast/">https://willbedone.ru/podcast/</a></li>
+<li><a href="https://softskills.audio/">https://softskills.audio/</a></li>
+</ul>
+<p>Про жизнь разработчика в Финляндии:</p>
+<ul>
+<li><a href="https://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii">https://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii</a></li>
+</ul>
+<p>Оставить заявку на бесплатное ревью резюме: <a href="https://geekexport.com/cv-review">https://geekexport.com/cv-review</a></p>
+<p>Гость - <a href="https://t.me/olegsoroka">https://t.me/olegsoroka</a></p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+<p>Продакшн подкаста - <a href="https://t.me/pahaus">https://t.me/pahaus</a></p>
+]]></itunes:summary><itunes:subtitle>В 6 выпуске подкаста Javaswag поговорили с Игорем Сорокой о переезде в Финляндию, о изучении разных языков программирования, о работе консультантом и ...</itunes:subtitle><description><![CDATA[
+				    <p>В 6 выпуске подкаста Javaswag поговорили с Игорем Сорокой о переезде в Финляндию, о изучении разных языков программирования, о работе консультантом и о важности софт скиллов.</p>
+<p>00-00 Приветствие</p>
+<p>00-57 Из инженера-механика в программисты</p>
+<p>01-30 Как решил заняться программированием?</p>
+<p>02-30 Набор курсов в магистратуре</p>
+<p>05-11 Групповой проект. JavaFX не новый для Java UI фреймворк, деплой в Heroku, VueJS</p>
+<p>08-18 Я приходил к другу, который знал финский, и он переводил в Гугл транслейте</p>
+<p>08-48 JavaRush - советую всем, кто очень поздно пришел в программирование, много основ.</p>
+<p>09-38 Финский Java курc, JavaRush</p>
+<p>10-58 Сколько понадобилось времени для того чтобы писать приложение на Джаве? Первый фриланс</p>
+<p>13-10 Поиск работы после магистратуры. Ошибка - искать работу по своей специальности и по программированию.</p>
+<p>15-00 Стартап. Адройд-приложение - слуховой аппарат в телефоне.</p>
+<p>15-36 40 отказов по резюме. Что спасало - это большая мотивация найти работу</p>
+<p>17-19 Резюме, в котором было все!</p>
+<p>18-00 Синдром самозванца и записная книжка с вопросами по Core Java</p>
+<p>20-26 Первый оффер. Очень много работы и подготовки.</p>
+<p>22-24 Нужны ли Soft Skills для Junior?</p>
+<p>23-11 Стэк - монолит, OSGI, Vaadin, Jenkins, embeded. Работает ли OSGI? Вечерний девопс.</p>
+<p>29-30 Финский график работы</p>
+<p>31-15 Fullstack разработчик умеет все? 30% Java, остальное Fullstack</p>
+<p>35-04 Amazon Associate Developer нужен ли?</p>
+<p>37-50 Консалтинг</p>
+<p>40-10 Как внедрить AWS?</p>
+<p>41-15 Чем приглянулся Typescript?</p>
+<p>42-02 У каждого клиента свой стек. Gatling, Scala. Архитектор решил, что Gatling идеальный тул и его все послушали</p>
+<p>45-42 Прокачка консультантских софт скиллов. Что такое софт скиллы?</p>
+<p>50-07 Можно проверить софт-скилы по резюме?</p>
+<p>53-27 Зачем вести блог? Блог Игоря - <a href="https://medium.com/@igorsoroka/">https://medium.com/@igorsoroka/</a> Важность английского языка.</p>
+<p>62-02 Были ли проблемы с английским языком при переезде?</p>
+<p>63-40 Новая работа. Angular, Typescript, Kotlin, Java, AWS.</p>
+<p>66-00 Идем к микросервисам. Все написано просто, без Спринга. Amazon RDS, Postgres</p>
+<p>67-15 На Джаве все новое писать не хочется поэтому переходим на Котлин. С Котлином легче?</p>
+<p>69-50 Подкастинг</p>
+<p>72-30 GeekExport</p>
+<p>Ссылки от Игоря
+Первые опыт с облаками: <a href="https://www.heroku.com/">https://www.heroku.com/</a>
+Где учился программировать: <a href="https://javarush.ru">https://javarush.ru</a>
+Vaadin - UI framework для джавистов : <a href="https://vaadin.com/learn/tutorials/v14">https://vaadin.com/learn/tutorials/v14</a></p>
+<p>Книги:</p>
+<ul>
+<li><a href="https://www.amazon.com/dp/0596155409/ref=cm_sw_r_tw_dp_U_x_HCfoEbC1K6V04">https://www.amazon.com/dp/0596155409/ref=cm_sw_r_tw_dp_U_x_HCfoEbC1K6V04</a></li>
+<li><a href="https://www.reinventingorganizations.com/">https://www.reinventingorganizations.com/</a></li>
+</ul>
+<p>Подкасты:</p>
+<ul>
+<li><a href="https://willbedone.ru/podcast/">https://willbedone.ru/podcast/</a></li>
+<li><a href="https://softskills.audio/">https://softskills.audio/</a></li>
+</ul>
+<p>Про жизнь разработчика в Финляндии:</p>
+<ul>
+<li><a href="https://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii">https://geekexport.com/blog/tpost/av8z6flouj-zhizn-razrabotchika-v-finlyandii</a></li>
+</ul>
+<p>Оставить заявку на бесплатное ревью резюме: <a href="https://geekexport.com/cv-review">https://geekexport.com/cv-review</a></p>
+<p>Гость - <a href="https://t.me/olegsoroka">https://t.me/olegsoroka</a></p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+<p>Продакшн подкаста - <a href="https://t.me/pahaus">https://t.me/pahaus</a></p>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/6-javaswag-igor-soroka.mp3" type="audio/mpeg" length="75066305"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/751838761</guid><title>#5 - Олег Чирухин - Habr, JUG, Sber</title><pubDate>Fri, 31 Jan 2020 13:28:04 +0000</pubDate><link>https://javaswag.github.io/episode/5/</link><itunes:duration>01:58:29</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.</p>
+<p>00:00:00 Приветствие</p>
+<p>00:00:56 5-ый в рейтинге Хабра, как так получилось?</p>
+<p>00:02:30 2,5 часа на редактирование текста статьи</p>
+<p>00:05:45 После двух часов редактирования статьи остались только картинки</p>
+<p>00:06:50 У меня есть вся мощь кампании JUG.RU</p>
+<p>00:08:15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.</p>
+<p>00:11:00 Почему пишешь на Хабр то своего имени?</p>
+<p>00:12:05 Архитектор в Сбербанке</p>
+<p>00:15:40 Что делает в течении дня архитектор?</p>
+<p>00:17:20 Стэк Сбера на 2016 год - GridGain</p>
+<p>00:20:15 Что такое ин мемори датагрид?</p>
+<p>00:22:10 Госуслуги, PHP</p>
+<p>00:27:57 PHP - бдсм искусство</p>
+<p>00:30:30 GameDev это сложно. По своей инициативе спал на кухне с палаткой. Истории из Uncharted</p>
+<p>00:36:30 Россия - страна победивших казуальных игр</p>
+<p>00:37:30 Посты с DTF. Книги: The Art of Game Design: A Book of Lenses, Кровь, пот и пиксели. Обратная сторона индустрии</p>
+<p>00:43:00 Почему на конференциях мало докладов о GameDev?</p>
+<p>00:46:00 История про гейм-девелопера, который сидел на шее у своей девушки</p>
+<p>00:48:35 Выступление на JBreak 2017</p>
+<p>00:54:00 Переход JUG.RU. Паттерны написания статьи.</p>
+<p>00:63:00 Джава-дайджест</p>
+<p>00:67:07 Джош Лонг - машина для производства подкастов. Три состояни Джоша: спит, готовит доклад, кодит.</p>
+<p>00:70:00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto <a href="https://www.eclipse.org/ditto/index.html">https://www.eclipse.org/ditto/index.html</a></p>
+<p>00:77:03 Аудиозапись Почему я перестал читать новости. Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил</p>
+<p>Какой важный скилл для тебя?</p>
+<p>00:78:30 Как писать о технологиях, которые не нравятся?</p>
+<p>00:81:35 Сегодня у Олега в дайджесте, а завтра у джуна в продакшене</p>
+<p>00:83:40 Читать все новости подряд глупо, превращать их в дайджесты глупо. Пропал джава-дайджест. Новый формат джава-дайджеста.</p>
+<p>00:87:03 Любимый джава-стек: спринг-бут, sqlite. “Чем меньше всяких церемоний, чем меньше хибернейта над хибернейтом, тем лучше. Начиная с какого-то количества хибернейтов друг на друга накрученных проект уже обречен. Просто вы еще об этом не знаете.:</p>
+<p>00:89:05 Куда пропали встречи JUG в Санкт-Петербурге?</p>
+<p>00:91:20 Что изменилось у тебя в работе с 2017 года? У меня номер на майке -23, сейчас нас человек 75</p>
+<p>00:94:10 20 докладов на конференции много или мало?</p>
+<p>00:97:00 Подкасты, Ютьюб. Подкаст Витая пара <a href="http://tpair.org/">http://tpair.org/</a>.</p>
+<p>Разбор Полетов - что с ним? Новый подкаст - <a href="https://bitcask.live">https://bitcask.live</a></p>
+<p>Люди приходят в подкаст и начинают расползаться мыслью по древу.</p>
+<p>00:107:00 Youtube-видео. Подкатываем к тёлкам яйца вместе с Unity 3D</p>
+<p>Человек ведро и энергетики <a href="https://youtu.be/8BBZnmOf0cI?t=467">https://youtu.be/8BBZnmOf0cI?t=467</a></p>
+<p>Человек ведро Начало <a href="https://youtu.be/8BBZnmOf0cI?t=1263">https://youtu.be/8BBZnmOf0cI?t=1263</a></p>
+<p>Мотивация для Юнити разработчика <a href="https://youtu.be/8BBZnmOf0cI?t=2149">https://youtu.be/8BBZnmOf0cI?t=2149</a></p>
+<p>Человек ведро <a href="https://youtu.be/8BBZnmOf0cI?t=3799">https://youtu.be/8BBZnmOf0cI?t=3799</a></p>
+<p>Человек ведро на танцует <a href="https://youtu.be/8BBZnmOf0cI?t=3911">https://youtu.be/8BBZnmOf0cI?t=3911</a></p>
+<p>Человек ведро играет в игру <a href="https://youtu.be/8BBZnmOf0cI?t=4327">https://youtu.be/8BBZnmOf0cI?t=4327</a></p>
+<p>Человек-ведро покупает вино <a href="https://youtu.be/8BBZnmOf0cI?t=2787">https://youtu.be/8BBZnmOf0cI?t=2787</a></p>
+<p>00:141:35 Ютуб стримы по 4 часа. Жизнь стримера. Ачивка на Твиче Like clockwork за ежедневный стриминг в течение месяца. Стриминг - это работа.</p>
+<p>Youtube канал Олега - <a href="https://youtube.com/javawatch">https://youtube.com/javawatch</a></p>
+<p>Telegram канал - <a href="https://t.me/javawatch">https://t.me/javawatch</a></p>
+<p>Доклады Олега</p>
+<p><a href="https://www.youtube.com/watch?v=TJUiTA-BluI">https://www.youtube.com/watch?v=TJUiTA-BluI</a>  JBreak 2017 - Олег Чирухин — Девопс: теперь Java не тормозит</p>
+<p><a href="https://www.youtube.com/watch?v=hnadkXBIC1k">https://www.youtube.com/watch?v=hnadkXBIC1k</a>  JPoint 2018 - Олег Чирухин — Graal, Value Types, Loom и прочие ништяки 17 сент. 2018 г.</p>
+<p><a href="https://www.youtube.com/watch?v=lH4H0LEAo9g">https://www.youtube.com/watch?v=lH4H0LEAo9g</a>  Олег Чирухин — GraalVM Всемогущий</p>
+<p>Гость - <a href="https://twitter.com/olegchir">https://twitter.com/olegchir</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в С...</itunes:subtitle><description><![CDATA[
+				    <p>В пятом выпуске подкаста Javaswag поговорили с Олегом Чирухиным. Поговорили о процессе написания статей на Хабр, о Джава-дайджесте, архитекторстве в Сбербанке, подкастинге, ютюбе, разработке игр.</p>
+<p>00:00:00 Приветствие</p>
+<p>00:00:56 5-ый в рейтинге Хабра, как так получилось?</p>
+<p>00:02:30 2,5 часа на редактирование текста статьи</p>
+<p>00:05:45 После двух часов редактирования статьи остались только картинки</p>
+<p>00:06:50 У меня есть вся мощь кампании JUG.RU</p>
+<p>00:08:15 Как сделать смешной мем? У меня есть бонусы - я работаю джава-программистом.</p>
+<p>00:11:00 Почему пишешь на Хабр то своего имени?</p>
+<p>00:12:05 Архитектор в Сбербанке</p>
+<p>00:15:40 Что делает в течении дня архитектор?</p>
+<p>00:17:20 Стэк Сбера на 2016 год - GridGain</p>
+<p>00:20:15 Что такое ин мемори датагрид?</p>
+<p>00:22:10 Госуслуги, PHP</p>
+<p>00:27:57 PHP - бдсм искусство</p>
+<p>00:30:30 GameDev это сложно. По своей инициативе спал на кухне с палаткой. Истории из Uncharted</p>
+<p>00:36:30 Россия - страна победивших казуальных игр</p>
+<p>00:37:30 Посты с DTF. Книги: The Art of Game Design: A Book of Lenses, Кровь, пот и пиксели. Обратная сторона индустрии</p>
+<p>00:43:00 Почему на конференциях мало докладов о GameDev?</p>
+<p>00:46:00 История про гейм-девелопера, который сидел на шее у своей девушки</p>
+<p>00:48:35 Выступление на JBreak 2017</p>
+<p>00:54:00 Переход JUG.RU. Паттерны написания статьи.</p>
+<p>00:63:00 Джава-дайджест</p>
+<p>00:67:07 Джош Лонг - машина для производства подкастов. Три состояни Джоша: спит, готовит доклад, кодит.</p>
+<p>00:70:00 Майстоуны из Джава дайджеста, как за всем этим следить? Eclipse Ditto <a href="https://www.eclipse.org/ditto/index.html">https://www.eclipse.org/ditto/index.html</a></p>
+<p>00:77:03 Аудиозапись Почему я перестал читать новости. Чтение не важный скил, слушание подкастов не важный скил, чтение того что нужно и отказ от того что не нужно это важный скил. Поход на научную школу/конференцию тоже не особо важный скил</p>
+<p>Какой важный скилл для тебя?</p>
+<p>00:78:30 Как писать о технологиях, которые не нравятся?</p>
+<p>00:81:35 Сегодня у Олега в дайджесте, а завтра у джуна в продакшене</p>
+<p>00:83:40 Читать все новости подряд глупо, превращать их в дайджесты глупо. Пропал джава-дайджест. Новый формат джава-дайджеста.</p>
+<p>00:87:03 Любимый джава-стек: спринг-бут, sqlite. “Чем меньше всяких церемоний, чем меньше хибернейта над хибернейтом, тем лучше. Начиная с какого-то количества хибернейтов друг на друга накрученных проект уже обречен. Просто вы еще об этом не знаете.:</p>
+<p>00:89:05 Куда пропали встречи JUG в Санкт-Петербурге?</p>
+<p>00:91:20 Что изменилось у тебя в работе с 2017 года? У меня номер на майке -23, сейчас нас человек 75</p>
+<p>00:94:10 20 докладов на конференции много или мало?</p>
+<p>00:97:00 Подкасты, Ютьюб. Подкаст Витая пара <a href="http://tpair.org/">http://tpair.org/</a>.</p>
+<p>Разбор Полетов - что с ним? Новый подкаст - <a href="https://bitcask.live">https://bitcask.live</a></p>
+<p>Люди приходят в подкаст и начинают расползаться мыслью по древу.</p>
+<p>00:107:00 Youtube-видео. Подкатываем к тёлкам яйца вместе с Unity 3D</p>
+<p>Человек ведро и энергетики <a href="https://youtu.be/8BBZnmOf0cI?t=467">https://youtu.be/8BBZnmOf0cI?t=467</a></p>
+<p>Человек ведро Начало <a href="https://youtu.be/8BBZnmOf0cI?t=1263">https://youtu.be/8BBZnmOf0cI?t=1263</a></p>
+<p>Мотивация для Юнити разработчика <a href="https://youtu.be/8BBZnmOf0cI?t=2149">https://youtu.be/8BBZnmOf0cI?t=2149</a></p>
+<p>Человек ведро <a href="https://youtu.be/8BBZnmOf0cI?t=3799">https://youtu.be/8BBZnmOf0cI?t=3799</a></p>
+<p>Человек ведро на танцует <a href="https://youtu.be/8BBZnmOf0cI?t=3911">https://youtu.be/8BBZnmOf0cI?t=3911</a></p>
+<p>Человек ведро играет в игру <a href="https://youtu.be/8BBZnmOf0cI?t=4327">https://youtu.be/8BBZnmOf0cI?t=4327</a></p>
+<p>Человек-ведро покупает вино <a href="https://youtu.be/8BBZnmOf0cI?t=2787">https://youtu.be/8BBZnmOf0cI?t=2787</a></p>
+<p>00:141:35 Ютуб стримы по 4 часа. Жизнь стримера. Ачивка на Твиче Like clockwork за ежедневный стриминг в течение месяца. Стриминг - это работа.</p>
+<p>Youtube канал Олега - <a href="https://youtube.com/javawatch">https://youtube.com/javawatch</a></p>
+<p>Telegram канал - <a href="https://t.me/javawatch">https://t.me/javawatch</a></p>
+<p>Доклады Олега</p>
+<p><a href="https://www.youtube.com/watch?v=TJUiTA-BluI">https://www.youtube.com/watch?v=TJUiTA-BluI</a>  JBreak 2017 - Олег Чирухин — Девопс: теперь Java не тормозит</p>
+<p><a href="https://www.youtube.com/watch?v=hnadkXBIC1k">https://www.youtube.com/watch?v=hnadkXBIC1k</a>  JPoint 2018 - Олег Чирухин — Graal, Value Types, Loom и прочие ништяки 17 сент. 2018 г.</p>
+<p><a href="https://www.youtube.com/watch?v=lH4H0LEAo9g">https://www.youtube.com/watch?v=lH4H0LEAo9g</a>  Олег Чирухин — GraalVM Всемогущий</p>
+<p>Гость - <a href="https://twitter.com/olegchir">https://twitter.com/olegchir</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/5-javaswag-oleg-chiruhin.mp3" type="audio/mpeg" length="113745502"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/724565152</guid><title>#4 - Руслан Ибрагимов - Bootique, Undertow, Kotlin</title><pubDate>Thu, 12 Dec 2019 17:56:39 +0000</pubDate><link>https://javaswag.github.io/episode/4/</link><itunes:duration>00:34:11</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor</p>
+<p>00:00:44 Что делает програмный коммитет конференции?</p>
+<p>00:01:58 Чем хорош <a href="https://bootique.io/">https://bootique.io/</a>?</p>
+<p>00:06:29 Сервер Undertow, почему?</p>
+<p>00:09:09 Undertow 3 и netty</p>
+<p>00:11:24 Kotlin</p>
+<p>00:14:41 Любимые фичи в Kotlin</p>
+<p>00:16:26 Kotlin User Group - <a href="https://bkug.by/">https://bkug.by/</a> Kotlin Beta в продакшене !!!</p>
+<p>00:17:52 Kotlin на фронтенд митапе</p>
+<p>00:19:20 Кто такой Fullstack разработчик?</p>
+<p>00:22:39 <a href="https://ktor.io/">https://ktor.io/</a></p>
+<p>00:23:50 Awesome Kotlin <a href="https://kotlin.link/">https://kotlin.link/</a></p>
+<p>00:24:42 Komodo <a href="https://github.com/Heapy/komodo">https://github.com/Heapy/komodo</a></p>
+<pre><code>- Koin https://insert-koin.io/
+</code></pre>
+<p>00:27:27 Какую базу данных используешь для пет-проджектов?</p>
+<pre><code>- Xodus https://github.com/JetBrains/xodus
+
+- Append-Only Log
+</code></pre>
+<p>00:28:48 Что пробовал до Xodus?</p>
+<pre><code>- mysql, mariadb, postgresql, oracle
+
+- Xodus в проде
+</code></pre>
+<p>00:31:03 Странный вопрос про Dell XPS</p>
+<pre><code>- Почему не Mac?
+</code></pre>
+<p>00:33:00 Free As a Freedom</p>
+<p>Гость - <a href="https://twitter.com/HeapyHop">https://twitter.com/HeapyHop</a></p>
+<p>Телеграм канал t.me/javaswag</p>
+<p>Чат t.me/javaswag_chat</p>
+<p>Подкаст записан на конференции <a href="https://jfuture.dev/">https://jfuture.dev/</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor
+00:00:44 Что делает програмный коммитет конференции?
+00:01:58 Чем хорош https://bootique.io/?
+00:06:29 ...</itunes:subtitle><description><![CDATA[
+				    <p>#4 - Руслан Ибрагимов - Bootique, Kotlin, ktor</p>
+<p>00:00:44 Что делает програмный коммитет конференции?</p>
+<p>00:01:58 Чем хорош <a href="https://bootique.io/">https://bootique.io/</a>?</p>
+<p>00:06:29 Сервер Undertow, почему?</p>
+<p>00:09:09 Undertow 3 и netty</p>
+<p>00:11:24 Kotlin</p>
+<p>00:14:41 Любимые фичи в Kotlin</p>
+<p>00:16:26 Kotlin User Group - <a href="https://bkug.by/">https://bkug.by/</a> Kotlin Beta в продакшене !!!</p>
+<p>00:17:52 Kotlin на фронтенд митапе</p>
+<p>00:19:20 Кто такой Fullstack разработчик?</p>
+<p>00:22:39 <a href="https://ktor.io/">https://ktor.io/</a></p>
+<p>00:23:50 Awesome Kotlin <a href="https://kotlin.link/">https://kotlin.link/</a></p>
+<p>00:24:42 Komodo <a href="https://github.com/Heapy/komodo">https://github.com/Heapy/komodo</a></p>
+<pre><code>- Koin https://insert-koin.io/
+</code></pre>
+<p>00:27:27 Какую базу данных используешь для пет-проджектов?</p>
+<pre><code>- Xodus https://github.com/JetBrains/xodus
+
+- Append-Only Log
+</code></pre>
+<p>00:28:48 Что пробовал до Xodus?</p>
+<pre><code>- mysql, mariadb, postgresql, oracle
+
+- Xodus в проде
+</code></pre>
+<p>00:31:03 Странный вопрос про Dell XPS</p>
+<pre><code>- Почему не Mac?
+</code></pre>
+<p>00:33:00 Free As a Freedom</p>
+<p>Гость - <a href="https://twitter.com/HeapyHop">https://twitter.com/HeapyHop</a></p>
+<p>Телеграм канал t.me/javaswag</p>
+<p>Чат t.me/javaswag_chat</p>
+<p>Подкаст записан на конференции <a href="https://jfuture.dev/">https://jfuture.dev/</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/4-javaswag-ruslan-ibragimov.mp3" type="audio/mpeg" length="32823170"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/702438730</guid><title>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</title><pubDate>Mon, 04 Nov 2019 16:56:25 +0000</pubDate><link>https://javaswag.github.io/episode/3/</link><itunes:duration>01:16:48</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</p>
+<p>00:00:49 Доклад про <a href="https://github.com/testcontainers/">https://github.com/testcontainers/</a></p>
+<p>00:06:17 Разработка игр</p>
+<p>00:09:30 Язык Haxe</p>
+<pre><code>- https://haxe.org/ 
+
+- https://www.youtube.com/watch?v=XQLNAx9DGmk
+</code></pre>
+<p>00:14:18 Apache Groovy</p>
+<pre><code>- https://www.youtube.com/watch?v=Ujuz-D-ekXE
+</code></pre>
+<p>00:16:30 Groovy макрометоды <a href="https://github.com/bsideup/MacroGroovy">https://github.com/bsideup/MacroGroovy</a></p>
+<p>00:22:50 Первый доклад на английском на</p>
+<p>00:25:10 Zeroturnaround JRebel, XRebel</p>
+<p>00:30:40 С нуля в облака. Поднять продакшн, пока едет пицца</p>
+<pre><code>- https://www.youtube.com/watch?v=9lpDjZUGhKA
+</code></pre>
+<p>00:33:25 Берлин, Zalando</p>
+<p>00:36:36 История Testcontainers</p>
+<pre><code>- Перевести сервис на SpringBoot за час
+</code></pre>
+<p>00:40:30 Vivy <a href="https://www.vivy.com/">https://www.vivy.com/</a></p>
+<pre><code>- Стартап
+
+- Архитектура за которую не стыдно EventSourcing, CQRS
+
+- Выиграть тендер у IBM	
+
+- Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :)
+
+- Liiklus - https://github.com/bsideup/liiklus
+
+- Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar
+
+- 50 микросервисов
+</code></pre>
+<p>00:58:40 Спринг</p>
+<pre><code>- Офисы Pivotal 
+
+- Staff Software Engineer - Reactor &amp; Reactive Spring 
+
+- https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260
+
+- Почему выбрали реактивный подход в Vivy
+
+- Ownership &amp; trust
+
+- Конференция s1p https://springoneplatform.io/
+
+- Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound
+
+- Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps
+</code></pre>
+<p>00:67:10 Jabel - unlock Javac 12+ syntax when targeting Java 8</p>
+<pre><code>- https://github.com/bsideup/jabel	
+</code></pre>
+<p>00:70:45 Подкаст Two Devs One Ops <a href="https://www.2d1o.ru/">https://www.2d1o.ru/</a></p>
+<p>00:72:10 Никнейм bsideup</p>
+<p>00:74:00 Дреды, конфликты в университете</p>
+<p>Гость - twitter.com/bsideup</p>
+<p>Подкаст записан на конференции <a href="https://jokerconf.com/">https://jokerconf.com/</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor
+00:00:49 Доклад про https://github.com/testcontainers/
+00:06:17 Разработка игр
+00:09:30 Язык Hax...</itunes:subtitle><description><![CDATA[
+				    <p>#3 - Сергей Егоров - Pivotal, Testcontainers, Reactor</p>
+<p>00:00:49 Доклад про <a href="https://github.com/testcontainers/">https://github.com/testcontainers/</a></p>
+<p>00:06:17 Разработка игр</p>
+<p>00:09:30 Язык Haxe</p>
+<pre><code>- https://haxe.org/ 
+
+- https://www.youtube.com/watch?v=XQLNAx9DGmk
+</code></pre>
+<p>00:14:18 Apache Groovy</p>
+<pre><code>- https://www.youtube.com/watch?v=Ujuz-D-ekXE
+</code></pre>
+<p>00:16:30 Groovy макрометоды <a href="https://github.com/bsideup/MacroGroovy">https://github.com/bsideup/MacroGroovy</a></p>
+<p>00:22:50 Первый доклад на английском на</p>
+<p>00:25:10 Zeroturnaround JRebel, XRebel</p>
+<p>00:30:40 С нуля в облака. Поднять продакшн, пока едет пицца</p>
+<pre><code>- https://www.youtube.com/watch?v=9lpDjZUGhKA
+</code></pre>
+<p>00:33:25 Берлин, Zalando</p>
+<p>00:36:36 История Testcontainers</p>
+<pre><code>- Перевести сервис на SpringBoot за час
+</code></pre>
+<p>00:40:30 Vivy <a href="https://www.vivy.com/">https://www.vivy.com/</a></p>
+<pre><code>- Стартап
+
+- Архитектура за которую не стыдно EventSourcing, CQRS
+
+- Выиграть тендер у IBM	
+
+- Пивотал - это как найти улыбающуюся, поизитивну голову лошади в кровати :)
+
+- Liiklus - https://github.com/bsideup/liiklus
+
+- Бум ифраструктур, построенных на ивентах - Apache Kafka, Apache Pulsar
+
+- 50 микросервисов
+</code></pre>
+<p>00:58:40 Спринг</p>
+<pre><code>- Офисы Pivotal 
+
+- Staff Software Engineer - Reactor &amp; Reactive Spring 
+
+- https://pivotal.io/careers/openings/staff-software-engineer-reactor-reactive-spring/1077260
+
+- Почему выбрали реактивный подход в Vivy
+
+- Ownership &amp; trust
+
+- Конференция s1p https://springoneplatform.io/
+
+- Java agent to detect blocking calls from non-blocking threads https://github.com/reactor/BlockHound
+
+- Доклад от Blizzard https://www.youtube.com/watch?v=xCu73WVg8Ps
+</code></pre>
+<p>00:67:10 Jabel - unlock Javac 12+ syntax when targeting Java 8</p>
+<pre><code>- https://github.com/bsideup/jabel	
+</code></pre>
+<p>00:70:45 Подкаст Two Devs One Ops <a href="https://www.2d1o.ru/">https://www.2d1o.ru/</a></p>
+<p>00:72:10 Никнейм bsideup</p>
+<p>00:74:00 Дреды, конфликты в университете</p>
+<p>Гость - twitter.com/bsideup</p>
+<p>Подкаст записан на конференции <a href="https://jokerconf.com/">https://jokerconf.com/</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/3-javaswag-sergei-egorov.mp3" type="audio/mpeg" length="73728000"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/688411723</guid><title>#2 - Олег Шелаев - из разработчика в DevRel!</title><pubDate>Mon, 21 Oct 2019 18:22:01 +0000</pubDate><link>https://javaswag.github.io/episode/2/</link><itunes:duration>00:29:18</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>00:00:25 Как стал девелопер-адвокатом?</p>
+<p>00:05:58 Как начал заниматься маркетингом в JRebel?</p>
+<p>00:10:37 Virtual Java User Group <a href="https://virtualjug.com/">https://virtualjug.com/</a></p>
+<p>00:14:05 Конференция vJUG24</p>
+<p>00:19:40 Что такое GraalVM ?</p>
+<p>00:23:45 Как прошел HolyJS ?</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+<p>Подкаст записан на конференции 2019.rigadevdays.lv/</p>
+]]></itunes:summary><itunes:subtitle>00:00:25 Как стал девелопер-адвокатом?
+00:05:58 Как начал заниматься маркетингом в JRebel?
+00:10:37 Virtual Java User Group https://virtualjug.com/
+00...</itunes:subtitle><description><![CDATA[
+				    <p>00:00:25 Как стал девелопер-адвокатом?</p>
+<p>00:05:58 Как начал заниматься маркетингом в JRebel?</p>
+<p>00:10:37 Virtual Java User Group <a href="https://virtualjug.com/">https://virtualjug.com/</a></p>
+<p>00:14:05 Конференция vJUG24</p>
+<p>00:19:40 Что такое GraalVM ?</p>
+<p>00:23:45 Как прошел HolyJS ?</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+<p>Подкаст записан на конференции 2019.rigadevdays.lv/</p>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/2-javaswag-oleg-shelaev.mp3" type="audio/mpeg" length="28125309"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/655299722</guid><title>#1 - Олег Докука - Project Reactor, Rsocket, Netify</title><pubDate>Thu, 25 Jul 2019 13:43:15 +0000</pubDate><link>https://javaswag.github.io/episode/1/</link><itunes:duration>01:24:07</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>Олег Докука - Project Reactor, Rsocket, Netify</p>
+<p>Подкаст записан на конференции 2019.rigadevdays.lv/</p>
+<p>00:00:00 Начало</p>
+<p>00:00:25 Как прошел доклад? Зачем бросаться конфетами на конференции?</p>
+<p>00:02:01 Как начал выступать на конференциях?</p>
+<p>00:03:50 Сколько конференций посетил в этом году?</p>
+<p>00:05:00 Как подать доклад на конференцию?</p>
+<p>00:08:00 Про контрибьютинг в projectreactor.io и книгу</p>
+<p>00:10:24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.</p>
+<p>00:14:30 Когда успеваешь писать код?</p>
+<p>00:16:30 Что за стек использовал до реактора и как был CTO стартапа</p>
+<p>00:19:58 Проджект реактор, как начался?</p>
+<p>00:22:58 Как рассказывал коллегам про реактор?</p>
+<p>00:25:48 Как писать код в реактивном стиле? Какую базу данных использовали?</p>
+<p>00:30:15 Есть ли для базы реактивный драйвер?</p>
+<p>00:38:50 Реактор в лицах. Кто разрабатывает projectreactor?</p>
+<p>00:43:00 Как начать контрибьютить в Спринг?</p>
+<p>00:45:25 Как начал заниматься RSocket? Почему не удалось попасть на работу в Pivotal</p>
+<p>00:48:36 История протокола RSocket и Netflix</p>
+<p>00:56:54 Куда пропали евангелисты Grpc? QUIC3 замена Grpc?</p>
+<p>00:64:04 Proteus - новый брокер сообщений для RSocket. Что такое sidecar, servicemesh?</p>
+<p>00:79:20 Как измерить девелопер адвоката?</p>
+<p>Гость: <a href="https://www.linkedin.com/in/olegdokuka/">https://www.linkedin.com/in/olegdokuka/</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>Олег Докука - Project Reactor, Rsocket, Netify
+Подкаст записан на конференции 2019.rigadevdays.lv/
+00:00:00 Начало
+00:00:25 Как прошел доклад? Зачем б...</itunes:subtitle><description><![CDATA[
+				    <p>Олег Докука - Project Reactor, Rsocket, Netify</p>
+<p>Подкаст записан на конференции 2019.rigadevdays.lv/</p>
+<p>00:00:00 Начало</p>
+<p>00:00:25 Как прошел доклад? Зачем бросаться конфетами на конференции?</p>
+<p>00:02:01 Как начал выступать на конференциях?</p>
+<p>00:03:50 Сколько конференций посетил в этом году?</p>
+<p>00:05:00 Как подать доклад на конференцию?</p>
+<p>00:08:00 Про контрибьютинг в projectreactor.io и книгу</p>
+<p>00:10:24 Переход с русского на английский. Как выучил английский за полтора месяца до доклада.</p>
+<p>00:14:30 Когда успеваешь писать код?</p>
+<p>00:16:30 Что за стек использовал до реактора и как был CTO стартапа</p>
+<p>00:19:58 Проджект реактор, как начался?</p>
+<p>00:22:58 Как рассказывал коллегам про реактор?</p>
+<p>00:25:48 Как писать код в реактивном стиле? Какую базу данных использовали?</p>
+<p>00:30:15 Есть ли для базы реактивный драйвер?</p>
+<p>00:38:50 Реактор в лицах. Кто разрабатывает projectreactor?</p>
+<p>00:43:00 Как начать контрибьютить в Спринг?</p>
+<p>00:45:25 Как начал заниматься RSocket? Почему не удалось попасть на работу в Pivotal</p>
+<p>00:48:36 История протокола RSocket и Netflix</p>
+<p>00:56:54 Куда пропали евангелисты Grpc? QUIC3 замена Grpc?</p>
+<p>00:64:04 Proteus - новый брокер сообщений для RSocket. Что такое sidecar, servicemesh?</p>
+<p>00:79:20 Как измерить девелопер адвоката?</p>
+<p>Гость: <a href="https://www.linkedin.com/in/olegdokuka/">https://www.linkedin.com/in/olegdokuka/</a></p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/1-javaswag-oleg-dokuka.mp3" type="audio/mpeg" length="201693492"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">tag:soundcloud,2010:tracks/642018345</guid><title>#0 - Евгений Борисов о пчеле BeanFactory, айбирнейте и спринге</title><pubDate>Tue, 25 Jun 2019 20:22:41 +0000</pubDate><link>https://javaswag.github.io/episode/0/</link><itunes:duration>00:53:08</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+				    <p>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге</p>
+<p>Телеграм канал <a href="https://t.me/javaswag">https://t.me/javaswag</a></p>
+<p>Сайт <a href="https://javaswag.github.io">https://javaswag.github.io</a></p>
+<p>Подкаст записан на конференции <a href="https://2019.rigadevdays.lv/">https://2019.rigadevdays.lv/</a></p>
+<p>00:00:00 Как начал выступать на конференции?</p>
+<p>00:07:25 Что такое айбирнейт?</p>
+<p>00:08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?</p>
+<p>00:10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?</p>
+<p>00:12:50 Кладбище за окном директора</p>
+<p>00:14:27 Почему рассказывает про JavaEE израильтянам?</p>
+<p>00:15:15 Как отличается аудитория в разных странах?</p>
+<p>00:16:58 Как перешел на Спринг?</p>
+<p>00:19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива</p>
+<p>00:21:55 Почему Спринг остается популярным?</p>
+<p>00:24:02 Знакомство с Juergen Hoeller</p>
+<p>00:26:00 Железный купол написан на Java</p>
+<p>00:27:25 Почему доклада Спринг-Потрошитель такой популярный? 150тысяч просмотров на youtube</p>
+<p>00:28:20 Свой youtube-канал или конференция</p>
+<p>00:31:07 Сколько времени занимает подготовка одного доклада?</p>
+<p>00:33:14 Реквием программиста <a href="https://youtu.be/Qypw6ho5wGQ">https://youtu.be/Qypw6ho5wGQ</a></p>
+<p>00:34:32 Про работу в NAYA Technologies</p>
+<p>00:42:00 IntelliJ IDEA vs Eclipse?</p>
+<p>00:44:34 Как учить программированию своих детей?</p>
+<p>00:46:40 Как все успевать?</p>
+<p>00:46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице</p>
+<p>00:50:30 Стоит ли ходить на воркшоп?</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге
+Телеграм канал https://t.me/javaswag
+Сайт https://javaswag.github.io
+Подкаст записан на конф...</itunes:subtitle><description><![CDATA[
+				    <p>Евгений Борисов о пчелах на слайдах, айбирнейте и спринге</p>
+<p>Телеграм канал <a href="https://t.me/javaswag">https://t.me/javaswag</a></p>
+<p>Сайт <a href="https://javaswag.github.io">https://javaswag.github.io</a></p>
+<p>Подкаст записан на конференции <a href="https://2019.rigadevdays.lv/">https://2019.rigadevdays.lv/</a></p>
+<p>00:00:00 Как начал выступать на конференции?</p>
+<p>00:07:25 Что такое айбирнейт?</p>
+<p>00:08:27 Почему пчела это BeanFactory, а муравей - BeadDefinitionReader?</p>
+<p>00:10:09 Почему описание биографии не менялось 10 лет? Где работает сейчас?</p>
+<p>00:12:50 Кладбище за окном директора</p>
+<p>00:14:27 Почему рассказывает про JavaEE израильтянам?</p>
+<p>00:15:15 Как отличается аудитория в разных странах?</p>
+<p>00:16:58 Как перешел на Спринг?</p>
+<p>00:19:10 Когда первый раз написал на Спринге? Как рекламировать коллегам спринг с помощью пива</p>
+<p>00:21:55 Почему Спринг остается популярным?</p>
+<p>00:24:02 Знакомство с Juergen Hoeller</p>
+<p>00:26:00 Железный купол написан на Java</p>
+<p>00:27:25 Почему доклада Спринг-Потрошитель такой популярный? 150тысяч просмотров на youtube</p>
+<p>00:28:20 Свой youtube-канал или конференция</p>
+<p>00:31:07 Сколько времени занимает подготовка одного доклада?</p>
+<p>00:33:14 Реквием программиста <a href="https://youtu.be/Qypw6ho5wGQ">https://youtu.be/Qypw6ho5wGQ</a></p>
+<p>00:34:32 Про работу в NAYA Technologies</p>
+<p>00:42:00 IntelliJ IDEA vs Eclipse?</p>
+<p>00:44:34 Как учить программированию своих детей?</p>
+<p>00:46:40 Как все успевать?</p>
+<p>00:46:58 История про хакатон с Барухом под JavaME и девочку в белом платьице</p>
+<p>00:50:30 Стоит ли ходить на воркшоп?</p>
+<p>Ссылки на подкаст:</p>
+<ul>
+<li>Сайт -  <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм - <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube - <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/volyihin/">https://www.linkedin.com/in/volyihin/</a></li>
+<li>X - <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/0-javaswag-evgenii-borisov.mp3" type="audio/mpeg" length="127406628"/><itunes:image href="https://javaswag.github.io/images/logo.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords[0m></item></channel></rss>
