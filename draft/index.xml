@@ -1,4 +1,74 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sat, 21 Mar 2026 11:06:03 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">89-javaswag-dmitry-chuyko.mp3</guid><title>#89 - Дмитрий Чуйко - Performance Architect, интринсики, контейнеры и будущее OpenJDK Drafts</title><pubDate>Mon, 16 Mar 2026 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/89/</link><itunes:duration>1:23:09</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sat, 21 Mar 2026 11:19:16 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">90-javaswag-konstantin-tskhovrebov.mp3</guid><title>#90 - Константин Цховребов - внутреннее устройство Compose и эволюция Kotlin Multiplatform Drafts</title><pubDate>Sat, 21 Mar 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/90/</link><itunes:duration>2:21:54</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+            <p>«Правда ли, что тесты в мобильных приложениях — это пустая трата времени? Почему Xcode называют &ldquo;тихим ужасом&rdquo; и почему iOS-разработчики до сих пор его терпят?</p>
+<p>Сегодня в подкасте Java Swag мы погружаемся в мир Android, Compose и Kotlin Multiplatform. У нас в гостях человек, который знает о мобильной экосистеме JetBrains всё — Константин Цховребов, разработчик в команде Compose Multiplatform.</p>
+<p>Мы обсудим путь Кости от первого Android-приложения на слабом нетбуке в 2010 году до техлида в JetBrains. Поговорим о том, как Kotlin захватил мобильный мир, почему &ldquo;галера&rdquo; — это идеальный старт для новичка, и как магия expect/actual позволяет писать код сразу под все платформы.</p>
+<p>00:00 Старт
+01:16 Путь в Android
+03:01 Почему работа в аутсорсе — отличная школа для разработчика
+09:36 После Extension-функций не хочется возвращаться в Java
+13:30 Плюсы и минусы Extension-методов
+17:30 Что такое Compose и как выглядела UI-разработка до него
+21:00 Почему Compose «зашел»
+23:30 Проблема списков в Android
+26:40 Особенности мобильной разработки: батарейка, ресурсы и «отсутствующий» интернет
+29:26 Навигация в Android: история библиотеки Cicerone
+39:00 Google Navigation 3
+40:35 Kotlin Multiplatform (KMP)
+46:25 Как работает магия expect/actual и почему это лучше, чем дефайны в C++
+49:30 LSP-сервер для VS Code: Kotlin теперь не только в IntelliJ IDEA
+01:00:50 Compose Multiplatform на iOS
+01:03:30 Проблема нативности: должен ли UI выглядеть «как родной»? Кейс Duolingo
+01:06:33 Flutter и React Native
+01:18:20 Глубокий интероп и Swift
+01:42:40 «Xcode — это тихий ужас»
+01:44:15 Будущее: Compose for Web (Wasm/JS)
+02:00:50 Чиним скролл в вебе
+02:12:05 Непопулярное мнение №1: Gradle — прекрасный фреймворк
+02:15:15 Непопулярное мнение №2: В большинстве мобильных приложений тесты не нужны</p>
+<p>Гость <a href="https://www.linkedin.com/in/terrakok/">https://www.linkedin.com/in/terrakok/</a></p>
+<p>Ссылки</p>
+<ul>
+<li><a href="https://bell-sw.com/blog/what-is-crac-a-guide-to-cutting-java-startup-and-warmup-from-minutes-to-milliseconds/">https://bell-sw.com/blog/what-is-crac-a-guide-to-cutting-java-startup-and-warmup-from-minutes-to-milliseconds/</a></li>
+<li><a href="https://blog.jetbrains.com/kotlin/2026/01/the-journey-to-compose-hot-reload-1-0-0/">https://blog.jetbrains.com/kotlin/2026/01/the-journey-to-compose-hot-reload-1-0-0/</a></li>
+<li><a href="https://openjdk.org/projects/leyden/">https://openjdk.org/projects/leyden/</a></li>
+<li><a href="https://openjdk.org/jeps/516">https://openjdk.org/jeps/516</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>«Правда ли, что тесты в мобильных приложениях — эт...</itunes:subtitle><description><![CDATA[
+            <p>«Правда ли, что тесты в мобильных приложениях — это пустая трата времени? Почему Xcode называют &ldquo;тихим ужасом&rdquo; и почему iOS-разработчики до сих пор его терпят?</p>
+<p>Сегодня в подкасте Java Swag мы погружаемся в мир Android, Compose и Kotlin Multiplatform. У нас в гостях человек, который знает о мобильной экосистеме JetBrains всё — Константин Цховребов, разработчик в команде Compose Multiplatform.</p>
+<p>Мы обсудим путь Кости от первого Android-приложения на слабом нетбуке в 2010 году до техлида в JetBrains. Поговорим о том, как Kotlin захватил мобильный мир, почему &ldquo;галера&rdquo; — это идеальный старт для новичка, и как магия expect/actual позволяет писать код сразу под все платформы.</p>
+<p>00:00 Старт
+01:16 Путь в Android
+03:01 Почему работа в аутсорсе — отличная школа для разработчика
+09:36 После Extension-функций не хочется возвращаться в Java
+13:30 Плюсы и минусы Extension-методов
+17:30 Что такое Compose и как выглядела UI-разработка до него
+21:00 Почему Compose «зашел»
+23:30 Проблема списков в Android
+26:40 Особенности мобильной разработки: батарейка, ресурсы и «отсутствующий» интернет
+29:26 Навигация в Android: история библиотеки Cicerone
+39:00 Google Navigation 3
+40:35 Kotlin Multiplatform (KMP)
+46:25 Как работает магия expect/actual и почему это лучше, чем дефайны в C++
+49:30 LSP-сервер для VS Code: Kotlin теперь не только в IntelliJ IDEA
+01:00:50 Compose Multiplatform на iOS
+01:03:30 Проблема нативности: должен ли UI выглядеть «как родной»? Кейс Duolingo
+01:06:33 Flutter и React Native
+01:18:20 Глубокий интероп и Swift
+01:42:40 «Xcode — это тихий ужас»
+01:44:15 Будущее: Compose for Web (Wasm/JS)
+02:00:50 Чиним скролл в вебе
+02:12:05 Непопулярное мнение №1: Gradle — прекрасный фреймворк
+02:15:15 Непопулярное мнение №2: В большинстве мобильных приложений тесты не нужны</p>
+<p>Гость <a href="https://www.linkedin.com/in/terrakok/">https://www.linkedin.com/in/terrakok/</a></p>
+<p>Ссылки</p>
+<ul>
+<li><a href="https://bell-sw.com/blog/what-is-crac-a-guide-to-cutting-java-startup-and-warmup-from-minutes-to-milliseconds/">https://bell-sw.com/blog/what-is-crac-a-guide-to-cutting-java-startup-and-warmup-from-minutes-to-milliseconds/</a></li>
+<li><a href="https://blog.jetbrains.com/kotlin/2026/01/the-journey-to-compose-hot-reload-1-0-0/">https://blog.jetbrains.com/kotlin/2026/01/the-journey-to-compose-hot-reload-1-0-0/</a></li>
+<li><a href="https://openjdk.org/projects/leyden/">https://openjdk.org/projects/leyden/</a></li>
+<li><a href="https://openjdk.org/jeps/516">https://openjdk.org/jeps/516</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/90-javaswag-konstantin-tskhovrebov.mp3" type="audio/mpeg" length="340597440"/><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">89-javaswag-dmitry-chuyko.mp3</guid><title>#89 - Дмитрий Чуйко - Performance Architect, интринсики, контейнеры и будущее OpenJDK Drafts</title><pubDate>Mon, 16 Mar 2026 07:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/89/</link><itunes:duration>1:23:09</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
             <p>В гостях Дмитрий Чуйко, Performance Architect в компании Bellsoft. Мы обсудили, как устроена работа над производительностью Java «под капотом», зачем компаниям свои дистрибутивы JDK и почему дефолтные настройки в контейнерах — это путь в никуда.</p>
 <h3 id="в-этом-выпуске"><strong>В этом выпуске:</strong></h3>
 <p>00:00 Старт</p>
