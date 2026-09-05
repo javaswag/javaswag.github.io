@@ -1,4 +1,80 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Tue, 14 Jul 2026 09:51:41 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">94-javaswag-nikolay-shipyakov.mp3</guid><title>#94 - Николай Шипяков про хардкорный Enterprise, Camunda, Kotlin DSL и gRPC Drafts</title><pubDate>Tue, 14 Jul 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/94/</link><itunes:duration>01:43:35</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javaswag Drafts</title><link>https://javaswag.github.io/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><lastBuildDate>Sat, 05 Sep 2026 18:57:40 +0000</lastBuildDate><ttl>60</ttl><language>ru</language><copyright>Javaswag and authors</copyright><webMaster>volyihin@yandex.ru (Javaswag Feeds)</webMaster><description>Подкаст о разработке на Java. Все то, о чем вы боялись спросить в кулуарах.</description><itunes:subtitle>Javaswag</itunes:subtitle><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><image><url>https://javaswag.github.io/img/logo-draft.png</url><title>javaswag</title><link>https://t.me/javaswag</link></image><itunes:keywords>technology,java,jvm</itunes:keywords><itunes:category text="Technology"/><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false"/><title>#95 - Максим Сенокосов - Quarkus, Project Leyden и радость от разработки Drafts</title><pubDate>Sat, 05 Sep 2026 12:00:00 +0300</pubDate><link>https://javaswag.github.io/episode/95/</link><itunes:duration/><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
+            <p>В 95 выпуске подкаста Javaswag поговорили с Максимом Сенокосовым о фреймворке Quarkus, переходе на него со Scala, оркестрации с помощью Quarkus Flow, Project Leyden, оптимизациях Jackson и о том, существует ли настоящий Developer Joy в энтерпрайз-мире.</p>
+<p>00:00 Начало</p>
+<p>00:25 Как Макс познакомился с Quarkus: миграция со Scala</p>
+<p>02:08 Spring vs Quarkus в Cloud Native</p>
+<p>04:52 Developer Joy: почему в эпоху Java EE о радости разработчика никто не думал</p>
+<p>05:44 Интерес выходцев из Java EE</p>
+<p>07:35 Kubernetes-native</p>
+<p>09:22 Quarkus — платформа для «скучного» среднего стека</p>
+<p>11:20 Hibernate, аугментация байт-кода в build-time и Quarkus Panache</p>
+<p>14:05 Декларативные HTTP-клиенты на интерфейсах</p>
+<p>15:31 Боль с нестандартными протоколами</p>
+<p>17:09 Онбординг новых разработчиков</p>
+<p>19:19 Quarkus Flow:</p>
+<p>26:48 Project Leyden</p>
+<p>32:43 Контейнеризация c Google Jib</p>
+<p>35:08 Драма вокруг Jackson</p>
+<p>45:32 Помогает ли AI писать на Quarkus так же хорошо, как на Spring?</p>
+<p>48:50 Непопулярное мнение: корень всех бед с Hibernate — бизнес-логика в JPA-сущностях</p>
+<p><strong>Гость:</strong></p>
+<ul>
+<li>Максим Сенокосов — техлид и разработчик</li>
+</ul>
+<p><strong>Упомянутые ссылки и материалы:</strong></p>
+<ul>
+<li><a href="https://quarkus.io/">Quarkus</a></li>
+<li>Доклад Гийома Смета (Guillaume Smet): <em>«Project Leyden: How Leyden brought a new perspective»</em></li>
+<li>Спецификация CNCF Serverless Workflow</li>
+<li><a href="https://github.com/langchain4j/langchain4j">LangChain4j</a> &amp; SmallRye</li>
+<li>Выпуск #94 с Николаем Ишипиковым про Camunda и Kotlin DSL</li>
+</ul>
+<p><strong>Ссылки на подкаст:</strong></p>
+<ul>
+<li>Сайт — <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм — <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube — <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>X (Twitter) — <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></itunes:summary><itunes:subtitle>В 95 выпуске подкаста Javaswag поговорили с Максим...</itunes:subtitle><description><![CDATA[
+            <p>В 95 выпуске подкаста Javaswag поговорили с Максимом Сенокосовым о фреймворке Quarkus, переходе на него со Scala, оркестрации с помощью Quarkus Flow, Project Leyden, оптимизациях Jackson и о том, существует ли настоящий Developer Joy в энтерпрайз-мире.</p>
+<p>00:00 Начало</p>
+<p>00:25 Как Макс познакомился с Quarkus: миграция со Scala</p>
+<p>02:08 Spring vs Quarkus в Cloud Native</p>
+<p>04:52 Developer Joy: почему в эпоху Java EE о радости разработчика никто не думал</p>
+<p>05:44 Интерес выходцев из Java EE</p>
+<p>07:35 Kubernetes-native</p>
+<p>09:22 Quarkus — платформа для «скучного» среднего стека</p>
+<p>11:20 Hibernate, аугментация байт-кода в build-time и Quarkus Panache</p>
+<p>14:05 Декларативные HTTP-клиенты на интерфейсах</p>
+<p>15:31 Боль с нестандартными протоколами</p>
+<p>17:09 Онбординг новых разработчиков</p>
+<p>19:19 Quarkus Flow:</p>
+<p>26:48 Project Leyden</p>
+<p>32:43 Контейнеризация c Google Jib</p>
+<p>35:08 Драма вокруг Jackson</p>
+<p>45:32 Помогает ли AI писать на Quarkus так же хорошо, как на Spring?</p>
+<p>48:50 Непопулярное мнение: корень всех бед с Hibernate — бизнес-логика в JPA-сущностях</p>
+<p><strong>Гость:</strong></p>
+<ul>
+<li>Максим Сенокосов — техлид и разработчик</li>
+</ul>
+<p><strong>Упомянутые ссылки и материалы:</strong></p>
+<ul>
+<li><a href="https://quarkus.io/">Quarkus</a></li>
+<li>Доклад Гийома Смета (Guillaume Smet): <em>«Project Leyden: How Leyden brought a new perspective»</em></li>
+<li>Спецификация CNCF Serverless Workflow</li>
+<li><a href="https://github.com/langchain4j/langchain4j">LangChain4j</a> &amp; SmallRye</li>
+<li>Выпуск #94 с Николаем Ишипиковым про Camunda и Kotlin DSL</li>
+</ul>
+<p><strong>Ссылки на подкаст:</strong></p>
+<ul>
+<li>Сайт — <a href="https://javaswag.github.io/">https://javaswag.github.io/</a></li>
+<li>Телеграм — <a href="https://t.me/javaswag">https://t.me/javaswag</a></li>
+<li>Youtube — <a href="https://www.youtube.com/@javaswag">https://www.youtube.com/@javaswag</a></li>
+<li>X (Twitter) — <a href="https://x.com/javaswagpodcast">https://x.com/javaswagpodcast</a></li>
+</ul>
+]]></description><enclosure url="https://storage.yandexcloud.net/javaswag/" type="audio/mpeg" length=""/><itunes:image href="https://javaswag.github.io//img/logo-draft.png"/><author>javaswag</author><itunes:keywords>technology,java,jvm</itunes:keywords></item><itunes:owner><itunes:name>javaswag Drafts</itunes:name><itunes:email>volyihin@yandex.ru</itunes:email></itunes:owner><item><guid isPermaLink="false">94-javaswag-nikolay-shipyakov.mp3</guid><title>#94 - Николай Шипяков про хардкорный Enterprise, Camunda, Kotlin DSL и gRPC Drafts</title><pubDate>Tue, 14 Jul 2026 06:11:07 +0000</pubDate><link>https://javaswag.github.io/episode/94/</link><itunes:duration>01:43:35</itunes:duration><itunes:author>javaswag</itunes:author><itunes:explicit>no</itunes:explicit><itunes:summary><![CDATA[
             <p>В 94-м выпуске подкаста Javaswag поговорили с Николаем Шипяковым, Java-разработчиком, который провел всю свою карьеру в финтехе и суровом энтерпрайзе. В этом эпизоде мы проследили эволюцию энтерпрайз-решений: от тяжеловесных вендорских платформ вроде IBM WebSphere и IBM BPM, где бизнес-логика «рисовалась кубиками», до современных подходов со Spring, Kotlin и Camunda.</p>
 <p>Николай поделился историей о том, как на хакатоне зародилась идея создать собственный Kotlin DSL для описания бизнес-правил, который успешно заменил неповоротливые решения и прослужил долгие годы. Мы также разобрали архитектурные кейсы, обсудили, как подружить синхронные REST-вызовы с асинхронными процессами в Camunda при помощи Kafka и Kotlin Flow. В завершение выпуска поговорили о выборе оркестраторов (Camunda 7, 8, Temporal), внутренней кухне организации ИТ-конференций и обсудили непопулярное мнение о том, почему gRPC зачастую переоценен в энтерпрайзе.</p>
 <h3 id="шоуноты">Шоуноты</h3>
