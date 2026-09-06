@@ -33,7 +33,7 @@
   list-style-type: none;
 }
 
-.Person {
+.Person__Link {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -63,11 +63,12 @@
   height: auto;
 }
 
-.Header__Bottom h1 {
+.Header__Bottom h1,
+.Header__Bottom .Header__Tagline {
   color: #3602B0;
   font-size: 46px;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0.67em 0 0;
 }
 
 .Header__Bottom p {
@@ -183,7 +184,7 @@
 
 .Banner {
   background-color: #3602B0;
-  padding: 55px 95px;
+  padding: 55px clamp(20px, 8vw, 95px);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   display: flex;
@@ -232,7 +233,7 @@
 }
 
 .EpisodeList li {
-  padding: 25px 95px;
+  padding: 25px clamp(20px, 8vw, 95px);
   border-bottom: 1.5px solid #E7E7E9;
 }
 
@@ -418,11 +419,11 @@ ul.Header__Info__Item {
   border-radius: 12px;
 }
 
-.Header__Info__Item h2 {
+.Header__SiteName {
+  display: block;
   font-size: 20px;
   color: #fff;
   font-weight: 600;
-  margin-top: 0;
   margin-bottom: 2px;
 }
 
@@ -450,7 +451,7 @@ ul.Header__Info__Item {
 }
 
 .Episode__Container {
-  padding: 40px 95px;
+  padding: 40px clamp(20px, 8vw, 95px);
   margin-bottom: 100px;
 }
 
@@ -459,8 +460,9 @@ ul.Header__Info__Item {
   font-size: 14px;
 }
 
-.Episode__Heading h2 {
+.Episode__Heading h1 {
   margin-top: 5px;
+  margin-bottom: 0;
   font-size: 20px;
 }
 
@@ -482,14 +484,14 @@ ul.Header__Info__Item {
 }
 
 
-.People a {
+.People .Person {
   width: 50%;
   height: 60px;
   padding: 0 10px;
   margin-bottom: 10px;
 }
 
-.People a li {
+.People .Person__Link {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -543,7 +545,7 @@ ul.Header__Info__Item {
   .People {
     flex-direction: column;
   }
-  .People a {
+  .People .Person {
     width: 100%;
     padding: 0;
     margin-bottom: 20px;
@@ -575,4 +577,90 @@ ul.Header__Info__Item {
 
 .Episode button.--playing {
   background-color: #E4DBF8;
+}
+
+/* guests index */
+.Guests__Fixed {
+  background-color: #fff;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 60px;
+}
+
+.Guests {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.Guest__Link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  padding: 12px 8px;
+  border: 1.5px solid #E7E7E9;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.Guest__Link .Person__Avatar {
+  margin-right: 0;
+  width: 72px;
+  height: 72px;
+}
+
+.Guest__Name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/* previous / next episode */
+.Episode__Nav {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  padding-top: 25px;
+  border-top: 1.5px solid #E7E7E9;
+}
+
+.Episode__Nav > div {
+  width: 50%;
+}
+
+.Episode__Nav__Next {
+  text-align: right;
+}
+
+.Episode__Nav a {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3602B0;
+}
+
+.Episode__Nav a span {
+  display: block;
+  font-weight: 400;
+  color: #4B5563;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+  .Episode__Nav {
+    flex-direction: column;
+  }
+
+  .Episode__Nav > div {
+    width: 100%;
+  }
+
+  .Episode__Nav__Next {
+    text-align: left;
+  }
 }

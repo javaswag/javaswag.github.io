@@ -1,36 +1,47 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    {{ partial "meta.html" . }}
-  </head>
-  <body>
-    <div class="Container">
-      {{ partial "header.html" . }}
-      
-      <main class="Main">
-        <h2>Guests</h2>
+<html lang="{{ .Site.LanguageCode }}">
 
-        <div class="">
-            
-            <div class="">
-                {{ range $person_name, $person := .Site.Data.people }}
-                <img class="img"
-                    title="{{$person_name}}"
-                    alt="{{$person_name}}"
-                    src="{{ $person.image }}"
-                    class=""
-                    style="width: 72px;"
-                />
-                {{ end }}
-            </div>
-            
-            </div>
-      </main>
+<head>
+  {{ partial "meta.html" . }}
+</head>
 
+<body>
+  <div class="Container">
+    {{ partial "header.html" . }}
 
-      {{ partial "footer.html" . }}
-    </div>
-    {{ partial "script.html" . }}
+    <main class="Main">
+      <div class="Fixed__Width Guests__Fixed">
+        <h1>Гости</h1>
+        {{ $people := slice }}
+        {{ range $slug, $p := .Site.Data.people }}
+          {{ if ne $slug "unknown" }}
+            {{ $people = $people | append (dict "slug" $slug "person" $p "name" ($p.name | default $slug)) }}
+          {{ end }}
+        {{ end }}
+        <ul class="Guests">
+          {{ range sort $people "name" }}
+          {{ $slug := .slug }}{{ $person := .person }}
+          <li class="Guest">
+            {{ if $person.url }}
+            <a class="Guest__Link" href="{{ $person.url }}">
+              {{ partial "avatar.html" (dict "person" $person "slug" $slug "size" 72) }}
+              <span class="Guest__Name">{{ $person.name | default $slug }}</span>
+            </a>
+            {{ else }}
+            <span class="Guest__Link">
+              {{ partial "avatar.html" (dict "person" $person "slug" $slug "size" 72) }}
+              <span class="Guest__Name">{{ $person.name | default $slug }}</span>
+            </span>
+            {{ end }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </main>
 
-  </body>
+    {{ partial "footer.html" . }}
+  </div>
+  {{ partial "script.html" . }}
+</body>
+
 </html>

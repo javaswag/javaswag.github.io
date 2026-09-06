@@ -1,0 +1,9 @@
+{{- /* Renders a guest avatar at 2x the display size as webp.
+       Falls back to unknown.png when people.yml points at a file that is missing. */ -}}
+{{- $size := .size -}}
+{{- $person := .person -}}
+{{- $name := $person.name | default .slug -}}
+{{- $src := resources.Get (strings.TrimPrefix "/" $person.image) -}}
+{{- if not $src -}}{{- $src = resources.Get "img/people/unknown.png" -}}{{- end -}}
+{{- $img := $src.Fill (printf "%dx%d webp q80" (mul $size 2) (mul $size 2)) -}}
+<img class="Person__Avatar" src="{{ $img.RelPermalink }}" width="{{ $size }}" height="{{ $size }}" loading="lazy" alt="{{ $name }}">

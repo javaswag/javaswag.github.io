@@ -1,279 +1,369 @@
 volyx:
+  name: "Дима Волыхин"
   url: https://twitter.com/volyx
   image: /img/people/volyx.jpg
 evgenii-borisov:
+  name: "Евгений Борисов"
   url: https://twitter.com/jekaborisov
   image: /img/people/evgenii-borisov.png
-OlehDokuka:
-  url: https://twitter.com/OlehDokuka
-  image: /img/people/OlehDokuka.jpg
 vladimir-ivanov:
+  name: "Владимир Иванов"
   url: https://twitter.com/vvsevolodovich
   image: /img/people/vladimir-ivanov.jpg
 alexei-ragozin:
+  name: "Алексей Рагозин"
   url: https://blog.ragozin.info/
   image: /img/people/alexei-ragozin.png
 sundukov-loud:
+  name: "Андрей Сундуков"
   url: https://t.me/developers_mind
   image: /img/people/sundukov-loud.jpg
 alexey-genus:
+  name: "Алексей Генус"
   url: https://www.linkedin.com/in/alexey-g-12a92333/
   image: /img/people/alexey-genus.jpg
 anton-batyaev:
+  name: "Антон Батяев"
   url: https://github.com/batiaev
   image: /img/people/anton-batyaev.jpg
 lancov-3:
+  name: "Александр Ланцов"
   url: https://www.linkedin.com/in/alantsov/
   image: /img/people/lancov-3.jpg
 plizga-5:
+  name: "Владимир Плизга"
   url: https://twitter.com/toparvion
   image: /img/people/plizga-5.jpg
 armen-nanuparov:
+  name: "Армен Нунупаров"
   url: https://t.me/xFirefly
   image: /img/people/unknown.png
 ivan-zemplyanskii:
+  name: "Иван Землянский"
   url: https://github.com/izemlyanskiy
   image: /img/people/ivan-zemplyanskii.jpg
 alexei-ovsyannikov:
+  name: "Алексей Овсянников"
   url: https://github.com/InsanusMokrassar
   image: /img/people/alexei-ovsyannikov.png
 nikita-lipskii:
+  name: "Никита Липский"
   url: https://twitter.com/pjBooms
   image: /img/people/nikita-lipskii.jpg
 ivan-uglyanskii:
+  name: "Иван Углянский"
   url: https://twitter.com/dbg_nsk
   image: /img/people/ivan-uglyanskii.jpg
 sergei-golicin:
+  name: "Сергей Голицын"
   url: https://www.facebook.com/photo/?fbid=1146617908862260
   image: /img/people/sergei-golicin.jpg
 vladimir-ozerov:
+  name: "Владимир Озеров"
   url: https://twitter.com/devozerov
   image: /img/people/vladimir-ozerov.jpg
 fedor-korotkov:
+  name: "Фёдор Коротков"
   url: https://twitter.com/fedor
   image: /img/people/fedor-korotkov.jpg
 dmitrii-konstantinov:
+  name: "Дмитрий Константинов"
   url: https://twitter.com/java_dnk
   image: /img/people/dmitrii-konstantinov.jpg
 andrey-rebrov:
+  name: "Андрей Ребров"
   url: https://twitter.com/andrebrov
   image: /img/people/andrey-rebrov.jpg
 mitya-alexandrov:
+  name: "Митя Александров"
   url: https://twitter.com/bercut2000
   image: /img/people/mitya-alexandrov.jpg
 roman-kudryashov:
+  name: "Роман Кудряшов"
   url: https://twitter.com/_rkudryashov
   image: /img/people/roman-kudryashov.jpg
 andrey-mizurov:
+  name: "Андрей Мизуров"
   url: https://github.com/amizurov
   image: /img/people/andrey-mizurov.jpg
 dmitrii-dumanskii:
+  name: "Дмитрий Думанский"
   url: https://twitter.com/DOOM369
   image: /img/people/dmitrii-dumanskii.jpg
 sergey-celovalnikov:
+  name: "Сергей Целовальников"
   url: https://twitter.com/SerCeMan
   image: /img/people/sergey-celovalnikov.jpg
 sergey-tsypanov:
+  name: "Сергей Цыпанов"
   url: https://habr.com/en/users/tsypanov/
   image: /img/people/unknown.png
 alex-zinoviev:
+  name: "Алексей Зиновьев"
   url: https://twitter.com/zaleslaw
   image: /img/people/alex-zinoviev.jpg
 anton-kuranda:
+  name: "Антон Куранда"
   url: https://habr.com/en/users/akuranda/
   image: /img/people/anton-kuranda.jpg
 tagir-valeev:
+  name: "Тагир Валеев"
   url: https://twitter.com/tagir_valeev
   image: /img/people/tagir_valeev.jpg
 java-release:
+  name: "Евгений Козлов"
   url: https://twitter.com/ZhekaKozlov
   image: /img/people/java-release.jpg
 zheka-kozlov:
+  name: "Евгений Козлов"
   url: https://twitter.com/ZhekaKozlov
   image: /img/people/java-release.jpg
 roman-leventov:
+  name: "Роман Левентов"
   url: https://twitter.com/leventov/
   image: /img/people/roman-leventov.jpg
 igor-soroka:
+  name: "Игорь Сорока"
   url: https://t.me/geekexport
   image: /img/people/igor-soroka.jpg
 oleg-chiruhin:
+  name: "Олег Чирухин"
   url: https://twitter.com/olegchir
   image: /img/people/oleg-chiruhin.jpg
 ruslan-ibragimov:
+  name: "Руслан Ибрагимов"
   url: https://twitter.com/HeapyHop
   image: /img/people/ruslan-ibragimov.jpg
 sergei-egorov:
+  name: "Сергей Егоров"
   url: https://twitter.com/bsideup
   image: /img/people/sergei-egorov.jpg
 kirill-merkushev:
+  name: "Кирилл Меркушев"
   url: https://twitter.com/delnariel
   image: /img/people/kirill-merkushev.jpg
 maxim-gramin:
+  name: "Максим Грамин"
   url: https://twitter.com/graminmaksim
   image: /img/people/maxim-gramin.jpg
 propopov-1:
+  name: "Никита Прокопов"
   url: https://twitter.com/nikitonsky
   image: /img/people/propopov-1.jpg
 pavel-safronov:
+  name: "Павел Сафронов"
   url: https://t.me/omgitsblog
   image: /img/people/pavel-safronov.jpg
 gregorii-koshelev:
+  name: "Григорий Кошелев"
   url: https://t.me/chnl_GregoryKoshelev
   image: /img/people/gregorii-koshelev.jpg
 mark-struchkov:
+  name: "Марк Стручков"
   url: https://t.me/dev_java_blog
   image: /img/people/mark-struchkov.jpg
 ivan-ponomarev:
+  name: "Иван Пономарев"
   url: https://twitter.com/inponomarev
   image: /img/people/ivan-ponomarev.jpg
 alek_sys:
+  name: "Алексей Нестеров"
   url: https://twitter.com/alek_sys
   image: /img/people/alek_sys.png
 oleg_nenashev:
+  name: "Олег Ненашев"
   url: https://twitter.com/oleg_nenashev
   image: /img/people/oleg_nenashev.jpeg
 fedor-yaremenko:
+  name: "Федор Ярёменко"
   url: https://hackernoon.com/u/yaf
   image: /img/people/fedor-yaremenko.jpeg
 sasha-pakhomov:
+  name: "Саша Пахомов"
   url: https://twitter.com/alexandr_phmv
   image: /img/people/alexandr_phmv.jpeg
 kirill-grishchuk:
+  name: "Кирилл Грищук"
   url: https://kirya522.tech/
   image: /img/people/kirill-grishchuk.png
 vladimir-shvec:
+  name: "Владимир Швец"
   url: vladimir-shvec
   image: /img/people/vladimir-shvec.jpeg
 andrey-kornienkov:
+  name: "Андрей Корниенков"
   url: https://www.linkedin.com/in/andrey-kornienkov-6868041b/
   image: /img/people/andrey-kornienkov.jpg
 timur-mukhitdinov:
+  name: "Тимур Мухитдинов"
   url: https://www.linkedin.com/in/timurnav/
   image: /img/people/timur-mukhitdinov.jpeg
 anton-arhipov:
+  name: "Антон Архипов"
   url: https://www.linkedin.com/in/antonarhipov/
   image: /img/people/anton-arhipov.jpeg
 valerii-ovcninnikov:
+  name: "Валерий Овчинников"
   url: https://www.linkedin.com/in/valerii-ovchinnikov/
   image: /img/people/valerii-ovcninnikov.jpeg
 dmitrii-tihomirov:
+  name: "Дмитрий Тихомиров"
   url: https://www.linkedin.com/in/treblereel/
   image: /img/people/dmitrii-tihomirov.jpeg
 alexey-andreev:
+  name: "Алексей Андреев"
   url: https://github.com/konsoletyper
   image: /img/people/alexey-andreev.jpg
 mikhail-zhilin:
+  name: "Михаил Жилин"
   url: https://github.com/mizhka
   image: /img/people/mikhail-zhilin.jpg
 evgenii-molokov:
+  name: "Евгений Молоков"
   url: https://www.linkedin.com/in/eu-m/
   image: /img/people/evgenii-molokov.jpg
 vladimir-bukhtoyarov:
+  name: "Владимир Бухтояров"
   url: https://github.com/vladimir-bukhtoyarov
   image: /img/people/vladimir-bukhtoyarov.jpg
 grisha-skobelev:
+  name: "Григорий Скобелев"
   url: https://www.linkedin.com/in/grigoriy-skobelev-757030167/
   image: /img/people/grisha-skobelev.jpg
 andrei-kuleshov:
+  name: "Андрей Кулешов"
   url: https://www.linkedin.com/in/andrey-kuleshov-15707111b/
   image: /img/people/andrei-kuleshov.jpg
 timofei-durakov:
+  name: "Тимофей Дураков"
   url: https://www.linkedin.com/in/timofei-durakov/
   image: /img/people/timofei-durakov.jpg
 andrei-kogun:
+  name: "Андрей Когунь"
   url: https://x.com/andrei_kogun
   image: /img/people/andreii-kogun.jpg
 slava-ledovskih:
+  name: "Слава Ледовских"
   url: https://www.linkedin.com/in/vyacheslav-ledovskih-b4ab01161/
   image: /img/people/slava-ledovskih.jpg
 ivan-osipov:
+  name: "Иван Осипов"
   url: https://github.com/ivan-osipov
   image: /img/people/ivan-osipov.jpg
 sergey-petrelevich:
+  name: "Сергей Петрелевич"
   url: https://www.linkedin.com/in/sergey-petrelevich-72ab893a/
   image: /img/people/sergey-petrelevich.jpg
 artem-boiarshinov:
+  name: "Артём Бояршинов"
   url: https://github.com/Boiarshinov
   image: /img/people/artem-boiarshinov.jpg
 dmitry-chuiko:
+  name: "Дмитрий Чуйко"
   url: https://www.linkedin.com/in/dchuiko/
   image: /img/people/dmitry-chuiko.jpg
 alex-zakharchenko:
+  name: "Алексей Захарченко"
   url: https://www.linkedin.com/in/chess/
   image: /img/people/alex-zakharchenko.jpg
 alexey-zhidkov:
+  name: "Алексей Жидков"
   url: https://azhidkov.pro/
   image: /img/people/alexey-zhidkov.jpg
 abarmin:
+  name: "Александр Бармин"
   url: https://www.linkedin.com/in/abarmin/
   image: /img/people/abarmin.jpg
 brekelov:
+  name: "Сева Брекелов"
   url: https://www.linkedin.com/in/brekelov/
   image: /img/people/brekelov.jpg
 ilya-zonov:
+  name: "Илья Зонов"
   url: https://t.me/ArchPuzoTerka
   image: /img/people/ilya-zonov.jpeg
 vladimir-sitnikov:
+  name: "Владимир Ситников"
   url: https://www.linkedin.com/in/vladimir-sitnikov-20b8704 
   image: /img/people/vladimir-sitnikov.jpeg
 ivan-lyagaev:
+  name: "Иван Лягаев"
   url: https://www.linkedin.com/in/ivan-lyagaev/
   image: /img/people/ivan-lyagaev.jpg
 andrey_breslav:
+  name: "Андрей Бреслав"
   url: https://www.linkedin.com/in/abreslav/
   image: /img/people/andrey_breslav.jpg
 derar-bakr:
+  name: "Дерар Бакр"
   url: https://www.linkedin.com/in/derarbakr/
   image: /img/people/derar-bakr.jpg
 grigoriy-vakhmistrov:
+  name: "Григорий Вахмистров"
   url: https://www.linkedin.com/in/grigoriy-vakhmistrov-96499913b/
   image: /img/people/unknown.png
 ilia-ilinukh:
+  name: "Илья Ильиных"
   url: https://github.com/ilyasyoy
   image: /img/people/ilia-ilinukh.jpg
 maxim-bartkov:
+  name: "Максим Бартков"
   url: https://twitter.com/MaximBartkov
   image: /img/people/maxim-bartkov.jpg
 misha-polivaha:
+  name: "Михаил Поливаха"
   url: https://www.linkedin.com/in/mikhail-polivakha-7995571ab/
   image: /img/people/misha-polivaha.jpg
 oleg-dokuka:
+  name: "Олег Докука"
   url: https://www.linkedin.com/in/olegdokuka/
   image: /img/people/oleg-dokuka.jpg
 oleg-shelaev:
+  name: "Олег Шелаев"
   url: https://virtualjug.com/
   image: /img/people/unknown.png
 philllip_delgado:
+  name: "Филипп Дельгядо"
   url: https://getmentor.dev/mentor/filipp-delgiado-381
   image: /img/people/philllip_delgado.jpg
 romann-grebennikov:
+  name: "Роман Гребенников"
   url: https://twitter.com/public_void_grv
   image: /img/people/romann-grebennikov.jpg
 sergey_kuksenko:
+  name: "Сергей Куксенко"
   url: https://www.linkedin.com/in/skuksenko/
   image: /img/people/sergey_kuksenko.jpg
 vladimir-dolzhenko:
+  name: "Владимир Долженко"
   url: https://twitter.com/dolzhenko
   image: /img/people/vladimir-dolzhenko.jpg
 dmitrysolomennikov:
+  name: "Дмитрий Соломенников"
   url: https://www.linkedin.com/in/dmitrysolomennikov/
   image: /img/people/unknown.png
 konstantin-tskhovrebov:
+  name: "Константин Цховребов"
   url: https://www.linkedin.com/in/terrakok/
   image: /img/people/unknown.png
 dmitry-sviridkin:
+  name: "Дмитрий Свиридкин"
   url: https://www.linkedin.com/in/dmitry-sviridkin-108827143/
   image: /img/people/unknown.png
 nikita-volkov:
+  name: "Никита Волков"
   url: https://github.com/nikita-volkov
   image: /img/people/unknown.png
 pasha_finkelshteyn:
+  name: "Паша Финкельштейн"
   url: https://www.linkedin.com/in/asm0dey/
   image: /img/people/unknown.png
 nikolay-shipyakov:
+  name: "Николай Шипяков"
   url: https://ru.linkedin.com/in/nikolay-shipyakov-692a48b1
   image: /img/people/unknown.png
 unknown:
-  url: /
+  image: /img/people/unknown.png
+maxim-senokosov:
+  name: "Максим Сенокосов"
   image: /img/people/unknown.png

@@ -1,22 +1,26 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    {{ partial "meta.html" . }}
-  </head>
-  <body>
-    <div class="Container">
-      {{ partial "header.html" . }}
-      
-      <main class="Main">
-        <h2>About</h2>
+<html lang="{{ .Site.LanguageCode }}">
 
-       
-      </main>
+<head>
+  {{ partial "meta.html" . }}
+</head>
 
+<body>
+  <div class="Container">
+    {{ partial "header.html" . }}
 
-      {{ partial "footer.html" . }}
-    </div>
-    {{ partial "script.html" . }}
+    <main class="Main">
+      <div class="Fixed__Width Guests__Fixed">
+        <h1>{{ .Title }}</h1>
+        <div class="Episode__Contents">
+          {{ .Content }}
+        </div>
+      </div>
+    </main>
 
-  </body>
+    {{ partial "footer.html" . }}
+  </div>
+  {{ partial "script.html" . }}
+</body>
+
 </html>

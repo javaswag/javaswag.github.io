@@ -8,6 +8,7 @@ publishdir: "docs"
 pagination:
   pagerSize: 100
 uglyURLs: false
+disableKinds: ["taxonomy", "term"]
 metaDataFormat: "yaml"
 LanguageCode: ru
 params:

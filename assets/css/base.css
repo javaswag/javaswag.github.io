@@ -75,3 +75,18 @@ audio::-webkit-media-controls-panel {
   flex: 1;
   text-align: center;
 }
+/* Keyboard users need to see where focus is; there were no focus styles at all. */
+:focus-visible {
+  outline: 2px solid #3602B0;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

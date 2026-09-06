@@ -12,7 +12,11 @@
       </picture>
     </div>
     <div class="Header__Bottom">
-      <h1>{{.Site.Params.MainTitle}}</h1>
+      {{ if .IsHome }}
+      <h1>{{ .Site.Params.MainTitle }}</h1>
+      {{ else }}
+      <p class="Header__Tagline">{{ .Site.Params.MainTitle }}</p>
+      {{ end }}
       <p>{{.Site.Params.SubTitle}}</p>
       <ul>
         <li>

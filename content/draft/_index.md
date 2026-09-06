@@ -1,0 +1,5 @@
+---
+title: "Drafts"
+outputs:
+  - rss
+---

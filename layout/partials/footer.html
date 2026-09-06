@@ -1,3 +1,4 @@
+{{ $ytmusic := (resources.Get "img/youtubemusic.png").Resize "40x webp q80" }}
 <footer class="Footer">
   <div class="Fixed__Width">
     <div class="Footer__Item">
@@ -16,8 +17,8 @@
         </li>
         <li>
           <a href="{{ .Site.Params.android }}" target="_blank">
-          <img src="/img/Google Podcasts.png" width="20" height="20" alt="" loading="lazy">
-          <span>Google</span>
+          <img src="{{ $ytmusic.RelPermalink }}" width="20" height="20" alt="" loading="lazy">
+          <span>Youtube Music</span>
           </a>
         </li>
         <li>

@@ -1,17 +1,18 @@
 {{ $avatar := (resources.Get "img/javaswag.jpg").Fill "132x132 webp q85" }}
 {{ $telegram := (resources.Get "img/telegram.png").Resize "40x webp q80" }}
 {{ $castbox := (resources.Get "img/castbox.png").Resize "40x webp q80" }}
+{{ $ytmusic := (resources.Get "img/youtubemusic.png").Resize "40x webp q80" }}
 <header class="Header Episode__Header">
     <div class="Fixed__Width">
         <div class="Header__Info">
             <div class="Header__Info__Item Header__FirstItem">
                 <div class="Item__Left">
-                    <a href="{{ .Site.BaseURL }}" target="_blank">
+                    <a href="{{ .Site.BaseURL }}">
                     <img src="{{ $avatar.RelPermalink }}" width="66" height="66" alt="{{ .Site.Title }}">
                     </a>
                 </div>
                 <div class="Item__Right">
-                    <h2>{{ .Site.Title }}</h2>
+                    <a class="Header__SiteName" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
                     <p>{{ .Site.Params.Desc }}</p>
                 </div>
             </div>
@@ -23,7 +24,6 @@
                     </a>
                   </li>
                 <li>
-                <li>
                     <a href="{{ .Site.Params.itunes }}" target="_blank">
                     <img src="/img/Apple Podcasts.png" width="20" height="20" alt="" loading="lazy">
                     <span>Apple</span>
@@ -31,7 +31,7 @@
                 </li>
                 <li>
                     <a href="{{ .Site.Params.android }}" target="_blank">
-                    <img src="/img/Google Podcasts.png" width="20" height="20" alt="" loading="lazy">
+                    <img src="{{ $ytmusic.RelPermalink }}" width="20" height="20" alt="" loading="lazy">
                     <span>Youtube Music</span>
                     </a>
                 </li>

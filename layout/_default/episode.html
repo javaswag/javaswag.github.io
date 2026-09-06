@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
 
 <head>
   {{ partial "meta.html" . }}
@@ -17,7 +17,7 @@
         <div class="Episode__Container">
           <div class="Episode__Heading">
             <span>{{ .Date.Format "2 Jan 2006" }}</span>
-            <h2>{{ .Title }}</h2>
+            <h1>{{ .Title }}</h1>
           </div>
           <figure class="Waveform"></figure>
           <div class="scc">
@@ -50,23 +50,38 @@
           </div>
 
           <ul class="People">
-            {{ range $person := .Params.people }}
-            {{ if isset $.Site.Data.people $person }}
-            <a href="{{ index $.Site.Data.people $person "url" }}">
-
-              <li class="Person">
-                <img class="Person__Avatar" src="{{ index $.Site.Data.people $person "image" }}">
-                <div class="Person_Name">{{ $person }}</div>
-              </li>
-            </a>
-            {{ else }}
+            {{ range $slug := .Params.people }}
+            {{ $known := isset $.Site.Data.people $slug }}
+            {{ $person := cond $known (index $.Site.Data.people $slug) (index $.Site.Data.people "unknown") }}
             <li class="Person">
-              <img class="Person__Avatar" src="{{ index $.Site.Data.people "unknown" "image" }}">
-              <div class="Person_Name">{{ $person }}</div>
+              {{ if $person.url }}
+              <a class="Person__Link" href="{{ $person.url }}">
+                {{ partial "avatar.html" (dict "person" $person "slug" $slug "size" 46) }}
+                <span class="Person_Name">{{ $person.name | default $slug }}</span>
+              </a>
+              {{ else }}
+              <span class="Person__Link">
+                {{ partial "avatar.html" (dict "person" $person "slug" $slug "size" 46) }}
+                <span class="Person_Name">{{ $person.name | default $slug }}</span>
+              </span>
+              {{ end }}
             </li>
-            {{ end}}
             {{ end }}
           </ul>
+
+          {{ $eps := where (where .Site.RegularPages "Type" "episode") "Draft" false }}
+          <nav class="Episode__Nav">
+            <div class="Episode__Nav__Prev">
+              {{ with $eps.Prev . }}
+              <a rel="prev" href="{{ .RelPermalink }}"><span>← Предыдущий</span>{{ .Title }}</a>
+              {{ end }}
+            </div>
+            <div class="Episode__Nav__Next">
+              {{ with $eps.Next . }}
+              <a rel="next" href="{{ .RelPermalink }}"><span>Следующий →</span>{{ .Title }}</a>
+              {{ end }}
+            </div>
+          </nav>
         </div>
       </div>
     </main>

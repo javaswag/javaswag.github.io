@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 {{ if eq .Title .Site.Title }}
   <title>{{ .Site.Title }}</title>
 {{ else }}
@@ -13,10 +13,9 @@
 <style>{{ $css.Content | safeCSS }}</style>
 
 
-<link rel="alternate" href="{{ .Site.BaseURL }}/index.xml" title="hugo-boilerplate-podcast" type="application/rss+xml">
+<link rel="alternate" href="{{ .Site.BaseURL }}/index.xml" title="{{ .Site.Title }}" type="application/rss+xml">
 
 <!-- <meta name="author" content="{{ .Site.Params.Telegram}}"> -->
-<meta name="copyright" content="Copyright (c) Shogo Sensui; Licensed under Creative Commons Attribution-Noncommercial-Share Japan">
 
 
 {{ if .Params.Image}}
@@ -48,15 +47,19 @@
 
 <!-- TWITTER -->
 
-{{ if .Params.Description }}
-  <meta property="og:description" content="{{ .Params.Description }}">
-  <meta property="twitter:description" content="{{ .Params.Description }}">
+{{ $desc := "" }}
+{{ if .IsPage }}
+  {{ $desc = .Summary | plainify | truncate 160 }}
 {{ else }}
-  <meta property="og:description" content="{{ .Site.Params.summary }}">
-  <meta property="twitter:description" content="{{ .Site.Params.summary }}">
+  {{ $desc = .Site.Params.desc }}
 {{ end }}
+<meta name="description" content="{{ $desc }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="theme-color" content="#3602B0">
 
-<meta property="og:type" content="article">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:title" content="{{ .Title }}">
@@ -66,6 +69,5 @@
 <meta name=twitter:site content="@javaswagpodcast">
 <meta property="twitter:url" content="{{ .Permalink }}">
 <meta name="twitter:title" content="{{ .Title }}">
-<meta name=twitter:description content>
 
 
