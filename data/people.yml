@@ -256,6 +256,24 @@ sergey_kuksenko:
 vladimir-dolzhenko:
   url: https://twitter.com/dolzhenko
   image: /img/people/vladimir-dolzhenko.jpg
+dmitrysolomennikov:
+  url: https://www.linkedin.com/in/dmitrysolomennikov/
+  image: /img/people/unknown.png
+konstantin-tskhovrebov:
+  url: https://www.linkedin.com/in/terrakok/
+  image: /img/people/unknown.png
+dmitry-sviridkin:
+  url: https://www.linkedin.com/in/dmitry-sviridkin-108827143/
+  image: /img/people/unknown.png
+nikita-volkov:
+  url: https://github.com/nikita-volkov
+  image: /img/people/unknown.png
+pasha_finkelshteyn:
+  url: https://www.linkedin.com/in/asm0dey/
+  image: /img/people/unknown.png
+nikolay-shipyakov:
+  url: https://ru.linkedin.com/in/nikolay-shipyakov-692a48b1
+  image: /img/people/unknown.png
 unknown:
   url: /
   image: /img/people/unknown.png
