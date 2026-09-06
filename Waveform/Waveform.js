@@ -113,6 +113,19 @@ class Waveform {
     });
   }
 
+  // The trailing value in a .bin is the duration of the audio it was generated from.
+  // 85 episodes share the generic standard.avg220.bin, whose 7555s is not their real
+  // length, which threw off seeking and the progress fill. Prefer the real duration
+  // once the browser has read the metadata; fall back to the .bin's value until then.
+  get duration () {
+    const real = this.player && this.player.$audio && this.player.$audio.duration;
+    return Number.isFinite(real) && real > 0 ? real : this._duration;
+  }
+
+  set duration (value) {
+    this._duration = value;
+  }
+
   async fetchAnalyzeData (waveformPath) {
     const buf = await fetch(waveformPath, { mode: 'no-cors'})
       .then(resp => resp.arrayBuffer());
