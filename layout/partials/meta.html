@@ -6,15 +6,11 @@
   <title>{{ .Title }} - {{ .Site.Title }}</title>
 {{ end }}
  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
-<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/app.css"> -->
-<!-- <link rel="stylesheet" href="/css/app.css"> -->
-
-{{ $options := dict "inlineImports" true }}
-
-{{ $critical := resources.Get "/css/app.css" | css.PostCSS $options | css.Sass}}
-
-<style>{{ $critical.Content | safeCSS }}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&amp;display=swap">
+{{ $css := slice (resources.Get "css/base.css") (resources.Get "css/components.css") | resources.Concat "css/bundle.css" }}
+<style>{{ $css.Content | safeCSS }}</style>
 
 
 <link rel="alternate" href="{{ .Site.BaseURL }}/index.xml" title="hugo-boilerplate-podcast" type="application/rss+xml">

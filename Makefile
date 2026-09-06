@@ -3,7 +3,7 @@
 .PHONY: build
 build:
 	rm -rf docs/
-	hugo  --buildDrafts --destination docs --baseURL=http://localhost:1313 && npm run build
+	hugo --minify --buildDrafts --destination docs --baseURL=http://localhost:1313
 
 .PHONY: preview
 preview:

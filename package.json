@@ -1,21 +1,11 @@
 {
   "name": "hugo-boilerplate-podcast",
   "private": true,
-  "config": {
-    "postcss": "--use postcss-import --use autoprefixer --use cssnano"
-  },
   "scripts": {
-    "start": "npm run build -- --watch & hugo server",
-    "build": "postcss $npm_package_config_postcss --output docs/css/app.css assets/css/app.css",
+    "start": "hugo server",
     "lint": "stylelint assets/css/*.css"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "cssnano": "^5.1.11",
-    "postcss-cli": "^9.1.0",
-    "postcss-import": "^14.1.0"
   }
 }

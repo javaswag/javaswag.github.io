@@ -60,9 +60,7 @@
 
 .Header__Top img {
   width: 100%;
-}
-.Header__Top img:last-child {
-  display: none;
+  height: auto;
 }
 
 .Header__Bottom h1 {
@@ -154,21 +152,15 @@
 
 
 
-.audioItem {
-  display: none;
-  margin-top: 15px;
-}
 
 
 
 
 @media (max-width: 600px) {
-  .Header__Top img:first-child {
-    display: none;
-  }
-  .Header__Top img:last-child {
+  .Header__Top img {
     display: block;
     width: 200px;
+    height: auto;
     border-radius: 16px;
     margin: 0 auto;
   }
@@ -246,16 +238,11 @@
 
 .EpisodeList li:last-child {
   border-bottom: none;
-  font-size: 14px;
-  font-weight: 600;
-  color: #3602B0;
 }
 
-.Show__More {
-  cursor: pointer;
-}
-
-.Episode__Date {
+.Episode__Meta {
+  display: flex;
+  gap: 12px;
   font-size: 14px;
   color: #4B5563;
 }
@@ -277,16 +264,10 @@
   color: #4B5563;
 }
 
-.Single__Episode__Description p,
-.Single__Episode__Description ul,
-.Single__Episode__Description pre {
-  display: none;
-}
-
-.Single__Episode__Description p:first-child,
-.Single__Episode__Description p:nth-child(2),
-.Single__Episode__Description p:nth-child(3) {
-  display: block;
+.Episode__Summary {
+  margin: 0;
+  color: #4B5563;
+  font-size: 14px;
 }
 
 
@@ -298,7 +279,7 @@
   display: flex;
   align-items: center;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 15px;
   cursor: pointer;
 }
@@ -569,3 +550,29 @@ ul.Header__Info__Item {
   }
 }
 /* episode styles ends */
+
+/* home page: one shared player docked at the bottom */
+.HomePlayer {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  background-color: #fff;
+  border-top: 1.5px solid #E7E7E9;
+  box-shadow: 0 -2px 12px rgb(0 0 0 / 8%);
+}
+
+.HomePlayer__Inner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.HomePlayer__Title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.Episode button.--playing {
+  background-color: #E4DBF8;
+}

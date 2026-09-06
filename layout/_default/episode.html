@@ -3,9 +3,9 @@
 
 <head>
   {{ partial "meta.html" . }}
-  <script src="/Waveform/Waveform.js"></script>
-  <link rel="stylesheet" type="text/css" href="/Waveform/Waveform.css">
-  <link rel="stylesheet" type="text/css" href="/Waveform/PlayerUI.css">
+  <script defer src="/Waveform/Waveform.js"></script>
+  {{ $player := slice (resources.Get "css/player/waveform.css") (resources.Get "css/player/player-ui.css") | resources.Concat "css/player.css" }}
+  <style>{{ $player.Content | safeCSS }}</style>
 </head>
 
 <body>
@@ -21,15 +21,15 @@
           </div>
           <figure class="Waveform"></figure>
           <div class="scc">
-            <audio id="WaveformAudio" src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}" controls="controls" preload="auto">
+            <audio id="WaveformAudio" src="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}" controls="controls" preload="metadata">
             </audio>
             <script>
               // add "{{ .Site.Params.yandexS3 }}" like it's in #WaveformAudio
               // and to /episodes/*.md:waveform relative to s3
               const waveformPath = "/waveforms/{{ $.Params.Waveform}}";
 
-              setTimeout(() => {
-                const waveform = new PodcastPlayer({
+              document.addEventListener('DOMContentLoaded', () => {
+                new PodcastPlayer({
                   episodeId: "{{ .Params.number }}",
                   $waveform: document.querySelector('.Waveform'),
                   $audio: document.querySelector('#WaveformAudio'),
@@ -37,7 +37,7 @@
                   waveformPath,
                   height: 70,
                 });
-              }, 200);
+              });
             </script>
             <!-- <div>
             <label for="pbrate">Speed:</label>
@@ -82,7 +82,6 @@
     data-category="Announcements" data-category-id="DIC_kwDOHhEUls4CTtjR" data-mapping="og:title" data-strict="1"
     data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en"
     data-loading="lazy" crossorigin="anonymous" async> -->
-    </script>
 </body>
 
 </html>

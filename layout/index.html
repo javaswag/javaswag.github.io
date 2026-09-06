@@ -17,80 +17,79 @@
               каверзные вопросы, спрашиваю непопулярное мнение и мы вместе выясняем куда катится индустрия. Велком!</p>
           </div>
           <div class="Banner__Right">
-            <img src="/img/people/main-man.png" alt="author">
+            {{ $man := (resources.Get "img/main-man.png").Resize "210x webp q85" }}
+            <img src="{{ $man.RelPermalink }}" width="210" height="210" alt="author">
           </div>
         </div>
 
-        {{ $paginator := .Paginate (where (where .Site.Pages "Type" "episode") "Kind" "page") }}
         <ul class="EpisodeList">
-          {{ range where $paginator.Pages "Draft" false}}
+          {{ range where (where .Site.RegularPages "Type" "episode") "Draft" false }}
           <li class="Episode">
-            <div class="Episode__Date">{{ .Date.Format "2 Jan 2006" }}</div>
+            <div class="Episode__Meta">
+              <span>{{ .Date.Format "2 Jan 2006" }}</span>
+              {{ with .Params.duration }}<span>{{ . }}</span>{{ end }}
+            </div>
             <h2 class="Episode__Title">
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </h2>
-            <div class="Single__Episode__Description">
-              {{ .Content }}
-            </div>
-            <button class="playBtn" data-audio="{{ .Site.Params.yandexS3 }}{{.Params.Audio}}">
-              <img src="/img/play.png" alt="play button">
+            <p class="Episode__Summary">{{ .Summary | plainify | truncate 220 }}</p>
+            <button type="button" class="playBtn" data-audio="{{ .Site.Params.yandexS3 }}{{ .Params.Audio }}">
+              <img src="/img/play.png" width="13" height="16" alt="">
               <span>Play</span>
             </button>
-            <div class="scc audioItem">
-              <audio controls="controls" preload="none">
-                <!-- Audio source will be set dynamically with JavaScript -->
-              </audio>
-            </div>
           </li>
           {{ end }}
-          <li>
-            <span class="Show__More">Show 5 more episodes</span>
-          </li>
         </ul>
-
-
-        <nav>
-          {{ if .Paginator.HasPrev }}
-          <div>
-            <a href="{{ .Paginator.Prev.URL }}">👈 Prev</a>
-          </div>
-          {{ else }}
-          {{ end }}
-          {{ if .Paginator.HasNext }}
-          <div>
-            <a href="{{ .Paginator.Next.URL }}">Next 👉</a>
-          </div>
-          {{ else }}
-          {{ end }}
-        </nav>
       </div>
       <div class="Main__Bottom">
-        <img src="/img/dots.svg" alt="dots image">
-        <img src="/img/dots-sm.svg" alt="dots image">
+        <picture>
+          <source media="(max-width: 600px)" srcset="/img/dots-sm.svg" width="375" height="85">
+          <img src="/img/dots.svg" width="1436" height="85" alt="" loading="lazy">
+        </picture>
       </div>
     </main>
     {{ partial "footer.html" . }}
   </div>
+
+  <div class="HomePlayer" hidden>
+    <div class="Fixed__Width HomePlayer__Inner">
+      <a class="HomePlayer__Title" href="#"></a>
+      <audio class="HomePlayer__Audio" controls preload="none"></audio>
+    </div>
+  </div>
+
   {{ partial "script.html" . }}
 
-
-
-
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var playButtons = document.querySelectorAll('.playBtn');
+    (function () {
+      // One shared <audio> for the whole list. Previously every card carried its own
+      // element (96 of them) plus two separate click handlers.
+      const bar = document.querySelector('.HomePlayer');
+      const audio = bar.querySelector('.HomePlayer__Audio');
+      const title = bar.querySelector('.HomePlayer__Title');
+      let current = null;
 
-      playButtons.forEach(function (button) {
-        button.addEventListener('click', function () {
-          var audioContainer = button.nextElementSibling.querySelector('audio');
-          var audioSource = button.getAttribute('data-audio');
+      document.querySelector('.EpisodeList').addEventListener('click', function (e) {
+        const btn = e.target.closest('.playBtn');
+        if (!btn) return;
 
-          audioContainer.src = audioSource;
-          audioContainer.load();
-          audioContainer.play();
-        });
+        if (current === btn) {
+          audio.paused ? audio.play() : audio.pause();
+          return;
+        }
+
+        if (current) current.classList.remove('--playing');
+        current = btn;
+        btn.classList.add('--playing');
+
+        const link = btn.closest('.Episode').querySelector('.Episode__Title a');
+        title.textContent = link.textContent;
+        title.href = link.getAttribute('href');
+        audio.src = btn.dataset.audio;
+        bar.hidden = false;
+        audio.play();
       });
-    });
+    })();
   </script>
 </body>
 

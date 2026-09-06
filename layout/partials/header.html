@@ -1,8 +1,15 @@
+{{ $banner := (resources.Get "img/header-img.png").Resize "1052x webp q85" }}
+{{ $logo := (resources.Get "images/logo.png").Fill "400x400 webp q85" }}
+{{ $telegram := (resources.Get "img/telegram.png").Resize "40x webp q80" }}
+{{ $ytmusic := (resources.Get "img/youtubemusic.png").Resize "40x webp q80" }}
+{{ $castbox := (resources.Get "img/castbox.png").Resize "40x webp q80" }}
 <header class="Header">
   <div class="Fixed__Width">
     <div class="Header__Top">
-      <img src="/img/header-img.png" alt="logo">
-      <img src="/img/logo.png" alt="logo">
+      <picture>
+        <source media="(max-width: 600px)" srcset="{{ $logo.RelPermalink }}" width="200" height="200">
+        <img src="{{ $banner.RelPermalink }}" width="1052" height="230" alt="{{ .Site.Title }}">
+      </picture>
     </div>
     <div class="Header__Bottom">
       <h1>{{.Site.Params.MainTitle}}</h1>
@@ -10,43 +17,43 @@
       <ul>
         <li>
           <a href="{{ .Site.Params.telegram }}" style="display: block;" target="_blank">
-          <img src="/img/telegram.png" alt="icon">
+          <img src="{{ $telegram.RelPermalink }}" width="20" height="20" alt="" loading="lazy">
           <span>Telegram</span>
           </a>
         </li>
         <li>
           <a href="{{ .Site.Params.itunes }}" style="display: block;" target="_blank">
-          <img src="/img/Apple Podcasts.png" alt="icon">
+          <img src="/img/Apple Podcasts.png" width="20" height="20" alt="" loading="lazy">
           <span>Apple Podcast</span>
           </a>
         </li>
         <li>
           <a href="{{ .Site.Params.android }}" target="_blank">
-          <img src="/img/youtubemusic.png" alt="icon">
+          <img src="{{ $ytmusic.RelPermalink }}" width="20" height="20" alt="" loading="lazy">
           <span>Youtube Music</span>
           </a>
         </li>
         <li>
           <a href="{{ .Site.Params.spotify }}" target="_blank">
-          <img src="/img/Spotify.png" alt="icon">
+          <img src="/img/Spotify.png" width="20" height="20" alt="" loading="lazy">
           <span>Spotify</span>
           </a>
         </li>
         <li>
           <a href="{{ .Site.Params.yandex }}" target="_blank">
-          <img src="/img/yandex.png" alt="icon">
+          <img src="/img/yandex.png" width="20" height="20" alt="" loading="lazy">
           <span>Яндекс Музыка</span>
           </a>
         </li>
         <li>
           <a href="{{ .Site.Params.vk }}" target="_blank">
-          <img src="/img/vk.svg" alt="icon">
+          <img src="/img/vk.svg" width="20" height="20" alt="" loading="lazy">
           <span>vk</span>
           </a>
         </li>
         <li>
           <a href="{{ .Site.Params.castbox }}" target="_blank">
-          <img src="/img/castbox.png" alt="icon">
+          <img src="{{ $castbox.RelPermalink }}" width="20" height="20" alt="" loading="lazy">
           <span>Castbox</span>
           </a>
         </li>
@@ -57,7 +64,7 @@
         </li>
         <li>
           <a href="{{ .Site.Params.feed }}" target="_blank">
-          <img src="/img/RSS.png" alt="icon">
+          <img src="/img/RSS.png" width="20" height="20" alt="" loading="lazy">
           <span>RSS</span>
           </a>
         </li>

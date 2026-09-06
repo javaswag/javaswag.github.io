@@ -1,90 +1,55 @@
-<!-- <script defer src="//platform.twitter.com/widgets.js"></script> -->
-<!-- <script defer src="//platform.instagram.com/en_US/embeds.js"></script> -->
-
 <script>
-	var audioEls = document.getElementsByTagName('audio');
-	if (audioEls.length === 1) {
-		var audioEl = audioEls[0];
-	}
+	(function () {
+		// Timecode linkification only makes sense on an episode page: it needs the single
+		// #WaveformAudio to seek, and the .PlayerUI__cue markup it produces is a contract
+		// with Cues in Waveform.js. On the home page there is no such audio element, so
+		// bail out rather than rewriting every <p> on the page for links that cannot work.
+		const root = document.querySelector('.Episode__Contents');
+		const audioEl = document.getElementById('WaveformAudio');
+		if (!root || !audioEl) return;
 
-	function gotoTime(time) {
-		if (audioEl) {
+		function gotoTime(time) {
 			audioEl.currentTime = time;
 			audioEl.play();
 		}
-	}
 
-	function addLink(p, replace, time) {
-		var text = p.innerHTML;
-		if (text.includes(replace)) {
-			var link = "<a class='PlayerUI__cue' data-cue-time='" + time + "' onclick=\"gotoTime(" + time + ");\"\>" + replace + "</a>";
-			newText = text.replace(replace, link + ' <span class="PlayerUI__cue-text">');
-			p.innerHTML = newText + '</span>';
-		}
-	}
-
-	function getTimecode(hours, minutes, seconds) {
-		return hours * 3600 + minutes * 60 + seconds;
-	}
-
-	posts = document.getElementsByTagName('p')
-	for (let i = 0; i < posts.length; i++) {
-		p = posts[i]
-		var text = p.innerHTML;
-		var hours = 0;
-		var minutes = 0;
-		var seconds = 0;
-		var replace = "-----"
-		var m = text.match(/(\d{1,2})\:(\d{2})\:(\d{2})/); // 00:00:00 or 0:00:00
-		if (m) {
-			hours = parseInt(m[1]);
-			minutes = parseInt(m[2]);
-			seconds = parseInt(m[3]);
-			replace = m[1] + ":" + m[2] + ":" + m[3];
-			addLink(p, replace, getTimecode(hours, minutes, seconds))
-		} else {
-			var m = text.match(/(\d{2,3})\-(\d{2})/); // 00-00 or 000-00
-			if (m) {
-				minutes = parseInt(m[1]);
-				seconds = parseInt(m[2]);
-				replace = m[1] + "-" + m[2];
-				addLink(p, replace, getTimecode(hours, minutes, seconds))
-			}
-			var m = text.match(/(\d{2,3})\:(\d{2})/); // 00:00 or 000:00
-			if (m) {
-				minutes = parseInt(m[1]);
-				seconds = parseInt(m[2]);
-				replace = m[1] + ":" + m[2];
-				addLink(p, replace, getTimecode(hours, minutes, seconds))
+		function addLink(p, replace, time) {
+			const text = p.innerHTML;
+			if (text.includes(replace)) {
+				const link = "<a class='PlayerUI__cue' data-cue-time='" + time + "'>" + replace + "</a>";
+				p.innerHTML = text.replace(replace, link + ' <span class="PlayerUI__cue-text">') + '</span>';
 			}
 		}
-	}
-	// audiospeed`
-	// const audio = document.querySelector('.scc  audio');
-	// const playbackrate = document.querySelector('.scc input');
-	// const display = document.querySelector('.scc span');
-	// const displayvalue = val => {
-	//   return parseInt(val * 100, 10) + '%'
-	// }
-	// display.innerText = displayvalue(audio.playbackRate);
-	// playbackrate.addEventListener('change', e => {
-	//   audio.playbackRate = playbackrate.value;
-	//   display.innerText = displayvalue(playbackrate.value);
-	// });
 
-	const playBtns = document.querySelectorAll(".playBtn")
-	const audioItems = document.querySelectorAll(".audioItem")
-	playBtns.forEach((item, i) => {
-		item.addEventListener("click", () => {
-			playBtns.forEach(val => {
-				val.style = "display: flex;"
-			})
-			audioItems.forEach(val => {
-				val.style = "display: none;"
-				val.querySelector("audio").pause()
-			})
-			item.style = "display: none;"
-			audioItems[i].style = "display: block;"
-		})
-	})
+		function getTimecode(hours, minutes, seconds) {
+			return hours * 3600 + minutes * 60 + seconds;
+		}
+
+		const paragraphs = root.getElementsByTagName('p');
+		for (let i = 0; i < paragraphs.length; i++) {
+			const p = paragraphs[i];
+			const text = p.innerHTML;
+			let m = text.match(/(\d{1,2})\:(\d{2})\:(\d{2})/); // 00:00:00 or 0:00:00
+			if (m) {
+				addLink(p, m[1] + ":" + m[2] + ":" + m[3], getTimecode(parseInt(m[1]), parseInt(m[2]), parseInt(m[3])));
+				continue;
+			}
+			m = text.match(/(\d{2,3})\-(\d{2})/); // 00-00 or 000-00
+			if (m) {
+				addLink(p, m[1] + "-" + m[2], getTimecode(0, parseInt(m[1]), parseInt(m[2])));
+			}
+			m = p.innerHTML.match(/(\d{2,3})\:(\d{2})/); // 00:00 or 000:00
+			if (m) {
+				addLink(p, m[1] + ":" + m[2], getTimecode(0, parseInt(m[1]), parseInt(m[2])));
+			}
+		}
+
+		// One delegated listener instead of an inline onclick per cue.
+		root.addEventListener('click', function (e) {
+			const cue = e.target.closest('.PlayerUI__cue');
+			if (!cue) return;
+			e.preventDefault();
+			gotoTime(Number(cue.dataset.cueTime));
+		});
+	})();
 </script>
