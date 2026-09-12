@@ -367,3 +367,7 @@ unknown:
 maxim-senokosov:
   name: "Максим Сенокосов"
   image: /img/people/unknown.png
+egor-pishii:
+  name: "Егор Пиший"
+  url: https://github.com/not-pishii
+  image: /img/people/unknown.png
